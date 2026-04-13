@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>FST — Portail Étudiant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1F3B;
+  --blue:#0A84FF;
+  --blue2:#0066CC;
+  --blue-light:#E8F2FF;
+  --bg:#F8F9FB;
+  --white:#ffffff;
+  --text:#0B1F3B;
+  --muted:#64748B;
+  --border:#E2E8F0;
+  --card:#ffffff;
+  --shadow-sm:0 1px 4px rgba(11,31,59,.07);
+  --shadow:0 4px 20px rgba(11,31,59,.09);
+  --shadow-lg:0 16px 48px rgba(11,31,59,.13);
+  --r:20px;
+  --nav:70px;
+  --sora:'Sora',sans-serif;
+  --inter:'Inter',sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--inter);background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button{font-family:var(--inter);cursor:pointer;border:none;background:none}
+
+/* ── NAV ── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:300;
+  height:var(--nav);
+  background:rgba(248,249,251,.82);
+  backdrop-filter:blur(20px) saturate(180%);
+  -webkit-backdrop-filter:blur(20px) saturate(180%);
+  border-bottom:1px solid rgba(226,232,240,.7);
+  display:flex;align-items:center;padding:0 30px;gap:24px;
+}
+.nav-logo{height:58px;width:auto;flex-shrink:0}
+.nav-divider{width:1px;height:24px;background:var(--border);flex-shrink:0}
+.nav-brand strong{display:block;font-family:var(--sora);font-size:13px;font-weight:600;color:var(--navy);line-height:1.2}
+.nav-brand span{font-size:11px;color:var(--muted);font-weight:400}
+.nav-links{display:flex;align-items:center;gap:2px}
+.nav-link{
+  padding:8px 15px;border-radius:10px;
+  font-size:13.5px;font-weight:500;color:var(--muted);
+  transition:color .15s,background .15s;white-space:nowrap;
+}
+.nav-link:hover{color:var(--navy);background:rgba(11,31,59,.05)}
+.nav-link.on{color:var(--blue);background:var(--blue-light);font-weight:600}
+.nav-cta{
+  margin-left:auto;
+  display:flex;align-items:center;gap:8px;
+  padding:10px 22px;border-radius:12px;
+  background:var(--blue);color:#fff;
+  font-size:13.5px;font-weight:600;
+  transition:background .15s,transform .1s;
+  box-shadow:0 2px 12px rgba(10,132,255,.35);
+  white-space:nowrap;
+}
+.nav-cta:hover{background:var(--blue2);transform:translateY(-1px)}
+.nav-cta svg{width:15px;height:15px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round}
+
+/* ── PAGES ── */
+.page{display:none;padding-top:var(--nav);min-height:100vh}
+.page.on{display:block}
+#pg-chat.on{display:flex;flex-direction:column;height:100vh}
+
+/* ── HOME HERO ── */
+.hero-wrap{
+  background:linear-gradient(160deg,#F0F5FF 0%,#EEF4FF 50%,#F5F8FF 100%);
+  position:relative;overflow:hidden;
+  border-bottom:1px solid #DDE7F5;
+}
+.hero-wrap::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 600px 400px at 90% 40%,rgba(10,132,255,.07),transparent),
+             radial-gradient(ellipse 400px 300px at 10% 80%,rgba(10,132,255,.05),transparent);
+  pointer-events:none;
+}
+.hero-inner{
+  max-width:1160px;margin:0 auto;
+  padding:64px 30px 60px;
+  display:grid;grid-template-columns:1fr 420px;gap:64px;
+  align-items:center;position:relative;z-index:1;
+}
+.hero-pill{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(10,132,255,.10);
+  border:1px solid rgba(10,132,255,.2);
+  color:var(--blue2);
+  font-size:11.5px;font-weight:600;letter-spacing:.6px;
+  text-transform:uppercase;padding:5px 14px;border-radius:100px;
+  margin-bottom:22px;
+}
+.hero-pill span{width:6px;height:6px;background:#22c55e;border-radius:50%;display:block}
+.hero h1{
+  font-family:var(--sora);
+  font-size:clamp(2rem,3.2vw,3rem);
+  color:var(--navy);line-height:1.18;font-weight:700;
+  margin-bottom:18px;letter-spacing:-.5px;
+}
+.hero h1 em{font-style:normal;color:var(--blue)}
+.hero-p{
+  color:var(--muted);font-size:15.5px;
+  line-height:1.78;margin-bottom:34px;font-weight:300;
+  max-width:480px;
+}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-blue{
+  padding:13px 26px;border-radius:12px;
+  background:var(--blue);color:#fff;
+  font-size:14px;font-weight:600;
+  transition:background .15s,transform .1s,box-shadow .15s;
+  box-shadow:0 4px 16px rgba(10,132,255,.35);
+}
+.btn-blue:hover{background:var(--blue2);transform:translateY(-1px);box-shadow:0 6px 24px rgba(10,132,255,.4)}
+.btn-outline{
+  padding:13px 26px;border-radius:12px;
+  background:var(--white);color:var(--navy);
+  font-size:14px;font-weight:500;
+  border:1.5px solid var(--border);
+  transition:background .15s,transform .1s,border-color .15s;
+}
+.btn-outline:hover{background:var(--blue-light);border-color:var(--blue);transform:translateY(-1px)}
+
+/* chat widget */
+.widget{
+  background:var(--white);
+  border:1.5px solid var(--border);
+  border-radius:22px;padding:22px;
+  box-shadow:var(--shadow-lg);
+}
+.w-top{
+  display:flex;align-items:center;gap:10px;
+  padding-bottom:16px;margin-bottom:16px;
+  border-bottom:1px solid var(--border);
+}
+.w-dot{width:9px;height:9px;border-radius:50%;background:#22c55e;flex-shrink:0;box-shadow:0 0 8px #22c55e}
+.w-title{font-family:var(--sora);font-size:13px;font-weight:600;color:var(--navy)}
+.w-sub{font-size:11px;color:var(--muted);margin-top:1px}
+.w-msgs{display:flex;flex-direction:column;gap:10px}
+.wm{padding:11px 15px;border-radius:14px;font-size:13px;line-height:1.55}
+.wm.b{background:var(--blue-light);color:var(--navy);align-self:flex-start;max-width:88%}
+.wm.u{background:var(--blue);color:#fff;align-self:flex-end;font-weight:500}
+.w-bar{
+  margin-top:16px;padding-top:14px;
+  border-top:1px solid var(--border);
+  display:flex;gap:8px;align-items:center;
+}
+.w-fake{
+  flex:1;background:var(--bg);
+  border:1.5px solid var(--border);border-radius:10px;
+  padding:9px 13px;font-size:12.5px;
+  color:#A0AABA;font-family:var(--inter);
+}
+.w-snd{
+  width:36px;height:36px;border-radius:10px;
+  background:var(--blue);display:flex;
+  align-items:center;justify-content:center;flex-shrink:0;
+  transition:background .15s;
+}
+.w-snd:hover{background:var(--blue2)}
+.w-snd svg{width:15px;height:15px;stroke:#fff;fill:none;stroke-width:2.2;stroke-linecap:round}
+
+/* stats */
+.stats{
+  background:var(--white);
+  border-bottom:1px solid var(--border);
+}
+.stats-inner{
+  max-width:1160px;margin:0 auto;
+  padding:24px 40px;
+  display:flex;justify-content:space-around;
+  border-left:none;border-right:none;
+}
+.stat{text-align:center;padding:4px 32px}
+.stat+.stat{border-left:1px solid var(--border)}
+.stat-n{font-family:var(--sora);font-size:2rem;font-weight:700;color:var(--navy);line-height:1}
+.stat-l{font-size:12px;color:var(--muted);margin-top:4px;font-weight:400}
+
+/* services section */
+.services{max-width:1160px;margin:0 auto;padding:72px 40px 80px}
+.sec-label{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12px;font-weight:600;letter-spacing:.7px;
+  text-transform:uppercase;color:var(--blue);margin-bottom:12px;
+}
+.sec-label::before{content:'';width:20px;height:2px;background:var(--blue);border-radius:1px}
+.sec-h{
+  font-family:var(--sora);font-size:clamp(1.6rem,2.5vw,2.2rem);
+  font-weight:700;color:var(--navy);margin-bottom:10px;
+  letter-spacing:-.3px;line-height:1.22;
+}
+.sec-p{font-size:15px;color:var(--muted);max-width:500px;font-weight:300;line-height:1.75}
+.feat-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:18px;margin-top:44px;
+}
+.fc{
+  background:var(--card);
+  border:1.5px solid var(--border);border-radius:var(--r);
+  padding:28px 24px;cursor:pointer;
+  transition:border-color .2s,box-shadow .25s,transform .2s;
+  position:relative;overflow:hidden;
+}
+.fc::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;
+  height:3px;background:var(--blue);
+  transform:scaleX(0);transform-origin:left;
+  transition:transform .25s ease;
+}
+.fc:hover{border-color:var(--blue);box-shadow:var(--shadow-lg);transform:translateY(-4px)}
+.fc:hover::after{transform:scaleX(1)}
+.fc-num{font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);margin-bottom:18px}
+.fc-icon{font-size:1.7rem;margin-bottom:14px}
+.fc-title{font-family:var(--sora);font-size:15.5px;font-weight:700;color:var(--navy);margin-bottom:10px}
+.fc-desc{font-size:13.5px;color:var(--muted);line-height:1.68;font-weight:300}
+.fc-cta{
+  margin-top:22px;display:inline-flex;align-items:center;gap:5px;
+  font-size:12.5px;font-weight:600;color:var(--blue);
+  transition:gap .2s;
+}
+.fc:hover .fc-cta{gap:9px}
+
+/* ── PAGE HEADER ── */
+.pg-hd{
+  background:var(--white);border-bottom:1px solid var(--border);
+  padding:40px 40px 28px;
+}
+.pg-hd-inner{max-width:1160px;margin:0 auto}
+.pg-eye{
+  font-size:11.5px;font-weight:600;letter-spacing:.7px;
+  text-transform:uppercase;color:var(--blue);margin-bottom:8px;
+}
+.pg-hd h2{
+  font-family:var(--sora);font-size:1.75rem;font-weight:700;
+  color:var(--navy);margin-bottom:7px;letter-spacing:-.2px;
+}
+.pg-hd p{font-size:14.5px;color:var(--muted);font-weight:300}
+
+/* filter bar */
+.fbar{
+  background:var(--bg);border-bottom:1px solid var(--border);
+  padding:14px 40px;
+}
+.fbar-inner{max-width:1160px;margin:0 auto;display:flex;gap:8px;flex-wrap:wrap}
+.ftag{
+  padding:7px 18px;border-radius:100px;
+  font-size:13px;font-weight:500;
+  border:1.5px solid var(--border);
+  background:var(--white);color:var(--muted);
+  transition:all .15s;
+}
+.ftag:hover{border-color:var(--blue);color:var(--blue)}
+.ftag.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+
+/* content */
+.content{max-width:1160px;margin:0 auto;padding:36px 40px 72px}
+.cg{display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:18px}
+
+/* exam card */
+.xc{
+  background:var(--white);border:1.5px solid var(--border);
+  border-radius:var(--r);padding:24px;
+  display:flex;flex-direction:column;gap:14px;
+  transition:border-color .2s,box-shadow .2s,transform .2s;
+}
+.xc:hover{border-color:#93c5fd;box-shadow:var(--shadow);transform:translateY(-3px)}
+.xc-top{display:flex;gap:14px;align-items:flex-start}
+.xc-ico{
+  width:44px;height:44px;border-radius:12px;
+  background:var(--blue-light);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;font-size:1.1rem;
+}
+.xc-title{font-family:var(--sora);font-size:14px;font-weight:600;color:var(--navy);line-height:1.4}
+.xc-mod{font-size:12px;color:var(--muted);margin-top:2px}
+.xc-tags{display:flex;gap:6px;flex-wrap:wrap}
+.xc-tag{
+  padding:3px 11px;border-radius:100px;
+  background:var(--bg);color:var(--muted);
+  font-size:11.5px;border:1px solid var(--border);
+}
+.xc-dl{
+  display:inline-flex;align-items:center;gap:7px;
+  background:var(--blue);color:#fff;
+  padding:9px 18px;border-radius:10px;
+  font-size:13px;font-weight:600;
+  align-self:flex-start;transition:background .15s;
+}
+.xc-dl:hover{background:var(--blue2)}
+
+/* prof card */
+.pc{
+  background:var(--white);border:1.5px solid var(--border);
+  border-radius:var(--r);padding:24px 22px;
+  display:flex;gap:18px;align-items:center;
+  transition:border-color .2s,box-shadow .2s,transform .2s;
+}
+.pc:hover{border-color:#93c5fd;box-shadow:var(--shadow);transform:translateY(-3px)}
+.pc-av{
+  width:52px;height:52px;border-radius:50%;flex-shrink:0;
+  background:linear-gradient(135deg,var(--blue) 0%,var(--navy) 100%);
+  color:#fff;font-family:var(--sora);font-size:18px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 12px rgba(10,132,255,.25);
+}
+.pc-name{font-family:var(--sora);font-size:14.5px;font-weight:700;color:var(--navy);line-height:1.2}
+.pc-dept{font-size:12.5px;color:var(--muted);margin:5px 0 7px;font-weight:400}
+.pc-mail{
+  display:inline-flex;align-items:center;gap:5px;
+  font-size:12.5px;color:var(--blue);font-weight:500;
+  transition:opacity .15s;
+}
+.pc-mail:hover{opacity:.75;text-decoration:underline}
+
+/* edt card */
+.ec{
+  background:var(--white);border:1.5px solid var(--border);
+  border-radius:var(--r);padding:24px;
+  transition:border-color .2s,box-shadow .2s,transform .2s;
+}
+.ec:hover{border-color:#93c5fd;box-shadow:var(--shadow);transform:translateY(-3px)}
+.ec-hd{display:flex;gap:14px;align-items:center;margin-bottom:18px}
+.ec-ico{
+  width:44px;height:44px;border-radius:12px;flex-shrink:0;
+  background:linear-gradient(135deg,var(--blue),var(--navy));
+  display:flex;align-items:center;justify-content:center;font-size:1.1rem;
+}
+.ec-title{font-family:var(--sora);font-size:14px;font-weight:700;color:var(--navy)}
+.ec-sem{font-size:12px;color:var(--muted);margin-top:2px}
+.ec-btn{
+  width:100%;padding:11px;border-radius:12px;
+  background:var(--bg);border:1.5px solid var(--border);
+  color:var(--navy);font-size:13px;font-weight:600;
+  font-family:var(--inter);
+  display:flex;align-items:center;justify-content:center;gap:7px;
+  transition:background .15s,border-color .15s,color .15s;
+}
+.ec-btn:hover{background:var(--blue-light);border-color:var(--blue);color:var(--blue)}
+
+/* ── CHAT ── */
+.chat-chips{
+  background:var(--white);border-bottom:1px solid var(--border);
+  padding:12px 40px;display:flex;gap:8px;flex-wrap:wrap;
+}
+.chip{
+  padding:7px 16px;border-radius:100px;
+  font-size:13px;font-weight:500;
+  background:var(--bg);border:1.5px solid var(--border);
+  color:var(--muted);transition:all .15s;
+}
+.chip:hover{background:var(--blue-light);border-color:var(--blue);color:var(--blue)}
+#chat{
+  flex:1;overflow-y:auto;
+  background:#F0F4FA;
+  padding:32px 40px;
+  display:flex;flex-direction:column;gap:16px;
+}
+.msg{max-width:68%;font-size:14.5px;line-height:1.72;padding:14px 20px;border-radius:16px}
+.msg.bot{
+  align-self:flex-start;background:var(--white);color:var(--text);
+  border:1px solid var(--border);border-radius:4px 16px 16px 16px;
+  box-shadow:var(--shadow-sm);
+}
+.msg.bot.welcome{
+  background:var(--blue-light);border-color:transparent;
+  font-family:var(--sora);font-size:15px;color:var(--navy);
+  font-weight:500;font-style:italic;
+}
+.msg.bot.typing{color:var(--muted);font-style:italic;border-style:dashed}
+.msg.bot strong{color:var(--blue2);font-weight:600}
+.msg.bot .err{color:#c0392b}
+.msg.user{
+  align-self:flex-end;background:var(--blue);color:#fff;
+  border-radius:16px 4px 16px 16px;font-weight:500;
+  box-shadow:0 4px 16px rgba(10,132,255,.25);
+}
+.inp-row{
+  padding:16px 40px 20px;background:var(--white);
+  border-top:1px solid var(--border);display:flex;gap:10px;
+}
+#inp{
+  flex:1;border:1.5px solid var(--border);background:var(--bg);
+  color:var(--text);padding:13px 20px;border-radius:12px;
+  font-size:14.5px;font-family:var(--inter);outline:none;
+  transition:border-color .15s,background .15s;
+}
+#inp:focus{border-color:var(--blue);background:var(--white);box-shadow:0 0 0 3px rgba(10,132,255,.1)}
+#inp::placeholder{color:#A0AABA}
+#snd{
+  width:46px;height:46px;border-radius:12px;
+  background:var(--blue);border:none;
+  display:flex;align-items:center;justify-content:center;
+  transition:background .15s,transform .1s;flex-shrink:0;
+  box-shadow:0 2px 10px rgba(10,132,255,.3);
+}
+#snd:hover{background:var(--blue2);transform:scale(1.04)}
+#snd:disabled{opacity:.4;cursor:not-allowed;transform:none}
+#snd svg{width:18px;height:18px;stroke:#fff;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+
+/* footer */
+footer{
+  background:var(--navy);
+  padding:32px 40px;text-align:center;
+}
+footer p{font-size:13px;color:rgba(255,255,255,.45);font-weight:300}
+footer strong{color:rgba(255,255,255,.8);font-weight:500}
+
+/* scrollbar */
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-thumb{background:#CBD5E1;border-radius:10px}
+
+/* responsive */
+@media(max-width:1024px){
+  .feat-grid{grid-template-columns:repeat(2,1fr)}
+  .hero-inner{grid-template-columns:1fr}
+  .widget{display:none}
+}
+@media(max-width:720px){
+  nav{padding:0 20px;gap:14px}
+  .nav-links{display:none}
+  .nav-brand span{display:none}
+  .hero-inner{padding:56px 20px 52px}
+  .stats-inner,.services,.pg-hd,.fbar-inner,.content,.chat-chips,.inp-row{padding-left:20px;padding-right:20px}
+  #chat{padding:20px}
+  .feat-grid{grid-template-columns:1fr}
+  .msg{max-width:90%}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <img src="logo.png" alt="FSTM" class="nav-logo">
+  <div class="nav-divider" style="width:1px;height:24px;background:var(--border);flex-shrink:0"></div>
+  <div class="nav-brand">
+    <strong>FST Mohammedia</strong>
+    <span>Université Hassan II de Casablanca</span>
+  </div>
+  <div class="nav-links">
+    <button class="nav-link on" onclick="go('home',this)">Accueil</button>
+    <button class="nav-link" onclick="go('chat',this)">Aide &amp; Conseils</button>
+    <button class="nav-link" onclick="go('examens',this)">Examens</button>
+    <button class="nav-link" onclick="go('profs',this)">Profs</button>
+    <button class="nav-link" onclick="go('edt',this)">EDT</button>
+    <button class="nav-link" onclick="go('agent',this)">🧠 Agent IA</button>
+    <a class="nav-link" href="https://www.fstm.ac.ma" target="_blank" style="color:var(--blue);font-weight:600">🌐 Site FSTM</a>
+  </div>
+  <button class="nav-cta" onclick="go('chat',null)">
+    <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    Parler à l'assistant
+  </button>
+</nav>
+
+<!-- HOME -->
+<div id="pg-home" class="page on">
+  <div class="hero-wrap">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-pill"><span></span>Portail officiel · FST Mohammedia</div>
+        <h1>Votre université,<br><em>intelligemment</em><br>à portée de main.</h1>
+        <p class="hero-p">Accédez à toutes les ressources de la Faculté des Sciences et Techniques de Mohammedia — annales, emplois du temps, contacts et notre assistant IA disponible à toute heure.</p>
+        <div class="hero-btns">
+          <button class="btn-blue" onclick="go('chat',null)">Poser une question</button>
+          <button class="btn-outline" onclick="go('examens',null)">Parcourir les annales</button>
+        </div>
+      </div>
+      <div class="widget">
+        <div class="w-top">
+          <div class="w-dot"></div>
+          <div>
+            <div class="w-title">Assistant FSTM</div>
+            <div class="w-sub">En ligne · Répond en quelques secondes</div>
+          </div>
+        </div>
+        <div class="w-msgs">
+          <div class="wm b">Bonjour ! Comment puis-je vous aider aujourd'hui ?</div>
+          <div class="wm u">Quelles filières LST sont disponibles ?</div>
+          <div class="wm b">La FSTM propose plusieurs LST : Informatique, Génie Électrique, Génie Civil, Chimie Appliquée… Laquelle vous intéresse ?</div>
+        </div>
+        <div class="w-bar">
+          <div class="w-fake">Écrivez votre question…</div>
+          <button class="w-snd" onclick="go('chat',null)">
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stats-inner">
+      <div class="stat"><div class="stat-n">+8 000</div><div class="stat-l">Étudiants inscrits</div></div>
+      <div class="stat"><div class="stat-n">300+</div><div class="stat-l">Enseignants</div></div>
+      <div class="stat"><div class="stat-n">30+</div><div class="stat-l">Filières &amp; Masters</div></div>
+      <div class="stat"><div class="stat-n">24/7</div><div class="stat-l">Assistant IA disponible</div></div>
+    </div>
+  </div>
+
+  <div class="services">
+    <div class="sec-label">Nos services</div>
+    <h2 class="sec-h">Tout ce dont vous avez besoin,<br>en un seul endroit.</h2>
+    <p class="sec-p">Un portail pensé pour les étudiants de la FSTM — simple, rapide et toujours à jour.</p>
+    <div class="feat-grid">
+      <div class="fc" onclick="go('chat',null)">
+        <div class="fc-num">01</div>
+        <div class="fc-icon">🤖</div>
+        <div class="fc-title">Aide &amp; Conseils IA</div>
+        <div class="fc-desc">Posez vos questions sur les formations, inscriptions, départements ou la vie étudiante. Notre assistant répond instantanément, basé sur les informations officielles de la FSTM.</div>
+        <div class="fc-cta">Ouvrir le chat →</div>
+      </div>
+      <div class="fc" onclick="go('examens',null)">
+        <div class="fc-num">02</div>
+        <div class="fc-icon">📄</div>
+        <div class="fc-title">Annales des Examens</div>
+        <div class="fc-desc">Retrouvez tous les anciens sujets d'examens organisés par filière, module et année académique. Téléchargez les PDF directement et préparez-vous efficacement.</div>
+        <div class="fc-cta">Voir les annales →</div>
+      </div>
+      <div class="fc" onclick="go('profs',null)">
+        <div class="fc-num">03</div>
+        <div class="fc-icon">👨‍🏫</div>
+        <div class="fc-title">Annuaire des Enseignants</div>
+        <div class="fc-desc">Accédez aux coordonnées de l'ensemble du corps enseignant de la FSTM, organisées par département. Contactez directement vos professeurs en un clic.</div>
+        <div class="fc-cta">Voir l'annuaire →</div>
+      </div>
+      <div class="fc" onclick="go('edt',null)">
+        <div class="fc-num">04</div>
+        <div class="fc-icon">📅</div>
+        <div class="fc-title">Emploi du Temps</div>
+        <div class="fc-desc">Consultez et téléchargez votre emploi du temps par filière et semestre, mis à jour régulièrement par l'administration de la faculté.</div>
+        <div class="fc-cta">Voir les horaires →</div>
+      </div>
+      <div class="fc" onclick="go('agent',null)">
+        <div class="fc-num">05</div>
+        <div class="fc-icon">🧠</div>
+        <div class="fc-title">Agent IA d'Orientation</div>
+        <div class="fc-desc">Décrivez vos centres d'intérêt et notre agent intelligent analyse automatiquement les 26 filières de la FSTM pour vous recommander le parcours idéal.</div>
+        <div class="fc-cta">Lancer l'agent →</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p><strong>Faculté des Sciences et Techniques de Mohammedia</strong><br>
+    Université Hassan II de Casablanca &nbsp;·&nbsp; Mohammedia, Maroc<br>
+    <a href="https://www.fstm.ac.ma" target="_blank" style="color:rgba(255,255,255,.7);text-decoration:underline;font-weight:500;margin-top:8px;display:inline-block">🌐 Visiter le site officiel — www.fstm.ac.ma</a></p>
+  </footer>
+</div>
+
+<!-- CHAT -->
+<div id="pg-chat" class="page">
+  <div class="chat-chips">
+    <button class="chip" onclick="ask(this.textContent)">Filières LST</button>
+    <button class="chip" onclick="ask(this.textContent)">Inscription Master</button>
+    <button class="chip" onclick="ask(this.textContent)">Qui est la doyenne ?</button>
+    <button class="chip" onclick="ask(this.textContent)">Emploi du temps</button>
+    <button class="chip" onclick="ask(this.textContent)">Contact FSTM</button>
+    <button class="chip" onclick="ask(this.textContent)">Cycle ingénieur</button>
+    <button class="chip" onclick="ask(this.textContent)">Laboratoires</button>
+    <button class="chip" onclick="ask(this.textContent)">Formation continue</button>
+  </div>
+  <div id="chat">
+    <div class="msg bot welcome">Bienvenue. Je suis l'assistant officiel de la FSTM — posez vos questions sur les formations, inscriptions, départements ou la vie étudiante.</div>
+  </div>
+  <div class="inp-row">
+    <input id="inp" placeholder="Posez votre question à l'assistant FSTM…" autocomplete="off"/>
+    <button id="snd" onclick="sendMsg()">
+      <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</div>
+
+<!-- EXAMENS -->
+<div id="pg-examens" class="page">
+  <div class="pg-hd">
+    <div class="pg-hd-inner">
+      <div class="pg-eye">Ressources pédagogiques</div>
+      <h2>Annales des Examens</h2>
+      <p>Anciens sujets d'examens classés par filière et module — téléchargement gratuit en PDF</p>
+    </div>
+  </div>
+  <div class="fbar">
+    <div class="fbar-inner">
+      <button class="ftag on" onclick="fEx('all',this)">Toutes les filières</button>
+      <button class="ftag" onclick="fEx('lst',this)">LST</button>
+      <button class="ftag" onclick="fEx('master',this)">Master</button>
+      <button class="ftag" onclick="fEx('ingenieur',this)">Cycle Ingénieur</button>
+      <button class="ftag" onclick="fEx('licence',this)">Licence</button>
+    </div>
+  </div>
+  <div class="content">
+    <div class="drive-card" style="margin-bottom: 2rem; padding: 1.5rem; background: linear-gradient(135deg, #4285F4 0%, #34A853 100%); border-radius: 12px; color: white; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <div style="font-size: 2.5rem;">📁</div>
+        <div>
+          <h3 style="margin: 0; font-size: 1.25rem;">Archive Complète des Examens</h3>
+          <p style="margin: 0; opacity: 0.9; font-size: 0.9rem;">Accédez à l'intégralité des annales (Google Drive)</p>
+        </div>
+      </div>
+      <a href="https://drive.google.com/drive/folders/1uCE36hRlLAfewjD0sR-Xnbch4gvqzHue" target="_blank" class="ec-btn" style="background: white; color: #4285F4; border: none; font-weight: 600;">Ouvrir l'archive</a>
+    </div>
+    <div class="cg" id="gex"></div>
+  </div>
+</div>
+
+<!-- PROFS -->
+<div id="pg-profs" class="page">
+  <div class="pg-hd">
+    <div class="pg-hd-inner">
+      <div class="pg-eye">Corps enseignant</div>
+      <h2>Annuaire des Enseignants</h2>
+      <p>Coordonnées de l'ensemble des professeurs de la FSTM, classées par département</p>
+    </div>
+  </div>
+  <div class="fbar">
+    <div class="fbar-inner">
+      <button class="ftag on" onclick="fPr('all',this)">Tous les départements</button>
+      <button class="ftag" onclick="fPr('info',this)">Informatique</button>
+      <button class="ftag" onclick="fPr('math',this)">Mathématiques</button>
+      <button class="ftag" onclick="fPr('physique',this)">Physique</button>
+      <button class="ftag" onclick="fPr('chimie',this)">Chimie</button>
+    </div>
+  </div>
+  <div class="content"><div class="cg" id="gpr"></div></div>
+</div>
+
+<!-- EDT -->
+<div id="pg-edt" class="page">
+  <div class="pg-hd">
+    <div class="pg-hd-inner">
+      <div class="pg-eye">Organisation pédagogique · 2025-2026</div>
+      <h2>Emploi du Temps</h2>
+      <p>Téléchargez votre emploi du temps par filière et semestre — année universitaire 2025/2026</p>
+    </div>
+  </div>
+  <div class="fbar">
+    <div class="fbar-inner">
+      <button class="ftag on" onclick="fEdt('all',this)">Tout</button>
+      <button class="ftag" onclick="fEdt('tc',this)">Tronc Commun</button>
+      <button class="ftag" onclick="fEdt('lst',this)">LST</button>
+      <button class="ftag" onclick="fEdt('mst',this)">MST</button>
+      <button class="ftag" onclick="fEdt('ing',this)">Cycle Ingénieur</button>
+      <button class="ftag" onclick="fEdt('cal',this)">Calendrier</button>
+    </div>
+  </div>
+  <div class="content"><div class="cg" id="gedt"></div></div>
+</div>
+
+<!-- AGENT IA -->
+<div id="pg-agent" class="page">
+  <div class="pg-hd">
+    <div class="pg-hd-inner">
+      <div class="pg-eye">🧠 Intelligence Artificielle Agentique</div>
+      <h2>Agent IA d'Orientation</h2>
+      <p>Décrivez vos centres d'intérêt et notre agent analyse autonomement les filières pour vous recommander le meilleur parcours</p>
+    </div>
+  </div>
+  <div class="content">
+    <div style="max-width:700px;margin:0 auto">
+      <div style="background:var(--white);border:1.5px solid var(--border);border-radius:var(--r);padding:28px;margin-bottom:24px">
+        <label style="font-family:var(--sora);font-size:14px;font-weight:600;color:var(--navy);display:block;margin-bottom:12px">🎯 Quels sont vos centres d'intérêt ?</label>
+        <p style="font-size:13px;color:var(--muted);margin-bottom:16px">Exemples : <em>intelligence artificielle, programmation, data science</em> ou <em>chimie, biologie, environnement</em></p>
+        <div style="display:flex;gap:10px">
+          <input id="agent-inp" placeholder="Ex: informatique, intelligence artificielle, programmation..." style="flex:1;border:1.5px solid var(--border);background:var(--bg);color:var(--text);padding:13px 20px;border-radius:12px;font-size:14px;font-family:var(--inter);outline:none" />
+          <button onclick="runAgent()" class="btn-blue" style="white-space:nowrap">🚀 Lancer l'Agent</button>
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px">
+          <button onclick="document.getElementById('agent-inp').value='informatique programmation web';runAgent()" class="chip">Informatique</button>
+          <button onclick="document.getElementById('agent-inp').value='data science intelligence artificielle';runAgent()" class="chip">Data & IA</button>
+          <button onclick="document.getElementById('agent-inp').value='electronique telecom signal';runAgent()" class="chip">Électronique</button>
+          <button onclick="document.getElementById('agent-inp').value='chimie analyse qualite laboratoire';runAgent()" class="chip">Chimie</button>
+          <button onclick="document.getElementById('agent-inp').value='biologie sante biomedical';runAgent()" class="chip">Biologie</button>
+          <button onclick="document.getElementById('agent-inp').value='energie renouvelable mecanique';runAgent()" class="chip">Énergie</button>
+        </div>
+      </div>
+      <div id="agent-output" style="min-height:100px"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* NAV */
+function go(id,btn){
+  document.querySelectorAll('.page').forEach(p=>{p.classList.remove('on');p.style.display=''});
+  document.querySelectorAll('.nav-link').forEach(l=>l.classList.remove('on'));
+  const pg=document.getElementById('pg-'+id);
+  if(pg){pg.classList.add('on');if(id==='chat')pg.style.display='flex'}
+  if(btn)btn.classList.add('on');
+  else document.querySelectorAll('.nav-link').forEach(l=>{
+    if(l.getAttribute('onclick')?.includes("'"+id+"'"))l.classList.add('on');
+  });
+}
+
+/* ═══ CHATBOT — Base de connaissances FSTM ═══ */
+const KB=[
+{k:['filiere','lst','licence','formation','specialite','option','parcours','deust'],
+ a:"**Filières LST disponibles à la FSTM (2025-2026) :**\n\n**MIP :**\n• **ILSI** — Ingénierie Logicielle\n• **IRM** — Info, Réseaux et Multimédia\n• **SDID** — Sciences des Données\n• **MSDI** — Math et Sciences des Données\n• **II (LST2I)** — Ingénierie Informatique\n• **SIT** — Systèmes Intelligents\n• **GE2I** — Génie Élec. et Info Indus\n• **PA** — Physique Appliquée\n• **GM** — Génie Mécanique\n\n**BCG :**\n• **GBA** — Génie Biologique\n• **BIOCQ** — Bioanalyse et Contrôle\n• **TACQ** — Analyse et Contrôle\n• **CA** — Chimie Appliquée\n• **GEE** — Génie de l'Eau\n• **GPI** — Génie des Procédés"},
+{k:['master','mst','bac+5','cycle','master'],
+ a:"**Masters Sciences et Techniques (MST) :**\n\n• **ISERT** — Systèmes Embarqués\n• **MQSE** — Qualité, Sécurité, Environnement\n• **MQSA** — Qualité et Sécurité Aliments\n• **SGE** — Sciences de l'Environnement\n• **PCAM** — Physico-Chimie Matériaux\n• **MAGBio** — Microbiologie Appliquée\n• **IPMA** — Physique des Matériaux Avancés"},
+{k:['ingenieur','cycle','diplome','genie'],
+ a:"**Cycles Ingénieurs à la FSTM :**\n\n• **ILISI** — Ingénierie Logicielle\n• **IDSI** — Data Science et Informatique\n• **GECI** — Contrôle Industriel\n• **GPE** (GEE/GPI) — Génie des Procédés\n• **GE** — Génie Énergétique"},
+{k:['inscription','inscrire','reinscription','scholar','dossier','candidature'],
+ a:"**Inscription 2025-2026 :**\n\n• Réinscription en ligne : **https://e-scholar.fstm.ac.ma**\n• Assurance étudiant obligatoire : **https://assurance-etudiant.prevas.ma**\n• Pré-inscription : **https://preins.univh2c.ma/index.php?etab=FST**\n• Formulaire d'inscription : **https://e-inscription.fstm.ac.ma**\n\nPièces requises : Baccalauréat original, 2 copies, CIN, photos d'identité, enveloppe timbrée."},
+{k:['doyenne','doyen','directeur','direction','administration'],
+ a:"La **Doyenne** de la FSTM est **Pr. Bouchra AMINE**.\n\nElle dirige la Faculté des Sciences et Techniques de Mohammedia, rattachée à l'Université Hassan II de Casablanca."},
+{k:['contact','telephone','adresse','localisation','acces','email','fax'],
+ a:"**Contact FSTM :**\n\n📍 Faculté des Sciences et Techniques de Mohammedia\nBP 146, Mohammedia 28806, Maroc\n📞 Tél 1 : +212 5 23 31 47 08\n📞 Tél 2 : +212 6 66 61 33 25\n📠 Fax : +212 5 23 31 53 53\n✉ Email : contact@fstm.ac.ma\n🌐 Site : www.fstm.ac.ma"},
+{k:['emploi','temps','edt','horaire','planning','cours'],
+ a:"**Emplois du temps 2025-2026 :**\n\nConsultez la section **EDT** de ce portail pour télécharger votre emploi du temps par filière (TC, LST, MST, Ingénieur).\n\nLes EDT sont disponibles en PDF sur le site officiel : https://www.fstm.ac.ma/affaires_pedagogiques/affaires_pedagogiques.php"},
+{k:['bourse','mnhti','aide','financ'],
+ a:"**Bourse universitaire :**\n\nPour toute question ou réclamation concernant la bourse :\n✉ Envoyez un email à : **aicha.sagar@fstm.ac.ma**\n\nVotre réclamation doit inclure : nom, prénom, code Massar, filière et numéro de téléphone.\n\nCarte Mnhti : rendez-vous à la poste Al Hassania de Mohammedia."},
+{k:['departement','informatique','math','physique','chimie','biologie','electrique'],
+ a:"**Départements de la FST :**\n\n• Département d'Informatique\n• Département de Mathématiques\n• Département de Physique\n• Département de Chimie\n• Département de Biologie\n• Département de Génie Électrique\n• Département de Génie des Procédés et Environnement\n• Département TEC (Techniques d'Expression et Communication)"},
+{k:['recherche','laboratoire','labo','these','doctorat','cedoc'],
+ a:"**Recherche à la FST :**\n\nLa FST dispose de plusieurs laboratoires de recherche et un Centre d'Études Doctorales (CEDoc).\n\nPlus d'infos : https://www.fstm.ac.ma/recherche/laboratoires.php"},
+{k:['examen','rattrapage','session','note','resultat','deliberation'],
+ a:"**Examens 2025-2026 :**\n\n• Planning des examens : disponible sur le site FST\n• Convocations : **https://e-scholar.fstm.ac.ma/convocations/index.php**\n• Notes et délibérations : **https://ent.univh2c.ma**\n\n⚠ La convocation ET la carte d'étudiant sont obligatoires lors des examens."},
+{k:['orientation','changement','transfert','equivalence'],
+ a:"**Orientation et transferts :**\n\n• Résultats d'orientation : **https://e-scholar.fstm.ac.ma**\n• Les demandes de changement d'orientation sont limitées en nombre de places\n• Le tronc commun Génie Biologie n'est pas concerné par le changement d'orientation\n• Tableau d'équivalence MIP/BCG disponible sur le site officiel"},
+{k:['bonjour','salut','hello','bonsoir','coucou','salam','hi'],
+ a:"Bonjour ! 👋 Je suis l'assistant du portail FST. Comment puis-je vous aider ?\n\nVous pouvez me poser des questions sur :\n• Les **filières** (LST, MST, Ingénieur)\n• L'**inscription** et la réinscription\n• Les **emplois du temps**\n• Les **professeurs** et contacts\n• Les **examens** et résultats\n• La **bourse** et l'aide financière"},
+];
+function norm(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ')}
+function findAnswer(q){
+  const w=norm(q).split(/\s+/).filter(x=>x.length>1);
+  let best=null,bs=0;
+  for(const e of KB){
+    let s=0;
+    for(const kw of e.k){const kn=norm(kw);if(w.some(x=>x===kn||kn===x))s++}
+    if(s>bs){bs=s;best=e}
+  }
+  return best?best.a:null;
+}
+const API='http://localhost:5678/webhook/fstm-chat';
+const chatEl=document.getElementById('chat');
+const inp=document.getElementById('inp');
+const snd=document.getElementById('snd');
+inp.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendMsg()}});
+function ask(t){go('chat',null);setTimeout(()=>{inp.value=t;sendMsg()},80)}
+function addMsg(html,cls){
+  const d=document.createElement('div');
+  d.className='msg '+cls;d.innerHTML=html;
+  chatEl.appendChild(d);chatEl.scrollTop=chatEl.scrollHeight;return d;
+}
+function fmt(t){return t.replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>')}
+async function sendMsg(){
+  const q=inp.value.trim();if(!q)return;
+  inp.value='';addMsg(fmt(q),'user');
+  const ty=addMsg('Un instant…','bot typing');snd.disabled=true;
+  try{
+    const r=await fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q})});
+    const d=await r.json();
+    ty.className='msg bot';ty.innerHTML=fmt(d.answer||"Je n'ai pas trouvé de réponse.");
+  }catch{
+    const fallback=findAnswer(q);
+    if(fallback){
+      ty.className='msg bot';ty.innerHTML=fmt(fallback);
+    }else{
+      ty.className='msg bot';ty.innerHTML='<span class="err">Le serveur n8n n\'est pas disponible. Lancez Docker avec : docker-compose up -d</span>';
+    }
+  }
+  snd.disabled=false;inp.focus();
+}
+
+/* ══ EXAMENS ══ */
+const EXAMS=[
+  {t:'Examens Tronc Commun & LST',m:'TOUS MODULES',f:'toutes',a:'2025–2026',ty:'Session Automne',pdf:'https://www.fstm.ac.ma/affaires_pedagogiques/files/2025-2026/SA/planningdesexamensdutronc%20communLst0126.pdf'},
+  {t:'Rattrapage Tronc Commun LST',m:'TOUS MODULES',f:'toutes',a:'2025–2026',ty:'Rattrapage',pdf:'https://www.fstm.ac.ma/affaires_pedagogiques/files/2025-2026/SA/rat2026aut.pdf'},
+  {t:'Algorithmique & Structures de Données',m:'INFO301',f:'lst',a:'Archive',ty:'Examen',pdf:'https://drive.google.com/drive/folders/1uCE36hRlLAfewjD0sR-Xnbch4gvqzHue'},
+  {t:'Analyse Mathématique',m:'MATH101',f:'licence',a:'Archive',ty:'Examen',pdf:'https://drive.google.com/drive/folders/1uCE36hRlLAfewjD0sR-Xnbch4gvqzHue'},
+];
+function drawEx(data){
+  document.getElementById('gex').innerHTML=data.map(e=>`
+    <div class="xc">
+      <div class="xc-top"><div class="xc-ico">📄</div>
+        <div><div class="xc-title">${e.t}</div><div class="xc-mod">${e.m} · ${e.a}</div></div>
+      </div>
+      <div class="xc-tags"><span class="xc-tag">${e.f.toUpperCase()}</span><span class="xc-tag">${e.ty}</span></div>
+      <a href="${e.pdf}" download class="xc-dl">↓ &nbsp;Télécharger le PDF</a>
+    </div>`).join('');
+}
+function fEx(f,btn){
+  document.querySelectorAll('#pg-examens .ftag').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  drawEx(f==='all'?EXAMS:EXAMS.filter(e=>e.f===f));
+}
+drawEx(EXAMS);
+
+/* ══ PROFS — Remplacez par vos vrais emails ══ */
+const PROFS = [
+  // Mathématiques
+  { n: 'Asmaa Abassi', d: 'math', dl: 'Mathématiques', e: 'ASMAA.ABASSI@univh2c.ma' },
+  { n: 'Moussaid', d: 'math', dl: 'Mathématiques', e: 'moussaid@fstm.ac.ma' },
+  { n: 'Soumia Chaira', d: 'math', dl: 'Mathématiques', e: 'soumia.chaira@fstm.ac.ma' },
+  { n: 'Elmostafa Hanine', d: 'math', dl: 'Mathématiques', e: 'elmostafa.hanine@fstm.ac.ma' },
+  { n: 'Noureddine Fahssi', d: 'math', dl: 'Mathématiques', e: 'noureddine.fahssi@fstm.ac.ma' },
+  { n: 'Driss Karim', d: 'math', dl: 'Mathématiques', e: 'driss.karim@fstm.ac.ma' },
+  { n: 'Mohamed Ridouan Amattouch', d: 'math', dl: 'Mathématiques', e: 'mohamed.ridouanamattouch@univh2c.ma' },
+  { n: 'Said Sajid', d: 'math', dl: 'Mathématiques', e: 'said.sajid@fstm.ac.ma' },
+  { n: 'Brahim Benouahmane', d: 'math', dl: 'Mathématiques', e: 'brahim.benouahmane@fstm.ac.ma' },
+  { n: 'Zineb Hajji', d: 'math', dl: 'Mathématiques', e: 'z.hajji@fstm.ac.ma' },
+  { n: 'Samira Berrada', d: 'math', dl: 'Mathématiques', e: 's.berrada@fstm.ac.ma' },
+  
+  // Informatique
+  { n: 'Ahmed Oussous', d: 'info', dl: 'Informatique', e: 'ahmed.oussous@fstm.ac.ma' },
+  { n: 'Ahmed Oussous (Gmail)', d: 'info', dl: 'Informatique', e: 'ahmed.oussous2013@gmail.com' },
+  { n: 'Youssef Fakir', d: 'info', dl: 'Informatique', e: 'yousseff.fakirr@gmail.com' },
+  { n: 'Khadija Letrache', d: 'info', dl: 'Informatique', e: 'khadija.letrache@fstm.ac.ma' },
+  { n: 'Mohammed Saddoune', d: 'info', dl: 'Informatique', e: 'mohammed.saddoune@fstm.ac.ma' },
+  { n: 'Samir Anter', d: 'info', dl: 'Informatique', e: 'samir.anter@fstm.ac.ma' },
+  { n: 'Amina Eljabri', d: 'info', dl: 'Informatique', e: 'amina.eljabri@fstm.ac.ma' },
+  { n: 'Badr Hssina', d: 'info', dl: 'Informatique', e: 'badr.hssina@univh2c.ma' },
+  { n: 'Faddoul Khoukhi', d: 'info', dl: 'Informatique', e: 'faddoul.khoukhi@fstm.ac.ma' },
+  { n: 'Mohammed Khalil', d: 'info', dl: 'Informatique', e: 'mohammed.khalil@univh2c.ma' },
+  { n: 'Rachid Amrani', d: 'info', dl: 'Informatique', e: 'r.amrani@fstm.ac.ma' },
+  { n: 'Karim El Idrissi', d: 'info', dl: 'Informatique', e: 'k.elidrissi@fstm.ac.ma' },
+  { n: 'Ahmed El Hakmaoui', d: 'info', dl: 'Informatique', e: 'ahmed.elhakmaoui@fstm.ac.ma' },
+  { n: 'Nour Eddine Belbounagui', d: 'info', dl: 'Informatique', e: 'belbounaguia@gmail.com' },
+  
+  // Physique
+  { n: 'Hicham Jirari', d: 'physique', dl: 'Physique', e: 'hicham.jirari@fstm.ac.ma' },
+  { n: 'Hasna Fallaki', d: 'physique', dl: 'Physique', e: 'hasna.fallaki@fstm.ac.ma' },
+  { n: 'Loubna Farsi', d: 'physique', dl: 'Physique', e: 'loubna.farsi@univh2c.ma' },
+  { n: 'Rabiaa Lotfi', d: 'physique', dl: 'Physique', e: 'rabiaa.lotfi@fstm.ac.ma' },
+  { n: 'Monssif Najim', d: 'physique', dl: 'Physique', e: 'monssif.najim@fstm.ac.ma' },
+  { n: 'Rachid Lbibb', d: 'physique', dl: 'Physique', e: 'rachid.lbibb@fstm.ac.ma' },
+  { n: 'Said Saadeddine', d: 'physique', dl: 'Physique', e: 'said.saadeddine@fstm.ac.ma' },
+  { n: 'Salem Laghrabli', d: 'physique', dl: 'Physique', e: 'salem.laghrabli@fstm.ac.ma' },
+  { n: 'Taoufik Tbatou', d: 'physique', dl: 'Physique', e: 'taoufik.tbatou@univh2c.ma' },
+  { n: 'Anass Bakour', d: 'physique', dl: 'Physique', e: 'anass.bakour@univh2c.ma' },
+  { n: 'Mohammed Tsouli', d: 'physique', dl: 'Physique', e: 'mohammed.tsouli@univh2c.ma' },
+  { n: 'Mohamed Bencheikh', d: 'physique', dl: 'Physique', e: 'mohammed.bencheikh@fstm.ac.ma' },
+  { n: 'Nejma Fazouan', d: 'physique', dl: 'Physique', e: 'nejma.fazouan@fstm.ac.ma' },
+  { n: 'Zazoui Mimoun', d: 'physique', dl: 'Physique', e: 'zazouimimoun@yahoo.fr' },
+  
+  // Chimie
+  { n: 'Adiba Rais', d: 'chimie', dl: 'Chimie', e: 'adiba.rais@fstm.ac.ma' },
+  { n: 'Abdalhak Elbrouzi', d: 'chimie', dl: 'Chimie', e: 'abdalhak.elbrouzi@fstm.ac.ma' },
+  { n: 'Amine Ezzahi', d: 'chimie', dl: 'Chimie', e: 'amine.ezzahi@fstm.ac.ma' },
+  { n: 'Mohamed El Khlifi', d: 'chimie', dl: 'Chimie', e: 'mohamed.elkhlifi@fstm.ac.ma' },
+  { n: 'Mama El Rhazi', d: 'chimie', dl: 'Chimie', e: 'mama.elrhazi@fstm.ac.ma' },
+  { n: 'Mohamed Safi', d: 'chimie', dl: 'Chimie', e: 'mohamed.safi@fstm.ac.ma' },
+  { n: 'Zakaria Boulouard', d: 'info', dl: 'Informatique', e: 'zboulouard@gmail.com' },
+];
+function drawPr(data){
+  document.getElementById('gpr').innerHTML=data.map(p=>`
+    <div class="pc">
+      <div class="pc-av">${p.n[0]}</div>
+      <div>
+        <div class="pc-name">Pr. ${p.n}</div>
+        <div class="pc-dept">Département de ${p.dl}</div>
+        <a href="mailto:${p.e}" class="pc-mail">✉ ${p.e}</a>
+      </div>
+    </div>`).join('');
+}
+function fPr(d,btn){
+  document.querySelectorAll('#pg-profs .ftag').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  drawPr(d==='all'?PROFS:PROFS.filter(p=>p.d===d));
+}
+drawPr(PROFS);
+
+/* ══ EDT 2025-2026 ══ */
+const B='https://www.fstm.ac.ma/affaires_pedagogiques/files/2025-2026/emploisdutemps/';
+const EDT=[
+  // Tronc Commun
+  {f:'TC LST — Cours + TD + TP',s:'Printemps 2025-2026',c:'tc',pdf:B+'TC/2VFEmploisCTDTPTCLSTSP2526.pdf'},
+  {f:'TC LST — Cours Avancés S2 & S4',s:'Printemps 2025-2026',c:'tc',pdf:B+'TC/VFEmploisCoursAvTCLSTSP25-26.pdf'},
+  {f:'TC LST — S1 & S3',s:'Automne 2025-2026',c:'tc',pdf:B+'TC/Emplois31025V2.pdf'},
+  {f:'Modules S2 & S4 TC LST',s:'Printemps 2025-2026',c:'tc',pdf:B+'TC/ModulesS2-S4TLST.pdf'},
+  // LST
+  {f:'LST 2I (Ingénierie Informatique)',s:'S6',c:'lst',pdf:'pdfs/LST2I_S6.pdf'},
+  {f:'LST ILSI (Ingénierie Logicielle)',s:'Phase 1',c:'lst',pdf:B+'LST/LST_ILSI.pdf'},
+  {f:'LST IRM (Info, Réseaux, Multimédia)',s:'S5 Phase 1',c:'lst',pdf:B+'LST/Emploi%20LST_IRM%20S5_Phase1_2526.pdf'},
+  {f:'LST SDID (Sciences des Données)',s:'Automne',c:'lst',pdf:B+'LST/LST_SDID.pdf'},
+  {f:'LST MSDI (Math & Sciences Données)',s:'Automne',c:'lst',pdf:B+'LST/LST_MSDI.pdf'},
+  {f:'LST Physique Appliquée (PA)',s:'Automne',c:'lst',pdf:B+'LST/LST_Physique_appliqu%C3%A9e.pdf'},
+  {f:'LST Génie Mécanique (GM)',s:'Automne',c:'lst',pdf:B+'LST/LSTGENIEMECANIQUE1.pdf'},
+  {f:'LST GEII (Génie Élec. & Info Indus.)',s:'Automne',c:'lst',pdf:B+'LST/LSTGEII1.pdf'},
+  {f:'LST GT (Génie Télécommunications)',s:'Automne',c:'lst',pdf:B+'LST/LST_GT.pdf'},
+  {f:'LST Chimie Appliquée (CA)',s:'Automne',c:'lst',pdf:B+'LST/LSTCHIMIEAPPLIQUEE.pdf'},
+  {f:'LST TACQ (Analyse & Contrôle Qualité)',s:'Automne',c:'lst',pdf:B+'LST/LST_TACQ.pdf'},
+  {f:'LST ABCQ (Analyses Biologiques)',s:'Automne',c:'lst',pdf:B+'LST/LSTABIOCQ1.pdf'},
+  {f:'LST TB (Technologies Biomédicales)',s:'Automne',c:'lst',pdf:B+'LST/LSTTB1.pdf'},
+  // MST
+  {f:'MST SGE (Environnement) — S1',s:'1ère année',c:'mst',pdf:B+'MST/MST_SGE1.pdf'},
+  {f:'MST SGE (Environnement) — S3',s:'2ème année',c:'mst',pdf:B+'MST/MST_SGE2.pdf'},
+  {f:'MST PCAM (Physico-Chimie) — S1',s:'1ère année',c:'mst',pdf:B+'MST/MSTPCAM1.pdf'},
+  {f:'MST PCAM (Physico-Chimie) — S3',s:'2ème année',c:'mst',pdf:B+'MST/MSTPCAM2.pdf'},
+  {f:'MST MQSE (Qualité & Sécurité)',s:'S1',c:'mst',pdf:B+'MST/MSTMQSE1.pdf'},
+  {f:'MST MAGBio (Microbiologie)',s:'S1',c:'mst',pdf:B+'MST/MSTMAGBio1.pdf'},
+  {f:'MST IPMA (Matériaux Avancés)',s:'S1',c:'mst',pdf:B+'MST/MSTIPMA1.pdf'},
+  {f:'MST ISERT (Systèmes Embarqués) — S1',s:'1ère année',c:'mst',pdf:B+'MST/MST1-ISERT_EDT_S1_P1.pdf'},
+  {f:'MST ISERT (Systèmes Embarqués) — S3',s:'2ème année',c:'mst',pdf:B+'MST/MST2-ISERT_EDT_S3_P1.pdf'},
+  // Ingénieur
+  {f:'Ingénieur GE (Génie Énergétique) — 1A',s:'1ère année',c:'ing',pdf:B+'FI/FIGGE1.pdf'},
+  {f:'Ingénieur GE (Génie Énergétique) — 2A',s:'2ème année',c:'ing',pdf:B+'FI/FIGGE2.pdf'},
+  {f:'Ingénieur GE (Génie Énergétique) — 3A',s:'3ème année',c:'ing',pdf:B+'FI/FIGGE3.pdf'},
+  {f:'Ingénieur IDSI (Data Science) — 1A',s:'1ère année',c:'ing',pdf:B+'FI/IDSI1.pdf'},
+  {f:'Ingénieur IDSI (Data Science) — 2A',s:'2ème année',c:'ing',pdf:B+'FI/IDSI2.pdf'},
+  {f:'Ingénieur GMI (Math & Info) — 3A',s:'3ème année',c:'ing',pdf:B+'FI/GMI3.pdf'},
+  {f:'Ingénieur GET (Élec. & Télécom) — 1A',s:'1ère année',c:'ing',pdf:B+'FI/GET1.pdf'},
+  {f:'Ingénieur GET (Élec. & Télécom) — 2A',s:'2ème année',c:'ing',pdf:B+'FI/GET2.pdf'},
+  {f:'Ingénieur GECI (Contrôle Indus.) — 3A',s:'3ème année',c:'ing',pdf:B+'FI/GECI3.pdf'},
+  // Calendrier
+  {f:'Calendrier pédagogique',s:'Session Printemps 2025-2026',c:'cal',pdf:B+'CalendrierSP2026.pdf'},
+];
+function drawEdt(data){
+  document.getElementById('gedt').innerHTML=data.map(e=>`
+  <div class="ec">
+    <div class="ec-hd">
+      <div class="ec-ico">📅</div>
+      <div><div class="ec-title">${e.f}</div><div class="ec-sem">${e.s}</div></div>
+    </div>
+    <a href="${e.pdf}" target="_blank" class="ec-btn">↓ &nbsp;Télécharger l'emploi du temps</a>
+  </div>`).join('');
+}
+function fEdt(c,btn){
+  document.querySelectorAll('#pg-edt .ftag').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  drawEdt(c==='all'?EDT:EDT.filter(e=>e.c===c));
+}
+drawEdt(EDT);
+
+/* ══ AGENT IA D'ORIENTATION ══ */
+const FILIERES=[
+  {nom:'LST II',dom:['informatique','programmation','logiciel','code','application','dev','software','ai','ia'],desc:'Ingénierie Informatique'},
+  {nom:'LST ILSI',dom:['logiciel','systeme','information','entreprise','gestion','dev','web','ai','ia'],desc:'Ingénierie Logicielle et Systèmes d\'Information'},
+  {nom:'LST SDID',dom:['data','donnees','ia','ai','statistique','decision','big data','analyse'],desc:'Sciences des Données et Informatique Décisionnelle'},
+  {nom:'LST IRM',dom:['reseau','multimedia','telecom','internet','securite','cyber','informatique'],desc:'Informatique, Réseaux et Multimédia'},
+  {nom:'LST MSDI',dom:['math','donnees','modelisation','simulation','algorithme','scolaire','ai','ia'],desc:'Mathématiques, Sciences des Données et Informatique'},
+  {nom:'LST SIT',dom:['systeme','intelligent','telecom','embarque','electronique','ia','ai'],desc:'Systèmes Intelligents et Télécommunications'},
+  {nom:'LST GE2I',dom:['electrique','industriel','informatique','automatisme','robot','energie'],desc:'Génie Électrique et Informatique Industrielle'},
+  {nom:'LST PA',dom:['physique','matiere','energie','optique','laser','recherche'],desc:'Physique Appliquée'},
+  {nom:'LST GM',dom:['mecanique','industriel','materiau','conception','cao','maintenance'],desc:'Génie Mécanique'},
+  {nom:'LST GBA',dom:['biologie','agroalimentaire','nourriture','fermentation','production'],desc:'Génie Biologique et Agroalimentaire'},
+  {nom:'LST BIOCQ',dom:['biologie','analyse','qualite','laboratoire','medical','biochimie'],desc:'Bioanalyse et Contrôle Qualité'},
+  {nom:'LST TACQ',dom:['chimie','analyse','controle','qualite','laboratoire','instrumentation'],desc:'Techniques d\'Analyse et Contrôle Qualité'},
+  {nom:'LST CA',dom:['chimie','synthese','industriel','molecule','cosmetique','pharmacie'],desc:'Chimie Appliquée'},
+  {nom:'LST GEE',dom:['eau','environnement','ecologie','traitement','pollution','nature'],desc:'Génie de l\'Eau et de l\'Environnement'},
+  {nom:'LST GPI',dom:['procede','industriel','chimie','usine','production','energetique'],desc:'Génie des Procédés Industriels'},
+  {nom:'MST ISERT',dom:['master','systeme','embarque','telecom','reseau','iot','objet connecte'],desc:'Ingénierie des Systèmes Embarqués'},
+  {nom:'MST MQSE',dom:['master','qualite','securite','environnement','norme','iso','audit'],desc:'Management QSE'},
+  {nom:'MST MQSA',dom:['master','qualite','securite','aliment','agroalimentaire','hygiene'],desc:'Management Qualité et Sécurité des Aliments'},
+  {nom:'MST SGE',dom:['master','environnement','ecologie','gestion','developpement durable'],desc:'Sciences et Gestion de l\'Environnement'},
+  {nom:'MST PCAM',dom:['master','physique','chimie','materiaux','analyse','caracterisation'],desc:'Physico-Chimie et Analyse des Matériaux'},
+  {nom:'MST MAGBio',dom:['master','biologie','microbiologie','genetique','biotechnologie'],desc:'Microbiologie Appliquée'},
+  {nom:'MST IPMA',dom:['master','physique','materiaux','nanotechnologie','semiconducteur'],desc:'Ingénierie et Physique des Matériaux Avancés'},
+  {nom:'Ingénieur ILISI',dom:['ingenieur','logiciel','systeme','informatique','architecture','dev','ai','ia'],desc:'Ingénierie Logicielle'},
+  {nom:'Ingénieur IDSI',dom:['ingenieur','data','ia','ai','apprentissage automatique','donnees','science'],desc:'Ingénierie Data Science et Informatique'},
+  {nom:'Ingénieur GECI',dom:['ingenieur','electrique','controle','industriel','automatisme'],desc:'Génie Electrique et Contrôle Industriel'},
+  {nom:'Ingénieur GE',dom:['ingenieur','energie','energetique','thermique','eolien','solaire'],desc:'Génie Énergétique'},
+];
+const agentEl=document.getElementById('agent-output');
+const agentInp=document.getElementById('agent-inp');
+async function runAgent(){
+  if(!agentInp)return;
+  const q=agentInp.value.trim();if(!q){agentEl.innerHTML='<p style="color:var(--muted)">Veuillez décrire vos centres d\'intérêt.</p>';return}
+  agentEl.innerHTML='';
+  const step=(icon,txt)=>new Promise(r=>{
+    const d=document.createElement('div');
+    d.style.cssText='padding:12px 16px;background:var(--blue-light);border-radius:12px;margin-bottom:8px;font-size:13.5px;color:var(--navy);opacity:0;transform:translateY(10px);transition:all .4s';
+    d.innerHTML=icon+' '+txt;agentEl.appendChild(d);
+    setTimeout(()=>{d.style.opacity='1';d.style.transform='translateY(0)'},50);
+    setTimeout(r,900);
+  });
+  await step('🔍','Analyse de vos centres d\'intérêt : <strong>'+q+'</strong>');
+  await step('🧠','Traitement sémantique et extraction des mots-clés…');
+  const w=norm(q).split(/\s+/).filter(x=>x.length>1);
+  const scores=FILIERES.map(f=>{
+    let s=0;f.dom.forEach(d=>{const dn=norm(d);if(w.some(x=>x.includes(dn)||dn.includes(x)))s+=2});
+    return{...f,score:s};
+  }).filter(f=>f.score>0).sort((a,b)=>b.score-a.score).slice(0,5);
+  await step('🎯','Comparaison avec '+FILIERES.length+' filières disponibles…');
+  await step('📊','Classement des '+scores.length+' meilleures correspondances…');
+  if(scores.length===0){
+    await step('⚠️','Aucune correspondance trouvée. Essayez des mots-clés comme : informatique, chimie, physique, énergie, data, biologie…');
+    return;
+  }
+  await step('✅','Recommandations générées !');
+  const res=document.createElement('div');
+  res.style.cssText='margin-top:16px;opacity:0;transition:opacity .5s';
+  res.innerHTML='<h3 style="font-family:var(--sora);font-size:16px;color:var(--navy);margin-bottom:12px">🎓 Filières recommandées pour vous</h3>'+
+    scores.map((f,i)=>`<div style="display:flex;align-items:center;gap:14px;padding:14px 18px;background:${i===0?'linear-gradient(135deg,var(--blue),#0066CC)':'var(--white)'};border:1.5px solid ${i===0?'transparent':'var(--border)'};border-radius:14px;margin-bottom:8px;${i===0?'color:#fff;box-shadow:0 4px 16px rgba(10,132,255,.3)':''}">
+      <div style="width:40px;height:40px;border-radius:10px;background:${i===0?'rgba(255,255,255,.2)':'var(--blue-light)'};display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;flex-shrink:0;${i===0?'color:#fff':'color:var(--blue)'}">${i+1}</div>
+      <div><strong style="font-family:var(--sora);font-size:14px">${f.nom}</strong><br><span style="font-size:12px;${i===0?'opacity:.85':'color:var(--muted)'}">${f.desc}</span></div>
+      <div style="margin-left:auto;font-size:12px;font-weight:600;padding:4px 10px;border-radius:100px;${i===0?'background:rgba(255,255,255,.2)':'background:var(--blue-light);color:var(--blue)'}">Match ${Math.min(99,50+f.score*12)}%</div>
+    </div>`).join('')+
+    '<p style="font-size:12px;color:var(--muted);margin-top:14px;text-align:center">💡 Pour plus de détails, consultez <a href="https://www.fstm.ac.ma/formation_initiale/lst.php" target="_blank" style="color:var(--blue);text-decoration:underline">le site officiel FSTM</a></p>';
+  agentEl.appendChild(res);
+  setTimeout(()=>res.style.opacity='1',100);
+}
+</script>
+</body>
+</html>

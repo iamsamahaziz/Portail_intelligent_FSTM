@@ -1,0 +1,26 @@
+# Environment variables (contains API keys)
+.env
+
+# Data directories (generated at runtime)
+fstm_pdfs/
+fstm_data/
+fstm_scraped/
+
+# n8n workflow export (may contain credentials)
+workflow_n8n.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip

@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+
+  # ─── Qdrant (vector DB) ───
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: fstm_qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    restart: unless-stopped
+
+  # ─── n8n (workflow engine) ───
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: fstm_n8n
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_HOST=0.0.0.0
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - WEBHOOK_URL=http://localhost:5678
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
+      - N8N_USER_MANAGEMENT_DISABLED=true
+    volumes:
+      - n8n_data:/home/node/.n8n
+    depends_on:
+      - qdrant
+    restart: unless-stopped
+
+  # ─── Chatbot UI (Nginx) ───
+  chatbot:
+    image: nginx:alpine
+    container_name: fstm_chatbot
+    ports:
+      - "3001:80"
+    volumes:
+      - ./web:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - n8n
+    restart: unless-stopped
+
+volumes:
+  qdrant_storage:
+  n8n_data:
