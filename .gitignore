@@ -1,26 +1,27 @@
-# Environment variables (contains API keys)
+# Secrets
 .env
 
-# Data directories (generated at runtime)
-fstm_pdfs/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# Docker & Données (Base de données et fichiers lourds)
+qdrant_storage/
+n8n_data/
 fstm_data/
+fstm_pdfs/
 fstm_scraped/
 
-# n8n workflow export (may contain credentials)
-workflow_n8n.json
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
+# Fichiers Personnels & Confidentiels
+CV_AZIZ_Samah_compressed.pdf
+CV_*.pdf
+*.zip
 
 # IDE
 .vscode/
 .idea/
-
-# OS
 .DS_Store
-Thumbs.db
-
-# Archives
-*.zip
