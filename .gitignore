@@ -17,8 +17,12 @@ fstm_pdfs/
 fstm_scraped/
 
 # Fichiers Personnels & Confidentiels
-CV_AZIZ_Samah_compressed.pdf
-CV_*.pdf
+*CV*
+*cv*
+*Resume*
+*resume*
+*.pdf
+!logo.png
 *.zip
 
 # IDE
