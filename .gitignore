@@ -17,12 +17,6 @@ fstm_pdfs/
 fstm_scraped/
 
 # Fichiers Personnels & Confidentiels
-*CV*
-*cv*
-*Resume*
-*resume*
-*.pdf
-!logo.png
 *.zip
 
 # IDE
