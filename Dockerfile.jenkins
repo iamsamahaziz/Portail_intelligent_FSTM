@@ -2,27 +2,22 @@ FROM jenkins/jenkins:lts
 
 USER root
 
-# Installer les dépendances minimales
+# Installation simplifiée du client Docker
 RUN apt-get update && apt-get install -y \
     ca-certificates \
     curl \
-    gnupg
+    gnupg \
+    lsb-release
 
-# Ajouter la clé GPG officielle de Docker (méthode moderne)
-RUN install -m 0755 -d /etc/apt/keyrings && \
-    curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc && \
-    chmod a+r /etc/apt/keyrings/docker.asc
+# On force l'utilisation du dépôt Debian 'bookworm' (stable) qui est compatible
+RUN mkdir -p /etc/apt/keyrings && \
+    curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg && \
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian bookworm stable" | \
+    tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-# Ajouter le dépôt Docker directement
-RUN echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-  tee /etc/apt/sources.list.d/docker.list > /dev/null
-
-# Installer uniquement le client Docker
 RUN apt-get update && apt-get install -y docker-ce-cli
 
-# Créer le groupe docker s'il n'existe pas et ajouter l'utilisateur jenkins
+# Ajout des droits
 RUN groupadd -g 999 docker_host || true && usermod -aG docker jenkins
 
 USER jenkins
