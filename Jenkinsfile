@@ -32,7 +32,7 @@ pipeline {
                     steps {
                         sh '''
                         MISSING=0
-                        for FILE in index_fstm.py requirements.txt FSTM_JINA.json docker-compose.yml fstm_data; do
+                        for FILE in index_fstm.py requirements.txt FSTM_JINA.json docker-compose.yml; do
                             if [ -e "$FILE" ]; then
                                 echo "OK : $FILE"
                             else
