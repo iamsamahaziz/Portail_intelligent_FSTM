@@ -8,8 +8,8 @@ pipeline {
     }
 
     environment {
-        QDRANT_URL   = 'http://172.17.0.1:6333'
-        N8N_URL      = 'http://172.17.0.1:5678'
+        QDRANT_URL   = 'http://qdrant:6333'
+        N8N_URL      = 'http://n8n:5678'
         BOTPRESS_URL = 'https://cdn.botpress.cloud'
         PYTHON       = "${WORKSPACE}/venv/bin/python"
         PIP          = "${WORKSPACE}/venv/bin/pip"
@@ -83,7 +83,7 @@ PYEOF
                     def qdrantOK = (sh(script: "curl -sf --max-time 10 ${QDRANT_URL}", returnStatus: true) == 0)
                     if (!qdrantOK) {
                         echo "Qdrant KO — tentative de redémarrage..."
-                        sh 'docker restart desktop-qdrant-1 || true'
+                        sh 'docker restart fstm_qdrant || true'
                         sleep 10
                         qdrantOK = (sh(script: "curl -sf --max-time 10 ${QDRANT_URL}", returnStatus: true) == 0)
                         if (!qdrantOK)
@@ -94,7 +94,7 @@ PYEOF
                     def n8nOK = (sh(script: "curl -sf --max-time 10 ${N8N_URL}", returnStatus: true) == 0)
                     if (!n8nOK) {
                         echo "n8n KO — tentative de redémarrage..."
-                        sh 'docker restart desktop-n8n-1 || true'
+                        sh 'docker restart fstm_n8n || true'
                         sleep 10
                         n8nOK = (sh(script: "curl -sf --max-time 10 ${N8N_URL}", returnStatus: true) == 0)
                         if (!n8nOK)
