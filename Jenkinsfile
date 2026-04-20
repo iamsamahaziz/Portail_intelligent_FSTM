@@ -74,31 +74,49 @@ PYEOF
             options { timeout(time: 5, unit: 'MINUTES') }
             steps {
                 script {
-                    // --- Docker ---
-                    def dockerOK = (sh(script: 'docker ps', returnStatus: true) == 0)
-                    if (!dockerOK)
-                        error "Docker inaccessible — arrêt du pipeline FSTM."
+                    // --- Docker Detection ---
+                    def hasDocker = (sh(script: 'command -v docker >/dev/null 2>&1', returnStatus: true) == 0)
+                    if (!hasDocker) {
+                        echo "AVERTISSEMENT : Commande 'docker' introuvable dans Jenkins. L'auto-réparation est désactivée."
+                    } else {
+                        echo "Docker détecté. Vérification de l'accès..."
+                        def dockerOK = (sh(script: 'docker ps', returnStatus: true) == 0)
+                        if (!dockerOK) {
+                            echo "AVERTISSEMENT : Docker est installé mais inaccessible (problème de permissions/socket)."
+                            hasDocker = false
+                        }
+                    }
 
                     // --- Qdrant ---
                     def qdrantOK = (sh(script: "curl -sf --max-time 10 ${QDRANT_URL}", returnStatus: true) == 0)
                     if (!qdrantOK) {
-                        echo "Qdrant KO — tentative de redémarrage..."
-                        sh 'docker restart fstm_qdrant || true'
-                        sleep 10
-                        qdrantOK = (sh(script: "curl -sf --max-time 10 ${QDRANT_URL}", returnStatus: true) == 0)
+                        if (hasDocker) {
+                            echo "Qdrant KO — tentative de redémarrage via Docker..."
+                            sh 'docker restart fstm_qdrant || true'
+                            sleep 10
+                            qdrantOK = (sh(script: "curl -sf --max-time 10 ${QDRANT_URL}", returnStatus: true) == 0)
+                        } else {
+                            echo "ERREUR : Qdrant est hors ligne et Docker est absent pour le redémarrer."
+                        }
+                        
                         if (!qdrantOK)
-                            error "Qdrant toujours hors ligne après redémarrage — arrêt du pipeline."
+                            error "Qdrant est injoignable sur ${QDRANT_URL} — arrêt du pipeline."
                     }
 
                     // --- n8n ---
                     def n8nOK = (sh(script: "curl -sf --max-time 10 ${N8N_URL}", returnStatus: true) == 0)
                     if (!n8nOK) {
-                        echo "n8n KO — tentative de redémarrage..."
-                        sh 'docker restart fstm_n8n || true'
-                        sleep 10
-                        n8nOK = (sh(script: "curl -sf --max-time 10 ${N8N_URL}", returnStatus: true) == 0)
+                        if (hasDocker) {
+                            echo "n8n KO — tentative de redémarrage via Docker..."
+                            sh 'docker restart fstm_n8n || true'
+                            sleep 10
+                            n8nOK = (sh(script: "curl -sf --max-time 10 ${N8N_URL}", returnStatus: true) == 0)
+                        } else {
+                            echo "ERREUR : n8n est hors ligne et Docker est absent pour le redémarrer."
+                        }
+
                         if (!n8nOK)
-                            error "n8n toujours hors ligne après redémarrage — arrêt du pipeline."
+                            error "n8n est injoignable sur ${N8N_URL} — arrêt du pipeline."
                     }
 
                     // --- Botpress (Non-bloquant) ---
