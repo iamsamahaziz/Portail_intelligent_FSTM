@@ -17,28 +17,6 @@ pipeline {
 
     stages {
 
-        stage('0. Prérequis Système') {
-            steps {
-                sh '''
-                # Installe python3 si absent
-                if ! command -v python3 >/dev/null 2>&1; then
-                    echo "python3 absent — installation..."
-                    apt-get update -qq && apt-get install -y -qq python3 python3-venv python3-pip curl
-                else
-                    echo "python3 OK : $(python3 --version)"
-                fi
-
-                # Vérifie curl
-                if ! command -v curl >/dev/null 2>&1; then
-                    echo "curl absent — installation..."
-                    apt-get update -qq && apt-get install -y -qq curl
-                else
-                    echo "curl OK"
-                fi
-                '''
-            }
-        }
-
         stage('1. Récupération du Code') {
             steps {
                 checkout scm
