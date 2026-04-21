@@ -79,19 +79,40 @@ pipeline {
         }
 
         stage('3. Vérification des Services') {
-            steps {
-                script {
-                    [qdrant: QDRANT_URL, n8n: N8N_URL].each { name, url ->
-                        def ok = (sh(script: "curl -sf --max-time 5 ${url}", returnStatus: true) == 0)
-                        if (!ok) {
-                            sh(script: "docker restart fstm_${name}", returnStatus: true)
-                            sleep 8
-                            if ((sh(script: "curl -sf --max-time 5 ${url}", returnStatus: true)) != 0)
-                                error "${name} injoignable — arrêt."
+            parallel {
+
+                stage('Qdrant') {
+                    steps {
+                        script {
+                            def hasDocker = (sh(script: 'command -v docker >/dev/null 2>&1', returnStatus: true) == 0)
+                            def qdrantOK = (sh(script: "curl -sf --max-time 5 ${env.QDRANT_URL}", returnStatus: true) == 0)
+                            if (!qdrantOK && hasDocker) {
+                                sh 'docker restart fstm_qdrant || true'
+                                sleep 10
+                                qdrantOK = (sh(script: "curl -sf --max-time 5 ${env.QDRANT_URL}", returnStatus: true) == 0)
+                            }
+                            if (!qdrantOK) error "Qdrant injoignable sur ${env.QDRANT_URL}"
+                            echo "Qdrant : OK"
                         }
-                        echo "${name} OK."
                     }
                 }
+
+                stage('n8n') {
+                    steps {
+                        script {
+                            def hasDocker = (sh(script: 'command -v docker >/dev/null 2>&1', returnStatus: true) == 0)
+                            def n8nOK = (sh(script: "curl -sf --max-time 5 ${env.N8N_URL}", returnStatus: true) == 0)
+                            if (!n8nOK && hasDocker) {
+                                sh 'docker restart fstm_n8n || true'
+                                sleep 10
+                                n8nOK = (sh(script: "curl -sf --max-time 5 ${env.N8N_URL}", returnStatus: true) == 0)
+                            }
+                            if (!n8nOK) error "n8n injoignable sur ${env.N8N_URL}"
+                            echo "n8n : OK"
+                        }
+                    }
+                }
+
             }
         }
 
