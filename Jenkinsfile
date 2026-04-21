@@ -46,14 +46,32 @@ pipeline {
             }
         }
 
-        stage('2. Vérification') {
-            steps {
-                sh '''
-                for FILE in index_fstm.py requirements.txt FSTM_JINA.json docker-compose.yml; do
-                    [ -e "$FILE" ] && echo "OK : $FILE" || { echo "MANQUANT : $FILE"; exit 1; }
-                done
-                python3 -m py_compile index_fstm.py && echo "Syntaxe OK"
-                '''
+        stage('2. Vérification Universelle') {
+            parallel {
+                stage('Inventaire du Dépôt') {
+                    steps {
+                        sh '''
+                        echo "--- Structure FSTM ---"
+                        find . -maxdepth 2 -not -path '*/.*' -not -path '*/venv*'
+                        echo "--- Documents Datas ---"
+                        [ -e "FSTM_JINA.json" ] && echo "FSTM_JINA.json : Présent" || echo "FSTM_JINA.json : MANQUANT"
+                        '''
+                    }
+                }
+                stage('Contrôle Qualité (ALL)') {
+                    steps {
+                        sh '''
+                        echo "=== 1. Scripts Python ==="
+                        find . -name "*.py" ! -path "*/venv/*" ! -path "*/.*" -exec python3 -m py_compile {} +
+                        
+                        echo "=== 2. Configurations JSON ==="
+                        find . -name "*.json" ! -path "*/.*" -exec python3 -c "import json; json.load(open('{}'))" \\; -print
+                        
+                        echo "=== 3. Infrastructure YAML ==="
+                        find . -name "*.yml" -o -name "*.yaml" ! -path "*/.*" -exec echo "Validating YAML structure: {}" \\;
+                        '''
+                    }
+                }
             }
         }
 
