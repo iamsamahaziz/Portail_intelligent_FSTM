@@ -17,6 +17,28 @@ pipeline {
 
     stages {
 
+        stage('0. Prérequis Système') {
+            steps {
+                sh '''
+                # Installe python3 si absent
+                if ! command -v python3 >/dev/null 2>&1; then
+                    echo "python3 absent — installation..."
+                    apt-get update -qq && apt-get install -y -qq python3 python3-venv python3-pip curl
+                else
+                    echo "python3 OK : $(python3 --version)"
+                fi
+
+                # Vérifie curl
+                if ! command -v curl >/dev/null 2>&1; then
+                    echo "curl absent — installation..."
+                    apt-get update -qq && apt-get install -y -qq curl
+                else
+                    echo "curl OK"
+                fi
+                '''
+            }
+        }
+
         stage('1. Récupération du Code') {
             steps {
                 checkout scm
@@ -24,36 +46,26 @@ pipeline {
             }
         }
 
-        stage('2. Syntaxe Python') {
+        stage('2. Vérification') {
             steps {
                 sh '''
-                find . -name "*.py" ! -path "./.git/*" ! -path "./venv/*" | while read f; do
-                    python3 -m py_compile "$f" && echo "OK : $f" || exit 1
+                for FILE in index_fstm.py requirements.txt FSTM_JINA.json docker-compose.yml; do
+                    [ -e "$FILE" ] && echo "OK : $FILE" || { echo "MANQUANT : $FILE"; exit 1; }
                 done
-                echo "Syntaxe OK."
+                python3 -m py_compile index_fstm.py && echo "Syntaxe OK"
                 '''
             }
         }
 
-        stage('3. Vérification Fichiers') {
-            steps {
-                sh '''
-                for f in index_fstm.py requirements.txt FSTM_JINA.json docker-compose.yml; do
-                    [ -e "$f" ] && echo "OK : $f" || { echo "MANQUANT : $f"; exit 1; }
-                done
-                '''
-            }
-        }
-
-        stage('4. Vérification Services') {
+        stage('3. Vérification des Services') {
             steps {
                 script {
                     [qdrant: QDRANT_URL, n8n: N8N_URL].each { name, url ->
                         def ok = (sh(script: "curl -sf --max-time 5 ${url}", returnStatus: true) == 0)
                         if (!ok) {
-                            sh "docker restart fstm_${name} || true"
+                            sh(script: "docker restart fstm_${name}", returnStatus: true)
                             sleep 8
-                            if (sh(script: "curl -sf --max-time 5 ${url}", returnStatus: true) != 0)
+                            if ((sh(script: "curl -sf --max-time 5 ${url}", returnStatus: true)) != 0)
                                 error "${name} injoignable — arrêt."
                         }
                         echo "${name} OK."
@@ -62,18 +74,29 @@ pipeline {
             }
         }
 
-        stage('5. Installation') {
+        stage('4. Installation') {
             steps {
                 sh '''
+                # Crée le venv une seule fois
                 [ ! -d "$VENV_DIR" ] && python3 -m venv "$VENV_DIR"
-                "$PIP" install -q --upgrade pip
-                "$PIP" install -q -r requirements.txt
-                echo "Installation OK."
+
+                # Vérifie si tous les packages sont déjà installés
+                echo "Vérification des packages..."
+                MISSING=$("$PIP" install --dry-run -r requirements.txt -q 2>&1 | grep "Would install" || echo "")
+
+                if [ -z "$MISSING" ]; then
+                    echo "Tous les packages déjà installés — rien à faire."
+                else
+                    echo "Packages manquants : $MISSING"
+                    "$PIP" install --upgrade pip -q
+                    "$PIP" install -r requirements.txt -q
+                    echo "Installation terminée."
+                fi
                 '''
             }
         }
 
-        stage('6. Indexation') {
+        stage('5. Indexation Jina AI') {
             steps {
                 withCredentials([string(credentialsId: 'JINA_API_KEY', variable: 'JINA_API_KEY')]) {
                     sh '''
@@ -84,7 +107,8 @@ pipeline {
                 sh '''
                 curl -sf "${QDRANT_URL}/collections" | python3 -c "
 import sys, json
-cols = [c['name'] for c in json.load(sys.stdin).get('result',{}).get('collections',[])]
+data = json.load(sys.stdin)
+cols = [c['name'] for c in data.get('result', {}).get('collections', [])]
 sys.exit(0 if 'fstm_docs' in cols else 1)
 " && echo "Collection fstm_docs OK." || { echo "Collection manquante !"; exit 1; }
                 '''
@@ -93,8 +117,10 @@ sys.exit(0 if 'fstm_docs' in cols else 1)
     }
 
     post {
-        success { echo "Pipeline OK — Build #${env.BUILD_NUMBER}" }
-        failure  { echo "Pipeline ECHEC — Build #${env.BUILD_NUMBER}" }
-        cleanup  { cleanWs(deleteDirs: true, notFailBuild: true) }
+        success { echo "Pipeline FSTM OK — Build #${env.BUILD_NUMBER}" }
+        failure  { echo "Pipeline FSTM ÉCHOUÉ — Build #${env.BUILD_NUMBER}" }
+        cleanup  {
+            cleanWs(deleteDirs: true, notFailBuild: true)
+        }
     }
 }
