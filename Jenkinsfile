@@ -69,6 +69,9 @@ pipeline {
                         
                         echo "=== 3. Infrastructure YAML ==="
                         find . -name "*.yml" -o -name "*.yaml" ! -path "*/.*" -exec echo "Validating YAML structure: {}" \\;
+
+                        echo "=== 4. Audit HTML (Interface) ==="
+                        find . -name "*.html" ! -path "*/venv/*" ! -path "*/.*" -exec grep -qE "<html>|<head>|<body>" {} \\; -print || echo "Attention : certains fichiers HTML semblent mal formés."
                         '''
                     }
                 }
