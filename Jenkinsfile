@@ -24,26 +24,36 @@ pipeline {
             }
         }
 
-        stage('2. Vérification') {
+        stage('2. Syntaxe Python') {
             steps {
                 sh '''
-                for FILE in index_fstm.py requirements.txt FSTM_JINA.json docker-compose.yml; do
-                    [ -e "$FILE" ] && echo "OK : $FILE" || { echo "MANQUANT : $FILE"; exit 1; }
+                find . -name "*.py" ! -path "./.git/*" ! -path "./venv/*" | while read f; do
+                    python3 -m py_compile "$f" && echo "OK : $f" || exit 1
                 done
-                python3 -m py_compile index_fstm.py && echo "Syntaxe OK"
+                echo "Syntaxe OK."
                 '''
             }
         }
 
-        stage('3. Vérification des Services') {
+        stage('3. Vérification Fichiers') {
+            steps {
+                sh '''
+                for f in index_fstm.py requirements.txt FSTM_JINA.json docker-compose.yml; do
+                    [ -e "$f" ] && echo "OK : $f" || { echo "MANQUANT : $f"; exit 1; }
+                done
+                '''
+            }
+        }
+
+        stage('4. Vérification Services') {
             steps {
                 script {
                     [qdrant: QDRANT_URL, n8n: N8N_URL].each { name, url ->
                         def ok = (sh(script: "curl -sf --max-time 5 ${url}", returnStatus: true) == 0)
                         if (!ok) {
-                            sh(script: "docker restart fstm_${name}", returnStatus: true)
+                            sh "docker restart fstm_${name} || true"
                             sleep 8
-                            if ((sh(script: "curl -sf --max-time 5 ${url}", returnStatus: true)) != 0)
+                            if (sh(script: "curl -sf --max-time 5 ${url}", returnStatus: true) != 0)
                                 error "${name} injoignable — arrêt."
                         }
                         echo "${name} OK."
@@ -52,29 +62,18 @@ pipeline {
             }
         }
 
-        stage('4. Installation') {
+        stage('5. Installation') {
             steps {
                 sh '''
-                # Crée le venv une seule fois
                 [ ! -d "$VENV_DIR" ] && python3 -m venv "$VENV_DIR"
-
-                # Vérifie si tous les packages sont déjà installés
-                echo "Vérification des packages..."
-                MISSING=$("$PIP" install --dry-run -r requirements.txt -q 2>&1 | grep "Would install" || echo "")
-
-                if [ "$MISSING" -z ]; then
-                    echo "Tous les packages déjà installés — rien à faire."
-                else
-                    echo "Packages manquants : $MISSING"
-                    "$PIP" install --upgrade pip -q
-                    "$PIP" install -r requirements.txt -q
-                    echo "Installation terminée."
-                fi
+                "$PIP" install -q --upgrade pip
+                "$PIP" install -q -r requirements.txt
+                echo "Installation OK."
                 '''
             }
         }
 
-        stage('5. Indexation Jina AI') {
+        stage('6. Indexation') {
             steps {
                 withCredentials([string(credentialsId: 'JINA_API_KEY', variable: 'JINA_API_KEY')]) {
                     sh '''
@@ -85,8 +84,7 @@ pipeline {
                 sh '''
                 curl -sf "${QDRANT_URL}/collections" | python3 -c "
 import sys, json
-data = json.load(sys.stdin)
-cols = [c['name'] for c in data.get('result', {}).get('collections', [])]
+cols = [c['name'] for c in json.load(sys.stdin).get('result',{}).get('collections',[])]
 sys.exit(0 if 'fstm_docs' in cols else 1)
 " && echo "Collection fstm_docs OK." || { echo "Collection manquante !"; exit 1; }
                 '''
@@ -95,10 +93,8 @@ sys.exit(0 if 'fstm_docs' in cols else 1)
     }
 
     post {
-        success { echo "Pipeline FSTM OK — Build #${env.BUILD_NUMBER}" }
-        failure  { echo "Pipeline FSTM ÉCHOUÉ — Build #${env.BUILD_NUMBER}" }
-        cleanup  {
-            cleanWs(deleteDirs: true, notFailBuild: true)
-        }
+        success { echo "Pipeline OK — Build #${env.BUILD_NUMBER}" }
+        failure  { echo "Pipeline ECHEC — Build #${env.BUILD_NUMBER}" }
+        cleanup  { cleanWs(deleteDirs: true, notFailBuild: true) }
     }
 }
