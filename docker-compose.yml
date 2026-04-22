@@ -56,18 +56,21 @@ services:
       context: .
       dockerfile: Dockerfile.jenkins
     container_name: fstm_jenkins
+    user: root
+    privileged: true
     dns:
       - 8.8.8.8
       - 8.8.4.4
     ports:
-      - "8080:8080"
+      - "8081:8080"
       - "50000:50000"
     volumes:
-      - jenkins_home:/var/jenkins_home
-      - /var/run/docker.sock:/var/run/docker.sock
+      - jenkins_data:/var/jenkins_home
+      - //./pipe/docker_engine:/var/run/docker.sock
     networks:
       - fstm_network
     restart: unless-stopped
+
 
 networks:
   fstm_network:
@@ -76,4 +79,6 @@ networks:
 volumes:
   qdrant_storage:
   n8n_data:
-  jenkins_home:
+  jenkins_data:
+    external: true
+

@@ -22,4 +22,4 @@ RUN apt-get update && apt-get install -y docker-ce-cli
 # Création du groupe docker et ajout de l'utilisateur jenkins
 RUN groupadd -f docker && usermod -aG docker jenkins
 
-USER jenkins
+# Fin du fichier (on reste en USER root pour garantir l'accès Docker socket)
