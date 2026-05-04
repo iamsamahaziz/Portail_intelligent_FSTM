@@ -120,7 +120,7 @@ print('OK:', '$f')
         stage('3. Validation Fail-Fast (Jina)') {
             steps {
                 script {
-                    if (!params.JINA_API_KEY_INPUT?.trim()) {
+                    if (!params.JINA_API_KEY_INPUT?.toString()?.trim()) {
                         error "❌ ERREUR FAIL-FAST : Aucune clé JINA_API_KEY saisie ! Relancez avec 'Build with Parameters'."
                     }
                 }
