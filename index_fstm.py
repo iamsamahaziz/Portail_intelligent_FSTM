@@ -179,8 +179,8 @@ def main():
         else:
             print("❌ Échec définitif du lot.")
 
-        # Pause de précaution (Éviter 429)
-        time.sleep(5.0)
+        # Pause de précaution (Éviter 429) mais réduite pour la vitesse
+        time.sleep(1.0)
 
     print(f"\n🎉 INDEXATION TERMINÉE ! {len(total_chunks)} segments indexés.")
 
