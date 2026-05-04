@@ -124,19 +124,19 @@ print('OK:', '$f')
                         error "❌ ERREUR FAIL-FAST : Aucune clé JINA_API_KEY saisie ! Relancez avec 'Build with Parameters'."
                     }
                 }
-                sh '''
+                sh """
                 echo "Vérification Fail-Fast de l'API Jina AI..."
-                STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X POST https://api.jina.ai/v1/embeddings \
-                     -H "Authorization: Bearer ${params.JINA_API_KEY_INPUT}" \
-                     -H "Content-Type: application/json" \
+                STATUS=\$(curl -s -o /dev/null -w "%{http_code}" -X POST https://api.jina.ai/v1/embeddings \\
+                     -H "Authorization: Bearer ${params.JINA_API_KEY_INPUT}" \\
+                     -H "Content-Type: application/json" \\
                      -d '{"model": "jina-embeddings-v3", "input": ["test"]}')
-                if [ "$STATUS" = "401" ] || [ "$STATUS" = "403" ]; then
-                    echo "❌ ERREUR FAIL-FAST : Clé JINA_API_KEY invalide ou expirée (Code: $STATUS) !"
+                if [ "\$STATUS" = "401" ] || [ "\$STATUS" = "403" ]; then
+                    echo "❌ ERREUR FAIL-FAST : Clé JINA_API_KEY invalide ou expirée (Code: \$STATUS) !"
                     exit 1
                 else
-                    echo "✅ API Jina joignable (Code $STATUS)."
+                    echo "✅ API Jina joignable (Code \$STATUS)."
                 fi
-                '''
+                """
             }
         }
 
@@ -218,10 +218,11 @@ print('OK:', '$f')
 
         stage('6. Indexation Jina AI') {
             steps {
-                sh '''
-                export JINA_API_KEY="${params.JINA_API_KEY_INPUT}"
-                "$PYTHON" index_fstm.py
-                '''
+                sh """
+                export JINA_API_KEY=${params.JINA_API_KEY_INPUT}
+                export QDRANT_URL=${env.QDRANT_URL}
+                "\$PYTHON" index_fstm.py
+                """
                 sh '''
                 curl -sf "${QDRANT_URL}/collections" | python3 -c "
 import sys, json
