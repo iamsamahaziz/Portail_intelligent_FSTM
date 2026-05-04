@@ -144,8 +144,8 @@ def main():
 
     print(f"📝 {len(total_chunks)} segments totaux identifiés.")
 
-    # 2. Indexation par lots (Batching par 20)
-    batch_size = 20
+    # 2. Indexation par lots (Batching par 100 pour la vitesse)
+    batch_size = 100
     for i in range(0, len(total_chunks), batch_size):
         batch = total_chunks[i : i + batch_size]
         texts = [item["content"][:2500] for item in batch]
@@ -179,8 +179,8 @@ def main():
         else:
             print("❌ Échec définitif du lot.")
 
-        # Pause de précaution (Éviter 429)
-        time.sleep(5.0)
+        # Pause de précaution (Éviter 429) mais réduite pour la vitesse
+        time.sleep(1.0)
 
     print(f"\n🎉 INDEXATION TERMINÉE ! {len(total_chunks)} segments indexés.")
 
