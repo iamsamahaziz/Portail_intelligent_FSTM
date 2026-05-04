@@ -1,0 +1,43 @@
+[TITLE] FSTM - Recrutement et Concours
+[TYPE] recrutement
+[SOURCE] fstm.ac.ma/recrutement/concours.php - scraped 2026-04-01
+[CONTENT]
+
+=== RECRUTEMENT À LA FSTM ===
+La FSTM recrute régulièrement des enseignants-chercheurs et des cadres administratifs/techniques.
+Plateforme de candidature : https://econcours.univh2c.ma
+
+=== CORPS DES ENSEIGNANTS-CHERCHEURS ===
+Postes récents ouverts (2025-2026) :
+- Maître de conférence en Génie Electrique (session 24-11-2025)
+- Maître de conférence en Cyber sécurité (session 10-11-2025)
+- Maître de conférence en Génie Logiciel (session 18-10-2025)
+- Maître de conférence en Chimie Physique des Matériaux et Electrochimie (session 18-10-2025)
+- Maître de conférence en Modélisation Numérique en Mécanique (session 18-10-2025)
+- Maître de conférence en Eau et Environnement (session 18-10-2025)
+- Maître de conférence en Intelligence Artificielle et Sciences de Données (session 05-07-2025)
+- Maître de conférence en Traitement Intelligent des Données Multimodales (session 05-07-2025)
+
+=== CADRES ADMINISTRATIFS ET TECHNIQUES ===
+Postes récents (2025-2026) :
+- Chef du service financier (appel à candidature ouvert)
+- Administrateur 3ème grade en Sciences Économiques et Gestion (session 26/10/2025)
+- Technicien 3ème grade en développement informatique (session 05/10/2025)
+- Technicien 3ème grade en infrastructure digitale (session 05/10/2025)
+
+=== PROCÉDURE DE RECRUTEMENT ===
+Enseignants-chercheurs :
+1. Publication de l'avis de concours
+2. Dépôt des candidatures en ligne
+3. Présélection des dossiers
+4. Entretien devant jury
+5. Publication des résultats
+
+Cadres administratifs/techniques :
+1. Publication de l'avis de concours
+2. Candidature (formulaire en arabe ou français)
+3. Concours écrit
+4. Entretien
+5. Publication des résultats
+
+Résultats : https://www.fstm.ac.ma/recrutement/resultats.php

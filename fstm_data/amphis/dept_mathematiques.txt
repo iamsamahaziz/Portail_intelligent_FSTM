@@ -1,0 +1,104 @@
+[TITLE] Département Mathématiques
+[TYPE] amphis
+[CONTENT]
+Présentation
+Biologie
+Chimie
+Génie des Procédés et Environnement
+Génie Électrique
+Informatique
+Mathématiques
+Physique
+Enseignements Transversaux
+Département de Mathématiques
+Axes stratégiques :
+- Valoriser les compétences acquises par l'étudiant durant le cursus licence en développant le lien avec le milieu socio-économique.
+- Assurer la cohérence des parcours de formation avec les recherches développées dans les deux laboratoires qui lui sont associés.
+- Favoriser toute action visant à améliorer l'insertion professionnelle des étudiants.
+Liste des enseignants :
+Nom
+Prénom
+Grade
+ABASSI
+Asmaa
+Maitre de conférence
+ABCHIR
+Chakib
+Professeur de l'Enseignement Supérieur
+ABOUIR
+Jilali
+Professeur de l'Enseignement Supérieur
+ALLALI
+Karam
+Professeur de l'Enseignement Supérieur
+AMINE
+Saida
+Professeur de l'Enseignement Supérieur
+ANZARMOU
+Youssef
+Maitre de conférence
+AOUNIL
+Ismail
+Professeur de l'Enseignement Supérieur
+AZOUAGH
+Nabil
+Maitre de conférence
+BELMAATI
+Aziza
+Maitre de conférence habilité
+BEN-LOGHFYRY
+Anouar
+Maitre de conférence
+FAHSI
+Abdelhak
+Professeur de l'Enseignement Supérieur
+FAHSSI
+Noureddine
+Maitre de conférence
+GOUASNOUANE
+Omar
+Maitre de conférence habilité
+HANINE
+Elmostafa
+Professeur de l'Enseignement Supérieur
+KABIL
+Mustapha
+Professeur de l'Enseignement Supérieur
+KARIM
+Driss
+Professeur de l'Enseignement Supérieur
+KHADIR
+Omar
+Professeur de l'Enseignement Supérieur
+MALIKI
+Mohamed
+Professeur de l'Enseignement Supérieur
+MORCHADI
+Radouan
+Professeur de l'Enseignement Supérieur
+MOUSSAID
+Noureddine
+Professeur de l'Enseignement Supérieur
+MOUSSAID
+Ahmed
+Maitre de conférence
+MRABET
+Faiza
+Maitre de conférence habilité
+NOURELABIDINE
+Driss
+Professeur de l'Enseignement Supérieur
+SAJID
+Said
+Professeur de l'Enseignement Supérieur
+SBAI
+Hanae
+Maitre de conférence habilité
+SETTAR
+Abdeljalil
+Maitre de conférence
+TAIK
+Ahmed
+Professeur de l'Enseignement Supérieur
+Chef de département : ALLALI Karam
+Faculté des Sciences et Techniques de Mohammedia

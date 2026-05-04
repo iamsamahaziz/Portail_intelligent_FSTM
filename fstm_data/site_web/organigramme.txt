@@ -1,0 +1,18 @@
+[TITLE] Organigramme Fonctionnel
+[TYPE] site_web
+[CONTENT]
+L'équipe dirigeante de la Faculté des Sciences et Techniques de Mohammedia (FSTM) s'organise selon l'organigramme suivant :
+
+**Doyenne de la FSTM :**
+- Professeure Latifa MOUHIR
+
+**Vice-Doyens :**
+- Professeur Elhoussine ATMANI : Vice-Doyen chargé des Affaires Pédagogiques.
+- Professeur Abdennaceur BAGHDAD : Vice-Doyen chargé de la Recherche Scientifique et de la Coopération.
+- Professeur Abdelaziz MADINZI : Chargé de mission de Vice-Doyen Chargé de la Qualité et du Développement.
+
+**Secrétariat Général :**
+Le Secrétaire Général de la Faculté gère les affaires administratives, financières et gère le personnel technique et administratif de l’établissement.
+
+**Chefs de Départements :**
+La FSTM compte 9 départements académiques (Biologie, Chimie, Physique, Mathématiques, Informatique, Génie Électrique, Génie des Procédés et Environnement, Techniques d’Expression et de Communication). Chaque département est dirigé par un Chef de Département élu parmi les enseignants-chercheurs.

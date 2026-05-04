@@ -1,0 +1,22 @@
+[TITLE] Plan Indicatif de la FSTM
+[TYPE] amphis
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/affaires_pedagogiques/files/2023-2024/emplois/Plan_FSTM.pdf
+--- Contenu du document ---
+
+Ce document est le plan maquette du campus de la Faculté des Sciences et Techniques de Mohammedia (FSTM). 
+Voici les différents bâtiments et repères identifiés textuellement sur le plan :
+
+- **Bibli** : Bâtiment de la Bibliothèque (situé en haut à gauche).
+- **SCO** et **BUV** : Bâtiments situés tout à gauche (possiblement Scolarité et Buvette).
+- **Admini** : Bâtiment de l'Administration Centrale (situé en haut au milieu).
+- **Bat C** : Bâtiment C (grande aile gauche).
+- **Bat D** : Bâtiment D (aile centrale gauche).
+- **Bat E** : Bâtiment E (aile centrale droite).
+- **Bat F** : Bâtiment F (grande aile droite).
+- **Bat X** : Bâtiment X (aile horizontale inférieure qui relie les bâtiments C et D).
+- **Bat Y** : Bâtiment Y (aile horizontale inférieure qui relie les bâtiments E et F).
+- **Recherch** : Bâtiment destiné à la recherche scientifique (situé en bas à droite).
+- **Projet Extension** : Zone à droite marquant une future extension de la faculté.
+
+L'architecture du campus s'articule autour d'espaces verts centraux entre les bâtiments (C-D et E-F), et les amphithéâtres (qui ressemblent à des formes octogonales avec des toits rouges) sont directement rattachés aux ailes principales.

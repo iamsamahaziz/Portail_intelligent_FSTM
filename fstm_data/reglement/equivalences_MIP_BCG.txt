@@ -1,0 +1,136 @@
+[TITLE] Tableau d'Équivalence Modules MIP et BCG
+[TYPE] reglement
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/affaires_pedagogiques/files/2025-2026/SA/TABLEAUEQUIVALENCEMIPBCG1.pdf
+--- Contenu du document ---
+
+TABLEAU D EQUIVALENCE DES MODULES MIP ET BCG
+Equivalence dans le Nouveau
+PARCOURS Ancien Système Automne
+Système Printemps
+M111 : Analyse 1 Analyse 1 M111, M211, M311
+M112 : Analyse 2 Analyse 2 M121, M221, M321
+P111 : Mécanique du point et Optique Mécanique du point et optique P111, P211 P321
+MIP S1 géométrique
+P112 : Thermodynamique Thermodynamique P112, P212 P322
+C111 : Structure de la matière Structure de la matière C111, C211
+L111 : TEC1 Langues et TC1 L111, L211
+M123 : Algébre 1 Algèbre 1 M112, M212, M312
+M124 : Algébre 2 Algèbre 2 M122, M222, M322
+P123 : Electricité Electricité E312 P121, P221
+MIP S2
+I121 : Algorithmique et Programmation 1 Algorithmique et Programmation 1 I121, I221, I321
+C122 : Réactivité Chimique Réactivité Chimique C333 C421
+L122 : TEC2 Langues et TC2 L121, L221
+M135 : Analyse 3 Analyse 3 M141, M242
+M136 : Analyse 4 Analyse 4 M142
+P134 : Electromagnétisme Electromagnétisme P131
+MIP S3
+I132 : Algorithmique et Programmation 2 Algorithmique et Programmation 2 I131, I231
+I133 : Structure de Données Structure de Données I232
+L133 : TEC3 Langues et TC3 L131, L231
+M147 : Statistique et Probabilités Statistique et Probabilités M131, M231, M331
+M148 : Analyse Numérique Analyse Numérique M132 M241
+P145 : Mécanique du Solide Mécanique du Solide P132
+MIP S4 P146 : Mécanique Quantique et Relativité Tutorat Tutorat
+E141 : Circuits Electriques et Electroniques Circuits Electriques et Electroniques E311 E121, E221
+I144 : Bases de Données Systèmes d'Information et Bases de I233 I421
+Données
+
+[Tableau page 1]
+TABLEAU D EQUIVALENCE DES MODULES MIP ET BCG |  |  |  | 
+PARCOURS | Ancien Système | Equivalence dans le Nouveau
+Système | Automne | Printemps
+ | M111 : Analyse 1 | Analyse 1 | M111, M211, M311 | 
+MIP S1 | M112 : Analyse 2 | Analyse 2 |  | M121, M221, M321
+ | P111 : Mécanique du point et Optique | Mécanique du point et optique
+géométrique | P111, P211 | P321
+ | P112 : Thermodynamique | Thermodynamique | P112, P212 | P322
+ | C111 : Structure de la matière | Structure de la matière | C111, C211 | 
+ | L111 : TEC1 | Langues et TC1 | L111, L211 | 
+MIP S2 | M123 : Algébre 1 | Algèbre 1 | M112, M212, M312 | 
+ | M124 : Algébre 2 | Algèbre 2 |  | M122, M222, M322
+ | P123 : Electricité | Electricité | E312 | P121, P221
+ | I121 : Algorithmique et Programmation 1 | Algorithmique et Programmation 1 |  | I121, I221, I321
+ | C122 : Réactivité Chimique | Réactivité Chimique | C333 | C421
+ | L122 : TEC2 | Langues et TC2 | L121, L221 | 
+MIP S3 | M135 : Analyse 3 | Analyse 3 |  | M141, M242
+ | M136 : Analyse 4 | Analyse 4 |  | M142
+ | P134 : Electromagnétisme | Electromagnétisme | P131 | 
+ | I132 : Algorithmique et Programmation 2 | Algorithmique et Programmation 2 | I131, I231 | 
+ | I133 : Structure de Données | Structure de Données | I232 | 
+ | L133 : TEC3 | Langues et TC3 | L131, L231 | 
+ | M147 : Statistique et Probabilités | Statistique et Probabilités | M131, M231, M331 | 
+ | M148 : Analyse Numérique | Analyse Numérique | M132 | M241
+ | P145 : Mécanique du Solide | Mécanique du Solide | P132 | 
+MIP S4 | P146 : Mécanique Quantique et Relativité | Tutorat |  | Tutorat
+ | E141 : Circuits Electriques et Electroniques | Circuits Electriques et Electroniques | E311 | E121, E221
+ | I144 : Bases de Données | Systèmes d'Information et Bases de
+Données | I233 | I421
+ |  |  |  | 
+
+Equivalence dans le Nouveau
+PARCOURS Ancien Système Automne Printemps
+Système
+G211 : Cosmologie et Gédynamique interne Cosmologie et Géodynamique G411
+Interne
+C211 : Structure de la matière Structure de la matière C311, C411
+BCG S1 P211 : Optique et Radioactivité Optique et Radioactivité P411
+E211 : Electricité Electricité E312
+M211 : Algèbre Algèbre 1 M312
+L211 : TEC 1 Langues et TC1 L311, L411
+G222 : Gédynamique externe Géodynamique Externe G421
+B221 : Biologie Cellulaire Biologie Cellulaire B411
+C222 : Réactivité Chimique Réactivité Chimique C331 C421
+BCG S2
+P222 : Thermo et Mécanique des Fluides Thermo et Mécanique des Fluides P421
+M222 : Analyse Analyse 1 M311
+L222 : TEC 2 Langues et TC2 L321, L421
+G233 : Stratigraphie et Paléo-environnement Tutorat Tutorat
+B232 : Biologie Animale Biologie Animale et Biologie B421
+B233 : Biologie Végétale Végétale
+BCG S3
+I231 : Bases de Données Bases de Données I421
+M233 : Statistique et Probabilités Statistiques et Probabilités M331, M431
+L233 : TEC 3 Langues et TC3 L331, L431
+BCG S4 B244 : Biochimie Structurale Biochimie structurale B331, B431
+B245 : Microbiologie Microbiologie B432
+B246 : Biochimie Métabolique Biochimie Métabolique et B443
+Enzymologie
+C243 : Chimie Organique 1 Chimie Organique 1 C331
+C244 : Chimie Minérale 1 Chimie Minérale 1 C332
+C245 : Chimie Organique 2 et Minérale 2 Chimie Organique 2 C341
+Chimie Minérale 2 C342
+
+[Tableau page 2]
+ |  |  |  | 
+PARCOURS | Ancien Système | Equivalence dans le Nouveau
+Système | Automne | Printemps
+BCG S1 | G211 : Cosmologie et Gédynamique interne | Cosmologie et Géodynamique
+Interne | G411 | 
+ | C211 : Structure de la matière | Structure de la matière | C311, C411 | 
+ | P211 : Optique et Radioactivité | Optique et Radioactivité | P411 | 
+ | E211 : Electricité | Electricité | E312 | 
+ | M211 : Algèbre | Algèbre 1 | M312 | 
+ | L211 : TEC 1 | Langues et TC1 | L311, L411 | 
+BCG S2 | G222 : Gédynamique externe | Géodynamique Externe |  | G421
+ | B221 : Biologie Cellulaire | Biologie Cellulaire | B411 | 
+ | C222 : Réactivité Chimique | Réactivité Chimique | C331 | C421
+ | P222 : Thermo et Mécanique des Fluides | Thermo et Mécanique des Fluides |  | P421
+ | M222 : Analyse | Analyse 1 | M311 | 
+ | L222 : TEC 2 | Langues et TC2 | L321, L421 | 
+BCG S3 | G233 : Stratigraphie et Paléo-environnement | Tutorat |  | Tutorat
+ | B232 : Biologie Animale | Biologie Animale et Biologie
+Végétale |  | B421
+ | B233 : Biologie Végétale |  |  | 
+ | I231 : Bases de Données | Bases de Données |  | I421
+ | M233 : Statistique et Probabilités | Statistiques et Probabilités | M331, M431 | 
+ | L233 : TEC 3 | Langues et TC3 | L331, L431 | 
+BCG S4 | B244 : Biochimie Structurale | Biochimie structurale | B331, B431 | 
+ | B245 : Microbiologie | Microbiologie | B432 | 
+ | B246 : Biochimie Métabolique | Biochimie Métabolique et
+Enzymologie |  | B443
+ | C243 : Chimie Organique 1 | Chimie Organique 1 | C331 | 
+ | C244 : Chimie Minérale 1 | Chimie Minérale 1 | C332 | 
+ | C245 : Chimie Organique 2 et Minérale 2 | Chimie Organique 2 |  | C341
+ |  | Chimie Minérale 2 |  | C342

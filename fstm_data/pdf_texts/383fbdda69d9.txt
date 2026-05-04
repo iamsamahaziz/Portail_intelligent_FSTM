@@ -1,0 +1,38 @@
+LICENCE EN SCIENCES ET
+TECHNIQUES
+Contact 
+- Maîtriser les fondements de l'informatique ;
+- Maîtriser les fondements de l’intelligence artificielle
+numérique et symbolique ;
+- Étudier les dernières technologies informatiques en
+génie logiciel ;
+- Développer les applications web avec des frameworks ;
+- Développer les applications full stack en intégrant l’IA et
+machine learning.
+PR A. EL BOUZIRI -
+ADIL.ELBOUZIRI@FSTM.AC.MA
+OBJECTIFS ET COMPÉTENCES
+INGÉNIERIE LOGICIELLE ET
+SYSTÈMES D’INFORMATION
+DÉBOUCHÉS DE LA FORMATION :
+- Architectes des systèmes d'information ;
+- Développeurs d’applications web ;
+- Développeurs full-stack ;
+- Chefs de projets informatiques ;
+- Candidats aux Masters et filières d'ingénieur en
+informatique et IA.
+MODULES DE S5 ET S6 :
+✓ Structures de données avancées ;
+✓ Programmation orientée objet ;
+✓ Modélisation orientée objet avec UML 2 /
+Technologie JEE ;
+✓ Développement web 2 ;
+✓ Introduction à l’intelligence artificielle ;
+✓ Programmation JavaScript avancée et
+frameworks ;
+✓ Anglais technique ;
+✓ PL/SQL & Administration de BD Oracle ;
+✓ IA & Machine Learning ;
+✓ Compilation / Systèmes d’exploitation ;
+✓ Atelier de Virtualisation, Solutions Full Stack
+& IoT.

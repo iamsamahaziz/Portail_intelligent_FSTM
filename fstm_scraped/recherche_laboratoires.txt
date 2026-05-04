@@ -1,0 +1,411 @@
+[TITLE] Faculté des Sciences et Techniques de Mohammedia
+[URL] https://www.fstm.ac.ma/recherche/laboratoires.php
+[CONTENT]
+Faculté des Sciences et Techniques de Mohammedia
+Accueil
+Recherche
+Laboratoires
+Présentation
+Laboratoires
+Événements Scientifiques
+Centre d'Études Doctorales
+Coopération
+Appel à Projets
+Structures de recherche
+Laboratoires FSTM
+Intitulé
+Directeur
+Mail
+Mathématiques et Sciences Physiques Appliquées aux Sciences de l'Ingénieur (LMSPASI)
+ATMANI El houssine
+atmani2010@yahoo.fr
++
+Intitulé du Laboratoire
+Chefs d’Equipe
+Axes de recherche
+Nanostructures et Matériaux Avancés, Mécanique et Thermofluide
+(NMAMT)
+Physique de la Matière et Nanostructures, Mécanique et Energétique
+CHAFFOUI Hassan
+hassan.chaffoui@fstm.ac.ma
+Physique de la matière et Physique théorique, Propriétés photoniques, magnétiques et thermoélectriques des nanostructures. Diffusion des rayonnements par des nanoparticules, Modélisation, synthèse et caractérisation de matériaux innovants
+Génie Mécanique, Mécanique des structures, RDM, Optimisation & calcul numérique en Mécanique
+Energétique, Mécanique des fluides, Interaction fluide-structure, Aérodynamique, Environnement, systèmes électromécaniques, Lean manufacturing
+Thermofluide et Simulation Numérique
+SAADEDDINE Said
+said.saadeddine@fstm.ac.ma
+Transferts de chaleur et Echangeurs thermiques
+Simulation thermique des serres agricoles
+Phénomènes de turbulence et de combustion
+Matériaux Avancés pour l’Energie, l’Optoélectronique et l’Optique non Linéaire
+El MANOUNI Ahmed
+ahmed.elmanouni@fstm.ac.ma
+Elaboration, caractérisation et modélisation des propriétés de nouveaux matériaux pour le photovoltaïque, l’optique non linéaire, l’optoélectronique et la thermoélectricité
+Matériaux Avancés pour la conversion et le stockage d’énergie, Efficacité Energétique et Energies renouvelables
+Modélisation et optimisation des propriétés de cellules solaires nouvelle génération
+Laboratoire Génie des procédés et environnement (LGPE)
+DIGUA Khalid
+khalid.digua@fstm.ac.ma
++
+Intitulé du Laboratoire
+Chefs d’Equipe
+Axes de recherche
+Laboratoire Génie des procédés et environnement (LGPE)
+Equipe N°1 : Analyses Chimiques et Biocapteurs (Responsable Prof. L. IDRISSI, Email :
+laila.idrissi@univh2c.ma
+;
+laila.idrissi@fstm.ac.ma
+).
+Equipe 2 N°2 : Génie des Procédés et Qualité Responsable Prof. A. DANI, Email :
+adil.dani@univh2c.ma
+;
+adil.dani@fstm.ac.ma
+)
+Equipe N°3 : Sciences des Matériaux et Méthodologie de la Recherche (Responsable Prof. B. Bejjani, Email :
+bouchra.bejjany@univh2c.ma
+;
+bouchra.bejjany@fstm.ma
+)
+Equipe N°4 : Eau, Environnement et Changement Climatique (Responsable Prof. S. SOUABI, Email :
+salah.souabi@univh2c.ma
+;
+salah.souabi@fstm.ma
+)
+Equipe N° 5 : Eau, Sol et Environnement (Responsable Prof. L. MOUHIR, Email :
+latifa.mouhair@univh2c.ma
+;
+latifa.mouhair@fstm.ac.ma
+)
+Equipe N°6 : Hydro-informatique, Géo-information et Géosciences (Responsable Prof. M.K. BENHACHMI, Email :
+KARIM.BENHACHMI@univh2c.ma
+;
+mohammedkarim.benhachmi@fstm.ac.ma
+)
+1. Développement de capteurs chimiques et biochimiques;
+2. Mise au point de nouvelles méthodes d’analyse chimique ;
+3. Pollution atmosphérique ;
+4. Simulation et optimisation des procédés;
+5. Contrôle de qualité ;
+6. Elaboration des biomatériaux à usage orthopédique et dentaire;
+étude de la réactivité des biomatériaux pour le traitement des maladies de l’os (cancer, ostéoporose) ;
+7. Traitement et valorisation des rejets liquides et solides ;
+8. Changement climatique : Vulnérabilité et adaptation, atténuation des émissions de gaz à effet de serre, Finance climat ;
+9. Valorisation des ressources naturelles
+10. Contamination des sols ;
+11. Climatologie ; Ressources en eau et Gestion des réseaux hydriques ; assainissement liquide et protection contre les inondations.
+12. Hydraulique Urbaine, Hydraulique Numérique et Hydro-informatique
+13. Systèmes Intelligents d'Aide à la Décision et Géomatique appliquées aux Systèmes Eau et Environnement.
+14. Géosciences appliquées et Géo-information
+Laboratoire des sciences de l’ingénieur & Biosciences (LSIB)
+El FADILI Abderrahim
+elfadili_abderrahim@yahoo.fr
++
+Intitulé du Laboratoire
+Chefs d’Equipe
+Axes de recherche
+Laboratoire des sciences de l’ingénieur & Biosciences (LSIB)
+Equipe 1 : Biosciences Exploration Fonctionnelle Intégrée et Moléculaire
+Responsable :
+Taoufiq FECHTALI
+Taoufiq.fechtali@univh2c.ma
+Membres d’équipe
+FECHTALI Taoufiq
+JIRARI Hicham
+AMMAR Abderrahim
+ZWINE Mohammed
+1- Neurosciences, et sciences de l’information
+2- Etude de la communication comme base de nos interactions sociales
+3- Exploration des mécanismes impliqués dans les troubles liés à la fonction biologique
+4-Biotechnologie et étude des relations et des interactions entre différentes parties du système biologique
+Equipe 2 : Génie électrique, énergétique, Génie civil & Physique médicale
+Responsable :
+Yassine SAYOUTI
+yassine.sayouti@univh2c.ma
+Membres d’équipe
+SAYOUTI Yassine
+BENCHEIKH Mohamed
+NAJIM Monssif
+TBATOU Taoufik
+Membres associés
+TIHANE Abdellah
+1. Sciences des matériaux et biomatériaux appliquées dans différents domaines, la physique médicale, l’instrumentation,
+2. Les phénomènes des transferts, les systèmes énergétiques, bâtiment et génie civile.
+3. Les systèmes de production, de transport et d'utilisation de l'énergie électrique, les énergies renouvelables,
+Equipe 3 : Automatique, théories de l’information et de la communication & microsystèmes
+Responsable :
+Mohammed NAHID
+mohammed.nahid@univh2c.ma
+Membres d’équipe
+NAHID Mohammed
+BOUYGHF Hamid
+EL FADILI Abderrahim
+EL WATI Abdelkrim
+MALLOUKY Aly
+Membres associés
+ELBACHA Abdelhadi
+EL FADIL Hassan
+LAHRACH HAMID
+STITOU Mohammed
+HASBAOUI Anouar
+ESSKALI Khalid
+1. Technologies de l’information et de la communication, génie littéraire, systèmes Intelligents de télécommunications et multimédia, systèmes embarqués et traitement de l’information, traitement du Signal et de l’imagerie. Électronique des systèmes embarqués, micro- électroniques.
+2. Automatique, Modélisation, optimisation, contrôle et diagnostic des systèmes d’entraînements électriques, l’efficacité énergétique, micro-électroniques, les voitures électriques et hybrides.
+Matériaux, Energies et Systèmes Intelligents (LMESI)
+ELKOUARI youssef
++
+Laboratory of mathematics, computer science and applications (LMCSA)
+KABIL Mustapha
+mustapha_kabil@yahoo.fr
++
+Intitulé du Laboratoire
+Chefs d’Equipe
+Axes de recherche
+Laboratory of Mathematics, Computer Science and Applications (LMCSA)
+1- Analyse Fonctionnelle, Mathématiques Discrètes, Algèbre et Statistique
+2- Informatique, Intelligence Artificielle et Big Data
+3- Modèles Mathématiques, Analyse et Simulation Numérique.
+4- Modélisation Déterministe et Stochastique et Simulations Numériques
+1- Mustapha KABIL
+kabilfstm@gmail.com
+2- Abdellah ADIB
+adibab@gmail.com
+3- Ahmed TAIK
+taik.ahmed2@gmail.com
+4- Karam ALLALI
+allali@hotmail.com
+Axes de recherche
+1-
+Equipe 1 : Analyse Fonctionnelle, Mathématiques Discrètes, Algèbre et Statistique
+- Théorie du point fixe et Applications.
+- Aspects géométriques des espaces métriques généralisés : relations avec les graphes, les ensembles ordonnés et les automates.
+- Algèbre, cryptographie, anneaux et algèbre commutative et non commutative.
+- Théorie des graphes et calcul matriciel.
+- Prise de décision statistique.
+- Domaine de l’apprentissage par renforcement.
+2-
+Equipe 2 : Informatique, Intelligence Artificielle et Big Data
+Biomedical Signal and Image Processing, Business process, Computer Vision, Cloud solutions for business processes, Deep Learning, IoT & Networking, Machine Learning, Natural Langue Processing, Speech Processing, Sentiment Analysis, QoS & Security. Business process management and business intelligence. Business process management and blockchain technologies, Business Process Managemement et Cloud Computing, Service oriented Architecture, Alignement métier-IT, Model Driven Architecture, Ontologie et web semantique.
+3-
+Equipe 3 : Modèles Mathématiques, Analyse et Simulation Numérique
+Traitement d’image, Stratégie de jeux de Nash, Finance, Optimisation et Analyse Numérique, Réaction-Diffusion : Analyse et simulation numérique, Analyse des systèmes hydrauliques.
+4-
+Equipe 4 : Modélisation Déterministe et Stochastique et Simulations Numériques
+Systèmes dynamiques et Biomathématique, Étude stochastique de quelques phénomènes aléatoires, Recherche opérationnelle et modélisation mathématique, Contrôle optimal de quelques modèles biologiques, Analyse numérique, estimations à priori et simulations numériques, Heuristiques et metaheuristiques en optimisation industrielle, Ordonnancement de quelques systèmes industriels, Analyse et simulations numériques des phénomènes naturels.
+Laboratoire d’intelligence machine (LIM)
+KISSI Mohamed
+mohamed.kissi@fstm.ac.ma
++
+Intitulé du Laboratoire
+Chefs d’Equipe
+Axes de recherche
+Le Laboratoire d’Intelligence Machine (LIM) est un laboratoire de
+l’Université Hassan II de Casablanca. C’est une collaboration de 20
+chercheurs permanents œuvrant dans des différents axes de recherches
+de l’informatique en général, et plus particulièrement dans les domaines
+connexes aux Sciences des données et de l’intelligence artificielles. Les
+chercheurs du laboratoire LIM émanent de la Faculté des Sciences et
+Techniques de Mohammedia, et un membre de la Faculté des sciences
+économiques et juridiques de Ain Sebaa de Casablanca. En termes de
+politique scientifique, le laboratoire LIM développera un projet de
+recherche résolument tourné vers la formation par la recherche et le
+développement de la société du savoir. Ce projet s’attachera à apporter
+des solutions innovantes à des problèmes sociaux économiques,
+relativement aux axes de recherches développés par les membres du laboratoire. Aussi la stratégie du laboratoire est de contribuer activement
+dans le développement des axes stratégiques nationaux et de développer
+des partenariats nationaux et internationaux. Cette politique sera en
+euphonie avec la politique scientifique globale de l’université dans son
+ensemble, en relais avec la politique du développement des collectivités
+territoriales, et en particulier de la région Casablanca. Le laboratoire LIM
+est constitué d’équipes de recherches ayant pour objectifs :
+La participation active au développement de la recherche scientifique dans le domaine de l’informatique
+La réalisation et l’expertise de projets de recherche nationaux et internationaux dans le domaine de l’informatique
+La contribution à la formation pour la recherche (accueil et encadrement de doctorants, d’étudiants en 2ème année Master, etc.)
+La diffusion et la valorisation des résultats de la recherche par l’organisation de colloques, séminaires, publications scientifiques, etc.
+La contribution à l’acquisition, à la maîtrise et au développement de nouvelles connaissances scientifiques et technologiques dans le domaine de l’informatique
+Le développement de collaborations de recherche nationales et internationales
+La contribution à la mise en place de réseaux thématiques de recherche
+Le développement de collaborations et partenariat avec le secteur socio-économique, en l’occurrence avec les industriels et opérateurs tiers
+EQUIPE 1: XIMS Méthodes et Systèmes Intelligents Expliqués : Pr OMAR EL BEGGAR
+omar.elbeggar@fstm.ac.ma
+MEMBRES DE L'EQUIPE :
+KISSI Mohamed – PES
+SABBAR Wafae – PES
+EL BEGGAR Omar – MCH
+LETRACHE Khadija – MC
+RAMDANI Mohammed – PES
+BEKKHOUCHA Abdelkrim – PES
+Systèmes multi-agents : modélisation, simulation, programmation orientée agents, coordination, allocation de tâches et de ressources
+IA explicable
+IA santé, IA sport
+Cloud Computing : grilles de calcul, grilles de service, grilles d’intelligence, services web, sécurité, web mining
+Automatisation des processus de conception et développement des projets datawarehouse : métamodélisation, profils, qualité des modèles, patterns, transformation et validation de modèles
+Robotique : navigation, localisation, approches bio-inspirées, apprentissage et adaptation
+Optimisation combinatoire et continue : théorie des graphes, programmation mathématique, approximation avec garantie de performance
+Résolution de problèmes : ordonnancement, planification, contraintes, recherche heuristique, recherche locale
+Théorie de la décision : préférences, incertitude, décision collective, décision multicritères, consensus, décision dans l’incertain et le risque
+E-learning intelligent : environnements interactifs d’apprentissage humain, modélisation de l’apprenant, diagnostic cognitif, adaptation
+Environnements Big Data : stockage, processing et accès, Big Data mining, sécurité des systèmes Big Data
+Gestion de l’imprécision et de l’incertitude dans les systèmes intelligents
+EQUIPE 2: DSAI
+Science des Données et Intelligence Artificielle
+Chef DSAI : Pr CHERKAOUI LEGHRIS
+MEMBRES DE L'EQUIPE :
+LEGHRIS Cherkaoui – PES
+MOUMKINE Noureddine – MCH
+ANTER Samir – MC
+KHALIL Mohammed – MCH
+SEKKATE Sara – MC
+ADIB Abdellah – PES
+Data Sciences
+IoT et Réseaux
+Artificial Intelligence
+Multimedia
+EQUIPE 3 :  ASS
+Systèmes Intelligents Avancés
+Chef ASS : Pr KHADIJA DOUZI
+khadija.douzi@fstm.ac.ma
+MEMBRES DE L'EQUIPE :
+KHOUKHI Faddoul – PES
+CHANTIT Salima – MCH
+HSSINA Badr – MCH
+BERGUIG Yousra – MC
+DOUZI Khadija – PES
+Systèmes intelligents pour la détection d’intrusion sur un réseau informatique
+Classification des outils de chirurgie dans des vidéos de cholécystectomie
+Prédiction des prix de la bourse et recommandation dans un environnement d’apprentissage
+Prédiction de la qualité de l’air
+Dépistage du cancer du sein à partir des images thermiques
+Dépistage du cancer de la peau à partir des images prises avec un téléphone mobile
+EQUIPE 4:  IOS
+Systèmes Ouverts Innovants
+Chef IOS : Pr ADIL EL BOUZIRI
+adil.elbouziri@fstm.ac.ma
+MEMBRES DE L'EQUIPE :
+EL BOUZIRI Adil – MCH
+SADDOUNE Mohammed – PES
+OUSSOUS Ahmed – MC
+BOULOUARD Zakaria – MC
+CHERRADI Ghizlane – MC
+Systèmes d’information spatiaux, objets mobiles, data mining spatio-temporel
+Systèmes distribués et calcul dans le cloud, bases de données NoSQL et analytique temps réel, systèmes d’information d’entreprise, pilotage des systèmes complexes
+Systèmes d’information de transport et de logistique (ferroviaire, terrestre, aérien, maritime/portuaire), transport de surface
+Systèmes décisionnels et gestion des risques, sécurité des systèmes d’information et sécurité du logiciel
+Optimisation stochastique floue dans les réseaux spatio-temporels, algèbre abstraite et combinatoire dans l’analyse des systèmes complexes, réseaux sociaux dynamiques (spatio-temporels)
+Systèmes hypermédias temps réel scalables, analyse structurale et systèmes complexes, logiques non monotones et réseaux de Petri temporels
+Optimisation des processus décisionnels avec apprentissage automatique : logistique, SCM, transport
+Intelligence computationnelle et intelligence compétitive, NLP (traitement automatique du langage naturel)
+Chimie-physique et biotechnologies des biomolécules et des matériaux (LCP2BM)
+MELLOUKI fouad
+fouad.mellouki@fstm.ac.ma
++
+Intitulé du Laboratoire
+Chefs d’Equipe
+Axes de recherche
+Laboratoire de Chimie Physique et Biotechnologies des Biomolécules et des Matériaux
+-Pr.CHARAFEDDINE Omar
+Ocharafeddine1@gmail.com
+Omar.charafeddine@fstm.ac.ma
+-Pr. EL HAKMAOUI Ahmed
+ahelhakmaoui@gmail.com
+ahmed.elhakmaoui@fstm.ac.ma
+-Pr.MESKINI Nadia
+Nadia_meskini@hotmail.com
+Nadia.meskini@fstm.ac.ma
+- Pr.NOHAIR Mohamed
+nohairm@hotmail.com
+Mohamed.nohair@fstm.ac.ma
+Energie et Matériaux
+-Elaboration électrochimique des couches minces à base de semiconducteur pour des applications en énergie solaire
+-Corrosion
+- Chimiométrie, modélisation et plans d’expériences
+-Utilisation des statistiques pour développement des méthodes chimiométriques pour l’optimisation des méthodes spectroscopiques dans ledomaine d’analyse chimique.
+-Biochimie des médiateurs lipidiques et de la signalisationcellulaire.
+-Valorisation pharmacologique, nutritionnelle et cosmétologique
+-Culture et production de micro-algues
+-Biotechnologie des micro-algues pour préservation de l’environnement
+Etude des gènes de résistance des bactéries aux antibiotiques
+-Activité antibactérienne et antifongique des produits de synthèse chimique.
+-Etude biochimique et biodiversité moléculaire de bactéries phytopathologiques au Maroc
+-Micobiologie médicale, agro-alimentaire, de l’environnement
+-Qualité et hygiène dans le domaine dans le domaine médical, bioindustrie et environnement
+-Identification et caractérisation des bioressources (microbienne et végétale) à intérêt biologique
+-Mise au point de bioessais pour le criblage des substances bioactives (antibactériens, antifongique, antioxydante, insecticides, cytotoxiques antiproliferative…)
+-Etude de la sensibilité aux insecticides et lutte antivectorielle.
+-Valorisation des plantes médicinales et aromatiques (PAM) endémique ou typique par hémisynthèse et par des procédés catalytiques à base matériaux biosourcés.
+-Analyse des huiles essentielles
+-Développement de nouvelles méthodologies en synthèse hétérocyclique
+-Synthèse et étude de la réactivité de dérivés hétérocycles azotés en utilisant des catalyseurs biosourcés à base d’argile, d’ose animale, de coquille de mollusque….
+-Catalyse et catalyseur pour l’industrie et l’environnement
+-Valorisation matériaux naturels en catalyse
+-Dégradation des polluants organiques et protection de l’environnement
+Laboratoire des matériaux, membranes et environnement (L2ME)
+OUAMMOU	mohamed
+alamiyounssisaad@yahoo.fr
++
+Intitulé du Laboratoire
+Chefs d’Equipe
+Axes de recherche
+Laboratoire des matériaux, membranes et environnement
+Equipe 1 : Membranes et Procédés Membranaires
+Responsable :
+ALAMI YOUNSSI Saad
+saad.alamiyounssi@fstm.ac.ma
+Equipe 2 : Matériaux et valorisation des ressources naturelles
+Responsable :
+Ouammou Mohamed
+mohamed.ouammou@fstm.ac.ma
+Equipe 3 : Chimie Analytique, Matériaux pour l’Energie et l’Environnement
+Responsable :
+Mama El Rhazi
+mama.elrhazi@fstm.ac.ma
+Equipe 1 : Membranes et Procédés Membranaires
+1.Elaboration et caractérisation des Membranes de Microfiltration, d’Ultrafiltration et de Nanofiltration
+2.Transfert et modélisation de solutions salines sur des membranes d’Ultrafiltration et de Nanofiltration
+3.Préparation des membranes céramiques à base de matériaux naturels (argiles phosphates …)
+4.Membranes et Procédés membranaires dans le traitement des eaux et le dessalement
+Equipe 2 : Matériaux et valorisation des ressources naturelles
+1.Phosphates et Micro phosphates naturels
+2.Elaboration et caractérisation des supports minérales à base de matériaux locaux
+3.Elaboration des matériaux composites innovants
+4.Valorisation des matériaux naturels dans le traitement des eaux
+Equipe 3 : Chimie Analytique, Matériaux pour l’Energie et l’Environnement
+1.Elaboration et synthèse de nanocomposites à base de nanostructures de carbone et de polymères conducteurs
+2.Application des nanocomposites comme capteurs électrochimiques pour la détection des métaux lourds et de polluants émergeants
+3.Utilisation des nanocomposites comme catalyseurs pour l’oxydation des alcools dans le but de les appliquer comme pile à combustible ou condensateurs (conversion et stockage de l’énergie)
+Laboratoire Biotechnologie, Agro-alimentaire, Matériaux et Environnement (LBAME)
+ZAHOUILY	mohamed
++
+Intitulé du Laboratoire
+Chefs d’Equipe
+Axes de recherche
+FSTM
+Départements
+Affaires pédagogiques
+Recherche
+Entreprise et Carrière
+Vie estudiantine
+Recrutement
+Marchés publics
+Divers
+Actualités
+E-services
+Formation initiale
+Architecture pédagogique
+Tronc Commun
+Licence Sciences et Techniques
+Master Sciences et Techniques
+Cycle Ingénieur
+Cycle Doctoral
+Formation continue
+Licence d'Université
+Master d'Université
+Contact
+Faculté des Sciences et Techniques de Mohammedia BP 146 Mohammedia 28806 Maroc
+Tél 1 : +212523314708
+Tél 2 : +212666613325
+Fax : +212523315353
+E-mail : contact@fstm.ac.ma
+Site web : www.fstm.ac.ma
+Page facebook
+Plan d'accès
+© 2019 Faculté des Sciences et Techniques de Mohammedia

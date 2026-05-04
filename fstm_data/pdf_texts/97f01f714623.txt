@@ -1,0 +1,162 @@
+Volume  Horaire des modules du Semestre S2 de la 1ère année du tronc commun LST
+M121 : Analyse 2
+M122 : Algèbre 2 
+P121 : Electricité
+E121 : Circuits électriques et électroniques
+26H CM + 26H TD +4H Ev
+26H CM + 26H TD +4H Ev
+22H CM + 20H TD +10H TP +4H Ev
+22H CM + 20H TD +10H TP +4H Ev
+I121 : Algorithmique et Programmation 1
+L121 : L&TC2  (Anglais)
+S121 : Power Skills (Digital Sills)
+16H CM + 18H TD +16H TP +6H Ev
+14H CM + 30H AP +2H Ev, Présentiel : 16H
+14H CM +30H AP +1H Ev, Présentiel : 16H
+M221 : Analyse 2
+M222 : Algèbre 2 
+P221 : Electricité
+E221 : Circuits électriques et électroniques
+26H CM + 26H TD +4H Ev
+26H CM + 26H TD +4H Ev
+22H CM + 20H TD +10H TP +4H Ev
+22H CM + 20H TD +10H TP +4H Ev
+I221 : Algorithmique et Programmation 1
+L221 : L&TC2  (Anglais)
+S221 : Power Skills (Digital Sills)
+16H CM + 18H TD +16H TP +6H Ev
+14H CM + 30H AP +2H Ev, Présentiel : 16H
+14H CM +30H AP +1H Ev, Présentiel : 16H
+M321 : Analyse 2
+M322 : Algèbre 2
+P321 : Mécanique du point et optique géométrique
+P322 : Thermodynamique
+26H CM + 26H TD +4H Ev
+26H CM + 26H TD +4H Ev
+22H CM + 20H TD +10H TP +4H Ev
+22H CM + 20H TD +10H TP +4H Ev
+I321 : Algorithmique et Programmation 1
+L321 : L&TC2  (Anglais)
+S321 : Power Skills (Digital Sills)
+16H CM + 18H TD +16H TP +6H Ev
+14H CM + 30H AP +2H Ev, Présentiel : 16H
+14H CM +30H AP +1H Ev, Présentiel : 16H
+B421 : Biologie Animale et Biologie Végétale
+C421 : Réactivité Chimique
+G421 : Géodynamique Externe
+P421 : Thermodynamique et Mécanique des Fluides
+28H CM + 8H TD +16H TP +4H Ev
+26H CM + 16H TD +10H TP +4H Ev
+27H CM + 6H TD +12H TP +5H AP +6H Ev
+22H CM + 20H TD +10H TP +4H Ev
+I421 : Bases de Données
+L421 : L&TC2  (Anglais)
+S421 : Power Skills (Digital Sills)
+16H CM + 20H TD +14H TP +6H Ev
+14H CM + 30H AP +2H Ev, Présentiel : 16H
+14H CM +30H AP +1H Ev, Présentiel : 16H
+Volume  Horaire des modules de la 2ème année du tronc commun LST, Semestre S4
+M141 : Analyse 3
+M142 : Analyse 4
+L141 : L&TC4 (Français)
+S141 : Power Skills (Développement Personnel)
+26H CM + 26H TD +4H Ev
+26H CM + 26H TD +4H Ev
+14H CM + 30H AP +2H Ev, Présentiel : 16H
+14H CM +30H AP +1H Ev, Présentiel : 16H
+P141 : Optique Physique
+P142 : Mécanique des Fluides et Transfert Thermique
+I141 : Structures de Données
+21H CM + 21H TD +10H TP +4H Ev
+21H CM + 21H TD +10H TP +4H Ev
+16H CM + 16H TD +18H TP +6H Ev
+M143 : Enquêtes et Techniques de Sondage/ Data 
+Processing
+M144 : Analyse de données/ Modèles de régression linéiare
+M145 : Inférence statistique et applications
+P146 : Mécanique Quantique et Relativité
+28H CM + 16H TD +8H TP +4H Ev
+26H CM + 16H TD +10H TP +4H Ev
+23H CM + 23H TD +6H TP +4H Ev
+20H CM + 20H TD +12H TP +4H Ev
+M241 : Analyse Numérique
+M242 : Statistiques et Probabilités 
+L241 : L&TC4 (Français)
+S241 : Power Skills (Développement Personnel)
+20H CM + 20H TD +12H TP +4H Ev
+26H CM + 26H TD +4H Ev
+14H CM + 30H AP +2H Ev, Présentiel : 16H
+14H CM +30H AP +2H Ev, Présentiel : 16H
+M243 : Recherche Opérationnelle
+I241 : Architecture des Ordinateurs
+I242 : Développement Web
+26H CM + 26H TD +4H Ev
+22H CM + 14H TD +14H TP +6H Ev
+16H CM + 14H TD +20H TP +6H Ev
+E241 : Electronique Numérique
+E242 : Electrotechnique
+E243 : Automatique
+G233 : Stratigraphie et Paléo-environnement
+22H CM + 20H TD +10H TP +4H Ev
+22H CM + 20H TD +10H TP +4H Ev
+22H CM + 20H TD +10H TP +4H Ev
+26H CM + 10H TD +16H TP +4H Ev
+C341 : Chimie Organique 2
+C342 : Chimie Minérale 2
+C343 :Thermodynamique Chimique et Cinétique
+G341 : Eléments de Génie chimique
+26H CM + 16H TD +10H TP +4H Ev
+26H CM + 16H TD +10H TP +4H Ev
+26H CM + 16H TD +10H TP +4H Ev
+26H CM + 14H TD +12H TP +4H Ev
+M341 : Analyse de Données
+L341 : L&TC4 (Français)
+S341 : Power Skills (Développement Personnel)
+26H CM + 14H TD +12H TP +4H Ev
+14H CM + 30H AP +2H Ev, Présentiel : 16H
+14H CM +30H AP +2H Ev, Présentiel : 16H
+B441 : Biologie Moléculaire et Génétique
+B442 : Physiologie Animale et Végétale
+B443 : Biochimie Métabolique et Enzymologie
+B444 : Méthodes d'analyse chimiques et biologiques
+28H CM + 12H TD +12H TP +4H Ev
+28H CM + 8H TD +16H TP +4H Ev
+28H CM + 8H TD +16H TP +4H Ev
+28H CM + 8H TD +16H TP +4H Ev
+M441 : Analyse de Données
+L441 : L&TC4 (Français)
+S441 : Power Skills (Développement Personnel)
+26H CM + 14H TD +12H TP +4H Ev
+14H CM + 30H AP +2H Ev, Présentiel : 16H
+14H CM +30H AP +2H Ev, Présentiel : 16H
+S2 GP/MSD 
+1CM+5TD+10TP
+FST de Mohammedia, Université Hassan II de Casablanca
+ S4 GB 
+1CM+2TD+4TP
+S2 GI/GESE 
+1CM+5TD+10TP
+Année Universitaire 2025/2026
+Spécialités : Génie Biologique (GB), Génie Chimique (GC), Génie Physique (GP), Génie Informatique (GI), 
+Génie Electrique et Systèmes Embarqués (GESE) et Mathématiques et Sciences des Données (MSD) 
+Modules des Semestres S2 et S4 du Tronc Commun LST, Session Printemps 2025/2026
+S2 GC 
+1CM+4TD+8TP
+Tutorat BCG
+ S2 GB 
+1CM+4TD+8TP
+S4 GP/MSD : 
+1CM+2TD+4TP
+        S4 GP :            
+    1CM+1TD+2TP
+   S4 MSD :        
+1CM+1TD+2TP
+S4 GI/GESE : 
+1CM+4TD+8TP
+         S4 GI :          
+1CM+3TD+6TP
+   S4 GESE :        
+1CM+1TD+2TP
+S4 GC 
+1CM+2TD+4TP
+Tutorat MIP

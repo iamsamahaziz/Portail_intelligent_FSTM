@@ -1,0 +1,96 @@
+[TITLE] LST - Génie Mécanique
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2025/LST_GM.pdf
+--- Contenu du document ---
+
+LICENCE SCIENCES ET TECHNIQUES
+GÉNIE MÉCANIQUE (GM)
+Objectif
+La Licence en Sciences et Techniques Génie Mécanique a pour objectifs de former des étudiants qui
+auront des connaissances fondamentales et pluridisciplinaires en mécanique des structures,
+mécanique des fluides, lubrification, choix du matériaux et Conception Mécanique Assisté par
+Ordinateur, complétées par une formation en méthodes numériques. Elle permet aux futurs diplômés
+de poursuivre leur cursus en Master ou école d’ingénieurs.
+Compétences Débouchés professionnels
+À l’issue de la formation, l’étudiant L’insertion professionnelle de nos futurs lauréats
+développe des compétences en analyse et peut se faire dans différents secteurs exerçant des
+conception mécanique, incluant le activités en relation étroite avec l’industrie
+dimensionnement, les méthodes de automobile, aéronautique, navale, ferroviaire ou
+production, les notions de matériaux, ainsi génie civile.
+que les calculs hydrauliques et aérauliques, Cette filière permet également d’accéder à une
+avec une maîtrise des outils numériques et poursuite d’études en Master en Sciences et
+informatiques appliqués à la mécanique. Techniques, Master spécialisés ou écoles
+d’ingénieurs dans des spécialités de génie
+mécanique
+Descriptif des modules
+Semestre 5
+Méthodes numériques pour la
+Mécanique des milieux continus Vibrations mécaniques
+mécanique
+Matériaux pour la mécanique Resistance des matériaux Mécanique des fluides
+Anglais technique
+Semestre 6
+Gestion industrielle Conception mécanique Lubrification et maintenance
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Mohamed EL KHLIFI
+E-mail : mohamed.elkhlifi@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53
+
+[Tableau page 1]
+ |  |  | ES
+tifs de former des étudiants qui
+ | LICENCE SCIENCES ET TECHNIQUES
+GÉNIE MÉCANIQUE (GM)
+Objectif
+La Licence en Sciences et Techniques Génie Mécanique a pour objectifs de former des étudiants qui
+auront des connaissances fondamentales et pluridisciplinaires en mécanique des structures,
+mécanique des fluides, lubrification, choix du matériaux et Conception Mécanique Assisté par
+Ordinateur, complétées par une formation en méthodes numériques. Elle permet aux futurs diplômés
+de poursuivre leur cursus en Master ou école d’ingénieurs.
+Compétences Débouchés professionnels
+À l’issue de la formation, l’étudiant L’insertion professionnelle de nos futurs lauréats
+développe des compétences en analyse et peut se faire dans différents secteurs exerçant des
+conception mécanique, incluant le activités en relation étroite avec l’industrie
+dimensionnement, les méthodes de automobile, aéronautique, navale, ferroviaire ou
+production, les notions de matériaux, ainsi génie civile.
+que les calculs hydrauliques et aérauliques, Cette filière permet également d’accéder à une
+avec une maîtrise des outils numériques et poursuite d’études en Master en Sciences et
+informatiques appliqués à la mécanique. Techniques, Master spécialisés ou écoles
+d’ingénieurs dans des spécialités de génie
+mécanique
+Descriptif des modules
+Semestre 5
+Méthodes numériques pour la
+Mécanique des milieux continus Vibrations mécaniques
+mécanique
+Matériaux pour la mécanique Resistance des matériaux Mécanique des fluides
+Anglais technique
+Semestre 6
+Gestion industrielle Conception mécanique Lubrification et maintenance
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Mohamed EL KHLIFI
+E-mail : mohamed.elkhlifi@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 |  | ES
+tifs de former des étudiants qui
+ |  | C O N T A C T
+Coordonnateur : Pr. Mohamed EL KHLIFI
+E-mail : mohamed.elkhlifi@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 | 
+
+[Tableau page 1]
+Semestre 5 |  | 
+Mécanique des milieux continus | Vibrations mécaniques | Méthodes numériques pour la
+mécanique
+Matériaux pour la mécanique | Resistance des matériaux | Mécanique des fluides
+Anglais technique |  | 
+
+[Tableau page 1]
+Semestre 6 |  | 
+Gestion industrielle | Conception mécanique | Lubrification et maintenance
+Intelligence artificielle | Projet de fin d’étude | 
+
+[Tableau page 1]
+ |

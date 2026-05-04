@@ -1,0 +1,83 @@
+Liste Principale (Bac +3) par ordre de mérite 
+Ingénierie Data Science et Informatique 
+2025-2026 
+ 
+ 
+N° 
+N° Dossier Prénom 
+Nom 
+1 
+3646 TAHA 
+Benmoumen 
+2 
+1636 Abdelouahed 
+Zenkouar 
+3 
+495 Zouhair 
+El Fadili 
+4 
+460 JULES KOFFI 
+HOUNSAVI 
+5 
+1991 Maroua 
+Benmijou 
+6 
+1768 MAROUANE 
+BAKALI 
+7 
+4054 Reda 
+Abanouas 
+8 
+1408 ABDELMOUGHIT EL OUAAD 
+9 
+2294 Yasser 
+Bichri 
+10 
+1324 ABDERRAHMANE EL BOUADANI 
+11 
+544 TAHA 
+EL-BAGHAZAOUI 
+12 
+2890 Sokaina 
+ER-RAMI 
+13 
+4283 Sanaa 
+FANIRI 
+14 
+2968 NOHAILA 
+MOALLAQAT 
+15 
+903 Hiba 
+Bensaid 
+16 
+1109 ADAM 
+arbai 
+17 
+1866 Ouijdane 
+Bellaouahmane 
+18 
+4761 Imane 
+ZAIMI 
+19 
+1407 RAJI 
+REDA 
+20 
+17 El Mehdi 
+Mounsifi 
+21 
+3067 imane 
+ait mouna 
+22 
+3178 Douae 
+Essalak El Ouarrak 
+23 
+677 Oumnia 
+Benamar 
+24 
+3658 MOHAMED 
+TOUFIK 
+25 
+4683 sami 
+matlai 
+ 
+Fait à Mohammedia, 08/09/2025

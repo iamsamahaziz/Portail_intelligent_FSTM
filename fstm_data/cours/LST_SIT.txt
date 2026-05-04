@@ -1,0 +1,113 @@
+[TITLE] LST - Systèmes Intelligents et Télécommunications
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2025/LST_SIT.pdf
+--- Contenu du document ---
+
+LICENCE SCIENCES ET TECHNIQUES
+SYSTÈMES INTELLIGENTS ET TÉLÉCOMMUNICATIONS (SIT)
+Objectif
+Cette spécialité vise l’étude et la conception des systèmes et réseaux de télécommunications, en
+couvrant les technologies d’émission et de réception, le traitement numérique du signal, les
+commutateurs et protocoles de communication, ainsi que les canaux de transmission. Elle inclut
+également les techniques de modulation, de multiplexage, et la mise en œuvre des dispositifs
+antennes pour les liaisons radio, tout en formant à la réalisation pratique des systèmes de
+communication.
+Compétences Débouchés professionnels
+Les compétences comportent les Les diplômés de cette licence peuvent poursuivre
+connaissances: leurs études en master professionnel ou recherche,
+des fonctions principales, dans lesquelles ou s’insérer directement dans le secteur technico-
+elles s’intègrent, tels que : les supports de professionnel. Ils interviennent dans la conception et
+transmission et les antennes des systèmes le développement de systèmes radio,
+et réseaux sans fil, etc. optoélectroniques, radar et télécoms. Ils peuvent
+des composantes matériels et logiciels qui travailler chez des constructeurs, opérateurs ou
+les définissent, tels que : les infrastructures prestataires, et occuper des postes tels que
+du réseau, et les topologies de réseau et les technicien d’essais, administrateur ou installateur
+logiciels dédiés à la gestion des protocoles. réseau.
+Descriptif des modules
+Semestre 5
+Traitement du Signal Analogique et Dispositifs Électroniques de
+Ingénierie des Réseaux Informatiques
+Numérique Télécommunications
+Techniques de Transmission Circuits Radiofréquences, Lignes et Commande des Systèmes par
+Analogique et Numérique Antennes calculateur embarqué
+Anglais technique
+Semestre 6
+Réseaux Mobiles & Réseaux
+Transmission Spatiale et Terrestre IOT et Systèmes Embarqués
+Cellulaires
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Mohammed NAHID
+E-mail : mohammed.nahid@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53
+
+[Tableau page 1]
+ |  |  | ES
+CATIONS (SIT)
+aux de télécommunications, en
+ment numérique du signal, les
+ | LICENCE SCIENCES ET TECHNIQUES
+SYSTÈMES INTELLIGENTS ET TÉLÉCOMMUNICATIONS (SIT)
+Objectif
+Cette spécialité vise l’étude et la conception des systèmes et réseaux de télécommunications, en
+couvrant les technologies d’émission et de réception, le traitement numérique du signal, les
+commutateurs et protocoles de communication, ainsi que les canaux de transmission. Elle inclut
+également les techniques de modulation, de multiplexage, et la mise en œuvre des dispositifs
+antennes pour les liaisons radio, tout en formant à la réalisation pratique des systèmes de
+communication.
+Compétences Débouchés professionnels
+Les compétences comportent les Les diplômés de cette licence peuvent poursuivre
+connaissances: leurs études en master professionnel ou recherche,
+des fonctions principales, dans lesquelles ou s’insérer directement dans le secteur technico-
+elles s’intègrent, tels que : les supports de professionnel. Ils interviennent dans la conception et
+transmission et les antennes des systèmes le développement de systèmes radio,
+et réseaux sans fil, etc. optoélectroniques, radar et télécoms. Ils peuvent
+des composantes matériels et logiciels qui travailler chez des constructeurs, opérateurs ou
+les définissent, tels que : les infrastructures prestataires, et occuper des postes tels que
+du réseau, et les topologies de réseau et les technicien d’essais, administrateur ou installateur
+logiciels dédiés à la gestion des protocoles. réseau.
+Descriptif des modules
+Semestre 5
+Traitement du Signal Analogique et Dispositifs Électroniques de
+Ingénierie des Réseaux Informatiques
+Numérique Télécommunications
+Techniques de Transmission Circuits Radiofréquences, Lignes et Commande des Systèmes par
+Analogique et Numérique Antennes calculateur embarqué
+Anglais technique
+Semestre 6
+Réseaux Mobiles & Réseaux
+Transmission Spatiale et Terrestre IOT et Systèmes Embarqués
+Cellulaires
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Mohammed NAHID
+E-mail : mohammed.nahid@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 |  | ES
+CATIONS (SIT)
+aux de télécommunications, en
+ment numérique du signal, les
+ |  | C O N T A C T
+Coordonnateur : Pr. Mohammed NAHID
+E-mail : mohammed.nahid@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 | 
+
+[Tableau page 1]
+Semestre 5 |  | 
+Traitement du Signal Analogique et
+Numérique | Ingénierie des Réseaux Informatiques | Dispositifs Électroniques de
+Télécommunications
+Techniques de Transmission
+Analogique et Numérique | Circuits Radiofréquences, Lignes et
+Antennes | Commande des Systèmes par
+calculateur embarqué
+Anglais technique |  | 
+
+[Tableau page 1]
+Semestre 6 |  | 
+Transmission Spatiale et Terrestre | Réseaux Mobiles & Réseaux
+Cellulaires | IOT et Systèmes Embarqués
+Intelligence artificielle | Projet de fin d’étude | 
+
+[Tableau page 1]
+ |

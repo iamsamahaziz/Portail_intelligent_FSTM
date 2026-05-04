@@ -1,0 +1,62 @@
+DEPARTEMENT DE MATHEMATIQUES  
+Emploi du temps 1er Semestre (S5)  
+Du 22/09/2025 au 04/01/26 
+Année académique 2024-2025  
+Salle de cours : Y2S9  
+2ème étage GMI 3ème année  
+GMI_3  
+ 
+ 
+NB: Emploi du temps provisoire.  
+  
+  
+8h 30  
+12h  
+13h 30  
+17h  
+   
+LUNDI  
+                  M34 
+                                                 Codes Correcteurs  
+ Pr. O. Khadir  
+                                                            M30  
+                             Chaînes de Markov et file d’attente   
+                                                    Pr. S. Amine                                         
+  
+MARDI  
+M37  
+Mathématiques 
+Discrètes  
+Pr. M. Kabil  
+  
+  M35  
+Data Mining  
+N. Azouagh 
+   
+         MERCREDI  
+                    M32 
+Anglais Technique  
+                     Rattrapage 
+JEUDI 
+M31  
+                              Schémas numériques pour la viabilité 
+Pr. S. Sajid  
+M33  
+             Méthodes Numériques pour l’ingénieur : Volumes finis 
+Pr. A. Taik (période 2)  
+                                                             M36  
+                             Commande optimale des systèmes  
+                                             Pr. C. Abchir (période 1)   
+  
+  
+  
+          VENDREDI  
+M33  
+           Méthodes Numériques pour l’ingénieur : Volumes finis  
+Pr. A. Taik (période 2)  
+M36  
+                                 Commande optimale des systèmes 
+Pr. C. Abchir (période 1)  
+                     Rattrapage 
+  
+SAMEDI

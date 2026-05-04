@@ -1,0 +1,88 @@
+Objectifs  
+La licence professionnelle d’université en Mécatronique répond aux besoins de formation des techniciens dans 
+les métiers de l’aéronautique, l’automobile, le ferroviaire, la robotique, et dans tous les secteurs où l’électronique 
+et la mécanique sont associées pour la conception et la fabrication intégrée de systèmes complexes automatisés. 
+Le titulaire d’une licence d’université en mécatronique est capable de:  
+- Concevoir et développer des systèmes mécaniques intégrés. 
+- Contrôler et commander des systèmes mécatroniques. 
+- Mettre en œuvre et effectuer la maintenance d’un système mécatronique. 
+- Maîtriser les outils Informatiques de diagnostic. 
+- Intégrer des actions dans le cadre du dispositif prévu par le système de management de la qualité. 
+ 
+Débouchés  
+Le lauréat est recruté dans le milieu professionnel principalement en qualité de: 
+- Technicien dans les domaines de la mécatronique (maintenance, conception, informatique, contrôle, 
+commande, supervision). 
+- Assistant d’ingénieur en Mécatronique. 
+- Technicien de service qualité, technicien d’essai, de contrôle. 
+- Technicien de laboratoire. 
+ 
+Programme  
+Formation en une année pour acquérir et maîtriser les connaissances et compétences suivantes: Connaissance des 
+systèmes mécatroniques, Électronique associée aux capteurs, Les Actionneurs pneumatiques et hydrauliques, 
+Connaissance et manipulation du matériel de mesure, Connaissance et prise en main à l’utilisation du matériel 
+d’acquisition de données, maîtrise des logiciels liés à la mécatronique, Connaissance et maîtrises des outils de 
+maintenance dans une chaine de production, Connaissance de la métrologie et du Système de management de la 
+qualité. Les cours, travaux dirigés et travaux pratiques sont organisés sur deux semestres avec 9 modules de 45 
+heures. Un projet de fin d’études en entreprise est exigé. Des séminaires sur la qualité et le management seront 
+animés par des professionnels. 
+S6 
+L 7 
+Conception mécatronique 
+CAO : CATIA   
+L 8 
+Traitement et  
+Transmission du signal
+L 9 
+Automatique et 
+Automatisme 
+L 10 
+PFE 
+S5 
+L 1 
+Electronique Numérique 
+et Analogique 
+L 2 
+RDM et 
+Maintenance 
+Industrielle
+L 3 
+Capteurs et 
+Instrumentation 
+L 4 
+programmation 
+graphique et Circuits 
+Programmables
+L 5 
+Programmation 
+Orientée Objet  
+et Arduino 
+L 6 
+Les 
+Actionneurs 
+ 
+Conditions d'Admission 
+L’inscription en licence professionnelle d’université Mécatronique se fait après une sélection des candidats sur 
+dossier et entretien. 
+Pré-requis exigés : Les pré-requis principaux sont les connaissances de base en électricité et en électronique. 
+Les candidats à la L.P.U. en Mécatronique doivent justifier soit : 
+- Bac+2 public, privé, ISTA, DUT, BTS, DEUG, DEUST, ou équivalent. 
+- Niveau Bac + expériences professionnelles ou acquis personnels. 
+ 
+Candidature et Contact 
+Le Dossier de candidature doit comporter une demande de motivation, CV, photocopies des diplômes, des 
+attestations d’expériences professionnelles, et tout autre document justifiant les conditions d’admission.  
+La préinscription se fait en ligne à l’adresse: www.fstm.ac.ma 
+Coordonnateur de la formation : Pr. Hassan EL IDRISSI 
+Email : idrissi99@gmail.com      Tél : 0661666534 
+ 
+ 
+ 
+ 
+Université Hassan II de Casablanca 
+ 
+Faculté des Sciences et Techniques de Mohammedia 
+Département Génie Electrique  
+ 
+Licence Professionnelle d’Université 
+Mécatronique

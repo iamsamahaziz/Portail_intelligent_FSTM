@@ -1,0 +1,103 @@
+FST Mohammedia, Université Hassan II de Casablanca
+Année universutaire 2024/2025
+Codification d'un module : 
+Xijk
+i = Numéro de la section
+j = numéro du semestre
+k = ordre du module x dans le 
+semestre j de la section i
+X = Module de spécialité X
+X= P pour Physique, C pour Chimie, M pour Maths, I pour Info, E pour Génie électrique,  
+B pour Biologie, G pour Géologie, L pour Langues et S pour Power Skills
+Semestre S1, Nouveau Système
+Section 1 : GP/MSD
+Section 2 : GI/GESE
+Section 3 : GC
+Section 4 : GB
+CM +5TD +10TP
+CM +5TD +10TP
+CM +4TD +8TP
+CM +4TD +8TP
+M111 : Analyse 1 
+M211 : Analyse 1 
+M311 : Analyse 1 
+B411 : Biologie Cellulaire
+M112 : Algèbre 1 
+M212 : Algèbre 1 
+M312 : Algèbre 1 
+C411 : Structure de la matière
+P111 : Mécanique du point et optique 
+géométrique
+P211 : Mécanique du point et 
+optique géométrique
+E311 : Circuits électriques et 
+électroniques
+G411 : Cosmologie et Géodynamique 
+Interne
+P112 : Thermodynamique
+P212 : Thermodynamique
+E312 : Electricité
+P411 : Optique et Radioactivité
+C111 : Structure de la matière
+C211 : Structure de la matière
+C311 : Structure de la matière
+M411 : Analyse et Algébre
+L111 : Langues Etrangères
+L211 : Langues Etrangères
+L311 : Langues Etrangères
+L411 : Langues Etrangères
+S111 : Power Skills
+S211 : Power Skills
+S311 : Power Skills
+S411 : Power Skills
+Semestre S2, Nouveau Système
+Section 1 : GP/MSD
+Section 2 : GI/GESE
+Section 3 : GC
+Section 4 : GB
+CM +5TD +10TP
+CM +5TD +10TP
+CM +4TD +8TP
+CM +4TD +8TP
+M121 : Analyse 2 
+M221 : Analyse 2 
+M321 : Analyse 2 
+G421 : Géodynamique Externe
+M122 : Algèbre 2
+M222 : Algèbre 2
+M322 : Algèbre 2
+C421 : Réactivité Chimique
+P121 : Electricité
+P221 : Electricité
+P321 : Mécanique du point et             
+   optique géométrique
+B421 : Biologie Animale et                        
+ Biologie Végétale
+E121 : Circuits électriques et                
+électroniques
+E221 : Circuits électriques et           
+          électroniques
+P322 : Thermodynamique
+P421 : Thermodynamique et                     
+  Mécanique des Fluides
+I121 : Algorithmique et                        
+Programmation 1
+I221 : Algorithmique et                    
+        Programmation 1
+I321 : Algorithmique et                         
+  Programmation 1
+I421 : Bases de Données
+L121 : Langues Etrangères
+L221 : Langues Etrangères
+L321 : Langues Etrangères
+L421 : Langues Etrangères
+S121 : Power Skills
+S221 : Power Skills
+S321 : Power Skills
+S421 : Power Skills
+SP
+S2
+TC  LST, Parcours : Génie Physique (GP),  Mathématiques et Sciences des Données (MSD), Génie Informatique (GI),
+ Génie Electrique et Systèmes Embarqués (GESE), Génie Chimique (GC) et Génie Biologique (GB)
+SA
+S1

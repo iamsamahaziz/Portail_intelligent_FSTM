@@ -1,0 +1,79 @@
+FST, route de Rabat, Mohammedia, contact : cleghris@fstm.ac.ma 
+ 
+ 
+IPv6 Moroccan Training Center 
+ 
+ Certified Network Engineer (SILVER) 
+ Atteste et certifie formellement que le candidat possède des connaissances 
+techniques et des compétences dans les domaines principaux de réseaux IPv6. 
+Contenu de la formation 
+• Etudier les bases d'IPv6 ; 
+• Comprendre l'adressage IPv6 & les Types 
+d’adresses ; 
+• Comparer IPv6 et IPv4 ; 
+• Comprendre le Neighbour Discovery 
+Protocol  (NDP) ; 
+• Procéder à une configuration de base IPv6 ; 
+• Attribuer des adresses Pv6 ; 
+• Configurer un routage statique IPv6 ; 
+• Comprendre la  Transition IPv4-IPv6 ; 
+Examen de Certification : 
+• Nombre de Questions : 60   
+• Durée du test : 90 mins ; 
+• Score de passage : 80% ; 
+• Langues : Français, Anglais ;   
+• Validité 3 ans. 
+Pré-requis : 
+• Connaissances TCP/IP ; 
+• CCNA Routing & Switching ; 
+• Usage du CLI et les formats de 
+paquets IP. 
+Durée : 
+• Atelier de 4 jours.  
+ Certified Network Engineer (GOLD) 
+ Atteste que le candidat est compétent pour planifier et implémenter 
+une configuration avancée IPv6 dans un environnement commercial 
+multifournisseurs.
+Contenu de la formation : 
+• Planifier l’adressage IPv6 ; 
+• Attribuer les différents types des 
+adresse dans IPv6 ; 
+• Configurer le routage avancé dans 
+IPv6 ; 
+• Implémenter les différentes 
+techniques de transition ; 
+• Divers ; 
+• Sécurité IPv6 ; 
+Examen de Certification : 
+• Nombre de Questions: 60 ;  
+• Durée du test: 90 mins ; 
+• Sore de passage : 80% ;  
+• Langues : Français, Anglais ; 
+• Validité 3 ans. 
+Pré-requis : 
+• IPv6 Forum certified Silver ;  
+Durée : 
+• Atelier de 5 jours. 
+ 
+ Certified Train of Trainers (GOLD) 
+ Atteste que les candidats certifiés sont qualifiés d’enseigner des cursus 
+pour ingénieurs (GOLD ou SILVER). 
+Contenu de la formation : 
+ Connaissance démontrable d'IPv6 
+• Passer et réussir les examens IPv6 Silver et Gold 
+avec un score de 90% ou plus ; 
+• Faire deux (2) présentations de 20 à 30 minutes sur 
+le sujet IPv6 à partir des documents de certification. 
+ Laboratoire 
+• Les candidats doivent être familiarisés avec les 
+environnements de laboratoire de cours ; 
+Validation : 
+• L’examen devrait inclure le contenu requis 
+pour chaque niveau de certification ; 
+• La pondération revient à l’instructeur ; 
+Pré-requis : 
+• Connaître le programme IPv6 Forum ; 
+• Configurer la sécurité  et l’administration  
+Pv6 ; 
+Durée : 
+• Atelier de 5 jours.

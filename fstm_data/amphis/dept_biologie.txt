@@ -1,0 +1,96 @@
+[TITLE] Département de Biologie
+[TYPE] amphis
+[CONTENT]
+Présentation
+Biologie
+Chimie
+Génie des Procédés et Environnement
+Génie Électrique
+Informatique
+Mathématiques
+Physique
+Enseignements Transversaux
+Département de Biologie
+Le département de Biologie de la Faculté des Sciences et Techniques de Mohammedia, propose des formations pluridisciplinaires avec des formations diversifiées dans les domaines suivants : médicale, pharmaceutique, cosmétique et agroalimentaire. Les différentes formations programmées sont en adéquation avec les besoins du monde socio-économique de la région et s’intéressent particulièrement aux fondements de la qualité et au respect de l'environnement.
+Le département de Biologie a pour mission de mener à bien des activités d'enseignements, de recherches et de formations. Pour réaliser ses missions, il dispose d’un effectif multidisciplinaire. Le département de Biologie développe des collaborations nationales et internationales aussi bien aux niveaux académiques (universités et écoles) qu’aux niveaux industriels.
+Liste des enseignants :
+Nom
+Prénom
+Grade
+ABDELGHAFFAR
+Houria
+Professeur de l'Enseignement Supérieur
+ABOUDKHIL
+Souad
+Professeur de l'Enseignement Supérieur
+ABOULOIFA
+Houssam
+Maitre de conférence
+AIT EL MOKHTAR
+Mohamed
+Maitre de conférence habilité
+AIT MHAND OU BRAHIM
+Rajaa
+Professeur de l'Enseignement Supérieur
+AMINE
+Abdessamad
+Professeur de l'Enseignement Supérieur
+AMMAR
+Abderrahim
+Professeur de l'Enseignement Supérieur
+ATEF
+Nadia
+Professeur de l'Enseignement Supérieur
+BESSI
+Hlima
+Professeur de l'Enseignement Supérieur
+BOUGHRIBIL
+Said
+Maitre de Conférence habilité
+BOUTALEB
+Nadia
+Professeur de l'Enseignement Supérieur
+CHARAFEDDINE
+Omar
+Professeur de l'Enseignement Supérieur
+HALIM
+Khalid
+Maitre de conférence
+LAKHIARI
+Hamid
+Professeur de l'Enseignement Supérieur
+LAZAR
+Said
+Professeur de l'Enseignement Supérieur
+MELLOUKI
+Fouad
+Professeur de l'Enseignement Supérieur
+MRINI
+Abdelghani
+Professeur de l'Enseignement Supérieur
+OUARZANE
+Aicha
+Professeur de l'Enseignement Supérieur
+OUKHATTAR
+Laila
+Maitre de conférence
+RHALLABI
+Naima
+Professeur de l'Enseignement Supérieur
+RIZKI
+Hajar
+Maitre de conférence
+RKHAILA
+Amine
+Maitre de conférence
+SAFI
+Amal
+Professeur de l'Enseignement Supérieur
+ZALEGH
+Imane
+Maitre de conférence
+ZKHIRI
+Fouzia
+Professeur de l'Enseignement Supérieur
+Chef de département : SAFI Amal
+Faculté des Sciences et Techniques de Mohammedia

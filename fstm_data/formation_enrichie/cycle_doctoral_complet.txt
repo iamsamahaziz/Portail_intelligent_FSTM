@@ -1,0 +1,28 @@
+[TITLE] FSTM - Cycle Doctoral (BAC+8)
+[TYPE] formation
+[SOURCE] fstm.ac.ma/formation_initiale/cd.php - scraped 2026-04-01
+[CONTENT]
+
+=== CYCLE DOCTORAL - BAC+8 ===
+Durée : minimum 3 ans après le Master (6 semestres minimum)
+595 doctorants accueillis dans 13 laboratoires de recherche
+
+=== ADMISSION 2025-2026 ===
+Résultats d'admission finale en 1ère année du cycle études doctorales de l'UH2C.
+Pour les candidats non employés (hors salariés et fonctionnaires).
+
+Résultats et dossier d'inscription : https://gcd.univh2c.ma/candidats/
+
+=== INSCRIPTION ADMINISTRATIVE ===
+Période : du 24/11/2025 au 05/12/2025, de 09h00 à 14h00
+Lieu : service des Études Doctorales de la FSTM
+
+=== PIÈCES À FOURNIR ===
+- Fiche de pré-inscription obligatoire : https://preins.univh2c.ma/index.php?etab=FST
+- Formulaire de dépôt du dossier d'inscription : https://e-inscription.fstm.ac.ma (création de compte obligatoire)
+- Attestation de non-affiliation à la CNSS (pour les non-salariés)
+
+=== CENTRE D'ÉTUDES DOCTORALES (CEDoc) ===
+Le CEDoc gère les inscriptions et le suivi des doctorants.
+URL : https://www.fstm.ac.ma/recherche/cedoc.php
+Plateforme de gestion : https://gcd.univh2c.ma/candidats/

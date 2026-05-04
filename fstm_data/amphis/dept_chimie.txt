@@ -1,0 +1,118 @@
+[TITLE] Département de Chimie
+[TYPE] amphis
+[CONTENT]
+Présentation
+Biologie
+Chimie
+Génie des Procédés et Environnement
+Génie Électrique
+Informatique
+Mathématiques
+Physique
+Enseignements Transversaux
+Département de Chimie
+Mission :
+- Assurer des formations en Licence et Master Sciences et Techniques en les adaptant aux besoins des milieux socio-économiques.
+- Former des professionnels capables de porter des projets stratégiques dans les domaines de l’environnement, qualité et de la sécurité.
+- Organiser des cycles de formation continue ou qualifiante au profit de cadres d’entreprises, leur permettant notamment d’actualiser leur savoir, savoir-faire et savoir être, et d’évoluer dans leur carrière professionnelle.
+- Contribuer à des actions de recherche et de développement dans le cadre de projets nationaux et internationaux.
+Axes stratégiques :
+- Créer de nouvelles filières en partenariat avec le monde socio-économique.
+- Développer la mobilité des étudiants, et accroître les partenariats avec les établissements étrangers.
+- Accroître les activités de recherche.
+Liste des enseignants :
+Nom
+Prénom
+Grade
+AADDANE
+Abdellah
+Professeur de l'Enseignement Supérieur
+AADIL
+Mina
+Professeur de l'Enseignement Supérieur
+ACHIOU
+Brahim
+Maitre de conférence
+AIT LAYACHI
+Omar
+Maitre de conférence
+BACHRA
+YAHYA
+Maitre de conférence
+BARKAOUI
+Latifa
+Professeur de l'Enseignement Supérieur
+BENNAZHA
+Jamal
+Professeur de l'Enseignement Supérieur
+BEQQOUR
+Dounia
+Maitre de conférence
+BOUHRIA
+Mohamed
+Professeur de l'Enseignement Supérieur
+BRITEL
+Ouafae
+Professeur de l'Enseignement Supérieur
+CHAKIR
+Achraf
+Professeur de l'Enseignement Supérieur
+ECHCHERKI
+Karima
+Professeur de l'Enseignement Supérieur
+EL MANSOURI
+Az-eddine
+Maitre de conférence
+ELBROUZI
+Abdalhak
+Professeur de l'Enseignement Supérieur
+ELHAKMAOUI
+Ahmed
+Professeur de l'Enseignement Supérieur
+ELMARRAKCHI
+Mohssine
+Professeur de l'Enseignement Supérieur
+ELMCHAOURI
+Abdellah
+Professeur de l'Enseignement Supérieur
+ELRHAZI
+Mama
+Professeur de l'Enseignement Supérieur
+EZZAHI
+Amine
+Maitre  de Conférence habilité
+FARAH
+Lahbib
+Professeur de l'Enseignement Supérieur
+KERAK
+Ebrahim
+Professeur de l'Enseignement Supérieur
+KHOUMRI
+Elmati
+Professeur de l'Enseignement Supérieur
+LABJAR
+Houda
+Maitre de conférence
+NOHAIR
+Mohamed
+Professeur de l'Enseignement Supérieur
+OUAMMOU
+Mohamed
+Professeur de l'Enseignement Supérieur
+OUZIDAN
+Youness
+Maitre de conférence habilité
+RAIS
+Adiba
+Professeur de l'Enseignement Supérieur
+SAFI
+Mohamed
+Professeur de l'Enseignement Supérieur
+SLIMANI
+Rachid
+Maitre  de Conférence habilité
+ZAHOUILY
+Mohamed
+Professeur de l'Enseignement Supérieur
+Chef de département : OUAMMOU Mohamed
+Faculté des Sciences et Techniques de Mohammedia

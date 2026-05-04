@@ -1,0 +1,128 @@
+[TITLE] Département Informatique
+[TYPE] amphis
+[CONTENT]
+Présentation
+Biologie
+Chimie
+Génie des Procédés et Environnement
+Génie Électrique
+Informatique
+Mathématiques
+Physique
+Enseignements Transversaux
+Département Informatique
+Le département Informatique a pour mission globale de mettre tout en œuvre, dans le cadre de l'Université Hassan II de Casablanca, pour favoriser la formation et l'émergence du génie informatique et du génie logiciel.
+De par son implication dans des programmes à tous les cycles, le département vise à donner une formation universitaire de qualité qui répond, de façon dynamique et pratique, aux besoins de la société. Il contribue ainsi à une large diffusion des Sciences et Technologies de l’Information et de la Communication (STIC) dans différents secteurs d’activités (industrie, services, transport, administration, enseignement...).
+Le département s’est structuré et renforcé sur le plan de la recherche, en mettant en place une organisation s’appuyant sur quatre Unités de Recherche chapeauté par un laboratoire : le Laboratoire Informatique de Mohammedia (LIM).
+Par le rayonnement des professeurs du LIM, autant par leurs activités innovatrices que par la publication de leurs résultats de recherche, le LIM contribue à l'actualisation, l'avancement, la création et la diffusion d'idées nouvelles reliées à l'ingénierie et à l'application de l'informatique.
+Liste des enseignants :
+Page des traveaux
+Nom
+Prénom
+Grade
+Page des traveaux
+ADIB
+Abdellah
+Professeur de l'Enseignement Supérieur
+Page des traveaux
+ANTER
+Samir
+Maitre de conférence habilité
+Page des traveaux
+BEKKHOUCHA
+Abdelkrim
+Professeur de l'Enseignement Supérieur
+Page des traveaux
+BERGUIG
+YOUSRA
+Maitre de conférence
+Page des traveaux
+BOULOUARD
+Zkaria
+Maitre de conférence habilité
+Page des traveaux
+CHAKHTOUNA
+Adil
+Maitre de conférence
+Page des traveaux
+CHAKRI
+Sana
+Maitre de conférence
+Page des traveaux
+CHANTIT
+Salima
+Maitre de conférence habilité
+Page des traveaux
+CHERRADI
+Ghizlane
+Maitre de conférence
+Page des traveaux
+DOUZI
+Khadija
+Professeur de l'Enseignement Supérieur
+Page des traveaux
+EL BEGGAR
+Omar
+Maitre de Conférence habilité
+Page des traveaux
+EL BOUZIRI
+Adil
+Maitre de conférence habilité
+Page des traveaux
+FAKIR
+Youssef
+Maitre de conférence
+Page des traveaux
+FARSAL
+Wissal
+Maitre de conférence
+Page des traveaux
+HALLOU
+Amal
+Maitre de conférence
+Page des traveaux
+HSSINA
+Badr
+Maitre de conférence habilité
+Page des traveaux
+KHALIL
+Mohammed
+Maitre de Conférence habilité
+Page des traveaux
+KHOUKHI
+Faddoul
+Professeur de l'Enseignement Supérieur
+Page des traveaux
+KISSI
+Mohamed
+Professeur de l'Enseignement Supérieur
+Page des traveaux
+LEGHRIS
+Cherkaoui
+Professeur de l'Enseignement Supérieur
+Page des traveaux
+LETRACHE
+Lhadija
+Maitre de conférence habilité
+Page des traveaux
+MOUMKINE
+Noureddine
+Maitre de Conférence habilité
+Page des traveaux
+OUSSOUS
+Ahmed
+Maitre de conférence habilité
+Page des traveaux
+RAMDANI
+Mohammed
+Professeur de l'Enseignement Supérieur
+Page des traveaux
+SADDOUNE
+Mohammed
+Professeur de l'Enseignement Supérieur
+Page des traveaux
+TLEMCANI
+Khadija
+Maitre de conférence
+Chef de département : SADDOUNE Mohammed
+Faculté des Sciences et Techniques de Mohammedia

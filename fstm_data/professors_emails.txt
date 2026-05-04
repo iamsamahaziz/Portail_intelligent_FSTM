@@ -1,0 +1,35 @@
+[TITLE] Contacts des Professeurs par Module et Semestre
+[CONTENT]
+Voici les adresses e-mail des professeurs de la FSTM, organisées par semestre et par module :
+
+### Semestre 1
+- **Analyse 1** : ASMAA ABASSI (ASMAA.ABASSI@univh2c.ma), Prof. Moussaid (moussaid@fstm.ac.ma)
+- **Analyse 2** : Soumia Chaira (soumia.chaira@fstm.ac.ma)
+- **Structure de la Matière** : Adiba Rais (adiba.rais@fstm.ac.ma)
+- **TEC 1** : Hicham Jirari (hicham.jirari@fstm.ac.ma), Hasna Fallaki (hasna.fallaki@fstm.ac.ma), Loubna Farsi (loubna.farsi@univh2c.ma), Ghizlane Machraoui (ghizlane.machraoui@fstm.ac.ma)
+- **Mécanique du Point** : Rabiaa Lotfi (rabiaa.lotfi@fstm.ac.ma), Monssif Najim (monssif.najim@fstm.ac.ma)
+- **Thermodynamique** : Rachid Lbibb (rachid.lbibb@fstm.ac.ma), Said Saadeddine (said.saadeddine@fstm.ac.ma)
+
+### Semestre 2
+- **Réactivité Chimique** : Abdalhak Elbrouzi (abdalhak.elbrouzi@fstm.ac.ma), Amine Ezzahi (amine.ezzahi@fstm.ac.ma)
+- **Algorithmique et Programmation 1** : Mohammed Saddoune (mohammed.saddoune@fstm.ac.ma), Ahmed Oussous (ahmed.oussous@fstm.ac.ma)
+- **Algèbre 1** : Elmostafa Hanine (elmostafa.hanine@fstm.ac.ma)
+- **Algèbre 2** : Noureddine Fahssi (noureddine.fahssi@fstm.ac.ma), Elmostafa Hanine (elmostafa.hanine@fstm.ac.ma), Driss Karim (driss.karim@fstm.ac.ma)
+- **Électricité** : Salem Laghrabli (salem.laghrabli@fstm.ac.ma)
+- **TEC 2** : Hicham Jirari (hicham.jirari@fstm.ac.ma), Hasna Fallaki (hasna.fallaki@fstm.ac.ma), Loubna Farsi (loubna.farsi@univh2c.ma), Ghizlane Machraoui (ghizlane.machraoui@fstm.ac.ma)
+
+### Semestre 3
+- **Algorithmique et Programmation 2** : Ahmed Oussous (ahmed.oussous@fstm.ac.ma), Samir Anter (samir.anter@fstm.ac.ma), Amina Eljabri (amina.eljabri@fstm.ac.ma)
+- **Structures de Données** : Badr Hssina (badr.hssina@univh2c.ma), Faddoul Khoukhi (faddoul.khoukhi@fstm.ac.ma)
+- **Analyse 3** : Mohamed Ridouan Amattouch (mohamed.ridouanamattouch@univh2c.ma)
+- **Analyse 4** : Said Sajid (said.sajid@fstm.ac.ma)
+- **Électromagnétique** : Taoufik Tbatou (taoufik.tbatou@univh2c.ma), Anass Bakour (anass.bakour@univh2c.ma)
+- **TEC 3** : Mohammed Kahkahy (mohammed.kahkahy@fstm.ac.ma)
+
+### Semestre 4
+- **Probabilité** : A. Settar (a.settar.fstm@gmail.com)
+- **Circuits Électriques et Électroniques** : Mohammed Tsouli (mohammed.tsouli@univh2c.ma)
+- **Mécanique Quantique** : Mohamed Bencheikh (mohamed.bencheikh@fstm.ac.ma), Abderrahim Habbou (abderrahim.habbou@fstm.ac.ma)
+- **Bases de Données** : Mohammed Khalil (mohammed.khalil@univh2c.ma), Mohammed Khalil (mohammed.khalil@fstm.ac.ma)
+- **Analyse Numérique** : Brahim Benouahmane (brahim.benouahmane@fstm.ac.ma)
+- **Mécanique du Solide** : Salah Fadili (salah.fadili@fstm.ac.ma), Hassan Chaffoui (hassan.chaffoui@fstm.ac.ma)

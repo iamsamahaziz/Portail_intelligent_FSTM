@@ -1,0 +1,59 @@
+DEPARTEMENT DE MATHEMATIQUES  
+Emploi du temps 1er Semestre S 3 
+Année académique 2024-2025 
+Du 22 /09/24 au 04/01/26 
+Salle de cours : Y2S8 2ème étage 
+IDSI 2èmeAnnée  
+IDSI_2  
+ 
+ 
+NB: Emploi du temps Provisoire 
+  
+  
+8h 30  
+12h  
+13h 30  
+17h  
+   
+LUNDI  
+                  M237 
+                                                 Réseaux Informatiques 
+ Pr. Moumkine 
+M233 
+Langues et Techniques de Communication 3 ( Français) 
+M235 
+Intelligence Artificielle 
+Pr. Chakhtouna 
+  
+MARDI  
+Rattrapage 
+  
+                                                     M230                     
+               JEE et Microservices 
+                     Pr. H. Sbai 
+   
+         MERCREDI  
+                        M238  
+                    Python pour les Sciences de données (Période 1)          
+                                                 Pr. Ben-loghfyry 
+                                  Apprentissage Statistique (Période 2) 
+                                                  Pr. N. Azouagh 
+                                      
+M236                                      
+Modèles linéaires généralisés / Analyse de la variance  
+Pr. A. Settar 
+JEUDI 
+M232 
+                                Modèles de régression  / 
+                             Séries chronologiques 
+Rattrapage 
+  
+          VENDREDI  
+          M234         
+Systèmes Dynamiques et Applications 
+                                  Pr. K. Allali 
+ 
+Rattrapage 
+  
+SAMEDI 
+               Rattrapage

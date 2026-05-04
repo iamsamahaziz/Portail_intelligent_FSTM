@@ -1,0 +1,75 @@
+UNIVERSITE HASSAN II DE CASABLANCA 
+ 
+FACULTE DES SCIENCES & TECHNIQUES 
+Département Génie Electrique 
+Licence en Sciences et Techniques 
+Génie Electrique et Informatique Industrielle 
+LST : GEII 
+Emploi du temps du 22 septembre au 7 novembre 
+A.U. 2025// 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+8H30                              10H20 
+ 
+10H40                            12H30 
+ 
+ 
+13H30                            15H20 
+ 
+15H40                            17H30 
+ 
+Lundi 
+ 
+Cours (E3S3) 
+Electronique Numérique GEII2 
+Pr : H. LEBBAR 
+TD (E3S3) 
+Electronique Numérique GEII2 
+Pr : H. LEBBAR 
+ 
+TP  (GEII2) Gr1 
+ 
+Mardi 
+ 
+TP (GEII1) Gr 1 / TP (GEII3) Gr2 
+ 
+ 
+Cours (E3S3) 
+Electronique Numérique GEII2 
+Pr : H. LEBBAR 
+Cours (E3S3) 
+Electronique Analogique GEII1 
+Pr : M. BEZZA 
+ 
+Mercredi 
+ 
+Cours (E3S3) 
+Signaux et Systèmes GEII3 
+Pr : F. ELAAMRI 
+TD (E3S3) 
+Signaux et Systèmes GEII3 
+Pr : F. ELAAMRI 
+ 
+TP  (GEII1) Gr2 
+ 
+Jeudi 
+ 
+TP  (GEII3) Gr1/  TP (GEII2) Gr2 
+ 
+Cours (E3S3) 
+Signaux et Systèmes GEII3 
+Pr : F. ELAAMRI 
+ 
+ 
+Vendredi 
+ 
+Cours (E3S3) 
+Electronique Analogique GEII1 
+Pr : M. BEZZA 
+Cours (E3S3) 
+Electronique Analogique GEII1 
+Pr : M. BEZZA

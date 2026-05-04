@@ -1,0 +1,164 @@
+[TITLE] FSTM - FAQ - Questions Fréquentes des Étudiants
+[TYPE] faq
+[SOURCE] Compilation des données du site fstm.ac.ma - 2026-03-31
+[CONTENT]
+
+=== QUESTIONS GÉNÉRALES ===
+
+Q: Qu'est-ce que la FSTM ?
+R: La Faculté des Sciences et Techniques de Mohammedia (FSTM) est un établissement d'enseignement supérieur fondé en 1994, composante de l'Université Hassan II de Casablanca. Elle est située à Mohammedia, dans une zone à forte activité industrielle. Elle compte 3722 étudiants, 186 enseignants et 8 départements.
+
+Q: Où se trouve la FSTM ?
+R: Faculté des Sciences et Techniques de Mohammedia, BP 146, Mohammedia 28806, Maroc. Tél : +212 5 23 31 47 08 / +212 6 66 61 33 25.
+
+Q: Qui est la doyenne de la FSTM ?
+R: La doyenne est Pr. Latifa Mouhir.
+
+Q: Quels sont les départements de la FSTM ?
+R: La FSTM compte 8 départements : Biologie, Chimie, Informatique, Mathématiques, Physique, Génie Électrique, Génie des Procédés et Environnement, Enseignements Transversaux.
+
+=== ADMISSION ET INSCRIPTION ===
+
+Q: Comment s'inscrire à la FSTM en tant que bachelier ?
+R: La FSTM est un établissement à accès régulé. L'entrée en 1ère année (Tronc Commun) se fait par sélection basée sur les notes du baccalauréat. Il y a deux parcours : MIP (Mathématiques, Informatique, Physique) et BCG (Biologie, Chimie, Géosciences).
+
+Q: Quels bacs sont acceptés à la FSTM ?
+R: Les baccalauréats scientifiques (Sciences Mathématiques, Sciences Expérimentales, Sciences et Technologies) selon le parcours choisi (MIP ou BCG).
+
+Q: Comment candidater au Master (MST) ?
+R: Via la plateforme e-candidature (https://e-candidature.fstm.ac.ma/) avant le 31 août. La sélection comprend : présélection sur dossier, concours écrit (septembre), puis entretien oral pour certaines filières.
+
+Q: Comment accéder au Cycle Ingénieur ?
+R: Deux voies : le CNC (Concours National Commun) sur affectation, ou le concours FSTM (candidature en ligne avant le 31 août, présélection + concours écrit + oral).
+
+Q: Quels documents faut-il pour l'inscription ?
+R: Attestation d'assurance étudiant, fiche de pré-inscription, formulaire d'inscription en ligne, baccalauréat original + copies, dernier diplôme + copies, 2 copies CIN, 2 photos d'identité, enveloppe timbrée. Tout dossier incomplet sera refusé.
+
+Q: Où faire la pré-inscription en ligne ?
+R: Sur https://preins.univh2c.ma/index.php?etab=FST
+
+Q: Où obtenir l'assurance étudiant ?
+R: Sur https://assurance-etudiant.prevas.ma/
+
+=== FORMATIONS ===
+
+Q: Quelles sont les filières LST disponibles ?
+R: 15 filières LST : 9 parcours MIP (SIT, GE2I, MSDI, SDID, IRM, II, ILSI, PA, GM) et 6 parcours BCG (GBA, BIOCQ, TACQ, CA, GEE, GPI).
+
+Q: Quelles sont les filières MST ?
+R: 7 filières : ISERT, MQSE, MQSA, SGE, PCAM, MAGBio, IPMA.
+
+Q: Quelles sont les filières Ingénieur ?
+R: 5 filières (7 options) : GECI, ILISI, IDSI, GPE (options GEE et GPI), GE (Génie Énergétique).
+
+Q: Combien de temps dure chaque cycle ?
+R: Tronc Commun = 2 ans, LST = 3 ans total (1 an après TC), MST = 5 ans total (2 ans après LST), Cycle Ingénieur = 5 ans total (3 ans après BAC+2), Doctorat = 8 ans total (3 ans minimum après Master).
+
+=== SERVICES EN LIGNE ===
+
+Q: Comment consulter mes résultats ?
+R: Sur la plateforme E-résultat : https://e-resultat.fstm.ac.ma
+
+Q: Comment accéder à mon espace étudiant ?
+R: Via E-FSTM (https://e-fstm.fstm.ac.ma/) ou E-Scholar (https://e-scholar.fstm.ac.ma/) avec votre compte ENT au format "prenom.nom-etu".
+
+Q: Où trouver les cours en ligne ?
+R: Sur la plateforme E-learning de l'Université Hassan II : https://e-learning.univh2c.ma
+
+Q: Comment contacter le support technique ?
+R: Via le Help Desk : https://help.fstm.ac.ma
+
+Q: Comment suivre mon diplôme ?
+R: Via le service E-suivi des lauréats : https://www.fstm.ac.ma/diplomes/index.php
+
+=== VIE ÉTUDIANTE ===
+
+Q: Y a-t-il un médecin à la FSTM ?
+R: Oui, un médecin généraliste détaché du ministère de la santé accueille les étudiants et le personnel une fois par semaine durant toute l'année universitaire (hormis vacances et jours fériés).
+
+Q: Y a-t-il un terrain de sport ?
+R: Oui, le terrain de sport et les vestiaires sont réservés aux étudiants inscrits à la FSTM. Toute activité sportive nécessitant l'usage du terrain doit faire l'objet d'une réservation préalable ou être dans le cadre d'un programme validé par l'OVE.
+
+Q: Que faire en cas d'accident ?
+R: En cas d'accident dans l'établissement ou pendant le trajet de/vers la FSTM, l'étudiant ou son tuteur doit déclarer celui-ci pendant les 24 heures à l'organisme d'assurance étudiant.
+
+Q: Y a-t-il une bibliothèque ?
+R: Oui, la FSTM dispose de deux bibliothèques. Les livres et ouvrages doivent être utilisés avec soin. Un règlement propre à la bibliothèque est affiché à l'intérieur.
+
+Q: Faut-il porter une blouse en TP ?
+R: Oui, pendant les séances de travaux pratiques, les étudiants doivent s'équiper de blouses, chaussures fermées, pantalon, gants et lunettes de protection, et avoir les cheveux attachés.
+
+=== RECHERCHE ===
+
+Q: Combien de laboratoires a la FSTM ?
+R: 13 laboratoires de recherche et 1 centre de recherche, accueillant 595 doctorants.
+
+Q: Quels sont les principaux laboratoires ?
+R: LIM (Intelligence Machine), LMCSA (Mathématiques et Informatique), LGPE (Génie des Procédés), LSIB (Sciences de l'Ingénieur et Biosciences), LCP2BM (Chimie-Physique et Biotechnologies), L2ME (Matériaux et Membranes), LBAME (Biotechnologie et Agro-alimentaire), entre autres.
+
+=== RÈGLEMENT INTÉRIEUR (POINTS CLÉS) ===
+
+Q: Quelles sont les règles principales du règlement intérieur ?
+R: La FSTM suit le système LMD (Licence-Master-Doctorat). Les principales règles sont :
+- Respect de la propreté et des espaces verts
+- Utilisation soigneuse des locaux et du matériel
+- Port obligatoire d'équipements de protection en TP
+- Affichage soumis à autorisation de l'administration
+- Sanctions en cas de dégradation des locaux ou du matériel
+- Déclaration obligatoire des accidents sous 24h
+
+=== QUESTIONS SUPPLÉMENTAIRES (AJOUT SCRAPING COMPLET) ===
+
+Q: Qui est le chef du département Informatique ?
+R: Le chef du département Informatique est SADDOUNE Mohammed.
+
+Q: Qui est le chef du département Mathématiques ?
+R: Le chef du département Mathématiques est ALLALI Karam.
+
+Q: Qui est le chef du département Physique ?
+R: Le chef du département Physique est EL AZRAK Abdellatif.
+
+Q: Qui est le chef du département Biologie ?
+R: Le chef du département Biologie est SAFI Amal.
+
+Q: Qui est le chef du département Chimie ?
+R: Le chef du département Chimie est OUAMMOU Mohamed.
+
+Q: Qui est le chef du département GPE ?
+R: Le chef du département Génie des Procédés et Environnement est MADINZI Abdelaziz.
+
+Q: Qui est le chef du département Génie Électrique ?
+R: Le chef du département Génie Électrique est SAYOUTI Yassine.
+
+Q: Qui est le chef du département Enseignements Transversaux ?
+R: Le chef du département Enseignements Transversaux est JIRARI Hicham.
+
+Q: Comment faire une réclamation de bourse ?
+R: Envoyer un email à aicha.sagar@fstm.ac.ma avec nom, prénom, code MASSAR, filière et numéro de téléphone. On peut aussi passer par https://e-fstm.fstm.ac.ma > "Réclamation de bourse".
+
+Q: Comment obtenir ma carte d'étudiant ?
+R: Aller sur https://e-fstm.fstm.ac.ma, cliquer sur "Validation des informations", vérifier les données, confirmer, imprimer le reçu, puis déposer le reçu au guichet des affaires estudiantines.
+
+Q: Comment consulter mes notes après délibérations ?
+R: Via le portail ENT : https://ent.univh2c.ma
+
+Q: Comment voir mes résultats d'orientation en LST ?
+R: Via https://e-scholar.fstm.ac.ma/index.php
+
+Q: Comment faire un changement d'orientation ?
+R: Les étudiants ayant validé la 1ère année du TC LST peuvent déposer une demande de changement d'orientation (sauf Génie Biologie). Les places sont limitées. Délai : généralement fin septembre.
+
+Q: Y a-t-il un centre de certification à la FSTM ?
+R: Oui, le IPv6 Moroccan Training Center (MTC6), contact : Pr. Cherkaoui LEGHRIS, cleghris@fstm.ac.ma, 0661405058.
+
+Q: Quels sont les nouveaux parcours du Tronc Commun ?
+R: Depuis 2024-2025, le Tronc Commun est organisé en 6 filières : GB (Génie Biologie), GC (Génie Chimie), GI (Génie Informatique), GESE (Génie Électrique et Systèmes Embarqués), GP (Génie Physique), MSD (Mathématiques, Sciences et Données).
+
+Q: Quelle est la date limite de réinscription ?
+R: Pour la session de Printemps 2025-2026 : 12 Février 2026 à minuit via https://e-scholar.fstm.ac.ma/
+
+Q: Comment faire la candidature en tant que bachelier ?
+R: Via le site national https://www.cursussup.gov.ma avec votre CNE ou code MASSAR.
+
+Q: Quel est le projet de développement de la FSTM ?
+R: Le mandat 2023-2027 de la doyenne Pr. Latifa Mouhir est basé sur trois axes : L'Excellence, L'Innovation et La Durabilité.

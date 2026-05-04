@@ -1,0 +1,108 @@
+[TITLE] LST - Informatique, Réseau et Multimédia
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2025/LST_IRM.pdf
+--- Contenu du document ---
+
+LICENCE SCIENCES ET TECHNIQUES
+INFORMATIQUE, RÉSEAUX ET MULTIMÉDIA (IRM)
+Objectif
+la licence forme des informaticiens capables de traiter automatiquement des données multimodales
+telles que le texte, l’image, l’audio ou la vidéo. Elle développe des compétences en culture digitale,
+cybersécurité et analyse de données, applicables à des domaines variés comme la santé, l’industrie
+ou l’éducation. Le programme prépare à la poursuite d’études en master ou en école d’ingénieurs. Il
+vise également à renforcer l’employabilité en dotant les étudiants de compétences pratiques
+adaptées aux besoins des entreprises.
+Compétences Débouchés professionnels
+Cette formation vise à doter les étudiants de Le lauréat de la LST-IRM peut s’insérer dans les
+compétences techniques, scientifiques, secteurs de l’informatique et de l’ingénierie,
+professionnelles et transversales en notamment dans l’industrie 4.0, le traitement de
+multimédia, informatique et intelligence données, les réseaux et le développement
+artificielle, afin de faciliter aussi bien la d’applications multimédia. Il peut également
+poursuite des études supérieures que poursuivre ses études en master, en filières
+l’insertion et l’évolution dans le monde d’ingénieurs, puis en doctorat.
+professionnel.
+Descriptif des modules
+Semestre 5
+Traitement des Données IA Générative, Agents et Workflows Concepts Objet en développement
+Multimodales pour Applications Mobiles front End
+Concepts et Architecture des réseaux Fondements de l'intelligence
+UML
+informatiques artificielle
+Anglais technique
+Semestre 6
+Apprentissage automatique Développement Backend Java pour
+Sécurité des réseaux
+multimodale Multimédias
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Abdellah ADIB
+E-mail : abdellah.adib@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53
+
+[Tableau page 1]
+ |  |  | ES
+DIA (IRM)
+ment des données multimodales
+ | LICENCE SCIENCES ET TECHNIQUES
+INFORMATIQUE, RÉSEAUX ET MULTIMÉDIA (IRM)
+Objectif
+la licence forme des informaticiens capables de traiter automatiquement des données multimodales
+telles que le texte, l’image, l’audio ou la vidéo. Elle développe des compétences en culture digitale,
+cybersécurité et analyse de données, applicables à des domaines variés comme la santé, l’industrie
+ou l’éducation. Le programme prépare à la poursuite d’études en master ou en école d’ingénieurs. Il
+vise également à renforcer l’employabilité en dotant les étudiants de compétences pratiques
+adaptées aux besoins des entreprises.
+Compétences Débouchés professionnels
+Cette formation vise à doter les étudiants de Le lauréat de la LST-IRM peut s’insérer dans les
+compétences techniques, scientifiques, secteurs de l’informatique et de l’ingénierie,
+professionnelles et transversales en notamment dans l’industrie 4.0, le traitement de
+multimédia, informatique et intelligence données, les réseaux et le développement
+artificielle, afin de faciliter aussi bien la d’applications multimédia. Il peut également
+poursuite des études supérieures que poursuivre ses études en master, en filières
+l’insertion et l’évolution dans le monde d’ingénieurs, puis en doctorat.
+professionnel.
+Descriptif des modules
+Semestre 5
+Traitement des Données IA Générative, Agents et Workflows Concepts Objet en développement
+Multimodales pour Applications Mobiles front End
+Concepts et Architecture des réseaux Fondements de l'intelligence
+UML
+informatiques artificielle
+Anglais technique
+Semestre 6
+Apprentissage automatique Développement Backend Java pour
+Sécurité des réseaux
+multimodale Multimédias
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Abdellah ADIB
+E-mail : abdellah.adib@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 |  | ES
+DIA (IRM)
+ment des données multimodales
+ |  | C O N T A C T
+Coordonnateur : Pr. Abdellah ADIB
+E-mail : abdellah.adib@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 | 
+
+[Tableau page 1]
+Semestre 5 |  | 
+Traitement des Données
+Multimodales | IA Générative, Agents et Workflows
+pour Applications Mobiles | Concepts Objet en développement
+front End
+Concepts et Architecture des réseaux
+informatiques | Fondements de l'intelligence
+artificielle | UML
+Anglais technique |  | 
+
+[Tableau page 1]
+Semestre 6 |  | 
+Sécurité des réseaux | Apprentissage automatique
+multimodale | Développement Backend Java pour
+Multimédias
+Intelligence artificielle | Projet de fin d’étude | 
+
+[Tableau page 1]
+ |

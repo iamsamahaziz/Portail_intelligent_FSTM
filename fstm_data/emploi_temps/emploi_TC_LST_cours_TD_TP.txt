@@ -1,0 +1,179 @@
+[TITLE] Emploi du Temps - Cours TD TP Tronc Commun LST
+[TYPE] emploi_temps
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/affaires_pedagogiques/files/2025-2026/emploisdutemps/TC/2VFEmploisCTDTPTCLSTSP2526.pdf
+--- Contenu du document ---
+
+Université Hassan II de Casablanca, FST de Mohammedia Année Universitaire 2025/2026
+Tronc Commun LST, Spécialités : Génie Biologique (GB), Génie Chimique (GC), Génie Physique (GP), Génie Informatique (GI),
+Génie Electrique et Systèmes Embarqués (GESE), Mathématiques et Sciences des Données (MSD)
+Emplois du temps Cours +TD +TP, Semestre S2, 1ère Année du Tronc Commun LST, Session Printemps 2025/2026
+Matin Après Midi
+S2 TC LST
+8h30 -10H20 10H40 - 12H30 13H30 - 15H20 15H40 - 17H30
+Cours B421, GB, Amphi δ Cours G421, GB, Amphi δ Cours M221, GI/GESE, Amphi δ Cours E221, GI/GESE, Amphi δ
+TD3 E221, Salle F1S2 TD3 M221, Salle F1S2 TD3 I121, Salle F1S2 TD3 M122, Salle F1S2
+TD4 M221, Salle F1S3 TD4 E221, Salle F1S3 TD4 M122, Salle F1S3 TD4 I121, Salle F1S3
+TD1 I321, Salle E3S1 TD1 P322, Salle E3S1 TD1 B421/G421, Salle E3S1 TD1 C421, Salle E3S1
+Lundi
+TD2 P322, Salle E3S2 TD2 I321, Salle E3S2 TD2 C421, Salle E3S2 TD2 B421/G421, Salle E3S2
+TD5 P221, Salle F1S4 TD5 I221, Salle F1S4 TD5 E121, Salle F1S4 TD5 P121, Salle F1S4
+TP1A/1B I221, TP2A/2B P221/E221 TP1A/1B I121, TP2A/2B P121/E121
+TP3A/3B I321, TP4A/4B P321/P322 TP3A/3B P321/P322, TP3A/3B B421/C421
+Cours I221, GI/GESE, Amphi δ Cours L221/S221, GI/GESE, Amphi δ Cours M122, GP/MSD, Amphi δ Cours L121/S121, GP/MSD, Amphi δ
+Cours L321/S321, GC, Amphi β Cours I321, GC, Amphi β Cours L421/S421, GB, Amphi β Cours P421, GB, Amphi β
+TD3 M121, Salle F1S2 TD3 E121, Salle F1S2 TD1 P221, Salle F1S2 TD1 I221, Salle F1S2
+TD4 E121, Salle F1S3 TD4 M121, Salle F1S3 TD2 I221, Salle F1S3 TD2 P221, Salle F1S3
+Mardi TD1 P421, Salle E3S1 TD1 I421, Salle E3S1 TD3 I321, Salle E3S1 TD3 M321, Salle E3S1
+TD2 I421, Salle E3S2 TD2 P421, Salle E3S2 TD4 M321, Salle E3S2 TD4 I321, Salle E3S2
+TD5 I121, Salle F1S4 TD5 M122, Salle F1S4 TD5 M221, Salle F1S4 TD5 M222, Salle F1S4
+TP2A/2B I121, TP1A/1B P121/E121 TP4A/4B I221, TP3A/3B P221/E221
+TP3A/3B I421, TP4A/4B P421/G421 TP2A/2B I321, TP1A/1B P321/P322
+Cours M121, GP/MSD, Amphi δ Cours E121, GP/MSD, Amphi δ Cours P321, GC, Amphi δ Cours M321, GC, Amphi δ
+TD1 M221, Salle F1S2 TD1 E221, Salle F1S2 TD1 E121, Salle F1S2 TD1 M122, Salle F1S2
+TD2 E221, Salle F1S3 TD2 M221, Salle F1S3 TD2 M122, Salle F1S3 TD2 E121, Salle F1S3
+Mercredi TD1 M321, Salle E3S1 TD1 P321, Salle E3S1 TD1 M222, Salle E3S1 TD2 M222, Salle E3S1
+TD2 P321, Salle E3S2 TD2 M321, Salle E3S2 TD5 M121, Salle E3S2 TD5 E221, Salle E3S2
+TP3A/3B I221, TP4A/4B P221/E221 TP3A/3B I121, TP4A/4B P121/E121
+TP4A/4B I321, TP3A/3B P421/G421, TP4A/4B B421/C421 TP1A/1B I421, TP2A/2B P421/G421
+Cours P221, GI/GESE, Amphi δ Cours M222, GI/GESE, Amphi δ Cours I121, GP/MSD, Amphi δ Cours P121, GP/MSD, Amphi δ
+Cours M322, GC, Amphi β Cours P322, GC, Amphi β Cours C421, GB, Amphi β Cours I421, GB, Amphi β
+TD1 I121, Salle F1S2 TD1 P121, Salle F1S2 TD3 P221, Salle F1S2 TD3 M222, Salle F1S2
+TD2 P121, Salle F1S3 TD2 I121, Salle F1S3 TD4 M222, Salle F1S3 TD4 P221, Salle F1S3
+Jeudi
+TD3 C421, Salle E3S1 TD3 I421, Salle E3S1 TD3 P321, Salle E3S1 TD3 M322, Salle E3S1
+TD4 I421, Salle E3S2 TD4 C421, Salle E3S2 TD4 M322, Salle E3S2 TD4 P321, Salle E3S2
+TP4A/4B I121, TP5A/5B P121/E121 TP2A/2B I221, TP5A/5B I221
+TP2A/2B I421, TP1A/1B P421/G421 TP1A/1B P221/E221, TP2A/2B P321/P322
+TD1 M121,Salle F1S2 TD2 M121, Salle F1S2 TD3 I221, Salle F1S3 TD4 I221, Salle F1S3
+TD3 P121, Salle F1S3 TD4 P121, Salle F1S3 TD1 M322, Salle E3S1 TD2 M322, Salle E3S1
+TD3 P421, Salle E3S1 TD3 B421/G421, Salle E3S1 TD3 P322, Salle E3S2 TD4 P322, Salle E3S2
+Vendredi
+TD4 B421/G421, Salle E3S2 TD4 P421, Salle E3S2
+TP5A/5B I121, TP5A/5B P221/E221 TP3A/3B P121/E121
+TP1A/1B I321, TP1A/1B B421/C421 TP4A/4B I421, TP2A/2B B421/C421
+NB : Horaires du Ramadan
+Matin Après Midi
+9h -10H30 10H45 - 12H15 12H45 - 14H15 14H30 - 16H
+Emplois du temps Cours +TD +TP, Semestre S4, 2ème Année du Tronc Commun LST, Session Printemps 2025/2026
+Matin Après Midi
+S4 TC LST
+8h30 -10H20 10H40 - 12H30 13H30 - 15H20 15H40 - 17H30
+Cours B441, S4 GB, Amphi α Cours B442, S4 GB, Amphi α Cours C341, S4 GC, Amphi α Cours C342, S4 GC, Amphi α
+TD1 C341, GC, Amphi λ TD1 C342, GC, Amphi λ Cours E241, S4 GESE, Amphi λ TD E241, GESE, Amphi λ
+TD2 C342, GC, Amphi σ TD2 C341, GC, Amphi σ Cours G233, S3 BCG, Amphi σ TD G233, S3 BCG, Amphi σ
+Lundi
+TD1 I241, GI, Salle Y2S6 TD1 I242, GI, Salle Y2S6 TD1 M141, GP/MSD, Salle Y2S6 TD1 M142, GP/MSD, Salle Y2S6
+TD2 I242, GI, Salle Y2S7 TD2 I241, GI, Salle Y2S7 TD2 M142, GP/MSD, Salle Y2S7 TD2 M141, GP/MSD, Salle Y2S7
+TP3A/3B I241, TP4A/4B M241, TP G233 TP1A/1B I241, TP2A/2B I242, TP1A/1B M441, TP2A/2B B441/B442
+Cours M241, S4 GI/GESE, Amphi α Cours M242, S4 GI/GESE, Amphi α Cours M143, S4 MSD, Amphi α Cours M145, S4 MSD, Amphi α
+Cours C343, S4 GC, Amphi λ Cours G341, S4 GC, Amphi λ TD1 C343, GC, Amphi λ TD1 G341, GC, Amphi λ
+Cours I141, S4 GP, Amphi σ TD I141, GP, Amphi σ TD2 G341, GC, Amphi σ TD2 C343, GC, Amphi σ
+Mardi
+TD1 M143, MSD, Salle Y2S6 TD1 M145, MSD, Salle Y2S6 TD1 M241, GI, Salle Y2S6 TD1 M242, GI, Salle Y2S6
+TD2 M145, MSD, Salle Y2S7 TD2 M143, MSD, Salle Y2S7 TD2 M242, GI, Salle Y2S7 TD2 M241, GI, Salle Y2S7
+TP1A/1B B441/B442, TP2A/2B B443/B444 TP3A/3B I242, TP1A/1B B443/B444, TP2A/2B M441
+Cours B443, S4 GB, Amphi α Cours B444, S4 GB, Amphi α Cours L241/S241, S4 GI/GESE, Amphi α Cours I241, S4 GI, Amphi α
+Cours M243, S4 GI, Amphi λ Cours E242, S4 GESE, Amphi λ Cours P141, S4 GP, Amphi λ Cours L141/S141, S4 GP/MSD, Amphi λ
+TD E242, GESE, Salle F1S4 TD1 M243, GI, Salle F1S4 Cours P146, S4 MIP, Amphi σ TD P146, S4 MIP, Amphi σ
+Mercredi
+TD P141, GP, Salle Y2S6 TD3 I241, GI, Salle Y2S6 TD1 B441/B442, GB, Y2S6 TD1 B443/B444, GB, Salle Y2S6
+TD1 M341, GC, Salle Y2S7 TD2 M341, GC, Salle Y2S7 TD2 B443/B444, GB, Y2S7 TD2 B441/B442, GB, Y2S7
+TP1A/1B M143/M145, TP P146 TP1A/1B C341/C342/C343, TP2A/2B G341
+Cours M341, S4 GC, Amphi λ Cours L341/S341, S4 GC, Amphi λ Cours M142, S4 GP/MSD, Amphi α Cours M141, S4 GP/MSD, Amphi α
+Cours L441/S441, S4 GB, Amphi σ Cours M441, S4 GB, Amphi σ Cours E243, S4 GESE, Amphi λ TD E243, GESE, Amphi λ
+Jeudi Cours I242, S4 GI, Amphi α Cours P142, S4 GP, Amphi α TD2 M243, GI, Salle Y2S6 TD3 M243, GI, Salle Y2S6
+TD P142, GP, Salle Y2S6 TD3 I242, GI, Salle Y2S6 TD1 M441, GC, Salle Y2S7 TD2 M441, GC, Salle Y2S7
+TP1A/1B E241/E242/E243 TP2A/2B C341/C342/C343, TP1A/1B G341
+Cours M144, S4 MSD, Amphi λ TD M144, MSD, Amphi λ
+TD3 M241, GI, Salle Y2S6 TD3 M242, GI, Salle Y2S6
+Vendredi TD4 M242, GESE, Salle Y2S7 TD4 M241, GESE, Salle Y2S7
+TP1A/1B P141/P142 TP1A/1B I141, TP1A/1B M144, TP1A/1B/2A/2B M341
+TP1A/1B M241, TP2A/2B I241 TP1A/1B I242, TP2A/2B/3A/3B M241
+NB : Horaires du Ramadan
+Matin Après Midi
+9h -10H30 10H45 - 12H15 12H45 - 14H15 14H30 - 16H
+
+[Tableau page 1]
+S2 TC LST | Matin |  | Après Midi | 
+ | 8h30 -10H20 | 10H40 - 12H30 | 13H30 - 15H20 | 15H40 - 17H30
+ | Cours B421, GB, Amphi δ | Cours G421, GB, Amphi δ | Cours M221, GI/GESE, Amphi δ | Cours E221, GI/GESE, Amphi δ
+Lundi | TD3 E221, Salle F1S2 | TD3 M221, Salle F1S2 | TD3 I121, Salle F1S2 | TD3 M122, Salle F1S2
+ | TD4 M221, Salle F1S3 | TD4 E221, Salle F1S3 | TD4 M122, Salle F1S3 | TD4 I121, Salle F1S3
+ | TD1 I321, Salle E3S1 | TD1 P322, Salle E3S1 | TD1 B421/G421, Salle E3S1 | TD1 C421, Salle E3S1
+ | TD2 P322, Salle E3S2 | TD2 I321, Salle E3S2 | TD2 C421, Salle E3S2 | TD2 B421/G421, Salle E3S2
+ | TD5 P221, Salle F1S4 | TD5 I221, Salle F1S4 | TD5 E121, Salle F1S4 | TD5 P121, Salle F1S4
+ | TP1A/1B I221, TP2A/2B P221/E221 |  | TP1A/1B I121, TP2A/2B P121/E121 | 
+ | TP3A/3B I321, TP4A/4B P321/P322 |  | TP3A/3B P321/P322, TP3A/3B B421/C421 | 
+ | Cours I221, GI/GESE, Amphi δ | Cours L221/S221, GI/GESE, Amphi δ | Cours M122, GP/MSD, Amphi δ | Cours L121/S121, GP/MSD, Amphi δ
+ | Cours L321/S321, GC, Amphi β | Cours I321, GC, Amphi β | Cours L421/S421, GB, Amphi β | Cours P421, GB, Amphi β
+Mardi | TD3 M121, Salle F1S2 | TD3 E121, Salle F1S2 | TD1 P221, Salle F1S2 | TD1 I221, Salle F1S2
+ | TD4 E121, Salle F1S3 | TD4 M121, Salle F1S3 | TD2 I221, Salle F1S3 | TD2 P221, Salle F1S3
+ | TD1 P421, Salle E3S1 | TD1 I421, Salle E3S1 | TD3 I321, Salle E3S1 | TD3 M321, Salle E3S1
+ | TD2 I421, Salle E3S2 | TD2 P421, Salle E3S2 | TD4 M321, Salle E3S2 | TD4 I321, Salle E3S2
+ | TD5 I121, Salle F1S4 | TD5 M122, Salle F1S4 | TD5 M221, Salle F1S4 | TD5 M222, Salle F1S4
+ | TP2A/2B I121, TP1A/1B P121/E121 |  | TP4A/4B I221, TP3A/3B P221/E221 | 
+ | TP3A/3B I421, TP4A/4B P421/G421 |  | TP2A/2B I321, TP1A/1B P321/P322 | 
+ | Cours M121, GP/MSD, Amphi δ | Cours E121, GP/MSD, Amphi δ | Cours P321, GC, Amphi δ | Cours M321, GC, Amphi δ
+Mercredi | TD1 M221, Salle F1S2 | TD1 E221, Salle F1S2 | TD1 E121, Salle F1S2 | TD1 M122, Salle F1S2
+ | TD2 E221, Salle F1S3 | TD2 M221, Salle F1S3 | TD2 M122, Salle F1S3 | TD2 E121, Salle F1S3
+ | TD1 M321, Salle E3S1 | TD1 P321, Salle E3S1 | TD1 M222, Salle E3S1 | TD2 M222, Salle E3S1
+ | TD2 P321, Salle E3S2 | TD2 M321, Salle E3S2 | TD5 M121, Salle E3S2 | TD5 E221, Salle E3S2
+ | TP3A/3B I221, TP4A/4B P221/E221 |  | TP3A/3B I121, TP4A/4B P121/E121 | 
+ | TP4A/4B I321, TP3A/3B P421/G421, TP4A/4B B421/C421 |  | TP1A/1B I421, TP2A/2B P421/G421 | 
+ | Cours P221, GI/GESE, Amphi δ | Cours M222, GI/GESE, Amphi δ | Cours I121, GP/MSD, Amphi δ | Cours P121, GP/MSD, Amphi δ
+ | Cours M322, GC, Amphi β | Cours P322, GC, Amphi β | Cours C421, GB, Amphi β | Cours I421, GB, Amphi β
+Jeudi | TD1 I121, Salle F1S2 | TD1 P121, Salle F1S2 | TD3 P221, Salle F1S2 | TD3 M222, Salle F1S2
+ | TD2 P121, Salle F1S3 | TD2 I121, Salle F1S3 | TD4 M222, Salle F1S3 | TD4 P221, Salle F1S3
+ | TD3 C421, Salle E3S1 | TD3 I421, Salle E3S1 | TD3 P321, Salle E3S1 | TD3 M322, Salle E3S1
+ | TD4 I421, Salle E3S2 | TD4 C421, Salle E3S2 | TD4 M322, Salle E3S2 | TD4 P321, Salle E3S2
+ | TP4A/4B I121, TP5A/5B P121/E121 |  | TP2A/2B I221, TP5A/5B I221 | 
+ | TP2A/2B I421, TP1A/1B P421/G421 |  | TP1A/1B P221/E221, TP2A/2B P321/P322 | 
+Vendredi | TD1 M121,Salle F1S2 | TD2 M121, Salle F1S2 | TD3 I221, Salle F1S3 | TD4 I221, Salle F1S3
+ | TD3 P121, Salle F1S3 | TD4 P121, Salle F1S3 | TD1 M322, Salle E3S1 | TD2 M322, Salle E3S1
+ | TD3 P421, Salle E3S1 | TD3 B421/G421, Salle E3S1 | TD3 P322, Salle E3S2 | TD4 P322, Salle E3S2
+ | TD4 B421/G421, Salle E3S2 | TD4 P421, Salle E3S2 |  | 
+ | TP5A/5B I121, TP5A/5B P221/E221 |  | TP3A/3B P121/E121 | 
+ | TP1A/1B I321, TP1A/1B B421/C421 |  | TP4A/4B I421, TP2A/2B B421/C421 | 
+
+[Tableau page 1]
+NB : | Horaires du Ramadan |  |  | 
+ | Matin |  | Après Midi | 
+ | 9h -10H30 | 10H45 - 12H15 | 12H45 - 14H15 | 14H30 - 16H
+
+[Tableau page 1]
+S4 TC LST | Matin |  | Après Midi | 
+ | 8h30 -10H20 | 10H40 - 12H30 | 13H30 - 15H20 | 15H40 - 17H30
+ | Cours B441, S4 GB, Amphi α | Cours B442, S4 GB, Amphi α | Cours C341, S4 GC, Amphi α | Cours C342, S4 GC, Amphi α
+ | TD1 C341, GC, Amphi λ | TD1 C342, GC, Amphi λ | Cours E241, S4 GESE, Amphi λ | TD E241, GESE, Amphi λ
+ | TD2 C342, GC, Amphi σ | TD2 C341, GC, Amphi σ | Cours G233, S3 BCG, Amphi σ | TD G233, S3 BCG, Amphi σ
+Lundi | TD1 I241, GI, Salle Y2S6 | TD1 I242, GI, Salle Y2S6 | TD1 M141, GP/MSD, Salle Y2S6 | TD1 M142, GP/MSD, Salle Y2S6
+ | TD2 I242, GI, Salle Y2S7 | TD2 I241, GI, Salle Y2S7 | TD2 M142, GP/MSD, Salle Y2S7 | TD2 M141, GP/MSD, Salle Y2S7
+ | TP3A/3B I241, TP4A/4B M241, TP G233 |  | TP1A/1B I241, TP2A/2B I242, TP1A/1B M441, TP2A/2B B441/B442 | 
+ | Cours M241, S4 GI/GESE, Amphi α | Cours M242, S4 GI/GESE, Amphi α | Cours M143, S4 MSD, Amphi α | Cours M145, S4 MSD, Amphi α
+ | Cours C343, S4 GC, Amphi λ | Cours G341, S4 GC, Amphi λ | TD1 C343, GC, Amphi λ | TD1 G341, GC, Amphi λ
+ | Cours I141, S4 GP, Amphi σ | TD I141, GP, Amphi σ | TD2 G341, GC, Amphi σ | TD2 C343, GC, Amphi σ
+Mardi | TD1 M143, MSD, Salle Y2S6 | TD1 M145, MSD, Salle Y2S6 | TD1 M241, GI, Salle Y2S6 | TD1 M242, GI, Salle Y2S6
+ | TD2 M145, MSD, Salle Y2S7 | TD2 M143, MSD, Salle Y2S7 | TD2 M242, GI, Salle Y2S7 | TD2 M241, GI, Salle Y2S7
+ | TP1A/1B B441/B442, TP2A/2B B443/B444 |  | TP3A/3B I242, TP1A/1B B443/B444, TP2A/2B M441 | 
+ | Cours B443, S4 GB, Amphi α | Cours B444, S4 GB, Amphi α | Cours L241/S241, S4 GI/GESE, Amphi α | Cours I241, S4 GI, Amphi α
+ | Cours M243, S4 GI, Amphi λ | Cours E242, S4 GESE, Amphi λ | Cours P141, S4 GP, Amphi λ | Cours L141/S141, S4 GP/MSD, Amphi λ
+ | TD E242, GESE, Salle F1S4 | TD1 M243, GI, Salle F1S4 | Cours P146, S4 MIP, Amphi σ | TD P146, S4 MIP, Amphi σ
+Mercredi | TD P141, GP, Salle Y2S6 | TD3 I241, GI, Salle Y2S6 | TD1 B441/B442, GB, Y2S6 | TD1 B443/B444, GB, Salle Y2S6
+ | TD1 M341, GC, Salle Y2S7 | TD2 M341, GC, Salle Y2S7 | TD2 B443/B444, GB, Y2S7 | TD2 B441/B442, GB, Y2S7
+ | TP1A/1B M143/M145, TP P146 |  | TP1A/1B C341/C342/C343, TP2A/2B G341 | 
+ | Cours M341, S4 GC, Amphi λ | Cours L341/S341, S4 GC, Amphi λ | Cours M142, S4 GP/MSD, Amphi α | Cours M141, S4 GP/MSD, Amphi α
+ | Cours L441/S441, S4 GB, Amphi σ | Cours M441, S4 GB, Amphi σ | Cours E243, S4 GESE, Amphi λ | TD E243, GESE, Amphi λ
+Jeudi | Cours I242, S4 GI, Amphi α | Cours P142, S4 GP, Amphi α | TD2 M243, GI, Salle Y2S6 | TD3 M243, GI, Salle Y2S6
+ | TD P142, GP, Salle Y2S6 | TD3 I242, GI, Salle Y2S6 | TD1 M441, GC, Salle Y2S7 | TD2 M441, GC, Salle Y2S7
+ | TP1A/1B E241/E242/E243 |  | TP2A/2B C341/C342/C343, TP1A/1B G341 | 
+ | Cours M144, S4 MSD, Amphi λ | TD M144, MSD, Amphi λ |  | 
+Vendredi | TD3 M241, GI, Salle Y2S6 | TD3 M242, GI, Salle Y2S6 |  | 
+ | TD4 M242, GESE, Salle Y2S7 | TD4 M241, GESE, Salle Y2S7 |  | 
+ | TP1A/1B P141/P142 |  | TP1A/1B I141, TP1A/1B M144, TP1A/1B/2A/2B M341 | 
+ | TP1A/1B M241, TP2A/2B I241 |  | TP1A/1B I242, TP2A/2B/3A/3B M241 | 
+
+[Tableau page 1]
+NB : | Horaires du Ramadan |  |  | 
+ | Matin |  | Après Midi | 
+ | 9h -10H30 | 10H45 - 12H15 | 12H45 - 14H15 | 14H30 - 16H

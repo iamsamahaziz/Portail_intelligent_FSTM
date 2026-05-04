@@ -1,0 +1,105 @@
+PUBLIC CIBLE
+   OBJECTIFS DE LA FORMATION 
+Le cycle d’ingénieur ILISI propose une formation avancée en génie logiciel, permettant à
+ses lauréats de répondre efficacement aux besoins du secteur public et privé. Ils y
+acquièrent les compétences nécessaires pour intervenir dans toutes les étapes du cycle de
+vie d’un logiciel : analyse, conception, développement, validation et déploiement.
+La formation couvre également l’ingénierie des données (stockage et analyse de données
+massives) ainsi que l’intelligence artificielle, afin de garantir la polyvalence des profils
+formés.
+Outre l’expertise technique, les lauréats développent des aptitudes transversales
+essentielles : intégration professionnelle rapide, rigueur méthodologique, adaptabilité et
+capacité d’évolution dans un domaine en constante transformation.
+COORDONNATRICE
+MÉTHODOLOGIE
+   DÉBOUCHÉS DE LA FORMATION 
+Ingénierie Logicielle et
+Intégration des Systèmes
+Informatiques (ILISI) 
+Titulaires des diplômes : DEUG, DEUST,
+DUT;
+Licence ST ou Es-Sciences et classes
+préparatoires.
+ILISI, TROIS ANNÉES DE FORMATION, TROIS PAS VERS LA RÉUSSITE
+Pr. Khadija LETRACHE
+Email: khadija.letrache@fstm.ac.ma
+Tél: 06-66-753-108
+Département Informatique, FSTM
+Un apprentissage à travers des projets pratiques ;
+Des ateliers pratiques chaque semestre;
+Des stages tout au long de la formation;
+Un contenu de formation régulièrement actualisé;
+Une formation qui s’aligne avec le besoin du marché du
+travail;
+L’insertion des ingénieurs de ILISI peut se faire dans
+les sociétés de services informatiques, et dans tous
+les établissements faisant appel aux sciences de
+l’Informatique, en tant que :
+Ingénieur en développement logiciel;
+Ingénieur recette et qualité logicielle;
+Chef de projets informatiques;
+Ingénieur de données;
+Administrateur BDs, etc.;
+
+SEMESTRE 1
+SEMESTRE 2
+SEMESTRE 3
+SEMESTRE 5
+SEMESTRE 4
+SEMESTRE 6
+Programme ILISI
+STRUCTURES DE DONNÉES AVANCÉES
+ALGORITHMIQUE ET TECHNIQUES DE
+PROGRAMMATION
+SYSTEMES D’EXPLOITATION ET RESEAUX
+INFORMATIQUES
+SYSTEMES D’INFORMATION ET BASES DE
+DONNEES
+ATELIER DE PROGRAMMATION
+PROGRAMMATION SYSTEME
+FRANÇAIS
+ATELIER ROBOTIQUE ET IoT
+ANALYSE ET CONCEPTION EN UML
+PROGRAMMATION ORIENTEE OBJET
+TECHNOLOGIES WEB 
+DÉVELOPPEMENT WEB FULL STACK
+MODERNE
+ATELIER PROGRAMMATION WEB
+PROGRAMMATION JAVA
+ANGLAIS
+DROIT ET ECONOMIE
+STAGE 
+UML AVANCE ET INGENIERIE DES PROCESSUS
+COMPILATION 
+JEE
+PROGRAMMATION OBJET AVANCEE ET
+DESIGN PATTERNS
+PLSQL ET ADMINISTRATION ORACLE
+TECHNOLOGIES DOTNET et DÉVELOPPEMENT
+MOBILE
+FRANCAIS
+INTELLIGENCE ARTIFICIELLE
+LES LOGIQUES POUR L’IA
+ANALYSE DE DONNÉES ET TRAITEMENT
+MULTIMEDIA
+INTELLIGENCE ARTIFICIELLE PRINCIPES ET
+MÉTHODES
+ARCHITECTURES DISTRIBUEES ET SECURITE SI
+ARCHITECTURES BIG DATA ET IA AVANCEE
+BASES DE DONNÉES AVANCÉES
+ANGLAIS TECHNIQUE
+ENTREPRENEURIAT, INNOVATION ET
+PROPRIÉTÉ INTELLECTUELLE
+ASSURANCE QUALITE LOGICIEL  ET
+AUTOMATISATION DES TESTS
+BUSINESS INTELLIGENCE ET VIRTUALISATION
+ATELIER GL AVANCE
+GESTION DE PROJETS INFORMATIQUES
+GESTION DE PROJETS INFORMATIQUES 2
+GESTION DE PROJETS INFORMATIQUES
+AVANCEE
+ANGLAIS
+MARKETING ET GESTION
+STAGE
+PFE
+ILISI, TROIS ANNÉES DE FORMATION, TROIS PAS VERS LA RÉUSSITE

@@ -1,0 +1,108 @@
+[TITLE] Planning Examens Rattrapage Tronc Commun LST
+[TYPE] emploi_temps
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/affaires_pedagogiques/files/2025-2026/SA/rat2026aut.pdf
+--- Contenu du document ---
+
+UNIVERSITE HASSAN II DE CASABLANCA, FACULTE DES SCIENCES ET TECHNIQUES DE MOHAMMEDIA
+Planning des Examens de Rattrapage Session Automne 2025/2026
+Rattrapages Remise Notes
+8H30-10H15 10H30-12H15 13H30-15H15 15H30-17H15
+SA TC LST Rattrapage
+C111 C211 C411 C311
+GP +MSD +MIP GI +GESE +MIP GB +BCG GC +BCG +MIP
+Jeudi Biblio1 +Bblio2 Biblio1 +Bblio2 Biblio1 +Bblio2 Biblio1 +Bblio2 Lundi
+15/1/2026 B331 B431 M131 M231 : GI 19/1/2026
+GC +BCG GB +BCG GP +MSD +MIP a +b
+a +b a +b a +b E231 GESE : d
+P111 P211 M411 M311
+GP +MSD +MIP GI +GESE +MIP GB GC +BCG +MIP
+Vendredi Biblio1 +Bblio2 Biblio1 +Bblio2 Biblio1 +Bblio2 Biblio1 +Bblio2 Mardi
+16/1/2026 C333 C431 P131 I233 20/1/2026
+GC +BCG +MIP GB GP +GESE +MIP MSD +GI +MIP
+a +b a +b a +b a +b
+M331 P112 P411 E312
+GC +BCG +MIP GP +MSD +MIP GB +BCG GC +BCG +MIP
+Lundi Biblio1 +Bblio2 Biblio1 +Bblio2 Biblio1 +Bblio2 Biblio1 +Bblio2 Mercredi
+19/1/2026 M431 P212 P132 : GP +MIP I232 21/1/2026
+GB +BCG GI +GESE +MIP a +b GI +GESE +MIP
+a +b a +b M133 MSD : d a +b
+M111 M211 G421 M312
+GP +MSD +MIP GI +GESE +MIP GB +BCG GC +BCG +MIP
+Mardi Biblio1 +Bblio2 Biblio1 +Bblio2 Biblio1 +Bblio2 Biblio1 +Bblio2 Jeudi
+20/1/2026 C332 B432 M132 E233 : GI 22/1/2026
+GC +BCG GB +BCG GP +MSD +MIP a +b
+a +b a +b a +b E232 GESE : d
+M112 M212 B411
+GP +MSD +MIP GI +GESE +MIP GB +BCG
+Mercredi Biblio1 +Bblio2 Biblio1 +Bblio2 Biblio1 +Bblio2 Vendredi
+21/1/2026 C331 B433 I131 I231 23/1/2026
+GC +BCG GB GP +MSD GI +GESE +MIP
+a +b a +b a +b a +b
+NB :
+1- Tronc commun LST nouveau système : GB, GC, GP, GI, GESE et MSD
+- Le droit au rattrapage est accordé à tous les étudiants présents à l'examen et ayant obtenus une note inférieure à10/20
+- Les absents à l'examen de la session normale n'ont pas le droit au rattrapage sauf s'ils présentent un certificat médical
+- L'examen de la session de rattrapage est de même niveau que l'examen de la session normale
+- La note après le rattrapage est la meilleure note obtenue après l'examen et le rattrapage
+- Aucune note d'élément de module ne sera conservée pour la session de rattrapage
+- La note de TP est prise en considération dans le calcul de la note d'un module dans de la session de rattrapage
+- Un semestre est validé si sa moyenne est > ou = à 10/20 et aucune note de module n'est inférieure à 6/20
+2- Tronc commun LST ancien système : MIP et BCG
+- Le droit au rattrapage est accordé si la note du module est supérieure ou égale à 5/20
+- La note après le rattrapage est la meilleure note obtenue après l'examen et le rattrapage
+- La note après le rattrapage ne peut pas dépasser 10/20
+- Un semestre est validé si sa moyenne est > ou = à 10/20 et aucune note de module n'est inférieure à 7/20
+
+[Tableau page 1]
+Rattrapages
+SA TC LST | 8H30-10H15 | 10H30-12H15 | 13H30-15H15 | 15H30-17H15
+Jeudi
+15/1/2026 | C111 | C211 | C411 | C311
+ | GP +MSD +MIP | GI +GESE +MIP | GB +BCG | GC +BCG +MIP
+ | Biblio1 +Bblio2 | Biblio1 +Bblio2 | Biblio1 +Bblio2 | Biblio1 +Bblio2
+ | B331 | B431 | M131 | M231 : GI
+ | GC +BCG | GB +BCG | GP +MSD +MIP | a +b
+ | a +b | a +b | a +b | E231 GESE : d
+Vendredi
+16/1/2026 | P111 | P211 | M411 | M311
+ | GP +MSD +MIP | GI +GESE +MIP | GB | GC +BCG +MIP
+ | Biblio1 +Bblio2 | Biblio1 +Bblio2 | Biblio1 +Bblio2 | Biblio1 +Bblio2
+ | C333 | C431 | P131 | I233
+ | GC +BCG +MIP | GB | GP +GESE +MIP | MSD +GI +MIP
+ | a +b | a +b | a +b | a +b
+Lundi
+19/1/2026 | M331 | P112 | P411 | E312
+ | GC +BCG +MIP | GP +MSD +MIP | GB +BCG | GC +BCG +MIP
+ | Biblio1 +Bblio2 | Biblio1 +Bblio2 | Biblio1 +Bblio2 | Biblio1 +Bblio2
+ | M431 | P212 | P132 : GP +MIP | I232
+ | GB +BCG | GI +GESE +MIP | a +b | GI +GESE +MIP
+ | a +b | a +b | M133 MSD : d | a +b
+Mardi
+20/1/2026 | M111 | M211 | G421 | M312
+ | GP +MSD +MIP | GI +GESE +MIP | GB +BCG | GC +BCG +MIP
+ | Biblio1 +Bblio2 | Biblio1 +Bblio2 | Biblio1 +Bblio2 | Biblio1 +Bblio2
+ | C332 | B432 | M132 | E233 : GI
+ | GC +BCG | GB +BCG | GP +MSD +MIP | a +b
+ | a +b | a +b | a +b | E232 GESE : d
+Mercredi
+21/1/2026 | M112 | M212 | B411 | 
+ | GP +MSD +MIP | GI +GESE +MIP | GB +BCG | 
+ | Biblio1 +Bblio2 | Biblio1 +Bblio2 | Biblio1 +Bblio2 | 
+ | C331 | B433 | I131 | I231
+ | GC +BCG | GB | GP +MSD | GI +GESE +MIP
+ | a +b | a +b | a +b | a +b
+
+[Tableau page 1]
+Remise Notes
+Rattrapage
+Lundi
+19/1/2026
+Mardi
+20/1/2026
+Mercredi
+21/1/2026
+Jeudi
+22/1/2026
+Vendredi
+23/1/2026

@@ -1,0 +1,75 @@
+[TITLE] FSTM - Liste Complète des Filières LST (Licence Sciences et Techniques) 2025-2026
+[TYPE] formation
+[SOURCE] fstm.ac.ma/formation_initiale/lst.php - scraped 2026-03-31
+[CONTENT]
+
+=== LICENCE SCIENCES ET TECHNIQUES (LST) - BAC+3 ===
+Accès en 3ème année : sur orientation après le Tronc Commun (2 ans)
+
+=== PARCOURS MIP (9 filières) ===
+
+1. LST SIT - Systèmes Intelligents et Télécommunications
+   Département : Génie Électrique
+   Responsable : Pr M. NAHID
+
+2. LST GE2I - Génie Électrique et Informatique Industrielle
+   Département : Génie Électrique
+   Responsable : Pr N. Belbounaguia
+
+3. LST MSDI - Mathématiques, Sciences des Données et Informatique
+   Département : Mathématiques
+   Responsable : Pr. O. GOUASNOUANE
+
+4. LST SDID - Sciences des Données et Informatique Décisionnelle
+   Département : Mathématiques
+   Responsable : Pr. N. AZOUAGH
+
+5. LST IRM - Informatique, Réseau et Multimédia
+   Département : Informatique
+   Responsable : Pr N. Moumkine
+
+6. LST II - Ingénierie Informatique
+   Département : Informatique
+   Responsable : Pr. S. ANTER
+
+7. LST ILSI - Ingénierie Logicielle et Systèmes d'Information
+   Département : Informatique
+   Responsable : Pr. A. EL BOUZIRI
+
+8. LST PA - Physique Appliquée
+   Département : Physique
+   Responsable : Pr A. El Azrak
+
+9. LST GM - Génie Mécanique
+   Département : Physique
+   Responsable : Pr M. El Khlifi
+
+=== PARCOURS BCG (6 filières) ===
+
+1. LST GBA - Génie Biologique et Agroalimentaire
+   Département : Biologie
+   Responsable : Pr H. LAKHIARI
+
+2. LST BIOCQ - Bioanalyse et Contrôle Qualité en Bioindustrie
+   Département : Biologie
+   Responsable : Pr A. OUARZANE
+
+3. LST TACQ - Techniques d'Analyse et Contrôle Qualité
+   Département : Chimie
+   Responsable : Pr A. El Hakmaoui
+
+4. LST CA - Chimie Appliquée
+   Département : Chimie
+   Responsable : Pr M. Safi
+
+5. LST GEE - Génie de l'Eau et de l'Environnement
+   Département : Génie des Procédés et Environnement (GPE)
+   Responsable : Pr M. K. Benhachmi
+
+6. LST GPI - Génie des Procédés Industriels
+   Département : Génie des Procédés et Environnement (GPE)
+   Responsable : Pr B. BEJJANY
+
+=== TOTAL : 15 filières LST ===
+- 9 filières parcours MIP
+- 6 filières parcours BCG

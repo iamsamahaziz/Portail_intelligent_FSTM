@@ -1,0 +1,47 @@
+[TITLE] FSTM - TOUS les 8 Départements avec TOUS les Enseignants
+[TYPE] departements
+[SOURCE] fstm.ac.ma/departements/*.php - TOUTES les 8 pages scrapées 2026-04-01
+[CONTENT]
+
+=== DÉPARTEMENT DE MATHÉMATIQUES ===
+Chef de département : ALLALI Karam
+Axes stratégiques : Valoriser les compétences avec le milieu socio-économique, cohérence formation/recherche, insertion professionnelle.
+Filières LST : MSDI, SDID
+Laboratoire : LMCSA (Laboratory of Mathematics, Computer Science and Applications)
+Nombre d'enseignants : 27
+Enseignants (PES) : ABCHIR Chakib, ABOUIR Jilali, ALLALI Karam, AMINE Saida, AOUNIL Ismail, FAHSI Abdelhak, HANINE Elmostafa, KABIL Mustapha, KARIM Driss, KHADIR Omar, MALIKI Mohamed, MORCHADI Radouan, MOUSSAID Noureddine, NOURELABIDINE Driss, SAJID Said, TAIK Ahmed
+Enseignants (MCH/MC) : ABASSI Asmaa, ANZARMOU Youssef, AZOUAGH Nabil, BELMAATI Aziza, BEN-LOGHFYRY Anouar, FAHSSI Noureddine, GOUASNOUANE Omar, MOUSSAID Ahmed, MRABET Faiza, SBAI Hanae, SETTAR Abdeljalil
+
+=== DÉPARTEMENT DE PHYSIQUE ===
+Chef de département : EL AZRAK Abdellatif
+Axes stratégiques : Énergétique, Matériaux, Mécanique.
+Filières LST : PA (Physique Appliquée), GM (Génie Mécanique)
+Nombre d'enseignants : 32
+Enseignants (PES) : ACHIQ Abderrahim, AFFAD Elhoussin, ATMANI Elhoussine, BENZIRAR Mohammed, CHAFFOUI Hassan, ELAZRAK Abdellatif, ELKHLIFI Mohamed, ELMANOUNI Ahmed, FAZOUAN Nejma, HABBOU Abderrahim, HARTITI Bouchaib, LBIBB Rachid, LOTFI Rabiaa, MEZIANE Jaafar, MIR Yamina, MOUNTASSER Rachid, SAADEDDINE Said, ZAZOUI Mimoun
+Enseignants (MCH/MC) : ANOUA Rania, BAKOUR Anass, BENCHEIKH Mohamed, EL BOUZIDI Abdellah, EL GHANDOURI Ihssane, JANANE ALLAH Mohamed, LAGHRABLI Salem, LOULIJAT Hamid, MEZIANE Mohamed, MOUADILI Abdelkader, MOUJIB Asmaa, RIZK Mohamed, SOFIANI Zouhair, TBATOU Taoufiq
+
+=== DÉPARTEMENT DES ENSEIGNEMENTS TRANSVERSAUX ===
+Chef de département : JIRARI Hicham
+Mission : Compétences transversales pour le cursus universitaire (en français) et la vie professionnelle. Modules de langue, communication, écrits professionnels, entretiens, prise de parole en public, développement personnel.
+Axes : Portefeuille de compétences sur 2 semestres, techniques d'animation, préparation vie active, projet valorisant acquis écrit/oral.
+Nombre d'enseignants : 7
+Enseignants (tous MCH/MC) : FALLAKI Hasna, FARSI Loubna, HASBAOUI Anouar, JIRARI Hicham, MACHRAOUI Ghizlane, MOUCHRIF Abdelhakim, SATEA Abdelillah
+
+=== CENTRES DE CERTIFICATION ===
+IPv6 Moroccan Training Center (MTC6)
+Contact : Cherkaoui LEGHRIS
+Email : cleghris@fstm.ac.ma
+Mobile : 0661405058
+
+=== RÉCAPITULATIF COMPLET DES 8 DÉPARTEMENTS ===
+| Département | Chef | Nb enseignants |
+|---|---|---|
+| Biologie | SAFI Amal | 25 |
+| Chimie | OUAMMOU Mohamed | 30 |
+| GPE | MADINZI Abdelaziz | 26 |
+| Génie Électrique | SAYOUTI Yassine | 23 |
+| Informatique | SADDOUNE Mohammed | 26 |
+| Mathématiques | ALLALI Karam | 27 |
+| Physique | EL AZRAK Abdellatif | 32 |
+| Ens. Transversaux | JIRARI Hicham | 7 |
+| TOTAL | | ~196 (certains enseignants rattachés à plusieurs départements, total officiel : 186) |

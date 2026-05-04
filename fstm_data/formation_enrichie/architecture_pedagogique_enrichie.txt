@@ -1,0 +1,65 @@
+[TITLE] FSTM - Architecture Pédagogique Complète
+[TYPE] formation
+[SOURCE] fstm.ac.ma - scraped 2026-03-31
+[CONTENT]
+
+=== ARCHITECTURE PÉDAGOGIQUE DE LA FSTM ===
+
+La FSTM propose une carte de formation riche et complète en Licence, Master Sciences et Techniques et Filières d'Ingénieurs, organisée comme suit :
+
+=== FORMATION INITIALE ===
+
+--- TRONC COMMUN (BAC+2) ---
+Durée : 4 semestres (S1, S2, S3, S4)
+Deux parcours :
+- MIP : Mathématiques, Informatique, Physique
+- BCG : Biologie, Chimie, Géosciences
+Accès : sélection sur notes du baccalauréat
+
+--- LICENCE SCIENCES ET TECHNIQUES - LST (BAC+3) ---
+Durée : 2 semestres après le Tronc Commun (S5, S6)
+Accès : orientation après validation du Tronc Commun
+15 filières : 9 parcours MIP + 6 parcours BCG
+
+Parcours MIP : SIT, GE2I, MSDI, SDID, IRM, II, ILSI, PA, GM
+Parcours BCG : GBA, BIOCQ, TACQ, CA, GEE, GPI
+
+--- MASTER SCIENCES ET TECHNIQUES - MST (BAC+5) ---
+Durée : 4 semestres après la Licence (S7, S8, S9, S10)
+Accès : concours (présélection + écrit + oral)
+7 filières : ISERT, MQSE, MQSA, SGE, PCAM, MAGBio, IPMA
+
+--- CYCLE INGÉNIEUR (BAC+5) ---
+Durée : 6 semestres après BAC+2, ou 4 semestres après BAC+3
+Accès : CNC ou concours FSTM
+5 filières (7 options) : GECI, ILISI, IDSI, GPE-GEE, GPE-GPI, GE
+
+--- CYCLE DOCTORAL (BAC+8) ---
+Durée : 6 semestres minimum après le Master
+Accès : sélection par le Centre d'Études Doctorales (CEDoc)
+595 doctorants accueillis dans 13 laboratoires
+
+=== FORMATION CONTINUE ===
+
+--- LICENCE D'UNIVERSITÉ ---
+20 filières proposées
+Informations : https://www.fstm.ac.ma/formation_continue/lu.php
+
+--- MASTER D'UNIVERSITÉ ---
+10 filières proposées
+Informations : https://www.fstm.ac.ma/formation_continue/mu.php
+
+=== CENTRES DE CERTIFICATION ===
+La FSTM dispose de centres de certification pour des certifications professionnelles.
+Informations : https://www.fstm.ac.ma/centres_de_certification/presentation.php
+
+=== RÉCAPITULATIF ===
+| Cycle                | Durée totale | Nombre de filières |
+|----------------------|-------------|-------------------|
+| Tronc Commun         | BAC+2       | 2 parcours (MIP/BCG) |
+| Licence ST (LST)     | BAC+3       | 15 filières       |
+| Master ST (MST)      | BAC+5       | 7 filières        |
+| Cycle Ingénieur      | BAC+5       | 5 filières (7 options) |
+| Cycle Doctoral       | BAC+8       | Multidisciplinaire |
+| Licence d'Université | Variable    | 20 filières       |
+| Master d'Université  | Variable    | 10 filières       |

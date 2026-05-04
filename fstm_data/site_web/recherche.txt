@@ -1,0 +1,20 @@
+[TITLE] Recherche Scientifique et Laboratoires
+[TYPE] site_web
+[CONTENT]
+La Faculté des Sciences et Techniques de Mohammedia (FSTM) accorde une place prépondérante à la recherche scientifique et à l'innovation.
+
+La structure de recherche de la FSTM s'articule autour de :
+- 13 Laboratoires de recherche accrédités
+- 1 Centre de recherche pluridisciplinaire
+- Des équipes de recherche spécialisées
+
+Les axes de recherche couvrent un large spectre de disciplines scientifiques :
+1. Mathématiques et Informatique (Modélisation, Intelligence Artificielle, Big Data, Sciences des données).
+2. Sciences Physiques et Appliquées (Matériaux, Énergies renouvelables, Mécanique).
+3. Biologie et Santé (Biotechnologie, Agroalimentaire, Environnement).
+4. Chimie et Génie des Procédés (Chimie fine, Traitement des eaux, Procédés industriels).
+
+**Cycle Doctoral (CED)** :
+Les doctorants mènent leurs travaux au sein de ces laboratoires dans le cadre du Centre d'Études Doctorales (CED) "Sciences et Techniques", avec pour mission de contribuer activement à la production scientifique nationale et internationale (publications académiques, brevets, et partenariats industriels).
+
+*(Note : La page officielle recensant les noms détaillés des 13 laboratoires est actuellement en cours de mise à jour par l'administration de la faculté).*

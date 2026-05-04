@@ -1,0 +1,182 @@
+[TITLE] LST - Sciences des Données et Informatique Décisionnelle
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2024/LSTSDID2025.pdf
+--- Contenu du document ---
+
+Université Hassan II de Casablanca ءاضيبلا رادلا يناثلا نسحلا ةعماج
+Faculté des Sciences et Techniques تاينقتلاو مولعلا ةيلك
+Département de Mathématiques تايضايرلا ةبعش
+Mohammedia – Maroc برغملا - ةيدمحملا
+Licence LST
+Sciences des Données et Informatique Décisionnelle (SDID)
+Année universitaire 2025/2026
+Objectifs de la formation
+Cette formation a pour objectif de doter les étudiants des compétences nécessaires pour manipuler les différents types de
+bases de données, leurs traitements en utilisant les techniques de data science afin d’extraire de l'information utile, aider à
+prendre des décisions et à faire des prévisions. En outre, munir les étudiants des outils nécessaires pour la conception et le
+développement informatique via POO JAVA et JEE. Cette formation permettra aux étudiants d’intégrer le marché de travail
+ou continuer une formation supérieure en master ou une filière d’ingénieur.
+Compétences à acquérir
+• L’analyse et la fouille des données.
+• Répondre à des problèmes d'aide à la décision via les techniques de data science.
+• Traiter des problèmes d'apprentissage de la machine et d’intelligence artificielle.
+• Gestion des différentes bases de données.
+• Conception et développement des applications via POO JAVA et JEE.
+Débouchés de la formation
+• Data scientist
+• Data analysist
+• Chargé d’étude statistique
+• Chargé d'analyse et de reporting
+• Développeur décisionnel/ BI
+• Gestionnaire de données
+• Concepteur et développeur des
+systèmes d'information via POO
+JAVA et JEE
+Organisation des enseignements Conditions d’admissions
+Semestre 5 SSeemmeessttrree 66 • DEUST, DEUG, ou tout diplôme jugé
+équivalent Bac+2 : MSD, MIP, SMA,…
+• Mathématiques pour • Machine Learning /
+• Evaluation des notes des modules de
+Informatique Intelligence Artificielle
+Mathématiques générales, Statistique,
+• Datawarehousing et Power BI / Fondements
+Probabilités et Informatique
+Analyse et conception des SI Mathématiques et
+• Etude de dossier et classement
+• Programmation POO JAVA / Techniques Avancées
+JEE • Deep Learning pour le
+• Probabilités avancées / traitement d’images \ Big
+Chaines de Markov Data
+• Analyse de données avancée / • Intelligence artificielle
+Datamining • Méthodes Numériques et
+Contact:
+• Programmation linéaire et Calcul Scientifique
+optimisation métaheuristique • Projet de fin d'études (PFE Coordonnateur de la filière : Pr. N. AZOUAGH
+• Anglais technique équivalent à trois modules) Email : nabil.azouagh@fstm.ac.ma
+Template ID: philosophicalseafoam Size: 36x48
+
+[Tableau page 1]
+ | 
+Université Hassan II de Casablanca ءاضيبلا رادلا يناثلا نسحلا ةعماج
+Faculté des Sciences et Techniques تاينقتلاو مولعلا ةيلك
+Département de Mathématiques تايضايرلا ةبعش
+Mohammedia – Maroc برغملا - ةيدمحملا | 
+Licence LST
+Sciences des Données et Informatique Décisionnelle (SDID)
+Année universitaire 2025/2026
+Objectifs de la formation
+Cette formation a pour objectif de doter les étudiants des compétences nécessaires pour manipuler les différents types de
+bases de données, leurs traitements en utilisant les techniques de data science afin d’extraire de l'information utile, aider à
+prendre des décisions et à faire des prévisions. En outre, munir les étudiants des outils nécessaires pour la conception et le
+développement informatique via POO JAVA et JEE. Cette formation permettra aux étudiants d’intégrer le marché de travail
+ou continuer une formation supérieure en master ou une filière d’ingénieur.
+Compétences à acquérir
+• L’analyse et la fouille des données.
+• Répondre à des problèmes d'aide à la décision via les techniques de data science.
+• Traiter des problèmes d'apprentissage de la machine et d’intelligence artificielle.
+• Gestion des différentes bases de données.
+• Conception et développement des applications via POO JAVA et JEE.
+Débouchés de la formation
+• Data scientist
+• Data analysist
+• Chargé d’étude statistique
+• Chargé d'analyse et de reporting
+• Développeur décisionnel/ BI
+• Gestionnaire de données
+• Concepteur et développeur des
+systèmes d'information via POO
+JAVA et JEE
+Organisation des enseignements Conditions d’admissions
+Semestre 5 SSeemmeessttrree 66 • DEUST, DEUG, ou tout diplôme jugé
+équivalent Bac+2 : MSD, MIP, SMA,…
+• Mathématiques pour • Machine Learning /
+• Evaluation des notes des modules de
+Informatique Intelligence Artificielle
+Mathématiques générales, Statistique,
+• Datawarehousing et Power BI / Fondements
+Probabilités et Informatique
+Analyse et conception des SI Mathématiques et
+• Etude de dossier et classement
+• Programmation POO JAVA / Techniques Avancées
+JEE • Deep Learning pour le
+• Probabilités avancées / traitement d’images \ Big
+Chaines de Markov Data
+• Analyse de données avancée / • Intelligence artificielle
+Datamining • Méthodes Numériques et
+Contact:
+• Programmation linéaire et Calcul Scientifique
+optimisation métaheuristique • Projet de fin d'études (PFE Coordonnateur de la filière : Pr. N. AZOUAGH
+• Anglais technique équivalent à trois modules) Email : nabil.azouagh@fstm.ac.ma | Licence LST
+Sciences des Données et Informatique Décisionnelle (SDID)
+Année universitaire 2025/2026
+
+[Tableau page 1]
+Objectifs de la formation
+Cette formation a pour objectif de doter les étudiants des compétences nécessaires pour manipuler les différents types de
+bases de données, leurs traitements en utilisant les techniques de data science afin d’extraire de l'information utile, aider à
+prendre des décisions et à faire des prévisions. En outre, munir les étudiants des outils nécessaires pour la conception et le
+développement informatique via POO JAVA et JEE. Cette formation permettra aux étudiants d’intégrer le marché de travail
+ou continuer une formation supérieure en master ou une filière d’ingénieur.
+Compétences à acquérir
+• L’analyse et la fouille des données.
+• Répondre à des problèmes d'aide à la décision via les techniques de data science.
+• Traiter des problèmes d'apprentissage de la machine et d’intelligence artificielle.
+• Gestion des différentes bases de données.
+• Conception et développement des applications via POO JAVA et JEE.
+Débouchés de la formation
+• Data scientist
+• Data analysist
+• Chargé d’étude statistique
+• Chargé d'analyse et de reporting
+• Développeur décisionnel/ BI
+• Gestionnaire de données
+• Concepteur et développeur des
+systèmes d'information via POO
+JAVA et JEE
+
+[Tableau page 1]
+Conditions d’admissions
+• DEUST, DEUG, ou tout diplôme jugé
+équivalent Bac+2 : MSD, MIP, SMA,…
+• Evaluation des notes des modules de
+Mathématiques générales, Statistique,
+Probabilités et Informatique
+• Etude de dossier et classement
+
+[Tableau page 1]
+ | Semestre 5
+• Mathématiques pour
+Informatique
+• Datawarehousing et Power BI /
+Analyse et conception des SI
+• Programmation POO JAVA /
+JEE
+• Probabilités avancées /
+Chaines de Markov
+• Analyse de données avancée /
+Datamining
+• Programmation linéaire et
+optimisation métaheuristique
+• Anglais technique | 
+
+[Tableau page 1]
+ | SSeemmeessttrree 66 | 
+• Machine Learning /
+Intelligence Artificielle
+Fondements
+Mathématiques et
+Techniques Avancées
+• Deep Learning pour le
+traitement d’images \ Big
+Data
+• Intelligence artificielle
+• Méthodes Numériques et
+Calcul Scientifique
+• Projet de fin d'études (PFE
+équivalent à trois modules) |  | 
+
+[Tableau page 1]
+Contact:
+Coordonnateur de la filière : Pr. N. AZOUAGH
+Email : nabil.azouagh@fstm.ac.ma

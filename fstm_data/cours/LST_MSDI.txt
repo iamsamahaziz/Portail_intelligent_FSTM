@@ -1,0 +1,202 @@
+[TITLE] LST - Mathématiques, Sciences des Données et Informatique
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2024/LSTMSDI.pdf
+--- Contenu du document ---
+
+Université Hassan II de Casablanca ءاضيبلا رادلا يناثلا نسحلا ةعماج
+Faculté des Sciences et Techniques تاينقتلاو مولعلا ةيلك
+Département de Mathématiques تايضايرلا ةبعش
+Mohammedia – Maroc برغملا - ةيدمحملا
+Avis d’ouverture de la Licence LST
+Mathématiques, Sciences des Données et Informatique (MSDI)
+Année universitaire 2024/2025
+Objectifs de la formation
+• Développer une culture scientifique pluridisciplinaire en mathématiques, sciences des données et informatique.
+• Acquérir de solides bases en mathématiques appliquées.
+• Se familiariser avec les techniques d’analyse en sciences des données.
+• Développer les compétences de programmation en Informatique.
+• Découvrir la pratique des mathématiques dans les secteurs professionnels du numérique, des sciences des données, de
+l'intelligence artificielle et de l’informatique.
+• Cette formation permettra aux étudiants d’intégrer le marché de travail ou continuer une formation supérieure en master
+ou une filière d’ingénieur.
+Débouchés de la formation
+.• Des carrières d'ingénieur ou
+master en mathématiques
+appliquées, informatique,
+sciences des données...
+• Des carrières dans l'intelligence
+artificielle et le numérique.
+• analyste des données
+• Chargé d’étude statistique.
+• Gestionnaire de base.
+• Concepteur et développeur d es
+systèmes d'information via P OO
+JAVA et JEE
+Organisation des enseignements
+S6 : Option Mathématiques et S6 : Option Mathématiques et
+S5 : Tronc commun
+Sciences des Données Informatique
+• Topologie / Mathématiques • Méthodes approfondies de • Analyse et conception des
+discrète régression linéaire / Séries systèmes d'information
+• Théorie de mesure / chronologiques
+Probabilités avancées • Méthodes Numériques et Calcul • Méthodes Numériques et Calcul
+• Datawarehousing et Power BI / Scientifique Scientifique
+Programmation Python • Analyse des données avancées / • Programmation POO Java / JEE
+• Introduction au traitement Datamining
+Semestre 6
+mathématique des images • Langues Etrangères • Langues Etrangères
+• Arithmétique / Processus • Droit, Civisme et Citoyenneté • Droit, Civisme et Citoyenneté
+stochastique • Projet de fin d'études (PFE • Projet de fin d'études (PFE
+• Langues Étrangères équivalent à deux modules) équivalent à deux modules)
+• Digital Skills II : Excel avancé
+Conditions d’admissions Contact:
+• DEUST, DEUG, ou tout diplôme jugé
+Coordonnateur de la filière : Pr. O. GOUASNOUANE
+équivalent Bac+2 : MSD, MIP, SMA,…
+Email : omar.gouasnouane@fstm.ac.ma
+• Evaluation des notes des modules de
+Mathématiques générales, Statistique,
+Probabilités et Informatique
+• Etude de dossier et classement
+Template ID: philosophicalseafoam Size: 36x48
+
+[Tableau page 1]
+ | 
+Université Hassan II de Casablanca ءاضيبلا رادلا يناثلا نسحلا ةعماج
+Faculté des Sciences et Techniques تاينقتلاو مولعلا ةيلك
+Département de Mathématiques تايضايرلا ةبعش
+Mohammedia – Maroc برغملا - ةيدمحملا | 
+Avis d’ouverture de la Licence LST
+Mathématiques, Sciences des Données et Informatique (MSDI)
+Année universitaire 2024/2025
+Objectifs de la formation
+• Développer une culture scientifique pluridisciplinaire en mathématiques, sciences des données et informatique.
+• Acquérir de solides bases en mathématiques appliquées.
+• Se familiariser avec les techniques d’analyse en sciences des données.
+• Développer les compétences de programmation en Informatique.
+• Découvrir la pratique des mathématiques dans les secteurs professionnels du numérique, des sciences des données, de
+l'intelligence artificielle et de l’informatique.
+• Cette formation permettra aux étudiants d’intégrer le marché de travail ou continuer une formation supérieure en master
+ou une filière d’ingénieur.
+Débouchés de la formation
+.• Des carrières d'ingénieur ou
+master en mathématiques
+appliquées, informatique,
+sciences des données...
+• Des carrières dans l'intelligence
+artificielle et le numérique.
+• analyste des données
+• Chargé d’étude statistique.
+• Gestionnaire de base.
+• Concepteur et développeur d es
+systèmes d'information via P OO
+JAVA et JEE
+Organisation des enseignements
+S6 : Option Mathématiques et S6 : Option Mathématiques et
+S5 : Tronc commun
+Sciences des Données Informatique
+• Topologie / Mathématiques • Méthodes approfondies de • Analyse et conception des
+discrète régression linéaire / Séries systèmes d'information
+• Théorie de mesure / chronologiques
+Probabilités avancées • Méthodes Numériques et Calcul • Méthodes Numériques et Calcul
+• Datawarehousing et Power BI / Scientifique Scientifique
+Programmation Python • Analyse des données avancées / • Programmation POO Java / JEE
+• Introduction au traitement Datamining
+Semestre 6
+mathématique des images • Langues Etrangères • Langues Etrangères
+• Arithmétique / Processus • Droit, Civisme et Citoyenneté • Droit, Civisme et Citoyenneté
+stochastique • Projet de fin d'études (PFE • Projet de fin d'études (PFE
+• Langues Étrangères équivalent à deux modules) équivalent à deux modules)
+• Digital Skills II : Excel avancé
+Conditions d’admissions Contact:
+• DEUST, DEUG, ou tout diplôme jugé
+Coordonnateur de la filière : Pr. O. GOUASNOUANE
+équivalent Bac+2 : MSD, MIP, SMA,…
+Email : omar.gouasnouane@fstm.ac.ma
+• Evaluation des notes des modules de
+Mathématiques générales, Statistique,
+Probabilités et Informatique
+• Etude de dossier et classement | Avis d’ouverture de la Licence LST
+Mathématiques, Sciences des Données et Informatique (MSDI)
+Année universitaire 2024/2025
+
+[Tableau page 1]
+Objectifs de la formation |  |  |  |  | 
+• Développer une culture scientifique pluridisciplinaire en mathématiques, sciences des données et informatique.
+• Acquérir de solides bases en mathématiques appliquées.
+• Se familiariser avec les techniques d’analyse en sciences des données.
+• Développer les compétences de programmation en Informatique.
+• Découvrir la pratique des mathématiques dans les secteurs professionnels du numérique, des sciences des données, de
+l'intelligence artificielle et de l’informatique.
+• Cette formation permettra aux étudiants d’intégrer le marché de travail ou continuer une formation supérieure en master
+ou une filière d’ingénieur. |  |  |  |  | 
+Débouchés de la formation |  |  |  |  | 
+.• Des carrières d'ingénieur ou
+master en mathématiques
+appliquées, informatique,
+sciences des données...
+• Des carrières dans l'intelligence
+artificielle et le numérique.
+• analyste des données
+• Chargé d’étude statistique.
+• Gestionnaire de base.
+• Concepteur et développeur d es
+systèmes d'information via P OO
+JAVA et JEE |  |  |  |  | 
+Organisation des enseignements |  |  |  |  | 
+S5 : Tronc commun
+• Topologie / Mathématiques
+discrète
+• Théorie de mesure /
+Probabilités avancées
+• Datawarehousing et Power BI /
+Programmation Python
+• Introduction au traitement
+mathématique des images
+• Arithmétique / Processus
+stochastique
+• Langues Étrangères
+• Digital Skills II : Excel avancé |  | S6 : Option Mathématiques et
+Sciences des Données |  |  | S6 : Option Mathématiques et
+Informatique
+• Topologie / Mathématiques
+discrète
+• Théorie de mesure /
+Probabilités avancées
+• Datawarehousing et Power BI /
+Programmation Python
+• Introduction au traitement
+mathématique des images
+• Arithmétique / Processus
+stochastique
+• Langues Étrangères
+• Digital Skills II : Excel avancé |  | • Méthodes approfondies de
+régression linéaire / Séries
+chronologiques
+• Méthodes Numériques et Calcul
+Scientifique
+• Analyse des données avancées /
+Datamining
+Semestre 6
+• Langues Etrangères
+• Droit, Civisme et Citoyenneté
+• Projet de fin d'études (PFE
+équivalent à deux modules) |  |  | • Analyse et conception des
+systèmes d'information
+• Méthodes Numériques et Calcul
+Scientifique
+• Programmation POO Java / JEE
+• Langues Etrangères
+• Droit, Civisme et Citoyenneté
+• Projet de fin d'études (PFE
+équivalent à deux modules)
+Conditions d’admissions |  |  | Contact: |  | 
+• DEUST, DEUG, ou tout diplôme jugé
+équivalent Bac+2 : MSD, MIP, SMA,…
+• Evaluation des notes des modules de
+Mathématiques générales, Statistique,
+Probabilités et Informatique
+• Etude de dossier et classement |  |  |  |  | 
+ |  |  | Coordonnateur de la filière : Pr. O. GOUASNOUANE
+Email : omar.gouasnouane@fstm.ac.ma |  |

@@ -1,0 +1,90 @@
+[TITLE] FSTM - Laboratoires de Recherche
+[TYPE] recherche
+[SOURCE] fstm.ac.ma/recherche/laboratoires.php - scraped 2026-03-31
+[CONTENT]
+
+=== STRUCTURES DE RECHERCHE - 13 LABORATOIRES ===
+
+1. LMSPASI - Mathématiques et Sciences Physiques Appliquées aux Sciences de l'Ingénieur
+   Directeur : ATMANI El houssine
+   Email : atmani2010@yahoo.fr
+
+2. NMAMT - Nanostructures et Matériaux Avancés, Mécanique et Thermofluide
+   (Rattaché au LMSPASI)
+   Équipes :
+   - Physique de la Matière et Nanostructures, Mécanique et Energétique (Chef : CHAFFOUI Hassan)
+   - Thermofluide et Simulation Numérique (Chef : SAADEDDINE Said)
+   - Matériaux Avancés pour l'Energie, l'Optoélectronique et l'Optique non Linéaire (Chef : El MANOUNI Ahmed)
+   Axes : photovoltaïque, nanostructures, mécanique des structures, transferts thermiques, énergies renouvelables
+
+3. LGPE - Laboratoire Génie des Procédés et Environnement
+   Directeur : DIGUA Khalid
+   Email : khalid.digua@fstm.ac.ma
+   6 Équipes :
+   - Analyses Chimiques et Biocapteurs (Resp : Pr. L. IDRISSI)
+   - Génie des Procédés et Qualité (Resp : Pr. A. DANI)
+   - Sciences des Matériaux et Méthodologie de la Recherche (Resp : Pr. B. Bejjani)
+   - Eau, Environnement et Changement Climatique (Resp : Pr. S. SOUABI)
+   - Eau, Sol et Environnement (Resp : Pr. L. MOUHIR)
+   - Hydro-informatique, Géo-information et Géosciences (Resp : Pr. M.K. BENHACHMI)
+   Axes : traitement des eaux, pollution, changement climatique, biocapteurs, matériaux
+
+4. LSIB - Laboratoire des Sciences de l'Ingénieur et Biosciences
+   Directeur : El FADILI Abderrahim
+   3 Équipes :
+   - Biosciences Exploration Fonctionnelle Intégrée et Moléculaire (Resp : FECHTALI Taoufiq)
+   - Génie électrique, énergétique, Génie civil & Physique médicale (Resp : SAYOUTI Yassine)
+   - Automatique, théories de l'information et de la communication & microsystèmes (Resp : NAHID Mohammed)
+   Axes : neurosciences, biotechnologie, énergies renouvelables, télécommunications, systèmes embarqués
+
+5. LMESI - Matériaux, Energies et Systèmes Intelligents
+   Directeur : ELKOUARI Youssef
+
+6. LMCSA - Laboratory of Mathematics, Computer Science and Applications
+   Directeur : KABIL Mustapha
+   Email : mustapha_kabil@yahoo.fr
+   4 Équipes :
+   - Analyse Fonctionnelle, Mathématiques Discrètes, Algèbre et Statistique (Chef : Mustapha KABIL)
+   - Informatique, Intelligence Artificielle et Big Data (Chef : Abdellah ADIB)
+   - Modèles Mathématiques, Analyse et Simulation Numérique (Chef : Ahmed TAIK)
+   - Modélisation Déterministe et Stochastique et Simulations Numériques (Chef : Karam ALLALI)
+   Axes : IA, deep learning, NLP, cryptographie, optimisation, biomathématiques
+
+7. LIM - Laboratoire d'Intelligence Machine
+   Directeur : KISSI Mohamed
+   Email : mohamed.kissi@fstm.ac.ma
+   4 Équipes :
+   - XIMS - Méthodes et Systèmes Intelligents Expliqués (Chef : Pr. Omar EL BEGGAR)
+   - DSAI - Science des Données et Intelligence Artificielle (Chef : Pr. CHERKAOUI LEGHRIS)
+   - ASS - Systèmes Intelligents Avancés (Chef : Pr. Khadija DOUZI)
+   - IOS - Systèmes Ouverts Innovants (Chef : Pr. Adil EL BOUZIRI)
+   Axes : IA explicable, data science, IoT, cloud computing, robotique, NLP, big data, cybersécurité
+
+8. LCP2BM - Chimie-Physique et Biotechnologies des Biomolécules et des Matériaux
+   Directeur : MELLOUKI Fouad
+   Email : fouad.mellouki@fstm.ac.ma
+   Axes : énergie solaire, corrosion, microalgues, antibiotiques, plantes médicinales, catalyse
+
+9. L2ME - Laboratoire des Matériaux, Membranes et Environnement
+   Directeur : OUAMMOU Mohamed
+   3 Équipes :
+   - Membranes et Procédés Membranaires (Resp : ALAMI YOUNSSI Saad)
+   - Matériaux et valorisation des ressources naturelles (Resp : Ouammou Mohamed)
+   - Chimie Analytique, Matériaux pour l'Energie et l'Environnement (Resp : Mama El Rhazi)
+   Axes : membranes, filtration, nanofiltration, nanocomposites, capteurs électrochimiques, piles à combustible
+
+10. LBAME - Laboratoire Biotechnologie, Agro-alimentaire, Matériaux et Environnement
+    Directeur : ZAHOUILY Mohamed
+
+=== CENTRE D'ÉTUDES DOCTORALES ===
+La FSTM dispose d'un Centre d'Études Doctorales (CEDoc) accueillant 595 doctorants.
+Les formations doctorales couvrent : Biologie, Mathématiques, Physique, Chimie, Informatique, Génie des Procédés.
+
+=== ÉVÉNEMENTS SCIENTIFIQUES RÉCENTS ===
+- LIM225 : Conférence du Laboratoire d'Intelligence Machine
+- TTIS25 : Technologies et Télécommunications
+- MEIA25 : Matériaux, Énergie et Intelligence Artificielle
+- ICMDSAI25 : International Conference on Mathematics, Data Science and AI
+- IC2MA2025 : Conférence Internationale
+- HILRES25 : Conférence sur les ressources
+- AREIS25 : Conférence sur les énergies

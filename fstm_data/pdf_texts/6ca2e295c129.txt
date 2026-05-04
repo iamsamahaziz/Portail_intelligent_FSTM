@@ -1,0 +1,203 @@
+1 
+ 
+Ingénierie Data Science et Informatique  
+- IDSI - 
+Intitulé de la filière 
+: Ingénierie Data Science et Informatique 
+Université 
+: Université HASSAN II de CASABLANCA 
+Etablissement  
+: Faculté des Sciences et Techniques-- Mohammedia 
+Coordonnateur 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Présentation de la 
+filière 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mots Clés : 
+ 
+ 
+ 
+ 
+ 
+ 
+Débouchés de la 
+formation 
+: Pr. Hanae Sbai  
+  Email : hanae.Sbai@fstm.ac.ma  
+ 
+La filière d’ingénieur Ingénierie Data Science et Informatique 
+s’inscrit dans le cadre du projet numérique auquel notre université 
+participe aujourd’hui afin de contribuer à la formation des futurs 
+ingénieurs répondant ainsi aux nouveaux métiers de l’avenir. La 
+science de données engendre de nouveaux métiers tel que : Data 
+Architect, Data Analyst, Data Scientist, et Ingénieur Big Data. 
+Ces experts collectent, organisent, traitent et transforment les 
+données en informations exploitables pour les entreprises. Pour 
+cela, cette filière propose un programme combinant une variété de 
+compétences, en se focalisant sur trois axes importants : les 
+mathématiques qui sont indispensables pour commencer une 
+carrière dans les sciences de données. A cet effet, la filière 
+permettra aux élèves d’ingénieurs d’acquérir les bases d’analyse 
+numérique, calcul scientifique, méthodes numériques et recherche 
+opérationnelle. Concernant l’axe science de données et en 
+particulier les bases des statistiques inférentiels , analyse de 
+données et fouilles de données puis apprentissage automatique et 
+profond et ses applications dans divers domaines notamment 
+l’imagerie, les systèmes d’information. La filière insiste ainsi sur 
+l’axe 
+informatique, 
+en 
+particulier 
+les 
+plateformes 
+de 
+développement dans le contexte de l’écosystème Big DATA 
+notamment JAVA, JEE, Python. Sans oublier bien sur le contexte 
+agile des projets informatiques et les approches d’intégration 
+continues tel que DEVOPS et MLOPS (Machine Learning OPS) 
+ 
+Machine learning, Statistique, modélisation, Data Science,  
+Langage R,  Python – JAVA –JEE – Bases de Données – Machine 
+learning – Deep learning – Big Data – Hadoop – Spark –NLP –
+SCRUM – DevOps – DataOps, BI, Analyse de données,  
+Processus métier 
+• 
+Ingénieur Machine Learning et Deep Learning 
+• 
+Ingénieur Informatique  
+• 
+Ingénieur Big Data 
+• 
+Ingénieur Business Intelligence 
+• 
+Data Analyst 
+• 
+Data Scientist 
+
+ 
+2 
+ 
+ 
+MODULES DE LA FORMATION 
+ 
+1ère année Cycle Ingénieur 
+Semestre 1 
+Base de données 
+Semestre 2 
+PFA  
+Probabilité Avancée 
+/Processus Stochastique 
+Optimisation et Recherche Opérationnelle 
+Analyse Numérique 
+JAVA AVANCEE  
+et technologies distribuées  
+Mathématiques pour Informatique 
+Génie Logiciel et Design patterns/ Gestion 
+de projet Informatique et DEVOPS 
+Programmation Orientée Objet JAVA 
+Système d’exploitation 
+Digital Skills : Excel Avancé 
+Algorithmique 
+et 
+programmation 
+en 
+Python 
+Langues 
+Etrangères(Anglais/Français) 
+Langues Etrangères (Anglais /Français 
+ 
+Stage  
+2ème année Cycle Ingénieur 
+Semestre 3 
+Systèmes Dynamiques  
+et Calcul Scientifique 
+Semestre 4 
+Méthodes Numériques pour Ingénieur 
+Modèles de Régression 
+/ Séries Chronologiques  
+Méthodes de Calcul des Commandes 
+Optimales 
+JEE et Micro services 
+Technologies de Frontend  
+Modèles linéaires généralisés 
+/ Analyse de la variance 
+Apprentissage Statistique 
+/Python pour Data Science 
+Inférence Statistique Avancée  
+et Applications  
+Culture and Art Skills 
+Systèmes de Gestion de Contenu 
+(CMS) 
+Langues Etrangères 
+ (Français/Anglais)  
+Langues  
+Etrangères (Français/Anglais) 
+Stage 
+3ème Année Cycle Ingénieur 
+Semestre 5 
+Apprentissage Automatique pour le 
+traitement d’images 
+Semestre 6 
+Projet de fin d’études (PFE) 
+Transformation  
+Digitale (BPM/Workflow)  
+et Big data 
+Data Warehousing, Data Lake et 
+Reporting 
+Intelligence Artificielle NLP et LLM 
+Employment Skills 
+Langues Etrangères (Français et 
+Anglais) 
+ 
+CONDITIONS ET MODALITES D’ACCES A LA FILIERE 
+ 
+Diplômes requis :  
+• 
+DEUST- Diplôme des études générales dans les sciences et techniques 
+• 
+DEUG- Diplôme des études universitaires générales 
+
+ 
+3 
+ 
+• 
+Licence en sciences et techniques 
+• 
+Licence Fondamentale 
+• 
+2 Années Préparatoires au Cycle Ingénieur 
+• 
+Tout diplôme équivalent 
+Spécialités : 
+• 
+Mathématiques, 
+• 
+Science de données,  
+• 
+Informatique 
+Procédures de sélection :  
+ Etude du dossier  
+ Test écrit 
+ Entretien

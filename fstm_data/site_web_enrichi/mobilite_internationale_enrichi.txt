@@ -1,0 +1,20 @@
+[TITLE] FSTM - Mobilité Internationale
+[TYPE] mobilite
+[SOURCE] fstm.ac.ma/mobilite.php - scraped 2026-04-01
+[CONTENT]
+
+=== MOBILITÉ INTERNATIONALE ===
+
+La FSTM propose des programmes de mobilité internationale pour les étudiants, doctorants et enseignants-chercheurs.
+
+=== FORMULAIRES DISPONIBLES ===
+
+1. Stage de perfectionnement pédagogique et scientifique (pour les enseignants-chercheurs)
+2. Stage de recherche (pour les doctorants - achat de billet d'avion)
+3. Appui à la participation aux manifestations scientifiques
+4. Appui à la mobilité internationale étudiante (achat de billet d'avion)
+
+Tous les formulaires sont téléchargeables sur : https://www.fstm.ac.ma/mobilite.php
+
+=== CONTEXTE ===
+Le renforcement de l'internationalisation fait partie des axes prioritaires du mandat 2023-2027 de la doyenne. La FSTM cherche à signer plus d'accords d'échanges avec les meilleurs établissements, écoles d'ingénieurs et universités technologiques dans le monde.

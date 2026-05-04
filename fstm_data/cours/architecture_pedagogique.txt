@@ -1,0 +1,21 @@
+[TITLE] Architecture Pédagogique
+[TYPE] cours
+[CONTENT]
+L'architecture pédagogique de la Faculté des Sciences et Techniques de Mohammedia (FSTM) repose sur l'architecture LMD (Licence, Master, Doctorat) avec des spécificités propres au réseau des FST au Maroc. 
+
+**1. Tronc Commun et DEUST (Bac + 2) :**
+Les études commencent par un Tronc Commun (MIP: Mathématiques, Informatique, Physique ou BCG: Biologie, Chimie, Géologie). Au bout des 4 premiers semestres (S1 à S4), l'étudiant ayant validé ses modules obtient le DEUST (Diplôme d'Études Universitaires Scientifiques et Techniques).
+
+**2. LST - Licence Sciences et Techniques (Bac + 3) :**
+Après le DEUST, l'étudiant intègre le cycle Licence (S5 et S6) dans une filière spécialisée (ex: Informatique, Biologie, Électrique). À l'issue des 6 semestres globaux, il valide sa LST. Le dernier semestre inclut généralement un Projet de Fin d'Études (PFE).
+
+**3. MST - Master Sciences et Techniques (Bac + 5) :**
+Ouvert sur concours aux titulaires d'une Licence (LST, LF, etc.). Dure 4 semestres (S1 à S4 de master) et aboutit à l'obtention du diplôme de Master. Le S4 est consacré à un stage de fin d'études en entreprise ou en laboratoire.
+
+**4. CI - Cycle Ingénieur d'état (Bac + 5) :**
+Accessible sur concours après le DEUST, prépas ou diplôme équivalent. La formation dure 3 ans (6 semestres) avec une forte orientation industrielle et technique, aboutissant au diplôme d'Ingénieur d'État de la FSTM.
+
+**5. CED - Cycle Doctoral (Bac + 8) :**
+Le Centre d'Études Doctorales accueille les titulaires de Master ou d'un diplôme d'Ingénieur pour mener un projet de thèse sur 3 ans (minimum), avec au bout le diplôme de Doctorat.
+
+*(La formation est modulaire et semestrielle, avec une combinaison de Cours Magistraux, Travaux Dirigés - TD, et Travaux Pratiques - TP).*

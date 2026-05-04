@@ -1,0 +1,34 @@
+Contacts des Professeurs
+Contacts par Semestre
+Semestre 1
+— Analyse 1 : ASMAA.ABASSI@univh2c.ma, moussaid@fstm.ac.ma
+— Analyse 2 : soumia.chaira@fstm.ac.ma
+— Structure de la Mati`ere : adiba.rais@fstm.ac.ma
+— TEC 1 : hicham.jirari@fstm.ac.ma, hasna.fallaki@fstm.ac.ma, loubna.farsi@univh2c.ma,
+ghizlane.machraoui@fstm.ac.ma
+— M´ecanique du Point : rabiaa.lotfi@fstm.ac.ma, monssif.najim@fstm.ac.ma
+— Thermodynamique : rachid.lbibb@fstm.ac.ma, said.saadeddine@fstm.ac.ma
+Semestre 2
+— R´eactivit´e Chimique : abdalhak.elbrouzi@fstm.ac.ma, amine.ezzahi@fstm.ac.ma
+— Algorithmique et Programmation 1 : mohammed.saddoune@fstm.ac.ma, ahmed.oussous@fstm.
+— Alg`ebre 1 : elmostafa.hanine@fstm.ac.ma
+— Alg`ebre 2 : noureddine.fahssi@fstm.ac.ma, elmostafa.hanine@fstm.ac.ma, driss.karim@fstm.ac.ma
+— ´Electricit´e : salem.laghrabli@fstm.ac.ma
+— TEC 2 : hicham.jirari@fstm.ac.ma, hasna.fallaki@fstm.ac.ma, loubna.farsi@univh2c.ma,
+ghizlane.machraoui@fstm.ac.ma
+Semestre 3
+— Algorithmique et Programmation 2 : ahmed.oussous@fstm.ac.ma, samir.anter@fstm.ac.ma,
+amina.eljabri@fstm.ac.ma
+— Structures de Donn´ees : badr.hssina@univh2c.ma, faddoul.khoukhi@fstm.ac.ma
+— Analyse 3 : mohamed.ridouanamattouch@univh2c.ma
+— Analyse 4 : said.sajid@fstm.ac.ma
+— ´Electromagn´etique : taoufik.tbatou@univh2c.ma, anass.bakour@univh2c.ma
+— TEC 3 : mohammed.kahkahy@fstm.ac.ma
+Semestre 4
+— Probabilit´e : a.settar.fstm@gmail.com
+— Circuits ´Electriques et ´Electroniques : mohammed.tsouli@univh2c.ma
+— M´ecanique Quantique : mohamed.bencheikh@fstm.ac.ma, abderrahim.habbou@fstm.ac.ma
+— Bases de Donn´ees : mohammed.khalil@univh2c.ma, mohammed.khalil@fstm.ac.ma
+— Analyse Num´erique : brahim.benouahmane@fstm.ac.ma
+— M´ecanique du Solide : salah.fadili@fstm.ac.ma, hassan.chaffoui@fstm.ac.ma
+1

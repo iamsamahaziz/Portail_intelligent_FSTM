@@ -1,0 +1,98 @@
+[TITLE] Département Génie des Procédés et Environnement
+[TYPE] amphis
+[CONTENT]
+Présentation
+Biologie
+Chimie
+Génie des Procédés et Environnement
+Génie Électrique
+Informatique
+Mathématiques
+Physique
+Enseignements Transversaux
+Département Génie des Procédés et Environnement
+Le département Génie des Procédés et Environnement (GPE) a pour mission d'assurer une formation polyvalente, particulièrement bien adaptée aux besoins des industries de transformation de la matière et de l’énergie (l'industrie chimique, agroalimentaire, pétrochimique, gazière, pharmaceutique, minière, le traitement des eaux potables, l’épuration des eaux usées domestiques et industrielles, le traitement des effluents gazeux, le traitement des déchets solides, etc...). La formation est aussi adaptée aux besoins des bureaux d’études, les cabinets de conseils en ingénierie et organismes publics ou privés de recherche.
+Liste des enseignants :
+Nom
+Prénom
+Grade
+ABOUALI
+Naima
+Professeur de l'Enseignement Supérieur
+AMINE
+Aziz
+Professeur de l'Enseignement Supérieur
+BAHLAOUI
+Moulay Abdellah
+Professeur de l'Enseignement Supérieur
+BAKRAOUY
+Hajar
+Maitre de conférence
+BEJJANY
+Bouchra
+Maitre de conférence habilité
+BENHACHMI
+Mohammed Karim
+Professeur de l'Enseignement Supérieur
+CHAAIR
+Hassan
+Professeur de l'Enseignement Supérieur
+DANI
+Adil
+Professeur de l'Enseignement Supérieur
+DIGUA
+Khalid
+Professeur de l'Enseignement Supérieur
+IDRISSI
+Laila
+Professeur de l'Enseignement Supérieur
+JAMIL
+Said
+Professeur de l'Enseignement Supérieur
+KHATTABI RIFI
+Safaa
+Maitre de conférence
+LAMHAR
+Raowia
+Maitre de conférence
+LOUDYI
+Dalila
+Professeur de l'Enseignement Supérieur
+LOUKILI
+Hayat
+Maitre de conférence habilité
+MADINZI
+Abdelaziz
+Maitre de conférence habilité
+MELLOUK
+Hamid
+Maitre de conférence habilité
+MOHAMMADI
+Hasna
+Professeur de l'Enseignement Supérieur
+OUALLALI
+Abdessalam
+Maitre de conférence habilité
+SAAFADI
+Laila
+Maitre de conférence habilité
+STITOU
+Mohamed
+Professeur de l'Enseignement Supérieur
+STOUR
+Laila
+Professeur de l'Enseignement Supérieur
+TALEB
+Abdeslam
+Professeur de l'Enseignement Supérieur
+TANARHTE
+Meryem
+Maitre de conférence habilité
+TAYANE
+Souad
+Professeur de l'Enseignement Supérieur
+ZAHIDI
+Khadija
+Maitre de conférence habilité
+Chef de département : MADINZI Abdelaziz
+Faculté des Sciences et Techniques de Mohammedia

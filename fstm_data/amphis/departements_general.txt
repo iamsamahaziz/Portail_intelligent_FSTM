@@ -1,0 +1,31 @@
+[TITLE] Départements - Présentation Générale
+[TYPE] amphis
+[CONTENT]
+Présentation
+Biologie
+Chimie
+Génie des Procédés et Environnement
+Génie Électrique
+Informatique
+Mathématiques
+Physique
+Enseignements Transversaux
+Départements : Présentation
+La Faculté des Sciences et Techniques de Mohammedia compte 8 départements couvrant différents champs disciplinaires :
+-
+Biologie
+-
+Chimie
+-
+Génie des Procédés et Environnement
+-
+Génie Électrique
+-
+Informatique
+-
+Mathématiques
+-
+Physique
+-
+Enseignements Transversaux
+Faculté des Sciences et Techniques de Mohammedia

@@ -1,0 +1,89 @@
+[TITLE] Personnel et Enseignants de la FSTM
+[TYPE] site_web
+[CONTENT]
+
+=== ÉQUIPE DIRIGEANTE ===
+- Doyenne : Pr. Latifa MOUHIR
+- Vice-Doyen chargé des Affaires Pédagogiques : Pr. Elhoussine ATMANI
+- Vice-Doyen chargé de la Recherche Scientifique et de la Coopération : Pr. Abdennaceur BAGHDAD
+- Chargé de mission de Vice-Doyen Chargé de la Qualité et du Développement : Pr. Abdelaziz MADINZI
+- Secrétaire Général : (Gère les affaires administratives et financières)
+
+=== CHEFS DE DÉPARTEMENTS ===
+- Informatique : Pr. Mohammed SADDOUNE
+- Mathématiques : Pr. Karam ALLALI
+- Physique : Pr. Abdellatif EL AZRAK
+- Biologie : Pr. Amal SAFI (Chef de département)
+- Chimie : Pr. Mohamed OUAMMOU
+- Génie des Procédés et Environnement (GPE) : Pr. Abdelaziz MADINZI
+- Génie Électrique : Pr. Yassine SAYOUTI
+- Enseignements Transversaux (TEC) : Pr. Hicham JIRARI
+
+=== RESPONSABLES DE FILIÈRES LST (Licence Sciences et Techniques) ===
+- LST2I (Ingénierie Informatique) : Pr. Samir ANTER (Dépt. Informatique)
+- LST GI (Génie Informatique) : Pr. M. Khalil (Dépt. Informatique)
+- LST GL (Génie Logiciel) : Pr. S. Chantit (Dépt. Informatique)
+- LST MIA (Mathématiques et Informatique Appliquées) : Pr. Sana Chakri (Dépt. Informatique)
+- LST GM (Génie Mécanique) : Pr. M. El Khlifi (Dépt. Physique)
+- LST GBA (Génie Biologique et Agroalimentaire) : Pr. H. Lakhiari (Dépt. Biologie)
+- LST BIOCQ (Bioanalyse et Contrôle Qualité) : Pr. A. Ouarzane (Dépt. Biologie)
+- LST TACQ (Techniques d'Analyse) : Pr. A. El Hakmaoui (Dépt. Chimie)
+- LST CA (Chimie Appliquée) : Pr. M. Safi (Dépt. Chimie)
+- LST GEE (Génie de l'Eau et Environnement) : Pr. M. K. Benhachmi (Dépt. GPE)
+- LST GPI (Génie des Procédés Industriels) : Pr. B. Bejjany (Dépt. GPE)
+
+=== LISTE DES ENSEIGNANTS PAR DÉPARTEMENT ===
+
+--- DÉPARTEMENT INFORMATIQUE ---
+- ADIB Abdellah (Professeur de l'Enseignement Supérieur)
+- ANTER Samir (Maitre de conférence habilité)
+- BEKKHOUCHA Abdelkrim (Professeur de l'Enseignement Supérieur)
+- BERGUIG YOUSRA (Maitre de conférence)
+- BOULOUARD Zkaria (Maitre de conférence habilité)
+- CHAKHTOUNA Adil (Maitre de conférence)
+- CHAKRI Sana (Maitre de conférence)
+- CHANTIT Salima (Maitre de conférence habilité)
+- CHERRADI Ghizlane (Maitre de conférence)
+- DOUZI Khadija (Professeur de l'Enseignement Supérieur)
+- EL BEGGAR Omar (Maitre de Conférence habilité)
+- EL BOUZIRI Adil (Maitre de conférence habilité)
+- FAKIR Youssef (Maitre de conférence)
+- FARSAL Wissal (Maitre de conférence)
+- HALLOU Amal (Maitre de conférence)
+- HSSINA Badr (Maitre de conférence habilité)
+- KHALIL Mohammed (Maitre de Conférence habilité)
+- KHOUKHI Faddoul (Professeur de l'Enseignement Supérieur)
+- KISSI Mohamed (Professeur de l'Enseignement Supérieur)
+- LEGHRIS Cherkaoui (Professeur de l'Enseignement Supérieur)
+- LETRACHE Lhadija (Maitre de conférence habilité)
+- MOUMKINE Noureddine (Maitre de Conférence habilité)
+- OUSSOUS Ahmed (Maitre de conférence habilité)
+- RAMDANI Mohammed (Professeur de l'Enseignement Supérieur)
+- SADDOUNE Mohammed (Professeur de l'Enseignement Supérieur)
+- TLEMCANI Khadija (Maitre de conférence)
+
+--- DÉPARTEMENT CHIMIE (Partiel) ---
+- OUAMMOU Mohamed (Chef de département)
+- MOUHIR Latifa (Doyenne)
+
+--- DÉPARTEMENT MATHÉMATIQUES (Partiel) ---
+- ALLALI Karam (Chef de département)
+
+--- DÉPARTEMENT PHYSIQUE (Partiel) ---
+- EL AZRAK Abdellatif (Chef de département)
+- HARTITI Bouchaib (Professeur de l'Enseignement Supérieur)
+- ELKHLIFI Mohamed (Professeur de l'Enseignement Supérieur)
+- ELMANOUNI Ahmed (Professeur de l'Enseignement Supérieur)
+- FAZOUAN Nejma (Professeur de l'Enseignement Supérieur)
+- HABBOU Abderrahim (Professeur de l'Enseignement Supérieur)
+- LBIBB Rachid (Professeur de l'Enseignement Supérieur)
+- LOTFI Rabiaa (Professeur de l'Enseignement Supérieur)
+- MEZIANE Jaafar (Professeur de l'Enseignement Supérieur)
+- MIR Yamina (Professeur de l'Enseignement Supérieur)
+- MOUNTASSER Rachid (Professeur de l'Enseignement Supérieur)
+- SAADEDDINE Said (Professeur de l'Enseignement Supérieur)
+- ZAZOUI Mimoun (Professeur de l'Enseignement Supérieur)
+
+=== CHARGÉS DE MISSIONS ===
+- Youssef EL KOUARI : Formation Continue
+- Abdelaziz MADINZI : Qualité et Développement

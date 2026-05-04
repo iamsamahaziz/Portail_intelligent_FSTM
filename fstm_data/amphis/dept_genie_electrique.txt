@@ -1,0 +1,89 @@
+[TITLE] Département Génie Électrique
+[TYPE] amphis
+[CONTENT]
+Présentation
+Biologie
+Chimie
+Génie des Procédés et Environnement
+Génie Électrique
+Informatique
+Mathématiques
+Physique
+Enseignements Transversaux
+Département Génie Électrique
+La formation assurée par le département Génie Electrique a pour objectif de donner aux étudiants un bagage scientifique de très haut niveau et à large spectre leur permettant de s’adapter aux besoins de leur futur métier et à ses évolutions. Les étudiants acquièrent des compétences dans les domaines de l'automatique, de l'électronique, de l'électrotechnique, de l'informatique industrielle, de l'automatisme, de la robotique, du traitement de l’information et des télécommunications.
+Liste des enseignants :
+Nom
+Prénom
+Grade
+AATABE
+Mohamed
+Maitre de conférence
+BAGHDAD
+Abdennaceur
+Professeur de l'Enseignement Supérieur
+BEL BACHIR KCHAIRI
+Abdel-Mounaim
+Maitre de conférence habilité
+BELBOUNAGUIA
+Noureddine
+Professeur de l'Enseignement Supérieur
+BEZZA
+Mohamed
+Maitre de conférence habilité
+BOUYGHEF
+Hamid
+Maitre de conférence habilité
+CHALH
+Abdelilah
+Maitre de conférence
+EL AAMRI
+Faicel
+Maitre de conférence
+EL FADILI
+Abderrahim
+Professeur de l'Enseignement Supérieur
+EL GMILI
+Nada
+Maitre de conférence
+EL MOURABITE
+Ilham
+Maitre de conférence habilité
+EL MYASSE
+Ilyass
+Maitre de conférence
+ELIDRISSI
+Hassan
+Professeur de l'Enseignement Supérieur
+ELKOUARI
+Youssef
+Professeur de l'Enseignement Supérieur
+ESSABRE
+Mohamed
+Maitre de conférence habilité
+LEBBAR
+Hassan
+Professeur de l'Enseignement Supérieur
+NAHID
+Mohammed
+Professeur de l'Enseignement Supérieur
+OUKARFI
+Benyounes
+Professeur de l'Enseignement Supérieur
+RACHID
+Aziz
+Maitre de conférence habilité
+RIYANI
+Mohammed
+Maitre de conférence habilité
+SABIR
+Hamza
+Maitre de conférence
+SAHEL
+Aicha
+Professeur de l'Enseignement Supérieur
+SAYOUTI
+Yassine
+Maitre de conférence habilité
+Chef de département : SAYOUTI Yassine
+Faculté des Sciences et Techniques de Mohammedia

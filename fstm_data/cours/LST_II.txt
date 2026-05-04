@@ -1,0 +1,45 @@
+[TITLE] LST - Ingénierie Informatique
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2024/LSTII.pdf
+--- Contenu du document ---
+
+Licence en Sciences et Techniques
+Ingénierie Informatique (LST2I)
+FST FACULTÉ DES SCIENCES ET TECHNIQUES DE MOHAMMEDIA
+UNIVERSITÉ HASSAN II DE CASABLANCA
+
+La Licence Sciences et Techniques - Ingénierie Informatique (LST2I) propose un programme complet et actualisé, axé sur les compétences les plus recherchées dans les métiers du numérique. Les étudiants y développent une expertise en programmation avancée en conception logicielle et en gestion des données.
+
+La formation accorde une importance particulière à l'intelligence artificielle, préparant les étudiants à concevoir des solutions innovantes et intelligentes pour les enjeux technologiques actuels.
+
+MODULES ENSEIGNÉS :
+SEMESTRE 5 :
+- Systèmes de Gestion de Bases de Données Avancés
+- Algorithmes et Structures de Données Avancés
+- Programmation web avancée
+- Programmation Orientée Objets
+- Apprentissage Automatique
+- Génie Logiciel et Modélisation
+- Anglais Technique
+
+SEMESTRE 6 :
+- Agents Intelligents & Systèmes Autonomes
+- Intelligence artificielle
+- Big Data et Technologie Cloud
+- Ateliers
+- Projet de Fin d'Etudes
+
+DEBOUCHÉS :
+La Licence LST2I prépare à des métiers du numérique centrés sur l'intelligence artificielle, la science des données et le développement logiciel. Les diplômés peuvent exercer en tant que data scientists, développeurs d'applications intelligentes, spécialistes cloud ou administrateurs de bases de données. La formation offre aussi les compétences nécessaires pour évoluer vers des postes de chef de projet informatique ou créer des solutions innovantes dans le domaine technologique, avec la possibilité de poursuivre en master recherche ou spécialisé.
+
+MÉTHODOLOGIE :
+La pédagogie de LST2I repose sur une démarche active par projet, plaçant l'étudiant au cœur de son apprentissage. À travers des réalisations concrètes, il développe des compétences techniques tout en apprenant à articuler les savoirs acquis dans différents modules. Cette approche favorise une compréhension approfondie et une application pratique des concepts clés.
+
+CONDITIONS D'ACCÈS :
+- DEUST en génie informatique.
+- Etude de dossier
+- Entretien
+
+Coordonnateur : Pr. Samir ANTER
+samir.anter@fstm.ac.ma

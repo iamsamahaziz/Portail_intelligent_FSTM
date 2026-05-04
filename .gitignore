@@ -12,9 +12,7 @@ venv/
 # Docker & Données (Base de données et fichiers lourds)
 qdrant_storage/
 n8n_data/
-fstm_data/
 fstm_pdfs/
-fstm_scraped/
 
 # Fichiers Personnels & Confidentiels
 *.zip

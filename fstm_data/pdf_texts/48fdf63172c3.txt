@@ -1,0 +1,110 @@
+MASTER SCIENCES ET TECHNIQUES 
+« ISERT » 
+Ingénierie des Systèmes Embarqués, Réseaux et Télécommunications 
+ 
+Objectifs de la formation : 
+ 
+L’objectif principal à travers ce Master est de former des cadres supérieurs scientifiques et/ou chercheurs de haut niveau 
+spécialiste dans l'analyse et la conception des systèmes autonomes, combinant l’électronique et l’informatique, spécialisés pour 
+exécuter des tâches précises souvent en temps réel. Le domaine de ces systèmes dit embarqué est omniprésent, il permet de 
+côtoyer de nombreux secteurs d'activité différents comme : principalement les réseaux & télécommunications et aussi 
+l’aérospatial, l’automobile, le bâtiment intelligent, le transport (routier, aérien, maritime,…), la défense, le grand public, 
+l’industriel, l’internet des objets, la communication M2M, le médical, la sécurité, le start-up, etc. Les connaissances acquises dans 
+cette formation permettent la compréhension et le développement des dispositifs sur plusieurs niveaux de description allant de la 
+puce électronique jusqu’au système tout en passant par l’électronique et l’informatique embarquée. 
+ 
+Débouchés de la formation : 
+ 
+Le Master en Sciences et Techniques, spécialité ISERT, offre des possibilités d’insertion professionnelle immédiate après le 
+diplôme de Master ainsi que des poursuites en doctorat. Pour les diplômés qui choisissent une insertion professionnelle 
+immédiate, les emplois occupés sont assez divers. Pour la plupart, il s'agit d’emplois d’ingénieurs spécialisés et experts dans des 
+domaines de prédilection qui sont très nombreux ; pour ceux qui choisissent de poursuivre en doctorat, ils peuvent exercer des 
+activités de recherche dans des laboratoires universitaires, publics ou des centres de recherche industriels. À l'issue de leur 
+doctorat ils peuvent postuler pour des emplois d’enseignant-chercheur ou d'ingénieur de recherche. 
+ 
+Programme de la formation : 
+ 
+Semestre 1 
+Semestre 2 
+Semestre 3 
+Semestre 4 
+Circuits Électroniques et 
+Construction 
+Programmation des Systèmes 
+Embarqués 
+Régulation Numérique 
+Commande numérique 
+PFE 
+Projet de fin 
+d’études d’une 
+durée de six mois 
+pouvant être 
+effectué en 
+industrie soit dans 
+des laboratoires de 
+recherche. 
+Instrumentation 
+Industrielle et LabVIEW 
+Capteurs – Actionneurs 
+Traitement Numérique du 
+Signal 
+FFT – Filtrage numérique  – 
+Compression – DSP 
+Systèmes de 
+Télécommunications 
+Radiofréquences 
+TNT– Satellites – Bluetooth – WiFi 
+Systèmes Embarqués et 
+Automatismes 
+PIC – Automate 
+Circuits FPGA et Langage VHDL 
+Traitement des Signaux 
+Multimédia 
+Son – vidéo – Réseaux de capteurs 
+Réseaux Informatiques, 
+Sécurité et Qualité 
+Transmission Avancée 
+Modulations complexes – 
+Multiplexages 
+Télécommunications Optiques 
+Fibrées 
+Communication Optique – LiFi 
+Systèmes de 
+Télécommunications 
+Lignes – Circuits – Antennes 
+MMIC - CEM 
+Réseaux Cellulaires et Réseau 
+Téléphonique Commuté 
+GSM…LTE – RTC – CPL 
+Systèmes Radars, GPS et 
+Technologie RFID 
+Anglais Scientifique 
+Outils de communications 
+Entrepreneuriat et Management 
+de Projet Innovant 
+Développement Personnel et 
+Social (Soft-skills) 
+ 
+ 
+Modalités d’admission et diplômes requis : 
+ 
+L’accès est ouvert (après étude du dossier, épreuve écrite et entretien oral) aux titulaires d’une licence dans le domaine de 
+formation dudit Master ou d’un diplôme reconnu équivalent. 
+ 
+Pré-requis pédagogiques : 
+ 
+Bon niveau en informatique, électronique, automatique, mathématiques et physique 
+ 
+Procédures de sélection : 
+ 
+Étude du dossier : Les candidats seront classés en fonction des relevés de notes et des mentions des diplômes obtenus. Test 
+écrit : Épreuve d’admissibilité permettant de tester les connaissances scientifiques et techniques fondamentales de base en 
+relation avec la formation. Entretien oral : Le but de l’entretien est d’évaluer l’esprit communicatif, la culture scientifique et 
+technique, l’autonomie et les motivations des candidats. 
+ 
+ 
+Coordonnateur de la formation : 
+ 
+Pour plus d’informations, veuillez contacter le coordonnateur de cette filière : Prof. Abdennaceur BAGHDAD 
+ 
+E‐mail 1: abdennaceur.baghdad@fstm.ac.ma *** E‐mail 2: nasser_baghdad@yahoo.fr ***GSM: 0670014397

@@ -1,0 +1,118 @@
+[TITLE] LST - Génie de l'Eau et de l'Environnement
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2025/LST_GEE.pdf
+--- Contenu du document ---
+
+LICENCE SCIENCES ET TECHNIQUES
+GÉNIE DE L’EAU ET DE L’ENVIRONNEMENT
+(GEE)
+Objectif
+La formation a pour objectif de former des techniciens autonomes capables de gérer de petites
+équipes dans les domaines de l’eau potable, de l’assainissement, de la lutte contre la pollution et de
+la gestion environnementale. Ils assureront l’interface entre les équipes de terrain et les responsables
+des services urbains (réseaux d’eau, d’assainissement, gestion des déchets). Le programme combine
+enseignements théoriques, travaux pratiques et projets encadrés, en collaboration avec des
+partenaires socio-économiques.
+Compétences Débouchés professionnels
+Capacité à aborder les aspects théoriques et Le diplômé en Génie de l’Eau et de l’Environnement
+pratiques relatifs au conception, est formé à la gestion des réseaux d’eau potable,
+dimensionnement et gestion des réseaux d’assainissement et au traitement des eaux usées. Il
+d’eau potable et d’assainissement, ainsi la intervient, dans le respect des normes, dans la
+conception et le dimensionnement des conception, l’exploitation et la maintenance des
+stations de traitement des eaux usées systèmes liés à l’eau et aux déchets, tout en assistant
+urbaines et industriels, Compétences en l’ingénieur, en collaborant avec les différents acteurs
+matière de direction et d’animation d’équipes du projet et en contribuant à la démarche qualité.
+techniques, ainsi que de rédaction de
+rapports et de projets techniques.
+Descriptif des modules
+Semestre 5
+Alimentation En Eau Potable/Gestion
+Traitement des Eaux Usées Urbaines Chimie de l'Environnement
+des Réseaux Hydriques
+Systèmes d’Information Géographique (SIG)
+Hydraulique Urbaine Appliquée Microbiologie de l'Environnement
+appliqués à la Gestion de l’Environnement
+Anglais technique
+Semestre 6
+Traitement des eaux usées
+Hydrosystèmes naturels et aménagés Réseau d’assainissement
+industrielles
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Mohammed Karim
+BENHACHMI
+E-mail : mohammedkarim.benhachmi
+@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53
+
+[Tableau page 1]
+ |  |  | ES
+MENT
+s capables de gérer de petites
+ | LICENCE SCIENCES ET TECHNIQUES
+GÉNIE DE L’EAU ET DE L’ENVIRONNEMENT
+(GEE)
+Objectif
+La formation a pour objectif de former des techniciens autonomes capables de gérer de petites
+équipes dans les domaines de l’eau potable, de l’assainissement, de la lutte contre la pollution et de
+la gestion environnementale. Ils assureront l’interface entre les équipes de terrain et les responsables
+des services urbains (réseaux d’eau, d’assainissement, gestion des déchets). Le programme combine
+enseignements théoriques, travaux pratiques et projets encadrés, en collaboration avec des
+partenaires socio-économiques.
+Compétences Débouchés professionnels
+Capacité à aborder les aspects théoriques et Le diplômé en Génie de l’Eau et de l’Environnement
+pratiques relatifs au conception, est formé à la gestion des réseaux d’eau potable,
+dimensionnement et gestion des réseaux d’assainissement et au traitement des eaux usées. Il
+d’eau potable et d’assainissement, ainsi la intervient, dans le respect des normes, dans la
+conception et le dimensionnement des conception, l’exploitation et la maintenance des
+stations de traitement des eaux usées systèmes liés à l’eau et aux déchets, tout en assistant
+urbaines et industriels, Compétences en l’ingénieur, en collaborant avec les différents acteurs
+matière de direction et d’animation d’équipes du projet et en contribuant à la démarche qualité.
+techniques, ainsi que de rédaction de
+rapports et de projets techniques.
+Descriptif des modules
+Semestre 5
+Alimentation En Eau Potable/Gestion
+Traitement des Eaux Usées Urbaines Chimie de l'Environnement
+des Réseaux Hydriques
+Systèmes d’Information Géographique (SIG)
+Hydraulique Urbaine Appliquée Microbiologie de l'Environnement
+appliqués à la Gestion de l’Environnement
+Anglais technique
+Semestre 6
+Traitement des eaux usées
+Hydrosystèmes naturels et aménagés Réseau d’assainissement
+industrielles
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Mohammed Karim
+BENHACHMI
+E-mail : mohammedkarim.benhachmi
+@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 |  | ES
+MENT
+s capables de gérer de petites
+ |  | C O N T A C T
+Coordonnateur : Pr. Mohammed Karim
+BENHACHMI
+E-mail : mohammedkarim.benhachmi
+@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 | 
+
+[Tableau page 1]
+Semestre 5 |  | 
+Traitement des Eaux Usées Urbaines | Chimie de l'Environnement | Alimentation En Eau Potable/Gestion
+des Réseaux Hydriques
+Hydraulique Urbaine Appliquée | Systèmes d’Information Géographique (SIG)
+appliqués à la Gestion de l’Environnement | Microbiologie de l'Environnement
+Anglais technique |  | 
+
+[Tableau page 1]
+Semestre 6 |  | 
+Hydrosystèmes naturels et aménagés | Réseau d’assainissement | Traitement des eaux usées
+industrielles
+Intelligence artificielle | Projet de fin d’étude | 
+
+[Tableau page 1]
+ |

@@ -1,0 +1,83 @@
+MST 1 : Ingénierie des Systèmes Embarqués, Réseaux et Télécommunications « ISERT » 
+ 
+Emploi du temps Cours/TD/TP – Semestre (S1) – Période (P1) 
+ 
+     Modules programmés : 
+ 
+ 
+ISERT 2 
+Instrumentation Industrielle et LabVIEW 
+ISERT 3 
+Circuits FPGA et langage VHDL 
+ISERT 4 
+Traitement Numérique du Signal 
+ 
+Début des cours de la 1ère période P1 du semestre S1 : la semaine du 22/09/2025 (8 semaines) 
+ 
+MST - ISERT 
+S1 - P1 
+MATIN 
+Pause 
+ 
+Déjeuner 
+APRES MIDI 
+9h 
+PAUSE 
+15mn 
+12h15 
+14h 
+PAUS
+E 
+15mn 
+17h15 
+Lundi 
+ 
+Cours/TD/TP 
+ISERT 3 
+Pr M. NAHID 
+ 
+Cours/TD/TP 
+ISERT 2  
+Pr H. EL IDRISSI 
+Mardi 
+ 
+Cours/TD/TP 
+ISERT 4 
+Pr A. SAHEL 
+Cours/TD/TP 
+ISERT 2  
+Pr H. EL IDRISSI 
+Mercredi 
+ 
+Cours/TD/TP 
+ISERT 4 
+Pr A. SAHEL 
+Cours/TD/TP 
+ISERT 3 
+Pr M. NAHID 
+Jeudi 
+ 
+Cours/TD/TP 
+ISERT 4 
+Pr A. SAHEL 
+Cours/TD/TP 
+ISERT 2  
+Pr H. EL IDRISSI 
+Vendredi 
+ 
+Cours/TD/TP 
+ISERT 3 
+Pr M. NAHID 
+Séminaires/Projets libres/Visites en 
+entreprise/Rattrapage 
+Samedi 
+ 
+Séminaires/Projets libres/Visites en 
+entreprise/Rattrapage  
+ 
+ 
+ 
+NB : Lieu du cours/TD : salle ISERT (Bâtiment E - 2ème étage) 
+ 
+Coordonnateur de la filière MST – ISERT 
+Pr. A. BAGHDAD

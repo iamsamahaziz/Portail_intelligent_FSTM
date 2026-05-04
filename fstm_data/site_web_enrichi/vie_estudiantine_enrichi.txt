@@ -1,0 +1,41 @@
+[TITLE] FSTM - Vie Estudiantine et Activités 2025-2026
+[TYPE] vie_estudiantine
+[SOURCE] fstm.ac.ma/vie_estudiantine/activites.php - scraped 2026-04-01
+[CONTENT]
+
+=== VIE ESTUDIANTINE ===
+Sections disponibles :
+- Activités
+- Projets
+- Journée d'accueil
+- Journée des lauréats
+- Association des étudiants
+- Association des lauréats
+
+=== ACTIVITÉS RÉCENTES (2025-2026) ===
+
+1. Elite Women - 3ème édition : "Empowering Past and Future Generations" (Women's University Week)
+2. Beyond ChatGPT : L'IA à l'ère des agents - Demi-journée de formation (25 mars 2026)
+3. 9ème édition Journées Thématiques Master MAGBio : "One Health : trois mondes, une seule santé" (6 janvier 2026)
+4. 10ème édition Journée Master MQSA : "L'eau : source de qualité, enjeu de sécurité"
+5. Campagne de sensibilisation à la sécurité routière (en partenariat avec NARSA)
+6. 3ème édition Soft Skills Day : "Intelligence Émotionnelle / Intelligence Artificielle : Opportunités & Défis" (18 décembre 2025)
+7. Don de Sang - Journée Nationale (3-4 décembre 2025)
+8. Portes ouvertes VINCI Energies pour filières GECI et GE
+9. Séminaire "Confiance en soi et posture professionnelle" (14 novembre 2025)
+10. Célébration anniversaire Marche Verte (avec Faculté des Lettres)
+11. 1ère édition Caravane de la Sagesse et du Leadership 2025 (30 octobre 2025)
+12. Journées d'Intégration 2025 (21-23 octobre 2025)
+13. Formation LEADING SAFe - SAFe Agilist 6.0 (29-30 mai 2025)
+14. Journée mondiale de l'eau (15 mai 2025)
+15. Conférence équilibre émotionnel et psychologique des étudiantes
+16. Oracle Campus Tour - FSTM
+17. Journées Maghrébines de la Santé Scolaire et Universitaire 2025
+18. Journée Check-up Santé
+19. Ramadan Games (Football)
+20. House of Soft Skills - Duel de Débat (Ramadan)
+
+=== ASSOCIATIONS ===
+- Association des étudiants de la FSTM
+- Association des lauréats de la FSTM
+- Club Santé

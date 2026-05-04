@@ -1,0 +1,54 @@
+[TITLE] FSTM - Services Numériques et Plateformes en Ligne
+[TYPE] services
+[SOURCE] fstm.ac.ma - scraped 2026-03-31
+[CONTENT]
+
+=== SERVICES NUMÉRIQUES (E-SERVICES) ===
+
+Chaque étudiant dispose d'un compte ENT sous format "prenom.nom-etu" mis à sa disposition par l'université.
+Avec ce compte, vous avez accès aux ressources suivantes :
+
+1. E-FSTM : Services numériques de la faculté
+   URL : https://e-fstm.fstm.ac.ma/
+
+2. E-Scholar : Portail académique étudiant
+   URL : https://e-scholar.fstm.ac.ma/
+
+3. E-Mail : Messagerie institutionnelle
+   URL : http://mail.fstm.ac.ma
+
+4. E-Résultat : Consultation des résultats d'examens
+   URL : https://e-resultat.fstm.ac.ma
+
+5. E-Candidature : Plateforme de candidature en ligne (MST et Cycle Ingénieur)
+   URL : https://e-candidature.fstm.ac.ma
+
+6. E-Inscription : Formulaire d'inscription en ligne
+   URL : https://e-inscription.fstm.ac.ma
+
+7. E-Learning : Plateforme d'apprentissage en ligne de l'Université Hassan II
+   URL : https://e-learning.univh2c.ma
+
+8. E-Suivi des Lauréats : Suivi et retrait des diplômes
+   URL : https://www.fstm.ac.ma/diplomes/index.php
+
+9. Help Desk : Support technique
+   URL : https://help.fstm.ac.ma
+
+10. Plateforme des Examens en Ligne
+    URL : https://examen.fstm.ac.ma/
+
+11. Campus Connecté : Services de connectivité
+    URL : https://www.fstm.ac.ma/e_services/campus_connecte.php
+
+=== PRÉ-INSCRIPTION UNIVERSITÉ ===
+Fiche de pré-inscription obligatoire pour tous les étudiants :
+URL : https://preins.univh2c.ma/index.php?etab=FST
+
+=== ASSURANCE ÉTUDIANT ===
+Attestation d'assurance obligatoire :
+URL : https://assurance-etudiant.prevas.ma/
+
+=== ENT (Espace Numérique de Travail) ===
+L'ENT donne accès aux services numériques de l'Université Hassan II de Casablanca.
+Format du compte : prenom.nom-etu

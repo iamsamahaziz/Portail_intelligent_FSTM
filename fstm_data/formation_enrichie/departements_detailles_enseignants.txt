@@ -1,0 +1,75 @@
+[TITLE] FSTM - Départements Détaillés avec Enseignants
+[TYPE] departements
+[SOURCE] fstm.ac.ma/departements/*.php - scraped 2026-04-01
+[CONTENT]
+
+=== DÉPARTEMENT DE BIOLOGIE ===
+Chef de département : SAFI Amal
+Description : Formations pluridisciplinaires dans les domaines médical, pharmaceutique, cosmétique et agroalimentaire. Formations en adéquation avec les besoins socio-économiques, qualité et environnement.
+Filières LST : GBA (Génie Biologique et Agroalimentaire), BIOCQ (Bioanalyse et Contrôle Qualité)
+Nombre d'enseignants : 25
+Enseignants (PES) : ABDELGHAFFAR Houria, ABOUDKHIL Souad, AIT MHAND OU BRAHIM Rajaa, AMINE Abdessamad, AMMAR Abderrahim, ATEF Nadia, BESSI Hlima, BOUTALEB Nadia, CHARAFEDDINE Omar, LAKHIARI Hamid, LAZAR Said, MELLOUKI Fouad, MRINI Abdelghani, OUARZANE Aicha, RHALLABI Naima, SAFI Amal, ZKHIRI Fouzia
+Enseignants (MCH/MC) : ABOULOIFA Houssam, AIT EL MOKHTAR Mohamed, BOUGHRIBIL Said, HALIM Khalid, OUKHATTAR Laila, RIZKI Hajar, RKHAILA Amine, ZALEGH Imane
+
+=== DÉPARTEMENT DE CHIMIE ===
+Chef de département : OUAMMOU Mohamed
+Mission : Formations en LST et MST adaptées aux besoins socio-économiques. Formation de professionnels en environnement, qualité et sécurité. Recherche et développement national et international.
+Axes stratégiques : Nouvelles filières avec partenaires socio-économiques, mobilité étudiante, partenariats internationaux, recherche.
+Filières LST : TACQ (Techniques d'Analyse et Contrôle Qualité), CA (Chimie Appliquée)
+Nombre d'enseignants : 30
+Enseignants (PES) : AADDANE Abdellah, AADIL Mina, BARKAOUI Latifa, BENNAZHA Jamal, BOUHRIA Mohamed, BRITEL Ouafae, CHAKIR Achraf, ECHCHERKI Karima, ELBROUZI Abdalhak, ELHAKMAOUI Ahmed, ELMARRAKCHI Mohssine, ELMCHAOURI Abdellah, ELRHAZI Mama, FARAH Lahbib, KERAK Ebrahim, KHOUMRI Elmati, NOHAIR Mohamed, OUAMMOU Mohamed, RAIS Adiba, SAFI Mohamed, ZAHOUILY Mohamed
+Enseignants (MCH/MC) : ACHIOU Brahim, AIT LAYACHI Omar, BACHRA Yahya, BEQQOUR Dounia, EL MANSOURI Az-eddine, EZZAHI Amine, LABJAR Houda, OUZIDAN Youness, SLIMANI Rachid
+
+=== DÉPARTEMENT DE GÉNIE DES PROCÉDÉS ET ENVIRONNEMENT (GPE) ===
+Chef de département : MADINZI Abdelaziz
+Mission : Formation polyvalente adaptée aux industries de transformation de la matière et énergie (industrie chimique, agroalimentaire, pétrochimique, gazière, pharmaceutique, minière, traitement des eaux, épuration, traitement des déchets). Aussi pour bureaux d'études, cabinets de conseil, organismes de recherche.
+Filières LST : GEE (Génie de l'Eau et de l'Environnement), GPI (Génie des Procédés Industriels)
+Filières Ingénieur : GPE-GEE, GPE-GPI
+Nombre d'enseignants : 26
+Enseignants (PES) : ABOUALI Naima, AMINE Aziz, BAHLAOUI Moulay Abdellah, BENHACHMI Mohammed Karim, CHAAIR Hassan, DANI Adil, DIGUA Khalid, IDRISSI Laila, JAMIL Said, LOUDYI Dalila, MOHAMMADI Hasna, STITOU Mohamed, STOUR Laila, TALEB Abdeslam, TAYANE Souad
+Enseignants (MCH/MC) : BAKRAOUY Hajar, BEJJANY Bouchra, KHATTABI RIFI Safaa, LAMHAR Raowia, LOUKILI Hayat, MADINZI Abdelaziz, MELLOUK Hamid, OUALLALI Abdessalam, SAAFADI Laila, TANARHTE Meryem, ZAHIDI Khadija
+
+=== DÉPARTEMENT DE GÉNIE ÉLECTRIQUE ===
+Chef de département : SAYOUTI Yassine
+Description : Formation à large spectre en automatique, électronique, électrotechnique, informatique industrielle, automatisme, robotique, traitement de l'information et télécommunications.
+Filières LST : SIT (Systèmes Intelligents et Télécommunications), GE2I (Génie Électrique et Informatique Industrielle)
+Filières Ingénieur : GECI (Génie Electrique et Contrôle Industriel), GE (Génie Énergétique)
+Nombre d'enseignants : 23
+Enseignants (PES) : BAGHDAD Abdennaceur, BELBOUNAGUIA Noureddine, EL FADILI Abderrahim, ELIDRISSI Hassan, ELKOUARI Youssef, LEBBAR Hassan, NAHID Mohammed, OUKARFI Benyounes, SAHEL Aicha
+Enseignants (MCH/MC) : AATABE Mohamed, BEL BACHIR KCHAIRI Abdel-Mounaim, BEZZA Mohamed, BOUYGHEF Hamid, CHALH Abdelilah, EL AAMRI Faicel, EL GMILI Nada, EL MOURABITE Ilham, EL MYASSE Ilyass, ESSABRE Mohamed, RACHID Aziz, RIYANI Mohammed, SABIR Hamza, SAYOUTI Yassine
+
+=== DÉPARTEMENT D'INFORMATIQUE ===
+Chef de département : SADDOUNE Mohammed
+Mission : Formation et émergence du génie informatique et du génie logiciel. Diffusion des STIC dans différents secteurs (industrie, services, transport, administration, enseignement).
+Laboratoire rattaché : LIM (Laboratoire d'Intelligence Machine)
+Filières LST : IRM (Informatique, Réseau et Multimédia), II (Ingénierie Informatique), ILSI (Ingénierie Logicielle et Systèmes d'Information)
+Filières Ingénieur : ILISI, IDSI
+Nombre d'enseignants : 26
+Enseignants (PES) : ADIB Abdellah, BEKKHOUCHA Abdelkrim, DOUZI Khadija, KHOUKHI Faddoul, KISSI Mohamed, LEGHRIS Cherkaoui, RAMDANI Mohammed, SADDOUNE Mohammed
+Enseignants (MCH/MC) : ANTER Samir, BERGUIG Yousra, BOULOUARD Zkaria, CHAKHTOUNA Adil, CHAKRI Sana, CHANTIT Salima, CHERRADI Ghizlane, EL BEGGAR Omar, EL BOUZIRI Adil, FAKIR Youssef, FARSAL Wissal, HALLOU Amal, HSSINA Badr, KHALIL Mohammed, LETRACHE Lhadija, MOUMKINE Noureddine, OUSSOUS Ahmed, TLEMCANI Khadija
+
+=== DÉPARTEMENT DE MATHÉMATIQUES ===
+(données des pages existantes dans le ZIP original)
+Filières LST : MSDI (Mathématiques, Sciences des Données et Informatique), SDID (Sciences des Données et Informatique Décisionnelle)
+Laboratoire rattaché : LMCSA
+
+=== DÉPARTEMENT DE PHYSIQUE ===
+(données des pages existantes dans le ZIP original)
+Filières LST : PA (Physique Appliquée), GM (Génie Mécanique)
+
+=== DÉPARTEMENT DES ENSEIGNEMENTS TRANSVERSAUX ===
+(données des pages existantes dans le ZIP original)
+Modules : langues, communication, culture numérique, développement personnel, soft skills
+
+=== RÉCAPITULATIF ===
+| Département | Chef | Nb enseignants |
+|---|---|---|
+| Biologie | SAFI Amal | 25 |
+| Chimie | OUAMMOU Mohamed | 30 |
+| GPE | MADINZI Abdelaziz | 26 |
+| Génie Électrique | SAYOUTI Yassine | 23 |
+| Informatique | SADDOUNE Mohammed | 26 |
+| Mathématiques | - | - |
+| Physique | - | - |
+| Ens. Transversaux | - | - |
+| TOTAL FSTM | | 186 enseignants |

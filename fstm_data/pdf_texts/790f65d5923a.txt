@@ -1,0 +1,511 @@
+CAHIER DES NORMES PEDAGOGIQUES NATIONALES 
+DU 
+ 
+CYCLE INGENIEUR 
+ 
+ 
+ 
+ - Version adoptée par la CNaCES - 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+CNPN du Cycle Ingénieur  2014 
+ 2 
+ 
+ 
+1. CYCLE INGENIEUR  
+ 
+Cycle Ingénieur 
+CL 1 
+Le cycle ingénieur est un cursus de formation d'enseignement supérieur d'une durée de six 
+semestres accessible selon les conditions prévues au niveau de la norme CL5. 
+Le Cycle Ingénieur est sanctionné par un diplôme d'ingénieur d'Etat.  
+ 
+  
+Année universitaire  
+CL 2 
+L'année universitaire en cycle Ingénieur est composée de 2 semestres comprenant chacun 16 à 
+18 semaines d'enseignement et d'évaluation. Les périodes de stage ne sont pas incluses dans ces 
+semaines.  
+ 
+ 
+ 
+Organisation du cycle Ingénieur 
+CL 3 
+L'organisation du cursus sur les six semestres de la formation est définie par l'équipe 
+pédagogique de chacune des filières du cycle ingénieur en coordination avec les instances 
+pédagogiques de l'établissement.  
+ 
+Composition d'un semestre du cycle Ingénieur 
+CL 4 
+Chaque semestre comprend 6 à 8 modules avec un volume horaire en présentiel global 
+semestriel minimal de 384 heures.  
+ 
+Conditions d'accès 
+CL 5 
+a- accès à une filière du cycle Ingénieur :  
+ L'accès en première année d'une filière du cycle Ingénieur est ouvert :  
+o aux candidats ayant validé les deux années du cycle préparatoire intégré ; 
+o aux candidats ayant réussi le concours national commun d’admission dans les établissements 
+de formation d'ingénieurs et établissements assimilés et ce dans la limite des places offertes  
+par l'Etablissement ; 
+o aux candidats ayant réussi le concours d’accès ouvert aux étudiants Bac+2 (DEUG, DUT, 
+DEUST, DEUP ou tout autre diplôme reconnu équivalent) ou Bac+3 (Licence ou tout 
+autre diplôme reconnu équivalent) selon les pré-requis pédagogiques et les modalités précisés 
+dans le descriptif de la filière demandée  et dans la limite des places disponibles. 
+ L’accès à une filière de ce cycle peut se faire en deuxième année par voie de concours pour les 
+candidats ayant au moins un diplôme BAC+3 (Licence ou tout autre diplôme reconnu équivalent) et 
+les pré-requis équivalents à la première année de la filière et sélectionnées selon les critères d’admission 
+précisés dans le descriptif de la filière demandée et dans la limite des places disponibles. 
+b- L'inscription :  
+ L'inscription à une filière du cycle Ingénieur est annuelle.  
+ 
+ 
+ 
+ 
+ 
+ 
+
+CNPN du Cycle Ingénieur  2014 
+ 3 
+ 
+2. NORMES FILIERES (FL)  
+ 
+Définition de la filière 
+FL 1 
+Une filière ingénieur est un cursus de formation comprenant un ensemble cohérent de modules 
+pris dans un ou plusieurs champs disciplinaires d'ingénierie et de disciplines connexes et ayant 
+pour objectif de faire acquérir à l'étudiant des connaissances, des aptitudes et des compétences 
+spécifiques. Une filière ingénieur peut comporter plusieurs options. 
+ 
+Intitulé de la filière 
+FL 2 
+L'intitulé reflète les objectifs et le contenu de la filière. 
+ 
+Composition d'une Filière 
+FL 3 
+Une filière ingénieur est composée de 30 à 40 modules répartis sur cinq semestres avec un volume 
+horaire global semestriel minimal de 384 heures d’enseignement et d’évaluation et d’un Projet de 
+Fin d'Etude (PFE) réalisé durant tout le sixième semestre. Des modules au choix peuvent être 
+proposés au cours de la formation. 
+ 
+Structure d'une filière Ingénieur 
+FL 4 
+Les cinq premiers semestres de formation d'ingénieur sont composés de trois blocs de modules :  
+1. Le bloc des modules scientifiques et techniques de base et de spécialisation, 
+composé, d'une part, de modules reflétant les caractères scientifique et technique 
+généraux de la formation d'ingénieur et, d'autre part, de modules spécifiques à une 
+spécialisation dans le cadre de la filière. Ce bloc représente 60 à 80% du volume horaire 
+global des cinq premiers semestres de la filière.  
+2. Le bloc de modules de Management composé essentiellement de modules de 
+management de projets, de management d'entreprise. Il représente 10 à 20% du volume 
+horaire global des cinq premiers semestres de la filière.  
+3. Le bloc de modules de langues, de Communication et des TIC représentant 10 à 20% 
+du volume horaire global des cinq premiers semestres de la filière.  
+Le sixième semestre est consacré au PFE. 
+ 
+  
+Cohérence 
+FL 5 
+Les objectifs et les contenus des modules composant une filière sont cohérents avec les  
+objectifs de la filière. 
+ 
+Passerelles 
+FL 6 
+Toute filière du cycle Ingénieur prévoit des passerelles avec d'autres filières du même 
+établissement ou des filières d'autres établissements permettant à un élève ingénieur, tout en 
+conservant ses acquis, de se réorienter au sein d'un même établissement ou d'un établissement 
+vers un autre conformément aux critères et pré-requis exigés par l'équipe pédagogique de 
+chaque filière choisie. 
+  
+ 
+ 
+
+CNPN du Cycle Ingénieur  2014 
+ 4 
+ 
+ 
+Domiciliation de la filière 
+FL 7 
+Une filière est rattachée administrativement à un établissement d'enseignement supérieur et 
+elle est conforme aux missions de cet établissement. Ses modules peuvent être assurés par un 
+ou plusieurs départements, voire plusieurs établissements d'enseignement supérieur ou encore 
+par des intervenants du milieu socioéconomique. 
+ 
+ 
+Coordonnateur pédagogique de la filière 
+FL 8 
+Le coordonnateur pédagogique d'une filière est un professeur de l'enseignement supérieur ou, à 
+défaut, un professeur habilité ou, à défaut un professeur assistant, qui appartient à 
+l'établissement d'attache de la filière et qui est désigné par le chef d'établissement, sur 
+proposition des coordonnateurs des modules de la filière et après avis du chef de Département 
+dont il relève.  
+Le coordonnateur pédagogique de la filière, intervenant dans les enseignements de la filière, 
+anime l'équipe pédagogique de la filière et assure le suivi du déroulement des enseignements, 
+des projets et des stages, de l'évaluation et des délibérations en coordination avec les 
+départements dont relèvent les modules de la filière et sous la responsabilité du chef de 
+l’établissement. 
+ 
+Demande d'accréditation 
+FL 9 
+Toute filière nationale dans un établissement de formation d'ingénieur doit faire l'objet d'une 
+demande d'accréditation. Celle-ci est présentée conformément au descriptif établi à cet effet et 
+conformément à la réglementation en vigueur.  
+ 
+Demande d'accréditation (descriptif de la filière) 
+FL 10 
+La demande d'accréditation d'une filière est présentée conformément au descriptif établi à cet 
+effet. Ce descriptif précise notamment :  
+ l’intitulé de la filière; 
+ les intitulés des options éventuelles de la filière; 
+ les objectifs de la formation;  
+ les compétences à acquérir; 
+ les conditions d'accès;  
+ la liste ordonnée des modules en indiquant leur nature (scientifiques et techniques de 
+base et de spécialisation, management, langues et communication et TIC);  
+ les noms du coordonnateur pédagogique de la filière, des coordonnateurs des modules et 
+des intervenants dans la formation;  
+ la description du stage ou projet de fin d'étude; 
+ la liste des partenaires;  
+ les moyens logistiques et matériels disponibles;  
+ les retombées de la formation; 
+ les débouchés de la formation; 
+ l'association du secteur socioprofessionnel dans l'élaboration et l'encadrement de la 
+formation;  
+ les descriptifs des modules de la filière avec leur syllabus et les compétences à acquérir; 
+ un CV succinct du coordonnateur de la filière; 
+ les engagements des intervenants externes à l’établissement; 
+ les avis motivés et visas des :  
+ 
+
+CNPN du Cycle Ingénieur  2014 
+ 5 
+ 
+- 
+coordonnateur pédagogique de la filière ; 
+- 
+chef du département dont relève le coordonnateur de la filière ; 
+- 
+chefs des départements impliqués dans la filière ; 
+- 
+président du conseil de l’établissement d’attache de la filière; 
+- 
+président de conseil de l’université.  
+ 
+La demande d’accréditation devra être  proposée par le conseil de l’établissement d’attache de la 
+filière, et approuvée par le conseil de l’université qui la transmet à l’autorité gouvernementale en 
+charge de l’enseignement supérieur pour accréditation.  
+ 
+Durée de l'accréditation 
+FL 11 
+L'accréditation d'une filière est accordée pour une durée de cinq années renouvelable après 
+évaluation par :  
+ l'autorité gouvernementale chargée de l'enseignement supérieur pour les établissements 
+universitaires.  
+ conjointement par l'autorité gouvernementale chargée de l'enseignement supérieur et 
+l'autorité gouvernementale de tutelle pour les établissements ne relevant pas des 
+universités.  
+Durant la période d’accréditation, les filières doivent faire l’objet d’auto-évaluations annuelles.  
+A l’issue de l’accréditation, chaque filière doit faire l’objet d’une auto-évaluation globale qui est 
+transmise à l’autorité gouvernementale chargée de l’enseignement supérieur, en cas de demande 
+ou non du renouvellement de l’accréditation. 
+Toute modification majeure apportée au contenu de la filière pendant la période d’accréditation 
+devra faire l’objet d’un accord de l’autorité gouvernementale en charge de l’enseignement 
+supérieur. 
+La liste des filières accréditées est publiée au Journal officiel.  
+ 
+ 
+ 
+
+CNPN du Cycle Ingénieur  2014 
+ 6 
+ 
+3. NORMES MODULES (MD)  
+ 
+Définition 
+MD 1 
+Le module est l'unité fondamentale du système de formation. Il comprend un à trois éléments de 
+module qui peuvent être enseignés dans une ou plusieurs langues ; un élément de module peut 
+être soit une matière enseignée sous forme de cours théoriques accompagnés ou non de travaux 
+dirigés et/ou de travaux pratiques, soit une activité pratique consistant en travaux sur le terrain ou 
+projet. Les différents éléments d'un module constituent une unité cohérente.  
+Une activité pratique peut constituer une partie d'un module, un module entier ou plusieurs 
+modules.  
+Une partie d’un module peut être enseignée à distance et/ou par alternance dans la limite fixée 
+par l’établissement. 
+ 
+  
+Intitulé 
+MD 2 
+L'intitulé d'un module reflète son contenu et ses objectifs.  
+ 
+  
+Volume horaire d'un module d'enseignement 
+MD 3 
+Un module d'enseignement s'étale sur un semestre et correspond à un volume horaire 
+minimum de 48 heures d'enseignement et d'évaluation.  
+Le volume horaire d'un module peut être décliné en crédits selon les modalités définies par 
+l'établissement.  
+ 
+  
+Projet de fin d'études 
+MD 4 
+Un projet de fin d'études (PFE) est spécifique à la filière. Il est obligatoire et doit être réalisé  
+de préférence en milieu socioéconomique.  
+Le dernier semestre du Cycle Ingénieur est consacré au Projet de fin d'étude. 
+ 
+  
+Activité pratique  
+MD 5 
+L'activité pratique peut prendre différentes formes :  
+- 
+Stages.  
+- 
+Projets hors PFE  
+- 
+Travaux de terrain  
+- 
+Visites d'études  
+- 
+Autres forme d'activités d’ouverture précisées dans le descriptif.  
+L’activité pratique peut constituer tout ou partie d’un module. 
+  
+Stages  
+MD 6 
+Des stages avec rapport et soutenance doivent être intégrés dans le cadre de la formation.  
+Le stage peut être réalisé dans une entreprise privée, publique ou semi-publique, dans une 
+administration, dans des collectivités locales, etc.  
+Deux stages au minimum sont nécessaires durant les quatre premiers semestres. 
+La durée minimale, par année, du stage est de 20 jours ouvrables. 
+ 
+ 
+ 
+ 
+
+CNPN du Cycle Ingénieur  2014 
+ 7 
+ 
+Projets 
+MD 7 
+Des projets avec rapport peuvent être réalisés dans le cadre de la formation.  
+Le projet peut être réalisé dans l’établissement d’attache de la filière ou dans une entreprise 
+privée, publique ou semi-publique, dans une administration, dans des collectivités locales, etc.  
+ 
+Domiciliation 
+MD 8 
+Un module relève d'un département. D'autres départements peuvent y contribuer. 
+ 
+Coordonnateur du module 
+MD 9 
+Le coordonnateur d'un module appartient au département d'attache du module. 
+Il est désigné par le Chef d'établissement sur proposition de l'équipe pédagogique assurant 
+l'encadrement du module.  
+Il assure le suivi du déroulement des enseignements, de l'évaluation et des délibérations du 
+module en coordination avec l’équipe pédagogique du module et en concertation avec le 
+coordonnateur pédagogique de la filière et du chef de département d’attache du module, et ce 
+pour la durée de l’accréditation de la filière. 
+L’équipe pédagogique du module est constituée des intervenants dans le module qui sont en 
+charge de l’exécution des enseignements, des évaluations et des délibérations. 
+ 
+Descriptif de module  
+MD 10 
+Le module fait l'objet d'un descriptif détaillé précisant en particulier :  
+- 
+l’intitulé 
+- 
+les objectifs ;  
+- 
+les pré-requis;  
+- 
+le syllabus du module ; 
+- 
+les éléments du module et leurs contenus ;  
+- 
+les modalités d'organisation des activités pratiques ; 
+- 
+la démarche didactique et les moyens pédagogiques requis pour son enseignement ;  
+- 
+les modalités d'évaluation spécifiques ;  
+- 
+la méthode de calcul de la note du module ;  
+- 
+le nom du coordonnateur du module.  
+- 
+la liste de l'équipe pédagogique. 
+ 
+ 
+ 
+ 
+
+CNPN du Cycle Ingénieur  2014 
+ 8 
+ 
+4. NORMES REGIME DES ETUDES ET EVALUATIONS (RG)  
+ 
+Evaluation 
+RG 1 
+L'évaluation des connaissances, des aptitudes et des compétences pour chaque module 
+s'effectue sous forme de contrôle continu qui peut prendre la forme d'examens, de tests, de 
+devoirs, d'exposés, de rapports de stage ou de tout autre moyen de contrôle.  
+ 
+  
+Règlement de l'évaluation 
+RG 2 
+Chaque établissement élabore un règlement de l'évaluation des connaissances, des aptitudes et 
+des compétences, adopté par le conseil de l’université et porté à la connaissance des étudiants. 
+Ce règlement porte, entre autres, sur les modalités d'évaluation, les fraudes, les retards, les 
+absences et les modalités de consultation des copies par les étudiants. 
+ 
+Note de module 
+RG 3 
+La note d'un module est une moyenne pondérée des différentes évaluations des éléments qui le 
+composent. La pondération tient compte de la nature des évaluations et des volumes horaires 
+des différents éléments ainsi que de leur nature.  
+Cette pondération est définie par l'équipe pédagogique du module et précisée dans le descriptif de 
+la filière. 
+  
+Validation de module 
+RG 4 
+Un module est acquis soit par validation soit par compensation. 
+Un module est validé si sa note est supérieure ou égale à une note minimale fixée par 
+l'établissement. Cette dernière ne doit cependant pas être inférieure à 10 sur 20.  
+ 
+Contrôle de Rattrapage 
+RG 5 
+Un étudiant n'ayant pas validé un ou plusieurs modules bénéficie d'un contrôle de rattrapage 
+pour chacun des modules non validés.  
+Un étudiant n'a droit qu'à un seul rattrapage par module et par année universitaire.  
+L'étudiant conserve, pour le rattrapage, les notes obtenues dans les éléments du module qui sont 
+supérieures ou égales à la note de validation adoptée par l'établissement.  
+Le contrôle de rattrapage est réalisé en fin du semestre où sont programmés les modules 
+concernés.  
+Les modalités de prise en considération de la note de rattrapage dans celle du module sont 
+précisées dans le descriptif de filière. 
+ 
+Jury de semestre 
+RG 6 
+Le jury de semestre d'une filière est composé du Chef d'établissement ou son représentant,  
+Président, du coordonnateur pédagogique de la filière, des coordonnateurs des modules de la 
+filière dispensés au cours du semestre et d'enseignants qui assurent l'encadrement de ces 
+modules.  
+Après délibérations, le jury du semestre arrête : 
+- 
+la liste des étudiants ayant validé les modules ; 
+- 
+la liste des étudiants autorisés à passer le contrôle de rattrapage. 
+Le coordonnateur pédagogique de la filière élabore un procès verbal, visé par les membres du 
+jury, communiqué au chef du département dont il relève et transmis au chef d’établissement en 
+vue de le porter à la connaissance des étudiants. 
+
+CNPN du Cycle Ingénieur  2014 
+ 9 
+ 
+ 
+Moyenne générale d'année 
+RG 7 
+La moyenne générale d'année est égale à la moyenne des notes des différents modules suivis 
+durant l'année considérée selon le descriptif de la filière. 
+ 
+Validation d'année 
+RG 8 
+Une année d'une filière du cycle ingénieur est validée et donne droit à l'inscription à l'année 
+suivante si les trois conditions suivantes sont satisfaites :  
+- 
+La moyenne générale d'année est supérieure ou égale à une moyenne minimale de validation d'année 
+précisée dans le descriptif de la filière ;  
+- 
+Le nombre de modules non validés de l'année est inférieur au seuil fixé dans le descriptif de la filière 
+conformément à son règlement d’évaluation ;  
+- 
+Aucune note de module n'est inférieure à la limite fixée dans le descriptif de la filière 
+conformément à son règlement d’évaluation.  
+Le seuil de validation d'année est égal à celui de validation de module.  
+ 
+Jury d'année 
+RG 9 
+Le jury d'année d'une filière du cycle Ingénieur est composé du Chef d'établissement ou son 
+représentant, Président, du coordonnateur pédagogique de la filière, des coordonnateurs des 
+modules de la filière dispensés au cours des deux semestres de l'année considérée et des 
+enseignants qui assurent l'encadrement de ces modules.  
+Le jury arrête la liste des étudiants ayant validé l'année selon les dispositions du règlement intérieur 
+de l’établissement.  
+ 
+  
+Année de réserve 
+RG 10 
+Le chef de l'établissement peut, après délibération du jury d'année, accorder à un étudiant une année 
+de réserve dans le cas où une année est non validée. 
+Durant cette année, l'étudiant doit suivre obligatoirement et prioritairement les modules non validés. 
+Dans le cas où l’étudiant a obtenu sa moyenne générale de validation mais ne répond pas aux autres 
+conditions de validation d’année, il pourra s’inscrire à tout ou partie des modules de l’année suivante 
+tout en satisfaisant les conditions de validation de l’année précédente. 
+L'étudiant n'a droit qu'à une seule année de réserve durant le cycle ingénieur.  
+ 
+ 
+ 
+
+CNPN du Cycle Ingénieur  2014 
+ 10 
+ 
+Moyenne générale du cinquième semestre 
+RG 11 
+La moyenne générale du cinquième semestre est égale à la moyenne des notes des différents 
+modules suivis durant ce semestre. 
+ 
+Validation du cinquième semestre 
+RG 12 
+Le cinquième semestre d'une filière du cycle Ingénieur est validé si les trois conditions suivantes 
+sont satisfaites :  
+- 
+La moyenne générale du cinquième semestre est supérieure ou égale à la moyenne de validation 
+d'année adoptée par l'établissement.  
+- 
+Le nombre de modules non validés du semestre est inférieur au seuil fixé dans le descriptif de la filière.  
+- 
+ Aucune note de module n'est inférieure à une limite fixée dans le descriptif de la filière.  
+ 
+Validation du projet de fin d'étude 
+RG 13 
+Le projet de fin d'étude (PFE) est validé si l'étudiant y obtient une note égale ou supérieure à 
+une limite fixée dans le descriptif de la filière.  
+ 
+Obtention du diplôme 
+RG 14 
+L'étudiant obtient le diplôme s'il valide, les deux premières années, le cinquième semestre et le 
+PFE.  
+La moyenne globale, servant pour l'obtention du diplôme et la détermination des mentions, est une 
+moyenne pondérée des moyennes générales, des deux premières années, du cinquième semestre et 
+de la note du PFE.  
+Les pondérations utilisées pour le calcul de cette moyenne sont fixées par l’établissement. 
+ 
+Jury de filière 
+RG 15 
+Pour chaque filière, le jury pour l'attribution du diplôme est composé du Chef d'établissement 
+ou de son représentant, président, du coordonnateur pédagogique de la filière, des 
+coordonnateurs des modules et des enseignants qui assurent l'encadrement des modules de la 
+filière.  
+Après délibération, le Jury établit un Procès verbal, arrête la liste des étudiants admis pour 
+l'obtention du diplôme de la filière et attribue les mentions. 
+Le procès verbal doit être visé par les membres du jury, communiqué au chef de 
+département dont relève le coordinateur de la filière et transmis au chef de l’établissement en 
+vue de le porter à la connaissance des étudiants. 
+ 
+Attestation 
+RG 16 
+Un étudiant n'ayant pas validé une année, et ayant utilisé l'année de réserve sans la valider, n'a 
+plus le droit de se réinscrire dans une filière du cycle Ingénieur de l'établissement et reçoit une 
+attestation faisant état des années et des modules validés.

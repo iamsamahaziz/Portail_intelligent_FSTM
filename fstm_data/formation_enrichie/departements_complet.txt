@@ -1,0 +1,41 @@
+[TITLE] FSTM - Les 8 Départements
+[TYPE] departements
+[SOURCE] fstm.ac.ma/departements/ - scraped 2026-04-01
+[CONTENT]
+
+=== LES 8 DÉPARTEMENTS DE LA FSTM ===
+
+1. Département de Biologie
+   URL : https://www.fstm.ac.ma/departements/biologie.php
+   Filières LST rattachées : GBA, BIOCQ
+   
+2. Département de Chimie
+   URL : https://www.fstm.ac.ma/departements/chimie.php
+   Filières LST rattachées : TACQ, CA
+
+3. Département de Génie des Procédés et Environnement (GPE)
+   URL : https://www.fstm.ac.ma/departements/gpe.php
+   Filières LST rattachées : GEE, GPI
+   Filières Ingénieur rattachées : GPE-GEE, GPE-GPI
+
+4. Département de Génie Électrique
+   URL : https://www.fstm.ac.ma/departements/ge.php
+   Filières LST rattachées : SIT, GE2I
+   Filières Ingénieur rattachées : GECI, GE
+
+5. Département d'Informatique
+   URL : https://www.fstm.ac.ma/departements/informatique.php
+   Filières LST rattachées : IRM, II, ILSI
+   Filières Ingénieur rattachées : ILISI, IDSI
+
+6. Département de Mathématiques
+   URL : https://www.fstm.ac.ma/departements/mathematiques.php
+   Filières LST rattachées : MSDI, SDID
+
+7. Département de Physique
+   URL : https://www.fstm.ac.ma/departements/physique.php
+   Filières LST rattachées : PA, GM
+
+8. Département des Enseignements Transversaux
+   URL : https://www.fstm.ac.ma/departements/tec.php
+   Modules transversaux : langues, communication, culture numérique, développement personnel

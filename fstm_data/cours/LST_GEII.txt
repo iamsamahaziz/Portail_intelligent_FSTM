@@ -1,0 +1,111 @@
+[TITLE] LST - Génie Électrique et Informatique Industrielle
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2025/LST_GEII.pdf
+--- Contenu du document ---
+
+LICENCE SCIENCES ET TECHNIQUES
+GÉNIE ELECTRIQUE ET INFORMATIQUE INDUSTRIELLE
+(GEII)
+Objectif
+Assurer une formation solide couvrant tous les domaines de la spécialité : Electronique,
+Automatique, Electrotechnique, Informatique Industrielle, automatisme Industriel. Ceci afin de
+permettre l’adaptation à une grande variété d’emplois, ainsi que la possibilité d’une poursuite ou de
+reprise des études.
+Compétences Débouchés professionnels
+La licence Sciences et Techniques (LST GEII). La licence Sciences et Techniques en Génie
+Permet d'acquérir des connaissances Électrique et Informatique Industrielle forme des
+générales relevant du génie électrique et de diplômés ayant des bases solides en génie électrique
+l'informatique Industrielle. Ces connaissances et en informatique industrielle. Elle permet soit la
+qui allient électronique, électrotechnique, poursuite des études en masters ou en filières
+automatique, Automatisme et informatique, d’ingénieurs, soit une insertion directe dans la vie
+permettent aux étudiants de couvrir un large professionnelle, notamment dans les bureaux
+spectre dans le domaine génie électrique. Les d’études et les structures liées aux sciences de
+stages sont directement proposés par le tissu l’ingénieur.
+industriel environnant.
+Descriptif des modules
+Semestre 5
+Dispositifs électroniques Automatismes Industriels Machines électriques
+Outils logiciels pour l’ingénierie en
+Informatique industrielle et systèmes
+Automatique 2
+génie électrique (Caneco – LabVIEW –
+embarqués
+MATLAB)
+Anglais technique
+Semestre 6
+Installation électrique et énergies Compétence digitale et intelligence Réseaux locaux industriels et
+renouvelables artificielle supervision
+Electronique de puissance Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Noureddine BELBOUNAGUIA
+E-mail : noureddine.belbounaguia
+@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53
+
+[Tableau page 1]
+ |  |  | ES
+DUSTRIELLE
+la spécialité : Electronique,
+ | LICENCE SCIENCES ET TECHNIQUES
+GÉNIE ELECTRIQUE ET INFORMATIQUE INDUSTRIELLE
+(GEII)
+Objectif
+Assurer une formation solide couvrant tous les domaines de la spécialité : Electronique,
+Automatique, Electrotechnique, Informatique Industrielle, automatisme Industriel. Ceci afin de
+permettre l’adaptation à une grande variété d’emplois, ainsi que la possibilité d’une poursuite ou de
+reprise des études.
+Compétences Débouchés professionnels
+La licence Sciences et Techniques (LST GEII). La licence Sciences et Techniques en Génie
+Permet d'acquérir des connaissances Électrique et Informatique Industrielle forme des
+générales relevant du génie électrique et de diplômés ayant des bases solides en génie électrique
+l'informatique Industrielle. Ces connaissances et en informatique industrielle. Elle permet soit la
+qui allient électronique, électrotechnique, poursuite des études en masters ou en filières
+automatique, Automatisme et informatique, d’ingénieurs, soit une insertion directe dans la vie
+permettent aux étudiants de couvrir un large professionnelle, notamment dans les bureaux
+spectre dans le domaine génie électrique. Les d’études et les structures liées aux sciences de
+stages sont directement proposés par le tissu l’ingénieur.
+industriel environnant.
+Descriptif des modules
+Semestre 5
+Dispositifs électroniques Automatismes Industriels Machines électriques
+Outils logiciels pour l’ingénierie en
+Informatique industrielle et systèmes
+Automatique 2
+génie électrique (Caneco – LabVIEW –
+embarqués
+MATLAB)
+Anglais technique
+Semestre 6
+Installation électrique et énergies Compétence digitale et intelligence Réseaux locaux industriels et
+renouvelables artificielle supervision
+Electronique de puissance Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Noureddine BELBOUNAGUIA
+E-mail : noureddine.belbounaguia
+@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 |  | ES
+DUSTRIELLE
+la spécialité : Electronique,
+ |  | C O N T A C T
+Coordonnateur : Pr. Noureddine BELBOUNAGUIA
+E-mail : noureddine.belbounaguia
+@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 | 
+
+[Tableau page 1]
+Semestre 5 |  | 
+Dispositifs électroniques | Automatismes Industriels | Machines électriques
+Outils logiciels pour l’ingénierie en
+génie électrique (Caneco – LabVIEW –
+MATLAB) | Informatique industrielle et systèmes
+embarqués | Automatique 2
+Anglais technique |  | 
+
+[Tableau page 1]
+Semestre 6 |  | 
+Installation électrique et énergies
+renouvelables | Compétence digitale et intelligence
+artificielle | Réseaux locaux industriels et
+supervision
+Electronique de puissance | Projet de fin d’étude |

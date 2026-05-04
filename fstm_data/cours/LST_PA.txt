@@ -1,0 +1,99 @@
+[TITLE] LST - Physique Appliquée
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2025/LST_PA.pdf
+--- Contenu du document ---
+
+LICENCE SCIENCES ET TECHNIQUES
+PHYSIQUE APPLIQUÉE (PA)
+Objectif
+La Licence Sciences et Techniques en Physique Appliquée rentre dans le cadre de l’harmonisation des
+formations à l’échelle nationale et internationale. Cette Licence permet aux étudiants d’entreprendre
+des études de hauts niveaux (Master, Doctorat) ou d’intégrer des écoles d’ingénieurs grâce à une
+qualification polyvalente et appropriée. Elle permet aussi une formation des lauréats dans des
+domaines répondant aux exigences de l’industrie.
+Compétences Débouchés professionnels
+Formation de lauréats dans des domaines Cette filière répond aux besoins des entreprises en
+répondant aux exigences de l’industrie. recherche et développement, entrepreneuriat,
+Etre capable de poursuivre des études en créativité et innovation. Elle offre également des
+Master ou intégrer des écoles opportunités dans l’enseignement public et privé,
+d’ingénieurs. ainsi que dans des secteurs clés tels que les
+Concevoir, réaliser et exploiter des industries automobile et aéronautique, les bureaux
+capteurs. d’études et les laboratoires de recherche publics et
+Mettre en œuvre des processus de privés.
+mesure
+Descriptif des modules
+Semestre 5
+Mathématiques Appliquées à la
+Composants et instruments optiques Physique statistique
+physique
+Ondes et vibrations Physique quantique Physique des semiconducteurs
+Anglais technique
+Semestre 6
+Electronique analogique et
+Optoélectronique et applications Capteurs et instrumentation
+numérique
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Abdellatif El AZRAK
+E-mail : abdellatif.elazrak@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53
+
+[Tableau page 1]
+ |  |  | ES
+s le cadre de l’harmonisation des
+ | LICENCE SCIENCES ET TECHNIQUES
+PHYSIQUE APPLIQUÉE (PA)
+Objectif
+La Licence Sciences et Techniques en Physique Appliquée rentre dans le cadre de l’harmonisation des
+formations à l’échelle nationale et internationale. Cette Licence permet aux étudiants d’entreprendre
+des études de hauts niveaux (Master, Doctorat) ou d’intégrer des écoles d’ingénieurs grâce à une
+qualification polyvalente et appropriée. Elle permet aussi une formation des lauréats dans des
+domaines répondant aux exigences de l’industrie.
+Compétences Débouchés professionnels
+Formation de lauréats dans des domaines Cette filière répond aux besoins des entreprises en
+répondant aux exigences de l’industrie. recherche et développement, entrepreneuriat,
+Etre capable de poursuivre des études en créativité et innovation. Elle offre également des
+Master ou intégrer des écoles opportunités dans l’enseignement public et privé,
+d’ingénieurs. ainsi que dans des secteurs clés tels que les
+Concevoir, réaliser et exploiter des industries automobile et aéronautique, les bureaux
+capteurs. d’études et les laboratoires de recherche publics et
+Mettre en œuvre des processus de privés.
+mesure
+Descriptif des modules
+Semestre 5
+Mathématiques Appliquées à la
+Composants et instruments optiques Physique statistique
+physique
+Ondes et vibrations Physique quantique Physique des semiconducteurs
+Anglais technique
+Semestre 6
+Electronique analogique et
+Optoélectronique et applications Capteurs et instrumentation
+numérique
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnateur : Pr. Abdellatif El AZRAK
+E-mail : abdellatif.elazrak@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 |  | ES
+s le cadre de l’harmonisation des
+ |  | C O N T A C T
+Coordonnateur : Pr. Abdellatif El AZRAK
+E-mail : abdellatif.elazrak@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 | 
+
+[Tableau page 1]
+Semestre 5 |  | 
+Composants et instruments optiques | Physique statistique | Mathématiques Appliquées à la
+physique
+Ondes et vibrations | Physique quantique | Physique des semiconducteurs
+Anglais technique |  | 
+
+[Tableau page 1]
+Semestre 6 |  | 
+Optoélectronique et applications | Capteurs et instrumentation | Electronique analogique et
+numérique
+Intelligence artificielle | Projet de fin d’étude | 
+
+[Tableau page 1]
+ |

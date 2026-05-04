@@ -1,0 +1,68 @@
+EMPLOI DU TEMPS : Du 22 Septembre 2025 au 15 Novembre 2025 
+Planning du cours, Session Automne 2025, Semestre S5 – Période P1 
+ 
+ANNEE UNIVERSITAIRE : 2025/2026    
+ 
+           
+GT1 : Electronique Analogique et Numérique « EAN »                  
+: Prs.  M. NAHID & N. EL GMILI          
+GT2 : Traitement du signal Analogique et Numérique « TSAN »        : Prs.  A. SAHEL & I. ELMOURABIT  
+GT3 : Ingénierie des Réseaux Informatiques « IRI» 
+: Pr. H. LAHRACH 
+ 
+ 
+ 
+8H30 - 10H20 
+10H40 - 12H30 
+13H30 – 15H20 
+15H40 – 17H30 
+LUNDI 
+Activité/Module 
+Rattrapage : Cours/TD/TP 
+  Cours/TD   : GT3 – IRI 
+  Cours/TD   : GT3 – IRI 
+Intervenant 
+GT1/ GT2/ GT3 
+Pr. H. LAHRACH 
+Pr. H. LAHRACH 
+MARDI 
+Activité/Module 
+  Cours/TD    : GT1 – EAN 
+  Cours/TD    : GT1 – EAN 
+  Cours/TD    : GT2 – TSAN 
+ 
+Intervenant 
+Prs. N. EL GMILI & M. NAHID 
+Prs. N. EL GMILI & M. NAHID 
+Prs. A. SAHEL & I. ELMOURABIT 
+ 
+MERCREDI Activité/Module 
+  TP    : GT1 – EAN 
+  Cours/TD    : GT2 – TSAN 
+  Cours/TD    : GT2 – TSAN 
+Intervenant 
+Prs. N. EL GMILI & M. NAHID 
+Prs. A. SAHEL & I. ELMOURABIT 
+Prs. A. SAHEL & I. ELMOURABIT 
+JEUDI 
+Activité/Module 
+  Cours/TD   : GT3 – IRI 
+   Cours/TD    : GT1 – EAN 
+  TP    : GT2 – TSAN 
+Intervenant 
+Pr. H. LAHRACH 
+Prs. N. EL GMILI & M. NAHID 
+Prs. A. SAHEL & I. ELMOURABIT 
+VENDREDI Activité/Module 
+  TP   : GT3 – IRI 
+Rattrapage : Cours/TD/TP 
+Intervenant 
+Pr. H. LAHRACH 
+GT1/ GT2/ GT3 
+UNIVERSITÉ HASSAN II CASABLANCA
+ 
+FACULTÉ DES SCIENCES ET TECHNIQUES 
+DÉPARTEMENT GENIE ELECTRIQUE 
+Filière : Licence GENIE des TELECOMMUNICATIONS (LST-GT)  
+Responsable de la LST-GT  
+Pr Med. NAHID

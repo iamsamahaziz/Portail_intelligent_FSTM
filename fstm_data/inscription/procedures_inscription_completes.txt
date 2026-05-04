@@ -1,0 +1,72 @@
+[TITLE] FSTM - Procédures d'Inscription Complètes 2025-2026
+[TYPE] inscription
+[SOURCE] fstm.ac.ma - scraped 2026-03-31
+[CONTENT]
+
+=== INSCRIPTION EN TRONC COMMUN (1ère année - Bacheliers) ===
+Accès régulé : sélection basée sur les notes du baccalauréat
+Deux parcours possibles :
+- MIP : Mathématiques, Informatique, Physique (bac scientifique, math, sciences expérimentales)
+- BCG : Biologie, Chimie, Géosciences (bac sciences expérimentales, SVT)
+
+=== INSCRIPTION EN LST (3ème année) ===
+Sur orientation après validation du Tronc Commun (S1 à S4).
+Filières LST SDID et MSDI : possibilité de candidatures externes.
+Pièces à fournir pour étudiants externes :
+1. Diplôme de baccalauréat original + deux copies
+2. Dernier diplôme original + deux copies
+3. Deux copies de la carte d'identité nationale (CIN)
+4. Deux photos récentes
+5. Attestation d'assurance scolaire
+NB : Tout dossier incomplet ne sera pas accepté.
+
+=== INSCRIPTION EN MASTER SCIENCES ET TECHNIQUES (MST) ===
+Accès sur concours :
+Étape 1 : Candidature en ligne sur https://e-candidature.fstm.ac.ma/ (date limite : 31 août)
+Étape 2 : Présélection sur dossier
+Étape 3 : Concours écrit (septembre)
+Étape 4 : Entretien oral (pour certaines filières)
+Étape 5 : Publication des listes principales et listes d'attente
+
+Pièces à fournir :
+- Attestation d'assurance étudiant : https://assurance-etudiant.prevas.ma/
+- Fiche de pré-inscription obligatoire : https://preins.univh2c.ma/index.php?etab=FST
+- Formulaire d'inscription : https://e-inscription.fstm.ac.ma
+- Original du diplôme du baccalauréat + 2 copies
+- Original du dernier diplôme obtenu + 2 copies
+- 2 copies de la CIN
+- 2 photos d'identité
+- Enveloppe timbrée portant le nom, prénom et adresse
+
+=== INSCRIPTION EN CYCLE INGÉNIEUR ===
+Deux voies d'accès :
+1. CNC (Concours National Commun) : sur affectation
+   - Date d'inscription : généralement le lundi suivant les résultats CNC, de 9H à 15H
+   - Pièce supplémentaire : attestation d'admissibilité + attestation d'affectation
+
+2. Concours FSTM :
+   - Candidature en ligne : https://e-candidature.fstm.ac.ma/ (date limite : 31 août)
+   - Présélection + concours écrit + entretien oral (selon filière)
+
+Pièces à fournir (même dossier que MST + attestations CNC si applicable)
+
+=== INSCRIPTION EN CYCLE DOCTORAL ===
+Via le Centre d'Études Doctorales (CEDoc)
+Consulter : https://www.fstm.ac.ma/formation_initiale/cd.php
+
+=== FORMATION CONTINUE ===
+- Licence d'Université (20 filières) : https://www.fstm.ac.ma/formation_continue/lu.php
+- Master d'Université (10 filières) : https://www.fstm.ac.ma/formation_continue/mu.php
+
+=== ARCHITECTURE PÉDAGOGIQUE GÉNÉRALE ===
+- Tronc Commun : BAC + 2 (4 semestres : S1 à S4)
+- Licence Sciences et Techniques (LST) : BAC + 3 (2 semestres : S5 et S6)
+- Master Sciences et Techniques (MST) : BAC + 5 (4 semestres : S7 à S10)
+- Cycle Ingénieur : BAC + 5 (6 semestres après BAC+2, ou 4 semestres après BAC+3)
+- Cycle Doctoral : BAC + 8 (6 semestres minimum après le Master)
+
+=== CALENDRIER TYPE ===
+- Juin-Août : Candidatures en ligne MST et CI
+- Septembre : Concours écrits et oraux, publication des résultats, inscriptions
+- Octobre : Rentrée universitaire
+- Voir le calendrier pédagogique détaillé sur les affaires pédagogiques

@@ -1,0 +1,44 @@
+[TITLE] FSTM - Formation Continue Complète (Licences et Masters d'Université) 2024-2025
+[TYPE] formation_continue
+[SOURCE] fstm.ac.ma/formation_continue/ - scraped 2026-04-01
+[CONTENT]
+
+=== FORMATION CONTINUE ===
+Chargé de mission Formation Continue : Pr. Youssef El Kouari
+
+=== LICENCES D'UNIVERSITÉ (17 filières listées) ===
+
+1. Traitement des eaux et dessalement - Coordonnateur : Pr Amine EZZAHI - lpu.ted.fstm@gmail.com - 0667032248
+2. Intelligence Artificielle Appliquée en Transformation Industrielle - Coordonnateur : Taoufik TBATOU - conslting.formation@gmail.com - 0665769021
+3. Administration et Sécurité des Réseaux et Systèmes Informatiques Web et Bases de Données - Coordonnateur : Yassine Sayouti - yassine.sayouti@gmail.com - 0662478354
+4. Génie Electrique et Informatique Industrielle - Coordonnateur : Noureddine Belbounaguia - belbounaguia@gmail.com - 0661585241
+5. Mécatronique - Coordonnateur : Hassan EL IDRISSI - idrissi99@gmail.com - 0661666534
+6. Ingénierie des Systèmes Automobile - Coordonnateur : Abderrahim El Fadili - elfadili_abderrahim@yahoo.fr - 0663791895
+7. Systèmes Automatisés et Contrôle Industriel - Coordonnateur : Benyounes Oukarfi - b.oukarfi@gmail.com - 0661095207
+8. Management des produits et services agroalimentaires et de l'agro-distribution - Coordonnateur : Pr. Fouad MELLOUKI - fouad.mellouki@fstm.ac.ma - 0661200841
+9. Ingénierie des Systèmes Informatiques - Coordonnateur : Pr Khadija LETRACHE - khadija.letrache@fstm.ac.ma - 0766501785
+10. Logistique et transport management - Coordonnateur : Pr. Salima CHANTIT - salima.chantit@fstm.ac.ma - 0602126801
+11. Génie de l'eau - Coordonnateur : Mohammed Karim Ben Hachmi - benhachmikarim1@gmail.com - 0661106929
+12. Ingénierie des Produits Industriels - Coordonnateur : Pr. Mohamed El khlifi - elkhlifi.uh2c@gmail.com - 0668113250
+13. Génie Énergétique (GE) - Coordonnateur : Pr. Yamina MIR - yaminamir47@gmail.com - 0661945585
+14. Energies Renouvelables et Efficacité Energétique - Coordonnateur : Mimoun Zazoui - zazouimimoun@yahoo.fr - 0661077638
+15. Génie climatique - Coordonnateur : Elhoussin Affad - elhoussin1@yahoo.fr - 0616606840
+16. Sciences d'ingénierie en Génie civil - Coordonnateur : Pr. MOUADILI Abdelkader - abdelkader.mouadili@fstm.ac.ma - 0667402788
+17. Data Science pour la gestion de l'entreprise - Coordonnateur : Pr. HSSINA Badr - badr.hssina@fstm.ac.ma - 0662778048
+
+=== MASTERS D'UNIVERSITÉ (10 filières) ===
+
+1. Ingénierie Management Qualité Sécurité Environnement et Industriel (IMQSEI) - Coordonnateur : Amal Safi - amalsafi88@gmail.com - 0661538810 - site : https://mastermaroc.ma/
+2. Génie Civil et bâtiments intelligents - Coordonnateur : Pr. Atmani El Houssine - elhoussine.atmani@fstm.ac.ma - 0661732448
+3. Techniques d'Analyse, Industries et Management de la Qualité (TAIMQ-QHSE) - Coordonnateur : Mohamed Safi - mohamedsafi@yahoo.fr - 0667761428 - site : https://master-taimq-qhse.ma
+4. Gestion et traitement des eaux, des sols et des déchets - Coordonnateur : Pr. Latifa Mouhir - latmouh@gmail.com - 0662135011
+5. Control Industriel & Ingénierie des Systèmes Embarqués - Coordonnateur : Youssef Elkouari - elkouari@gmail.com - 0666614232
+6. Métiers de la Qualité dans les Industries et laboratoires de Santé (MQILAS) - Coordonnateur : ABOUDKHIL Souad - souadaboudkhil@hotmail.com - 0661852295 - site : www.mqilas.ma
+7. Microbiologie Appliquée et Génie Biologique - Coordonnateur : Naima Rhallabi - rallabina@yahoo.fr - 0666088271
+8. Neurobiologie - Coordonnateur : Pr. Abdessamad AMINE - abdessamad.amine@fstm.ac.ma - 0661387167
+9. Ingénierie de l'information biomédicale et hospitalière - Coordonnateur : Pr. Toufik Fechtali - toufiqr12@yahoo.com - 0661355514
+10. Biotechnologie et contrôle qualité - Coordonnateur : Pr. Hamid Lakhiari - lakhiari@gmail.com - 0661205257
+
+=== INFORMATIONS PRATIQUES ===
+Frais de formation : https://www.fstm.ac.ma/formation_continue/frais.php
+Dossier de pré-inscription : https://www.fstm.ac.ma/formation_continue/dossier_preinscription.php

@@ -1,0 +1,109 @@
+Liste D’attente N°2  (Bac +2) par ordre de mérite 
+Ingénierie Data Science et Informatique 
+2025-2026 
+ 
+ 
+N° 
+N° Dossier 
+Prénom 
+Nom 
+1 
+4510 
+Aymane 
+Chafik 
+2 
+3887 
+Hajar 
+Belghiti 
+3 
+2492 
+HIBA 
+BARTINE 
+4 
+3543 
+IMANE 
+Bordo 
+5 
+63 
+Mahamadou 
+TRAORÉ 
+6 
+3492 
+SAFAE 
+HANNED 
+7 
+196 
+Issoufou 
+Amadou Kadri 
+8 
+2704 
+Hiba 
+EL ORCHE 
+9 
+122 
+Hiba 
+CHARARI 
+10 
+3286 
+Afi Grâce Lélaelle 
+IDOH 
+11 
+3775 
+Meryem 
+El habry 
+12 
+3678 
+IMANE 
+LAOUINI 
+13 
+1392 
+ABDELLAH 
+EL MENTAGUI 
+14 
+97 
+Doha 
+Saif 
+15 
+2621 
+Anass 
+ESSOULDI 
+16 
+913 
+ACHILLE LAINE-CE 
+SOUMAORO 
+17 
+4121 
+Salma 
+ASSANNAM 
+18 
+3155 
+Aya 
+Sellal 
+19 
+1286 
+OUSSAMA 
+ER-RAJOUANI 
+20 
+182 
+El-Assali 
+Saad 
+21 
+248 
+EL MEHDAOUI 
+CHAIMAA 
+22 
+2696 
+Nouamane 
+Zahir 
+23 
+2436 
+Asmaa 
+Essossi El Alaoui 
+24 
+2524 
+Aicha 
+EZZEROUALY 
+25 
+1014 
+Salma 
+Chatouane

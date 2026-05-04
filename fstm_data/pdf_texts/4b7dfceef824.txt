@@ -1,0 +1,44 @@
+Licence professionnelle d’université : 
+DATA SCIENCE POUR LA GESTION DE 
+L’ENTREPRISE
+Objectifs de la formation
+Débouchés de la formation
+Condition d’Admission
+Former des cadres capables de recueillir, traiter, analyser et faire parler les données massives (Big
+Data), afin de fournir des rapports permettant d’orienter les prises de décision et d’améliorer les
+performances d'une entreprise.
+Offrir aux lauréats de cette Licence les compétences nécessaires pour mieux appréhender les enjeux
+de l’utilisation des nouvelles technologies et de la science de données.
+Élaborer des modèles de prédictions et des tableaux de bord afin d'anticiper les évolutions et rendre 
+les résultats lisibles et exploitables par les décideurs.
+Les lauréats diplômés de cette licence auront les compétences pour répondre aux exigences du marché de 
+travail. Voici quelques axes de spécialisation auxquels cette Licence donnera accès :
+Postes de Data Scientiste.
+Concepteur et chargé d’études 
+décisionnelles
+Gestionnaire de données
+Développeur informatique
+Développeur technologie web
+Chargé d’études statistiques
+Chargé de Reporting et tableau de bord
+Diplômes requis : Cette Licence d’Université Spécialisée est ouverte aux candidats titulaires d'un diplôme 
+bac + 2, DEUG, DEUST, DEUP, DUT, BTS, ISTA ou tout diplôme équivalent à bac+2.
+Prérequis pédagogiques spécifiques : Connaissances générales en Informatique, Mathématiques et 
+Gestion d’entreprise.
+Programme de la formation
+M1 : Bases de données
+M2 : Python pour la Data Science
+M3 : Gestion d’entreprise et Transformation Digitale 
+M4 : Technologies web et Frameworks
+M5 : Architecture Big data et Ecosystème HADOOP
+M6 : Communication et Soft Skills
+M7 : NoSQL et Bases de Données Avancées
+M8 : Intelligence Artificielle
+M9 : Informatique Décisionnelle et Visualisation
+Projet de Fin d’Etudes (PFE)
+Préinscription en ligne :
+Contact: 
+Pour toutes informations complémentaires
+Pr. Badr HSSINA
+badr.hssina@fstm.ac.ma
+0662778048

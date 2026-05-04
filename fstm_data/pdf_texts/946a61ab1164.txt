@@ -1,0 +1,779 @@
+NOM
+PRENOM
+Date de soutenance
+Directeur de thèse
+SUJET
+MOUHIBI
+Rokaya
+25/11/2011
+ZAHOUILY
+Modélisation et formation des produits d'intérêt industriel.
+BEZZA
+Mohamed
+28/04/2012
+EL MOUSSAOUI
+Commande et optimisation d'une source éolienne
+MANDAR
+Meriem
+09/06/2012
+BOULMAKOUL
+Inteligence distribuée-microstimulation des piètons virtuels
+KETTANI HALABI
+Mohamed
+22/09/2012
+ENNAJI
+Caractérisation moléculaire d'Erwinia caratovora: Etude éléctrophysiologique, et signalisation cellulaire
+DEHBI
+Oussama
+08/12/2012
+AKSSIRA/AADIL
+Synthèse de nouveaux dérivés pyrido-pyrimydiniques et diazaniques d'activité thérapeutique
+FALIH
+Noureddine
+12/01/2013
+BOULMAKOUL/RAMDANI
+Meta-processus meta-organisation: Analyse larsicielle du système d'information
+EL BOUAKHER
+Abderrahman
+23/03/2013
+AKSSIRA/AADIL
+Synthèse de nouveaux pyrido- diazepines
+KARKOURI
+Mohammed
+22/06/2013
+ZAHOUILY
+Valorisation et recyclage des déchets des équipement élécrtronique ste éléctriques
+NADIFIYINE
+Saloua
+29/06/2013
+AMINE
+Développement de nouvelles methodes d'analyse enzymatiques
+MOUALLIF
+Mustapha
+21/09/2013
+ENNAJI
+L'infection par les virus de l'Hépatite B et C (HBV) (HCV) et leur pathogenie
+ERRAIS
+Mohammed
+28/09/2013
+RAMDANI/BELLAFKIH
+Etude de la qualité de sevice dans les Ip multimedia subsystème dans le référentiel NGOSS de 
+TMForum: Etude des scénarios avec TVoD et ToIP
+SABIR
+Mustapha
+05/10/2013
+ENNAJI
+Etude de la charge en vibrio de l'environnement marin et des bivalves sur la cote mediteraniène et 
+analyse de risques micribiologiques aux vibrions pathogènes dans les bivalves
+ELKAROUNI
+Kamal
+05/10/2013
+SAJID
+Simulation numérique des problèmes de réaction-diffusion avec hydrodynamique
+RIADI
+Yassine
+12/10/2013
+LAZAR/MAMOUMI
+Application d'un biocatalyseur ABM dans la synthèse des molécules nucléosidiques.
+TEBBAA
+Mohammed
+02/11/2013
+AKSSIRA/ EL HAKMAOUI
+Transformation hémisynthetique des constituants majoritaires du cèdre: synthèse catalytique et 
+classique et étude d'activité biologique des produits obtenus
+TAI
+Jalila
+09/11/2013
+BENCHEKROUN
+Enquête Epidemiologique de la légionéllose et prévalance de Legionella premophila dans les eaux 
+chaudes sanitaires au Maroc
+EL HOUSSAINI
+Souad
+23/11/2013
+BADRI
+Développement d'un système intégré de télécommunication pour l'automation de la survaillance du 
+réseau routier
+AZZALLOU
+Rachid
+23/11/2013
+LAZAR/MAMOUMI
+Valorisation des ressources naturelles marocaines (cas d'argile) application à la synthèse des molécules 
+à visée therapeutique
+MOUMAD
+Khalid
+23/11/2013
+ENNAJI/KHYATI
+Etude de la modélisation des gènes suppresseurs de tumeurs (GST) et des gènes viraux de virus Epstein 
+bari dans le cas du cancer du nasopharynxe
+LAHBY
+Mohamed
+30/11/2013
+ADIB
+Etude des performances des communications mobiles dans un environnement réseaux multi-accés
+SLIMANI
+Rachid
+06/12/2013
+LAZAR/EL HADDAD
+Recherche de nouveaux systèmes analytiques en sciences séparatives des espèces chimiques 
+organiques et inorganique en milieux aqueux
+
+BAHATTI
+Lhoussain
+07/12/2013
+ZAZOUI/BOUATTANE
+Reconnaisssance et classification des primitives en vue de regénération musicale par alphabets 
+pérsonalisés et évolutifs
+NAJI
+Abdelwahab
+07/12/2013
+RAMDANI
+Système intelligent pour la formation à distance
+BAHA
+Warda
+14/12/2013
+ENNAJI/BENNANI
+L'hépatite virale B au Maroc, aspect épidemiologique et moléculaire
+MRANI ALAOUI
+Meryem
+14/12/2013
+HMYENE/OUARZANE
+Caractérisation physiologique et moléculaire de la tolérance au stress selim chez les plantes à intérêt 
+économique.
+HAMLICH
+Mohamed
+14/12/2013
+RAMDANI
+Fouille de données et aide à la décision dans le domaine médical
+AMRANI HASSANI JOUTEI
+Hanaa
+14/12/2013
+FECHTALI/EL ANTRI
+Cancer digestif lié à l'Hélicobacter pylori
+DALIMI
+Mohamed
+18/12/2013
+ZAKARIA
+Modélisation des facteurs de dépression de la pollution atmosphèrique et souterraine au Maroc
+EL JOURMI
+Laïla
+20/12/2013
+EL ANTRI
+Evaluation de la qualité du milieu littoral du grand casablanca: Approches biochimiques et moléculaires
+SAAFADI
+Laïla
+24/12/2013
+MOUHIR
+Gestion et techniques de traitement des déchets hospitalières
+MOUJABBIR
+Mohammed
+24/12/2013
+RAMDANI
+Plate forme pour l'échange des données éléctroniques (facture électronique...)
+HAJJAMI
+Kaoutar
+26/12/2013
+ENNAJI/COHEN
+Réutilisation des eaux usées épurées pour l'agriculture : Performance d'élimination des oeufs 
+d'helminthes et évaluation des risques pour le consomateur
+LAKRAFLI
+Hicham
+26/12/2013
+ALBIZANE
+Valorisation des déchets solides
+TINAK EKOM
+Danielle Christelle
+26/12/2013
+BENCHEKROUN
+Transformation génération de blé par les gènes qui confèrent la tolérance à la séchresse.
+QMICHOU
+Zineb
+27/12/2013
+ENNAJI
+Etude des variations génomiques des gènes E6, E7 et L1 de l'HPV 16 et 18 dans le cancer du col de 
+l'utérus de femmes marocaines
+BOUKHARTA
+Mohamed
+27/12/2013
+ENNAJI
+Caractérisation sero-épidémiologique et moléculaire des virus grippaux chez les équides au Maroc
+LEGHROUDI
+Driss
+28/12/2013
+RAMDANI/MOUMKINE
+Conception et modélisation d'une architecture de géstion des environnements de réseaux hétérogènes 
+multiservices
+MOUMOU
+Mohamed
+28/12/2013
+AKSSSIRA
+Etude phytochimique et biologique des métabolites secondaires du genre thapsia du maroc
+AL-SAREM
+Mohammed Hussein Ali
+15/03/2014
+RAMDANI/BELLAFKIH
+Télé enseignement adaptatif et intelligent
+EL AMRANI
+Amal
+03/05/2014
+ENNAJI
+Implication de la protéïne P53 et des 2 virus MMTV et HPV dans le cancer du sein.
+SADIK
+Chaouki
+07/06/2014
+ALBIZANE
+Synthèse des produits réfractaires légèrs à base de schistes alumineux, perlite et pouzzolane.
+KHALIL
+Mohammed
+27/09/2014
+ADIB
+Amélioration des performances du tatouage audio dans le domaine EMD par les modulations informées 
+multiporteuses à étalement de spèctre
+OUALI ALAMI
+Fatima-Zahra
+27/09/2014
+MOUHIR
+Epuration et réutilisation des eaux usées
+HAIMEUR
+Adil
+21/11/2014
+MESKINI
+Etude de l'effet de l'huile d'argan sur la fonction plaquettaire chez les patients 
+dyslipidemiques:recherche de l'effet antiagrégant et exploration du mécanisme d'action dans le but de 
+prévenir les maladies cardiovasculaires
+
+AMINE
+Abdelaziz
+13/12/2014
+ZAZOUI
+Influence de la jonction tunnel sur les performances des cellules solaires multijonction
+REBBANI
+Ahmed
+20/12/2014
+ZAZOUI/BOUATTANE
+Transcription des enregistrements musicaux et leur compressions par apprentissage des modéles 
+étendus des instruments et de leur alphabet
+AIT SIDI MOU
+Abdelaziz
+20/12/2014
+EL RHAZI/OURZANE
+Caractérisation des éléctrodes modifiées par des produits telsque le khol et le takaouat par les 
+techniques voltampèrométriques
+ELAMMARI
+Mustapha
+20/12/2014
+RAMDANI/EL KHOUKHI
+Contribution à la modélisation probabiliste de l'apprentissage de l'apprenant en intéraction avec un 
+(EIAH) Environnement informatique pour l'apprentissage humain
+EL YADINI
+Meriem
+22/12/2014
+AZEQOUR
+Etude et caracterisation des gènes de tolérance à la séchresse chez une population TILLING
+FILALI
+Hassan
+26/12/2014
+ABOUDKHIL
+Prédisposition génétique à la tuberculose
+MAMOUMI
+Mohamed
+26/12/2014
+ZAHOUILY
+Développement d'une expertise concernant les spécifications et le contrôle de la farine
+LEMAANNI
+Asmae
+27/12/2014
+ZAHOUILY
+les nanotubes de carbone support de nano-catalyseurs: application en chimie fine
+ES-SETTE
+Nargys
+27/12/2014
+MELLOUKI
+Phlébovirus: Epidémiologie moléculaire et étude sérologique dans deux foyers au Maroc
+ILOU
+Imane
+29/12/2014
+SOUABI/ DIGUA
+Traitement des rejets industriels de tanneries
+ZRO
+Khalil
+29/12/2014
+ENNAJI
+Caractérisation moléculaire du virus de la variole ovine au Maroc
+EL OUARDI
+Abdelmoula
+29/12/2014
+ENNAJI
+Caractèrisation phénotypique et moléculaire de bactéries pathogènes Emergeantes dans les eaux de 
+puits.
+KARIM
+Lamia
+14/01/2015
+BOULMAKOUL
+Géo-sémantique analytique des trajectoires des objets mobiles: méta-modélisation et services <<web>> 
+spatiaux pour l'analyse et la visualisation temps réel
+BESRI
+Zineb
+14/02/2015
+BOULMAKOUL
+les réseaux spatiaux multimodaux dynamique: Analyse spatiale et algèbre de requêtes
+CHAOUKI
+Iman
+204/06/2015
+MOUHIR
+Analyse critique du fonctionnement des stations d'épuration des eaux usées domestiques, par 
+lagunage.
+SBII
+Siham
+15/07/2015
+ZAZOUI
+Apport dynamique des données de l'ozone autour de la tropopause pour la prévision météorologique
+ZAKI
+Mohamed
+25/07/2015
+AKSSIRA/ELHAKMAOUI
+Recherche des molécules bioactives à partir des plantes médicinales et aromatiques du Maroc
+BELMEKKI
+El Mostafa
+19/09/2015
+BOUAOUDA/BELLAFKIH
+La sécurité dans les réseaux NGN
+ABOUL-HROUZ
+Soumia
+28/09/2015
+ZAHOUILY
+Valorisation de la biomasse de l'instrie sucrière : Fibres et nanocelluloses
+AMADINE
+Othmane
+24/10/2015
+ZAHOUILY
+Caractérisation et développement de nouveaux nanomatériaux à base de phosphate naturel marocain: 
+Synthèse de molécules à haute valeur ajoutée
+DKHIS
+Abdelghani
+24/10/2015
+MOUHIR
+Impact technique et socioéconomiques des subventions agricoles sur les ressources an eau de la région 
+d'Elhajeb
+EL ALAOUI
+Chaymae
+24/11/2015
+FECHTALI
+Etude des mécanismes cellulaires et moléculaires des adaptations physiologiques aux environnements 
+extrêmes
+
+RATTAL
+Salma
+21/01/2016
+BADRI
+Etude et développement de techniques des signaux multimédia (vidéo et la voix) sur IP. Application aux 
+systèmes des télécommunications de la nouvelle génération
+ATTAR
+Aisha
+03/02/2016
+AMINE/ENNAJI
+Contribution au développement d'un biocapteur immuno-enzymatique et approche nono 
+tachnologique pour la caracterisation des virus enterique dans des échantillons alimentaires et de 
+l'environnement au Maroc
+TBER
+Zahira
+05/02/2016
+HAKMAOUI/AKSSIRA
+Synthèse de pyrolobenzodiazépine
+BELAROUSSI
+Rabia
+06/02/2016
+AKSSIRA/HAKMAOUI
+Synthèse et étude d'activité biologique de pyrazolopyrimidine
+FAQUIHI
+Hind
+08/02/2016
+AIT MHAND/ENNAJI
+Etude des marqueurs moléculaires et expression génétiques de la virulence du pectobacterieum sp.
+MANSOURI
+Khalifa
+10/02/2016
+BOUATTANE
+Contribution à la mise en œuvre des approches temps réel dans les systèmes informatiques distribués : 
+etude de l'ordonnancement dans les systèmes temps réel et de l'interopérabilité des systèmes 
+d'information
+MAATI
+Houda
+27/02/2016
+ZAHOUILY
+Caractérisation et développement de nouveaux nanomatériaux à base du phosphate: Préparation de 
+nouveaux matériaux nanostructurés
+GRIRATE
+Hind
+05/03/2016
+ELMCHAOURI
+Mise en évidence et étude des électrodes modifiées par les argiles pour l'électroanalyse des métaux
+ABDOUL-HAFAR
+Halassi Bacar
+18/03/2016
+TAIK
+Radial Basis Functions Alternative Solutions to shallow Water Equations
+MADINZI
+Abdelaziz
+19/03/2016
+SOUABI
+Modélisation des résultats de traitement des rejets industriels.
+SNIK
+Asmae
+02/04/2016
+ZAHOUILY
+Développement de nouveaux catalyseurs nanostructurés
+BENHESSOU
+Mustapha
+11/04/2016
+BENCHEKROUN
+Recherche des secances virales et des mutaions de la P53 impliquées dans le cancer ovarien chez les 
+femmes marocaines
+RHALLABI
+Naima
+21/05/2016
+MELLOUKI
+Epuration des eaux usées domastiques au Maroc par technologie de bassins à haut rendement : 
+optimisation et valorisation des sous-produits de la STEP
+ESSAMLALI
+Younes
+04/06/2016
+ZAHOUILY
+Développement et caractérisation de nouveaux catalyseurssolides nanosaturés: Réaction 
+multicomponent
+STOUR
+Laila
+18/06/2016
+SOUABI
+Changement climatique : Approches d'atténuation et d'adaptation - Cas du Maroc
+KHATIB
+Hamza
+01/07/2016
+YEZNASNI
+Etude expérimentale et numérique de la nocivité des défauts dans les structures sudées avec prise en 
+ciompte des contraites résiduelles
+TOUNSADI
+Hanane
+29/07/2016
+Khalidi
+Valorisation des noix de mais par leur activation en charbon actif: application au traitement des métaux 
+lourds et des colorants.
+MINT MOHAMEDEN
+Tfeila
+08/10/2016
+SOUABI
+Traitement des eaux potables
+
+MAHJOUBI
+Fatima Zahra
+02/12/2016
+KHALIDI
+Performance du charbon actif préparé par modélisation à base des sieurs du bois vis-à-vis des polluants 
+de l'industrie de pétrochimie.
+GBEHE
+Ory Serge Tanguy
+03/12/2016
+EL KHLIFI
+Etude de l'écrasement de films fluides à rhéologie complexe en présence d'un mileu poreux déformable 
+par la méthode d'homogénéisation
+ALAOUI BOUKHRIS
+Meryem
+10/12/2016
+EL HAKMAOUI/AKSSIRA
+Recherche des molécules bioactives à partir des plantes médicinales et aromatiques du Maroc
+KOUDDANE
+Noufissa
+17/12/2016
+MOUHIR
+Utilisation des pigeons et moineaux comme bio indicateurs dans l'évaluation de la qualité de l'air de la 
+ville de mohammedia et son environnement immédiat
+TAIEK
+Taha
+24/12/2016
+EL ANTRI
+La valorisation des déchets industriels pour une protection durable de l'environnement
+ARBA
+Youssef
+24/12/2016
+HARTITI
+Etude et caractérisation de matériaux semiconducteurs en couches minces pour application 
+photovoltaïque.
+ZOUHEIR
+Yassine
+24/12/2016
+FECHTALI
+L'analyse moléculaire des gènes inhibiteurs des kinases dépendantes de cycline (CDK), p15, p18 et p19 
+dans le cas du cancer du col d'utérus au Maroc
+AKBLI
+Mouna
+26/12/2016
+MELLOUKI
+Contribution à la valorisation de la phythotérapie marocaine en milieu urbain : Etude éthnobotanique 
+dans la ville de Casablanca et évaluation de l'activité antimicrobienne des déchets du bois de Thuya de 
+la ville d'Eassaouira
+FAOUZI
+Fatimaezzahra
+27/12/2016
+CHAAIR/DIGUA
+Elaboration d'un biomatériaux pour le traitement de l'ostéoporose
+SKHOUNI
+Othmane
+28/12/2016
+EL MANOUNI
+Préparation et caractérisation de matériau semi-conducteur à bande intermédiare en couches minces 
+en vue de réaliser une cellule solaire de troisième génération.
+BAZINE
+Siham
+29/12/2016
+KHOMRI
+Etude de l'électrodeposition des semiconducteurs en solution
+FAYOUD
+Nour-Elhouda
+31/12/2016
+ALAMI
+Filtration des eaux usées chargées par des polluants sur les membranes céramique.
+ABOURI
+Meriem
+31/12/2016
+SOUABI/BAHLAOUI
+Etude de la pollution générée par les tanneries et techniques de traitement
+DANOUN
+Karim
+18/02/2017
+ZAHOUILY
+Extraction et valorisation des substances organiques à partir des plantes marocaines
+EL MIRI
+Nassima
+18/03/2017
+ZAHOUILY
+Développement et étude des matériaux bio-composite à base de la biomasse végétale
+EL KHACHAB
+Mohamed
+29/03/2017
+KERAK
+L’impact de l’intégration des systèmes de management qualité, sécurité et environnement sur la 
+performance des entreprises marocaines : cas d’intégration du risque des phtalates lors du 
+développement des produits plastiques
+FILAHI
+Said
+25/04/2017
+MOUHIR
+Evoluttion passé et projection des événements extrêmes au Maroc à partir des modèles climatiques 
+régionaux à haute résolution
+ACHIOU
+Brahim
+20/05/2017
+OUAMMOU/ALAMI
+Elaboration et caractérisation des membranes céramiques de microfiltration et d’utilisation à base de la 
+pouzzolane naturelle 
+
+AKCHICHE
+Omar
+25/05/2017
+KHADIR
+Primalité, factorisation des grands nombres et application à la cryptographie à clés publiques.
+LAGHRABLI
+Salem
+01/07/2017
+EL KHLIFI
+Etude et modélisation de la lubrification des paliers hydrodynamiques de dimensions finies par 
+ferrofluide en régime statique  
+AMMAIH
+Youssef
+07/07/2017
+HARTITI
+Réalisation de couches minces d’oxydes d’étain SnO2 et de zinc ZnO par Sol-Gel associé au spin-coating 
+pour les applications photovoltaïques et détection de gaz
+DKHICHI
+Fayrouz
+10/07/2017
+OUKARFI
+Identification et commande des systèmes dynamiques. Mise en œuvre par les réseaux de neurones
+SABER
+Nadia
+10/07/2017
+MESTARI
+Optimisation du routage multicast dans les réseaux de communication par les réseaux de neurones 
+artificiels en temps fixe
+EL JAAFARI
+Amal
+12/07/2017
+EL ANTRI/BOUTALEB
+Utilisation de nouveaux biomatériaux d’origine halieutique comme garnissage dans les bioréacteurs à lit 
+mobile (MBBR) dans le traitement des effluents de l’industrie laitière 
+ASSOU
+Mohammed
+15/07/2017
+SOUABI/DIGUA
+Modélisation par les plans d’expériences des systèmes énergétiques et environnementaux
+KHATABY
+Khadija
+18/07/2017
+ENNAJI/ELHARRAK
+Evaluation de la pathogénicité et de l’immunogénicité de nouvelles souches du virus de la bronchite 
+infectieuse aviaire émergentes et réémergentes au Maroc : Développement d’un vaccin homologue
+JOUNDY
+Youssef
+22/07/2017
+TAIK/ALLALI
+Analyse et simulation numérique de problèmes à paramètres critiques : Cas de l'exploitation
+EL KOUARI
+Youssef
+29/07/2017
+OUKARFI
+Optimisation du routage multicast dans les réseaux de communication par les réseaux de neurones 
+artificiels en temps fixe
+LOUBIDI
+Mohammed
+29/09/2017
+AKSSIRA
+Synthèse et réactivité des bicycles imidazo [1,2-a] imidazole et imidazo[1,5-a] à visée thérapeutique 
+KHOUIL
+Meryem
+02/10/21017
+MESTARI
+Réseaux de neurones pour la détection de collisions et localisation de contacts des polyèdres convexes
+TIJANI
+Amal
+28/10/2017
+CHAFFOUI
+Caractérisation par essais statiques des mécanismes d’endommagement d’un câble métallique soumis à 
+des dégradations artificielles, corrosives et combinées – Etude expérimentale et numérique
+SALHI
+Loubna
+28/10/2017
+TAIK
+Analyse et simulation numérique de quelques problèmes de réaction-diffusion issus de la 
+polymérisation frontale
+EL BASRI
+Miloud
+11/11/2017
+EL RHAZI
+Elaboration et caractérisation de nanocomposites pour l’oxydation électrocatalytique du méthanol
+ZAZI
+Khalida
+25/11/2017
+ZAZOUI
+Modélisation et simulation des cellules photovoltaïques simples et multijonctions et dimensionnement 
+d’une installation connectée au réseau
+KHIAT
+Azeddine
+07/12/2017
+BAKKOURY/EL KHAILI
+Contribution à l’étude et la virtualisation des mécanismes de la qualité de service dans les réseaux 
+hétérogènes Sans fil
+DAROUICH
+Asmaa
+09/12/2017
+DOUZI/KHOUKHI
+Elaboration d’un système d’apprentissage automatique adaptatif utilisant l’oculométrie
+
+EL OUAHABI
+Imane
+09/12/2017
+LAZAR/EL HADDAD
+Elaboration de nouveaux biomatériaux : Etude de l’adsorption des polluants organiques et de l’activité 
+microbiologique
+AGLAGUEL
+Ayoub
+21/12/2017
+ABDELGHAFFAR/BOUSFIHA
+Détermination du profil immunogénétique des neutropénies congénitales au Maroc
+EL OMARI
+Hanane
+23/12/2017
+OUAMMOU / BENNEZHA
+Elaboration et caractérisation de membranes céramiques planes de microfiltration à base d’argiles 
+Marocaines et d’ultrafiltration à base d’oxyde de zirconium
+AMEUR
+Afaf
+29/12/2017
+RHALLABI/ENNAJI
+Étude de la diversité génétique via l’Analyse de Multi Locus de VNTR (Variable Nucleotides Répétés en 
+Tandem) des populations d’Erwinia amylovora et essai de lutte biologique à base des antagonistes et 
+des huiles essentielles
+ABID
+Ounasser
+29/12/2017
+KHADIR
+Etudes des méthodes de chiffrements et de cryptanalyse en cryptographie à clé publique
+JGHALEF
+Boubker
+29/12/2017
+CHAKIR
+Contribution à l’étude des impacts des activités anthropiques sur la qualité des eaux souterraines dans 
+le bassin côtier de l’Oualidia
+EDDAQAQ
+Fatna
+30/12/2017
+DIGUA/DANI/LEKHLIF
+Performance de traitement des eaux de surfaces par le procédé d’électrocoagulation-électroflottation 
+dans une cuve agitée et un réacteur airlift à boucle interne
+ETTANFOUHI
+Jaouad
+30/12/2017
+KHADIR
+Contribution aux algorithmes de cryptographie à clé publiques
+BENCHARA
+Fatéma zahra
+05/01/2018
+OUAJJI/YOUSSFI
+Modèles de machines virtuelles massivement parallèles et distribuées basées sur les agents mobiles et 
+des micro-services 
+SALIH
+Fatima Ezzahra
+10/01/2018
+EL RHAZI/ OUARZANE
+Elaboration et caractérisation de différents composites Polymère/ Bismuth/Zéolite/Liquide ionique : 
+Application à la détection des métaux lourds et des pesticides 
+LAHSSAINI
+Slimane
+16/01/2018
+IDRISSI/HAFIDI
+Traitement et valorisation agricole des boues agroindustrielles issues du raffinage des huiles végétales : 
+Cas de la Société Lesieur Cristal
+QUADOURI
+Asmaa
+17/01/2018
+MOUHIR
+Déchets médicaux et pharmaceutiques liquides au Maroc : Cas de l’Hopital Ar Razi du Centre Hospitalier 
+Universitaire Mohammed VI de la ville de Marrakech
+EL HARRAD
+Loubna
+03/02/2018
+AZIZ AMINE
+Development of amperometric biosensors based on enzyme inhibition
+DAAIF
+Abdelaziz
+03/03/2018
+BOUATTANE
+Contribution à l’élaboration de nouveaux modèles de traitements en temps réel massivement 
+distribués basés sur les systèmes multi-agents 
+LAGHMARI
+Khalil
+23/03/2018
+RAMDANI
+Classification multi-labels graduée : découverte des relations entre les labels, et adaptation à la 
+reconnaissance des odeurs et au contexte big data des systèmes de recommandation
+AÏT LAHCEN
+Abdellatif
+24/03/2018
+AMINE
+Development of electrochemical sensors for measurment of emerging pollutants
+MESKAF
+Adil
+31/03/2018
+ALLALI
+Modélisation mathématiques et simulations numériques des maladies infectieuses 
+
+MANDLI
+Jihane
+31/03/2018
+AMINE
+Development of electrochemical biosensors based on nanoparticles for Hepatitis A virus and cancer 
+biomarkers (microRNA-21 and microRNA-34a) detection
+BAKRAOUY
+Hajar
+17/04/2018
+DIGUA
+Traitement des lixiviats des décharges publiques par voies physicochimique et biologique : Cas d’Ouled 
+Berjal à Kénitra et d’Oum Azza à Rabat

@@ -1,0 +1,267 @@
+Liste des nouvelles spécialités
+Section 1
+GP
+Génie physique
+Section 1
+MSD
+Mathématiques  et sciences des données
+Section 2
+GI
+Génie Informatique
+Section 2
+GESE
+Génie électrique et systèmes enbarqués
+Section 3
+GC
+Génie chimique
+Section 4
+GB
+Génie biologique
+Intitulés des modules de l'ancien système et leurs équivalents dans le nouveau système
+Parcous 
+ancien 
+système
+Section 
+ancien 
+système
+Intitulé
+Code ancien 
+système
+Code équivalent dans le 
+nouveau systèmenouveau 
+système
+Spécialité 
+nouveau système
+Session
+DEUST MIP
+MIP - S1
+Structure de la Matière
+C111
+C111
+GP / MSD
+Automne
+C211
+GI / GESE
+Automne
+DEUST MIP
+MIP - S1
+Analyse 1
+M111
+M111
+GP / MSD
+Automne
+M211
+GI / GESE
+Automne
+DEUST MIP
+MIP - S1
+Analyse 2
+M112
+M121
+GP / MSD
+Printemps
+M221
+GI / GESE
+Printemps
+M321
+GC
+Printemps
+DEUST MIP
+MIP - S1
+Mécanique du Point et Optique
+P111
+P111
+GP / MSD
+Automne
+P211
+GI / GESE
+Automne
+P321
+GC
+Printemps
+DEUST MIP
+MIP - S1
+Thermodynamique
+P112
+P112
+GP / MSD
+Automne
+P212
+GI / GESE
+Automne
+P322
+GC
+Printemps
+DEUST MIP
+MIP - S1
+Techniques de Communication 1
+L111
+L111
+GP / MSD
+Automne
+L211
+GI / GESE
+Automne
+DEUST MIP
+MIP - S2
+Algèbre 1
+M123
+M112
+GP / MSD
+Automne
+M212
+GI / GESE
+Automne
+M312
+GC
+Automne
+DEUST MIP
+MIP - S2
+Algèbre 2
+M124
+M122
+GP / MSD
+Printemps
+M222
+GI / GESE
+Printemps
+M322
+GC
+Printemps
+
+DEUST MIP
+MIP - S2
+Electricité
+P123
+E312
+GC
+Automne
+P121
+GP / MSD
+Printemps
+P221
+GI / GESE
+Printemps
+DEUST MIP
+MIP - S2
+Info 1 : Algo et Programmation 1
+I121
+I121
+GP / MSD
+Printemps
+I221
+GI / GESE
+Printemps
+I321
+GC
+Printemps
+DEUST MIP
+MIP - S2
+Réactivité Chimique
+C122
+C421
+GC
+Printemps
+DEUST MIP
+MIP - S2
+Techniques de Communication 2
+L122
+L121
+GP / MSD
+Printemps
+L221
+GI / GESE
+Printemps
+DEUST BCG
+BCG - S1
+Electricité
+E211
+E312
+GC
+Automne
+DEUST BCG
+BCG - S1
+Structure de la Matière
+C211
+C311
+GC
+Automne
+C411
+GB
+Automne
+DEUST BCG
+BCG - S1
+Cosmologie & Géodynamique Interne
+G211
+G411
+GB
+Automne
+DEUST BCG
+BCG - S1
+Algèbre
+M211
+M312
+GC
+Automne
+DEUST BCG
+BCG - S1
+Optique et Radioactivité
+P211
+P411
+GB
+Automne
+DEUST BCG
+BCG - S2
+Biologie Cellulaire
+B221
+B411
+GB
+Automne
+DEUST BCG
+BCG - S2
+Réactivité Chimique
+C222
+C421
+GB
+Printemps
+DEUST BCG
+BCG - S2
+Géodynamique Externe
+G222
+G421
+GB
+Printemps
+DEUST BCG
+BCG - S2
+Thermodynamique et Mécanique des Fluides
+P222
+P421
+GB
+Printemps
+DEUST BCG
+BCG - S2
+Analyse
+M222
+M311
+GC
+Automne
+DEUST BCG
+BCG - S1
+Techniques de Communication 1
+L211
+L311
+GC
+Automne
+L411
+GB
+Automne
+DEUST BCG
+BCG - S2
+Techniques de Communication 2
+L222
+L321
+GC
+Printemps
+L421
+GB
+Printemps

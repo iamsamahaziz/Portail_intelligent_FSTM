@@ -1,0 +1,44 @@
+FST, route de Rabat, Mohammedia, contact : cleghris@fstm.ac.ma 
+ 
+ 
+ 
+ MTC::6, c’est quoi ?         
+ MTC::6 se veut un centre de formation et certification en IPv6, crée en 
+collaboration avec IPv6 Forum, l’organisme mondial en charge de développer 
+du protocole IPv6, successeur imminent de celui IPv4. 
+ MTC::6 est le premier en son genre au monde arabe, et le second en Afrique, 
+après celui Certi::6 de l’AfriNIC ; 
+ MTC::6 accompagnera la stratégie du Maroc pour la migration vers IPv6, une 
+stratégie initiée par le ministère de l’industrie et de l’économie numérique ; 
+ Il est incubé à la FST de Mohammedia, Université Hassan II de Casablanca ; 
+ 
+ Cible : 
+ Ingénieurs du secteur public et privé ; 
+ Responsables réseaux des départements ministériels ; 
+ Formateurs réseaux ; 
+ 
+ Cursus proposés (en collaboration avec l’IPv6 Forum) : 
+ Certified Network Engineer (SILVER) ; 
+ Certified Network Engineer (GOLD) ; 
+ Certified Train of Trainers (GOLD) ; 
+ 
+ Centre : 
+ Nouveau local aménagée et équipée en standards internationaux ; 
+ 
+ Organisation /Durée : 
+ Groupe de 15 à 20 participants ; 
+ Chaque session se déroule en 4 jours (du Lundi à Jeudi). Le 5ème jour 
+(Vendredi) sera dédié à l’examen de certification ; 
+ 
+ Instructeurs (certifiés IPv6 Forum) : 
+ Noureddine MOUMKINE ; 
+ Cherkaoui LEGHRIS ; 
+ 
+ Responsable technique : 
+ Youssef NOUR-EL-EIN (Admin réseau de la FST) ; 
+ 
+ Ouverture prévue : 
+ 07 Février 2020 ; 
+ 
+ 
+IPv6 Moroccan Training Center

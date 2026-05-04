@@ -1,0 +1,110 @@
+[TITLE] FSTM - Affaires Pédagogiques Complètes 2025-2026
+[TYPE] affaires_pedagogiques
+[SOURCE] fstm.ac.ma/affaires_pedagogiques/affaires_pedagogiques.php - scraped 2026-04-01
+[CONTENT]
+
+=== AFFAIRES PÉDAGOGIQUES ===
+Vice Doyen chargé des Affaires Pédagogiques : Pr. Elhoussine Atmani
+
+=== RÉINSCRIPTION SESSION PRINTEMPS 2025-2026 ===
+Les étudiants des parcours MIP et BCG doivent faire la réinscription via : https://e-scholar.fstm.ac.ma/
+Date limite de clôture : 12 Février 2026 à minuit
+En cas de problème de connexion, une méthode alternative (méthode 2) est disponible sur le même lien.
+
+=== AVIS AUX BOURSIERS ===
+Pour questions et réclamations concernant la bourse, envoyer un email à : aicha.sagar@fstm.ac.ma
+La réclamation doit inclure : nom, prénom, code MASSAR, filière et numéro de téléphone.
+Toute réclamation incomplète ne sera pas prise en charge.
+
+=== GROUPES DE TD ET TP - NOUVEAU SYSTÈME ===
+Session Printemps 2025-2026 :
+- S2 : Groupes disponibles pour GB, GC, GI/GESE, GP/MSD
+- S4 : Groupes disponibles pour GB, GC, GI, GESE, GP, MSD
+
+Session Automne 2025-2026 :
+- S1 : Groupes pour GB, GC, GI/GESE, GP/MSD
+- S3 : Groupes pour GB, GC, GI, GESE, GP, MSD
+
+=== EMPLOIS DU TEMPS 2025-2026 ===
+
+--- Tronc Commun LST ---
+Emplois du temps Cours + TD + TP : Semestre S1 (1ère année) et Semestre S3 (2ème année)
+
+--- LST ---
+Emplois du temps disponibles pour : ILSI, TB, PA, GT, GM, GEII, CA, IRM, TACQ, ABCQ, SDID, MSDI
+
+--- MST ---
+Emplois du temps disponibles pour :
+- SGE (S1 et S3)
+- PCAM (S1 et S3)
+- MQSE (S1)
+- MAGBio (S1)
+- IPMA (S1)
+- ISERT (S1 et S3)
+
+--- Filières Ingénieur ---
+Emplois du temps pour :
+- GE (1ère, 2ème, 3ème année)
+- IDSI (1ère, 2ème année)
+- GMI (3ème année)
+- GET (1ère, 2ème année)
+- GECI (3ème année)
+
+=== CALENDRIER PÉDAGOGIQUE ===
+Calendrier pédagogique de la session de Printemps 2025/2026 disponible en PDF sur le site.
+
+=== EXAMENS ===
+- Planning des examens du Tronc Commun et LST disponible en PDF
+- Planning des examens de rattrapage du TC LST disponible en PDF
+- Convocations disponibles via : https://e-scholar.fstm.ac.ma/convocations/index.php
+- OBLIGATOIRE : présenter la convocation ET la carte d'étudiant lors des examens
+
+=== CHANGEMENT D'ORIENTATION ===
+- Possibilité pour les étudiants ayant validé la 1ère année du TC LST
+- Demande à déposer avant la date limite (généralement fin septembre)
+- Places limitées
+- Le parcours Génie Biologie n'est PAS concerné par le changement d'orientation
+
+=== TRANSFERTS ===
+Les étudiants acceptés en transfert doivent se présenter avec :
+- Attestation d'assurance étudiant
+- Fiche de pré-inscription
+- Baccalauréat original + 2 copies
+- Relevé de notes original de l'établissement d'origine
+- 2 copies CIN
+- 4 photos d'identité + 1 photo gravée sur CD
+- 2 enveloppes timbrées
+
+=== ORIENTATION EN LST ===
+Pour les étudiants ayant validé le DEUST : remplir les choix d'orientation via https://e-scholar.fstm.ac.ma
+Période : généralement du 12 août au 8 septembre
+
+=== CONSULTATION DES RÉSULTATS ET DOSSIER PÉDAGOGIQUE ===
+- Notes après délibérations : https://ent.univh2c.ma
+- Situation pédagogique (nouveau système) : https://ent.univh2c.ma
+- Résultats d'orientation en LST : https://e-scholar.fstm.ac.ma/index.php
+
+=== CARTE D'ÉTUDIANT ===
+Pour obtenir la carte :
+1. Aller sur https://e-fstm.fstm.ac.ma
+2. Cliquer sur "Validation des informations"
+3. Vérifier les données personnelles, corriger si besoin
+4. Confirmer et imprimer le reçu de validation
+5. Déposer le reçu d'inscription + le reçu de validation au guichet des affaires estudiantines
+
+=== PERMANENCE ===
+Le service des affaires estudiantines assure une permanence durant les vacances pour le retrait des documents.
+
+=== CAHIERS DES NORMES PÉDAGOGIQUES NATIONALES (CNPN) ===
+Disponibles en PDF sur le site :
+- CNPN Licence Sciences et Techniques
+- CNPN Master Sciences et Techniques
+- CNPN Cycle Ingénieur
+
+=== RÉSERVE ET DÉROGATION ===
+Les étudiants ayant achevé leur année de réserve doivent déposer une demande de dérogation auprès du vice-doyen (période : début septembre).
+Passé les délais, aucune demande ne sera traitée.
+
+=== MODULES RÉSERVE BCG ===
+- Module B421 (Biologie Animale et Végétale) : assister aux deux éléments même si l'un est validé
+- Module C245 (Chimie Organique 2 et Minérale 2) : choisir inscription à C341 ou C342

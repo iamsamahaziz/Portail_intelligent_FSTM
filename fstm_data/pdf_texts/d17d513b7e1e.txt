@@ -1,0 +1,90 @@
+Licence d’Université 
+ADMINISTRATION ET SECURITE DES 
+RESEAUX ET SYSTEMES INFORMATIQUES 
+WEB ET BASE DE DONNEES 
+ 
+ 
+Objectif de la formation : 
+La Licence Professionnelle d’Université 
+ADMINISTRATION ET SECURITE DES RESEAUX ET 
+SYSTEMES INFORMATIQUES 
+A pour objectifs de former un profil qui est capable de 
+répondre aux besoins des entreprises qui opèrent dans le 
+secteur  informatique et télécommunications afin de 
+fournir un niveau de qualification intermédiaire dans 
+plusieurs domaines d’activités notamment : 
+ 
+Administration des systèmes d’exploitation Open 
+source et Microsoft server 2019 
+ 
+Administration des Base de données Oracle  
+ 
+Administration des réseaux 
+ 
+Sécurité des réseaux informatiques 
+ 
+développement Web 
+Les objectifs de cette Licence Professionnelle d’Université 
+se résume à : 
+ 
+Former des cadres en administration et sécurité 
+des réseaux informatique et  ingénierie des 
+systèmes d’exploitation  qui développent un 
+ensemble de compétences dans le domaine des 
+réseaux, système et base de données 
+ 
+Offrir aux lauréats de cette Licence 
+Professionnelle d’Université des capacités 
+d’accéder à l’emploi 
+Débouchés Professionnels: 
+ 
+Informaticiens ayant de solides compétences en 
+administration et en sécurisation des réseaux et 
+capables de définir une politique de sécurité 
+informatique tendant à minimiser la vulnérabilité 
+des systèmes informatiques : 
+ 
+Responsable de sécurité informatique (réseaux 
+locaux et étendus) 
+ 
+Administrateur des réseaux informatiques, 
+système… 
+ 
+Administrateur des systèmes d’exploitation 
+serveurs : UNIX, LINUX, Windows Server 
+ 
+cadre en  câblage des réseaux informatiques 
+ 
+cadre en développement des sites Web 
+ 
+Administrateur de  Base de données Oracle  
+Condition d’Admission: 
+Titulaires d'un diplôme BAC + 2, DEUG, DEUST, DEUP,  
+DUT, BTS, ISTA ou diplôme équivalent.  
+ 
+Programme de la formation: 
+M1: Conception des systèmes d’information et 
+bases de données.  
+M2: Réseaux Informatiques 
+M3: Administration des systèmes open source 
+Linux. 
+M4:Administration des bases de données Oracle. 
+M5:Administration et sécurité des réseaux sous 
+linux. 
+M6:Programmation Web et sécurité des services 
+internet. 
+M7:ccnp route/ccnp switching/ccnp tschouting. 
+M8:Sécurité des réseaux et qualité de service. 
+M9:Administration des systèmes Microsoft 
+Windows server 2019. 
+ 
+PREPARATION AUX CERTIFICATS 
+INDUSTRIELLES : 
+ 
+ 
+ 
+ 
+CONTACT: Pour toutes informations complémentaires 
+ 
+Contacter:  H.LAHRACH, Y.SAYOUTI 
+TEL. 0661570705 / 0662478354

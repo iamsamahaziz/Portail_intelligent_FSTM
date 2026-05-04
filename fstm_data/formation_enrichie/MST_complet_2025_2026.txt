@@ -1,0 +1,60 @@
+[TITLE] FSTM - Liste Complète des Masters Sciences et Techniques (MST) 2025-2026
+[TYPE] formation
+[SOURCE] fstm.ac.ma/formation_initiale/mst.php - scraped 2026-03-31
+[CONTENT]
+
+=== MASTER SCIENCES ET TECHNIQUES (MST) - BAC+5 ===
+
+=== CONDITIONS D'ADMISSION ===
+- Accès sur concours (présélection + épreuve écrite + entretien oral)
+- Ouvert aux titulaires d'une Licence Sciences et Techniques ou équivalent
+- Candidature en ligne via : https://e-candidature.fstm.ac.ma/
+- Date limite de candidature : 31 août (chaque année)
+
+=== LISTE DES 7 FILIÈRES MST ===
+
+1. MST ISERT - Ingénierie des Systèmes Embarqués, Réseaux et Télécommunications
+   Effectif demandé 2025-2026 : 32 places
+   Places inscrites : 29, Places disponibles (liste attente) : 3
+
+2. MST MQSE - Management de la Qualité, de la Sécurité et de l'Environnement
+   Effectif demandé 2025-2026 : 25 places
+   Places inscrites : 25, Places disponibles : 0
+
+3. MST MQSA - Management de la Qualité et Sécurité des Aliments
+   Effectif demandé 2025-2026 : 36 places
+   Places inscrites : 32, Places disponibles (liste attente) : 4
+
+4. MST SGE - Sciences et Gestion de l'Environnement
+   Effectif demandé 2025-2026 : 27 places
+   Places inscrites : 24, Places disponibles (liste attente) : 3
+
+5. MST PCAM - Physico Chimie et Analyse des Matériaux
+   Effectif demandé 2025-2026 : 24 places
+   Places inscrites : 18, Places disponibles (liste attente) : 6
+
+6. MST MAGBio - Microbiologie Appliquée et Génie-Biologique
+   Effectif demandé 2025-2026 : 30 places
+   Places inscrites : 24, Places disponibles (liste attente) : 6
+
+7. MST IPMA - Ingénierie et Physique des Matériaux Avancés
+   Effectif demandé 2025-2026 : 25 places
+   Places inscrites : 25, Places disponibles : 0
+
+=== PROCÉDURE DE SÉLECTION ===
+Étape 1 : Présélection sur dossier (notes, parcours)
+Étape 2 : Concours écrit (dates variables selon filières, généralement en septembre)
+Étape 3 : Entretien oral pour certaines filières
+Étape 4 : Publication des listes principales et listes d'attente
+
+=== PIÈCES À FOURNIR POUR L'INSCRIPTION ===
+- Attestation d'assurance étudiant : https://assurance-etudiant.prevas.ma/
+- Fiche de pré-inscription : https://preins.univh2c.ma/index.php?etab=FST
+- Formulaire d'inscription : https://e-inscription.fstm.ac.ma
+- Original du diplôme du baccalauréat + 2 copies
+- Original du dernier diplôme obtenu + 2 copies
+- 2 copies de la carte d'identité nationale
+- 2 photos d'identité
+- Enveloppe timbrée portant le nom, prénom et adresse de l'étudiant
+
+NB : Aucune inscription ne sera validée si le dossier est incomplet.

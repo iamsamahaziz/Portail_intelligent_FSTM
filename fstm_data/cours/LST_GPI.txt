@@ -1,0 +1,136 @@
+[TITLE] LST - Génie des Procédés Industriel
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2025/LST_GPI.pdf
+--- Contenu du document ---
+
+LICENCE SCIENCES ET TECHNIQUES
+GÉNIE DES PROCÉDÉS INDUSTRIELS (GPI)
+Objectif
+Cette licence a pour objectif de former des lauréats possédant des connaissances fondamentales et
+appliquées en génie des procédés, leur permettant de comprendre, concevoir, exploiter et optimiser
+des procédés industriels et environnementaux. La formation vise à favoriser une insertion
+professionnelle directe dans le milieu socio-économique ou une poursuite d’études en Master ou en
+cycle d’ingénieur, en développant l’autonomie, l’esprit d’innovation et la maîtrise des exigences
+QHSE.
+Compétences Débouchés professionnels
+Les lauréats de cette filière auront la possibilité de
+Comprendre les abécédaires des procédés
+s'insérer dans :
+industriels et leurs parties connexes ;
+L'industrie de transformation de la matière et ses
+Contribuer au dimensionnement, la
+partie connexes (partie utilitaire).
+conception, l'exploitation, le contrôle et
+L'industrie de l'eau : traitement des eaux.
+l'optimisation de nouveaux procédés à visée
+L'Eco-industrie : épuration des eaux usées,
+industrielle ou environnementale ;
+traitement de l'air, traitement du sol, et
+Contribuer au diagnostique et à
+traitement des déchets.
+l'amélioration des procédés existants ;
+Les cabinets de conseil et bureaux d’études en
+Contribuer à la gestion des aspects
+ingénierie des procédés.
+techniques et humains liés à la conduite
+Les organismes publics ou privés de recherche.
+d'un projet ;
+Descriptif des modules
+Semestre 5
+Mécanique des fluides / transfert de Transfert thermique / echangeurs de Régulation / instrumentation
+matiere chaleur industrielle
+Génie de dépollution / qualité,
+Operations unitaires 1 Operations unitaires 2
+hygiène, sécurité et environnement
+Anglais technique
+Semestre 6
+Procédés membranaires / eaux de
+Réacteurs chimiques et bioréacteurs Grands procédés industriels
+process
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnatrice : Pr. Bouchra BEJJANY
+E-mail : bouchra.bejjany@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53
+
+[Tableau page 1]
+ |  |  | ES
+(GPI)
+connaissances fondamentales et
+concevoir, exploiter et optimiser
+ | LICENCE SCIENCES ET TECHNIQUES
+GÉNIE DES PROCÉDÉS INDUSTRIELS (GPI)
+Objectif
+Cette licence a pour objectif de former des lauréats possédant des connaissances fondamentales et
+appliquées en génie des procédés, leur permettant de comprendre, concevoir, exploiter et optimiser
+des procédés industriels et environnementaux. La formation vise à favoriser une insertion
+professionnelle directe dans le milieu socio-économique ou une poursuite d’études en Master ou en
+cycle d’ingénieur, en développant l’autonomie, l’esprit d’innovation et la maîtrise des exigences
+QHSE.
+Compétences Débouchés professionnels
+Les lauréats de cette filière auront la possibilité de
+Comprendre les abécédaires des procédés
+s'insérer dans :
+industriels et leurs parties connexes ;
+L'industrie de transformation de la matière et ses
+Contribuer au dimensionnement, la
+partie connexes (partie utilitaire).
+conception, l'exploitation, le contrôle et
+L'industrie de l'eau : traitement des eaux.
+l'optimisation de nouveaux procédés à visée
+L'Eco-industrie : épuration des eaux usées,
+industrielle ou environnementale ;
+traitement de l'air, traitement du sol, et
+Contribuer au diagnostique et à
+traitement des déchets.
+l'amélioration des procédés existants ;
+Les cabinets de conseil et bureaux d’études en
+Contribuer à la gestion des aspects
+ingénierie des procédés.
+techniques et humains liés à la conduite
+Les organismes publics ou privés de recherche.
+d'un projet ;
+Descriptif des modules
+Semestre 5
+Mécanique des fluides / transfert de Transfert thermique / echangeurs de Régulation / instrumentation
+matiere chaleur industrielle
+Génie de dépollution / qualité,
+Operations unitaires 1 Operations unitaires 2
+hygiène, sécurité et environnement
+Anglais technique
+Semestre 6
+Procédés membranaires / eaux de
+Réacteurs chimiques et bioréacteurs Grands procédés industriels
+process
+Intelligence artificielle Projet de fin d’étude
+C O N T A C T
+Coordonnatrice : Pr. Bouchra BEJJANY
+E-mail : bouchra.bejjany@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 |  | ES
+(GPI)
+connaissances fondamentales et
+concevoir, exploiter et optimiser
+ |  | C O N T A C T
+Coordonnatrice : Pr. Bouchra BEJJANY
+E-mail : bouchra.bejjany@fstm.ac.ma
+Telephone: (+212) 5 23 31 53 53 | 
+
+[Tableau page 1]
+Semestre 5 |  | 
+Mécanique des fluides / transfert de
+matiere | Transfert thermique / echangeurs de
+chaleur | Régulation / instrumentation
+industrielle
+Operations unitaires 1 | Operations unitaires 2 | Génie de dépollution / qualité,
+hygiène, sécurité et environnement
+Anglais technique |  | 
+
+[Tableau page 1]
+Semestre 6 |  | 
+Réacteurs chimiques et bioréacteurs | Procédés membranaires / eaux de
+process | Grands procédés industriels
+Intelligence artificielle | Projet de fin d’étude | 
+
+[Tableau page 1]
+ |

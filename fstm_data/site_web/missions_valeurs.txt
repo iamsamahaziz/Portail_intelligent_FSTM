@@ -1,0 +1,16 @@
+[TITLE] Missions et Valeurs
+[TYPE] site_web
+[CONTENT]
+Missions et Valeurs
+Missions :
+La Faculté des Sciences et Techniques de Mohammedia (FSTM) regroupe des structures qui s’investissent pleinement dans les domaines de la formation et de la recherche scientifique pour contribuer au développement du Maroc. Ces structures sont engagées pour :
+- Assurer des formations scientifiques et techniques de qualité en adéquation avec le marché de l'emploi.
+- Développer la recherche scientifique fondamentale et appliquée pour contribuer à la production du savoir, répondre au besoin des entreprises et encourager l’innovation.
+- Dispenser des formations continues pour répondre aux besoins du secteur socio-économique.
+- Participer au progrès scientifique, technique, professionnel et économique du pays.
+Valeurs :
+La FSTM véhicule des valeurs basées sur l’intégrité intellectuelle et morale :
+- La FSTM s’engage à développer le professionnalisme, le sens de la responsabilité, la créativité et le respect d’autrui.
+- La FSTM s'engage à respecter les principes d’équité, d'égalité des chances et de la pluralité culturelle.
+- La FSTM s’engage à émuler l’excellence, la créativité et l’innovation.
+Faculté des Sciences et Techniques de Mohammedia

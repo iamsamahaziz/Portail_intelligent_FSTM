@@ -1,0 +1,108 @@
+[TITLE] LST - Ingénierie Logicielle et Systèmes d'Information
+[TYPE] cours
+[CONTENT]
+Source PDF : https://www.fstm.ac.ma/formation_initiale/files/lst/version_diplome_2024/LSTILSI2025.pdf
+--- Contenu du document ---
+
+LICENCE EN SCIENCES ET
+TECHNIQUES
+INGÉNIERIE LOGICIELLE ET
+SYSTÈMES D’INFORMATION
+OBJECTIFS ET COMPÉTENCES
+- Maîtriser les fondements de l'informatique ;
+- Maîtriser les fondements de l’intelligence artificielle
+numérique et symbolique ;
+- Étudier les dernières technologies informatiques en
+génie logiciel ;
+- Développer les applications web avec des frameworks ;
+- Développer les applications full stack en intégrant l’IA et
+machine learning.
+DÉBOUCHÉS DE LA FORMATION :
+- Architectes des systèmes d'information ;
+- Développeurs d’applications web ;
+- Développeurs full-stack ;
+- Chefs de projets informatiques ;
+- Candidats aux Masters et filières d'ingénieur en
+informatique et IA.
+MODULES DE S5 ET S6 :
+✓
+Structures de données avancées ;
+✓
+Programmation orientée objet ;
+✓
+Modélisation orientée objet avec UML 2 /
+Technologie JEE ;
+✓
+Développement web 2 ;
+✓
+Introduction à l’intelligence artificielle ;
+✓
+Programmation JavaScript avancée et
+frameworks ;
+✓
+Anglais technique ;
+✓
+PL/SQL & Administration de BD Oracle ;
+✓
+IA & Machine Learning ;
+✓
+Compilation / Systèmes d’exploitation ;
+✓
+Atelier de Virtualisation, Solutions Full Stack
+& IoT.
+Contact
+PR A. EL BOUZIRI -
+ADIL.ELBOUZIRI@FSTM.AC.MA
+
+[Tableau page 1]
+ | LICENCE EN SCIENCES ET |  |  | 
+ | TECHNIQUES
+INGÉNIERIE LOGICIELLE ET
+SYSTÈMES D’INFORMATION |  |  | 
+ |  |  |  | 
+ | OBJECTIFS ET COMPÉTENCES
+- Maîtriser les fondements de l'informatique ;
+- Maîtriser les fondements de l’intelligence artificielle
+numérique et symbolique ;
+- Étudier les dernières technologies informatiques en
+génie logiciel ;
+- Développer les applications web avec des frameworks ;
+- Développer les applications full stack en intégrant l’IA et |  |  | 
+ | machine learning.
+DÉBOUCHÉS DE LA FORMATION :
+- Architectes des systèmes d'information ;
+- Développeurs d’applications web ;
+- Développeurs full-stack ;
+- Chefs de projets informatiques ;
+- Candidats aux Masters et filières d'ingénieur en
+informatique et IA.
+MODULES DE S5 ET S6 :
+✓
+Structures de données avancées ;
+✓
+Programmation orientée objet ;
+✓
+Modélisation orientée objet avec UML 2 /
+Technologie JEE ;
+✓
+Développement web 2 ;
+✓
+Introduction à l’intelligence artificielle ;
+✓
+Programmation JavaScript avancée et
+frameworks ;
+✓
+Anglais technique ;
+✓
+PL/SQL & Administration de BD Oracle ;
+✓
+IA & Machine Learning ;
+✓
+Compilation / Systèmes d’exploitation ;
+✓
+Atelier de Virtualisation, Solutions Full Stack
+& IoT.
+Contact
+PR A. EL BOUZIRI -
+ADIL.ELBOUZIRI@FSTM.AC.MA |  |  | 
+ |  | en |  |

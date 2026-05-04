@@ -1,0 +1,51 @@
+[TITLE] FSTM - Cycle Ingénieur Complet 2025-2026
+[TYPE] formation
+[SOURCE] fstm.ac.ma/formation_initiale/ci.php - scraped 2026-03-31
+[CONTENT]
+
+=== CYCLE INGÉNIEUR - BAC+5 ===
+
+=== CONDITIONS D'ADMISSION ===
+Deux voies d'accès en 1ère année :
+1. CNC (Concours National Commun) : sur affectation
+2. Concours FSTM : présélection sur dossier + concours écrit + entretien oral (pour certaines filières)
+
+Candidature en ligne : https://e-candidature.fstm.ac.ma/
+Date limite de candidature : 31 août (chaque année)
+
+=== LISTE DES 5 FILIÈRES INGÉNIEUR (7 options) ===
+
+1. GECI - Génie Electrique et Contrôle Industriel
+   Effectif demandé 2025-2026 : 28 places
+   Inscrits : 28, Places disponibles : 0
+
+2. ILISI - Ingénierie Logicielle et Intégration des Systèmes Informatiques
+   Effectif demandé 2025-2026 : 40 places
+   Inscrits : 33, Places disponibles (liste attente) : 7
+
+3. IDSI - Ingénierie Data Science et Informatique
+   Accès BAC+2 : 25 places (inscrits : 18, disponibles : 7)
+   Accès BAC+3 : 25 places (inscrits : 21, disponibles : 4)
+
+4. GPE - Génie des Procédés et d'Environnement
+   Option GEE (Génie de l'Eau et de l'Environnement) : 20 places (inscrits : 19, disponibles : 1)
+   Option GPI (Génie des Procédés Industriels) : 25 places (inscrits : 21, disponibles : 5)
+
+5. GE - Génie Énergétique
+   Effectif demandé 2025-2026 : 25 places
+   Inscrits : 24, Places disponibles : 1
+
+=== INSCRIPTION CNC 2025-2026 ===
+Les étudiants issus du CNC et affectés aux cycles d'ingénieur à la FST de Mohammedia doivent se présenter à la FSTM le Lundi 22 septembre de 9H à 15H pour déposer leurs dossiers d'inscription.
+
+=== PIÈCES À FOURNIR (DOSSIER D'INSCRIPTION) ===
+- Attestation d'assurance étudiant : https://assurance-etudiant.prevas.ma/
+- Fiche de pré-inscription : https://preins.univh2c.ma/index.php?etab=FST
+- Formulaire d'inscription : https://e-inscription.fstm.ac.ma
+- Original du diplôme du baccalauréat + 2 copies
+- Original du dernier diplôme obtenu + 2 copies (ou attestation d'admissibilité + attestation d'affectation pour CNC)
+- 2 copies de la carte d'identité nationale
+- 2 photos d'identité
+- Enveloppe timbrée portant le nom, prénom et adresse de l'étudiant
+
+NB : Aucune inscription ne sera validée si le dossier est incomplet.

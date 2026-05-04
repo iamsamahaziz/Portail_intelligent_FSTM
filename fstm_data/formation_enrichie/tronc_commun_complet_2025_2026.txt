@@ -1,0 +1,44 @@
+[TITLE] FSTM - Tronc Commun (TC) - Données Complètes 2025-2026
+[TYPE] formation
+[SOURCE] fstm.ac.ma/formation_initiale/tronc_commun.php - scraped 2026-04-01
+[CONTENT]
+
+=== TRONC COMMUN - BAC+2 (4 semestres : S1 à S4) ===
+
+=== NOUVEAU SYSTÈME LST (depuis 2024-2025) ===
+Le Tronc Commun est organisé en 6 filières (nouveau système) :
+1. GB - Génie Biologie
+2. GC - Génie Chimie
+3. GI - Génie Informatique
+4. GESE - Génie Électrique et Systèmes Embarqués
+5. GP - Génie Physique
+6. MSD - Mathématiques, Sciences et Données
+
+=== CANDIDATURE DES BACHELIERS ===
+La candidature se fait en ligne via le CNE (Code National de l'Étudiant) ou le code MASSAR.
+Plateforme nationale : https://www.cursussup.gov.ma
+Le Ministère de l'Éducation Nationale gère les candidatures pour les FST via ce site.
+
+=== PIÈCES À FOURNIR (INSCRIPTION BACHELIERS) ===
+- Original du diplôme du baccalauréat + 2 copies
+- Attestation d'assurance étudiant : https://assurance-etudiant.prevas.ma/
+- Fiche de pré-inscription obligatoire : https://preins.univh2c.ma/index.php?etab=FST
+- Formulaire d'inscription : https://e-inscription.fstm.ac.ma
+- 2 copies de la carte d'identité nationale
+- 2 photos d'identité
+- Enveloppe timbrée portant le nom, prénom et adresse de l'étudiant
+
+=== LISTE D'ATTENTE (2025-2026) ===
+L'inscription se fait par ordre de mérite des candidats présents.
+Elle est limitée au nombre de places disponibles.
+
+Liste d'attente 1 : inscription le vendredi 26/09/2025 (horaires de 9H à 16H)
+Liste d'attente 2 : inscription le samedi 27/09/2025 (horaires de 9H à 16H)
+
+=== MODALITÉS DE VALIDATION ===
+Consulter : "Modalités de Validation et d'Évaluation des Modules dans le Système LST"
+Disponible sur le site de la FSTM.
+
+=== ÉQUIVALENCES ===
+Pour les étudiants passant de l'ancien au nouveau système :
+Voir "Équivalents des modules dans le nouveau système" sur le site FSTM.

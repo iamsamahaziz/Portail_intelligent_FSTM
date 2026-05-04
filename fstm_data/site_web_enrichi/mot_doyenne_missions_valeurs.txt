@@ -1,0 +1,36 @@
+[TITLE] FSTM - Mot de la Doyenne et Missions & Valeurs
+[TYPE] institution
+[SOURCE] fstm.ac.ma - scraped 2026-04-01
+[CONTENT]
+
+=== MOT DE LA DOYENNE ===
+Professeur Latifa MOUHIR, Doyenne de la FSTM
+
+La FSTM est un environnement stimulant pour le développement du savoir, du savoir-faire et du savoir-vivre au cœur de la science et la technologie. Elle se veut ouverte à l'échelle régionale, nationale et internationale pour accueillir, former, découvrir et bâtir ensemble un monde meilleur.
+
+Depuis sa création en 1994, la FSTM développe une offre de formations et de recherches en symbiose avec son environnement socio-économique.
+
+Projet de développement (mandat 2023-2027) - Trois mots clés : L'Excellence, L'Innovation et La Durabilité.
+
+Axes prioritaires :
+- L'excellence en formation et en recherche centrées sur la réussite, l'épanouissement et l'employabilité des étudiants
+- La valorisation d'une recherche durable, compétitive et ouverte mettant l'innovation et l'entreprenariat au cœur de ses orientations
+- L'adoption des principes de bonne gouvernance : participative, transparente, démarche d'Assurance Qualité
+- L'accroissement des partenariats innovants avec les collectivités territoriales et le monde socio-économique
+- Le renforcement de l'internationalisation des programmes et accords d'échanges avec les meilleurs établissements
+- L'intégration du développement durable et la responsabilité sociétale
+
+À l'issue du parcours FSTM : solide formation en sciences et technologies, compétences pour le marché du travail ou carrière de recherche.
+
+=== MISSIONS ===
+La FSTM regroupe des structures engagées pour :
+- Assurer des formations scientifiques et techniques de qualité en adéquation avec le marché de l'emploi
+- Développer la recherche scientifique fondamentale et appliquée pour contribuer à la production du savoir et encourager l'innovation
+- Dispenser des formations continues pour répondre aux besoins du secteur socio-économique
+- Participer au progrès scientifique, technique, professionnel et économique du pays
+
+=== VALEURS ===
+La FSTM véhicule des valeurs basées sur l'intégrité intellectuelle et morale :
+- Développer le professionnalisme, le sens de la responsabilité, la créativité et le respect d'autrui
+- Respecter les principes d'équité, d'égalité des chances et de la pluralité culturelle
+- Émuler l'excellence, la créativité et l'innovation
