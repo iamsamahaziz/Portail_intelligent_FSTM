@@ -49,12 +49,12 @@ pipeline {
 
         stage('2. Vérification Universelle') {
             parallel {
-                stage('Inventaire du Dépôt') {
+                stage('Contrôle d\\'Intégrité') {
                     steps {
                         sh '''
-                        echo "--- Structure FSTM ---"
+                        echo "--- Audit de Structure FSTM ---"
                         find . -maxdepth 2 -not -path '*/.*' -not -path '*/venv*'
-                        echo "--- Documents Datas ---"
+                        echo "--- Vérification des Fichiers Data ---"
                         [ -e "FSTM_JINA.json" ] && echo "FSTM_JINA.json : Présent" || echo "FSTM_JINA.json : MANQUANT"
                         '''
                     }
