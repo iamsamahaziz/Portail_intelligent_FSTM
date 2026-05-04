@@ -8,11 +8,12 @@ pipeline {
     }
 
     environment {
-        QDRANT_URL = 'http://qdrant:6333'
-        N8N_URL    = 'http://n8n:5678'
-        VENV_DIR   = "/var/jenkins_home/venv/fstm"
-        PYTHON     = "/var/jenkins_home/venv/fstm/bin/python"
-        PIP        = "/var/jenkins_home/venv/fstm/bin/pip"
+        QDRANT_URL  = 'http://qdrant:6333'
+        N8N_URL     = 'http://n8n:5678'
+        CHATBOT_URL = 'http://chatbot:80'
+        VENV_DIR    = "/var/jenkins_home/venv/fstm"
+        PYTHON      = "/var/jenkins_home/venv/fstm/bin/python"
+        PIP         = "/var/jenkins_home/venv/fstm/bin/pip"
     }
 
     stages {
@@ -71,14 +72,66 @@ pipeline {
                         find . -name "*.yml" -o -name "*.yaml" ! -path "*/.*" -exec echo "Validating YAML structure: {}" \\;
 
                         echo "=== 4. Audit HTML (Interface) ==="
-                        find . -name "*.html" ! -path "*/venv/*" ! -path "*/.*" -exec grep -qE "<html>|<head>|<body>" {} \\; -print || echo "Attention : certains fichiers HTML semblent mal formés."
+                        find . -name "*.html" ! -path "*/venv/*" ! -path "*/.git/*" | while read f; do
+                            python3 -c "
+import sys
+from html.parser import HTMLParser
+
+class Check(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.stack = []
+        self.void = ['br','hr','img','input','meta','link','base','col','embed','param','source','track','wbr']
+    def handle_starttag(self, tag, attrs):
+        if tag not in self.void:
+            self.stack.append(tag)
+    def handle_endtag(self, tag):
+        if tag in self.void:
+            return
+        if self.stack and self.stack[-1] == tag:
+            self.stack.pop()
+        else:
+            print('ERREUR: balise mal fermee </' + tag + '> dans $f')
+            sys.exit(1)
+
+p = Check()
+p.feed(open('$f').read())
+if p.stack:
+    print('ERREUR: balises non fermees', p.stack, 'dans $f')
+    sys.exit(1)
+print('OK:', '$f')
+" || exit 1
+                        done
+                        echo "HTML : OK"
                         '''
                     }
                 }
             }
         }
 
-        stage('3. Vérification des Services') {
+        stage('3. Validation Fail-Fast (Jina)') {
+            steps {
+                withCredentials([string(credentialsId: 'JINA_API_KEY', variable: 'JINA_API_KEY')]) {
+                    sh '''
+                    echo "Vérification Fail-Fast de l'API Jina AI..."
+                    # On envoie une micro-requête pour s'assurer que la clé est valide
+                    STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X POST https://api.jina.ai/v1/embeddings \
+                         -H "Authorization: Bearer $JINA_API_KEY" \
+                         -H "Content-Type: application/json" \
+                         -d '{"model": "jina-embeddings-v3", "input": ["test"]}')
+                    
+                    if [ "$STATUS" = "401" ] || [ "$STATUS" = "403" ]; then
+                        echo "❌ ERREUR FAIL-FAST : Clé JINA_API_KEY invalide ou expirée (Code: $STATUS) !"
+                        exit 1
+                    else
+                        echo "✅ API Jina joignable (Code $STATUS)."
+                    fi
+                    '''
+                }
+            }
+        }
+
+        stage('4. Vérification des Services') {
             parallel {
 
                 stage('Qdrant') {
@@ -113,10 +166,26 @@ pipeline {
                     }
                 }
 
+                stage('Chatbot UI') {
+                    steps {
+                        script {
+                            def hasDocker = (sh(script: 'command -v docker >/dev/null 2>&1', returnStatus: true) == 0)
+                            def chatbotOK = (sh(script: "curl -sf --max-time 5 ${env.CHATBOT_URL}", returnStatus: true) == 0)
+                            if (!chatbotOK && hasDocker) {
+                                sh 'docker restart fstm_chatbot || true'
+                                sleep 10
+                                chatbotOK = (sh(script: "curl -sf --max-time 5 ${env.CHATBOT_URL}", returnStatus: true) == 0)
+                            }
+                            if (!chatbotOK) error "Chatbot UI injoignable sur ${env.CHATBOT_URL}"
+                            echo "Chatbot UI : OK"
+                        }
+                    }
+                }
+
             }
         }
 
-        stage('4. Installation') {
+        stage('5. Installation') {
             steps {
                 sh '''
                 # Crée le venv une seule fois
@@ -138,7 +207,7 @@ pipeline {
             }
         }
 
-        stage('5. Indexation Jina AI') {
+        stage('6. Indexation Jina AI') {
             steps {
                 withCredentials([string(credentialsId: 'JINA_API_KEY', variable: 'JINA_API_KEY')]) {
                     sh '''
