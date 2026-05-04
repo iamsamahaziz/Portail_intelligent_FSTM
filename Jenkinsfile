@@ -140,7 +140,72 @@ print('OK:', '$f')
             }
         }
 
-        stage('4. Vérification des Services') {
+        stage('4. Déploiement des Services') {
+            steps {
+                script {
+                    sh '''
+                    # ── Réseau Docker ──
+                    docker network create fstm_network 2>/dev/null || echo "Réseau fstm_network déjà existant."
+                    docker network connect fstm_network fstm_jenkins 2>/dev/null || true
+
+                    # ── Qdrant ──
+                    if ! docker ps --format "{{.Names}}" | grep -q "^fstm_qdrant$"; then
+                        echo "Lancement de Qdrant..."
+                        docker run -d \
+                            --name fstm_qdrant \
+                            --network fstm_network \
+                            -p 6333:6333 \
+                            -v qdrant_storage:/qdrant/storage \
+                            --restart unless-stopped \
+                            qdrant/qdrant:latest
+                        echo "✅ Qdrant lancé."
+                    else
+                        echo "✅ Qdrant déjà en cours d\'exécution."
+                    fi
+
+                    # ── n8n ──
+                    if ! docker ps --format "{{.Names}}" | grep -q "^fstm_n8n$"; then
+                        echo "Lancement de n8n..."
+                        docker run -d \
+                            --name fstm_n8n \
+                            --network fstm_network \
+                            -p 5678:5678 \
+                            -e N8N_HOST=0.0.0.0 \
+                            -e N8N_PORT=5678 \
+                            -e N8N_PROTOCOL=http \
+                            -e N8N_USER_MANAGEMENT_DISABLED=true \
+                            -v n8n_data:/home/node/.n8n \
+                            --restart unless-stopped \
+                            n8nio/n8n:latest
+                        echo "✅ n8n lancé."
+                    else
+                        echo "✅ n8n déjà en cours d\'exécution."
+                    fi
+
+                    # ── Chatbot (Nginx) ──
+                    if ! docker ps --format "{{.Names}}" | grep -q "^fstm_chatbot$"; then
+                        echo "Lancement du Chatbot UI..."
+                        docker run -d \
+                            --name fstm_chatbot \
+                            --network fstm_network \
+                            -p 3001:80 \
+                            -v "$(pwd)/web:/usr/share/nginx/html:ro" \
+                            -v "$(pwd)/nginx.conf:/etc/nginx/conf.d/default.conf:ro" \
+                            --restart unless-stopped \
+                            nginx:alpine
+                        echo "✅ Chatbot UI lancé."
+                    else
+                        echo "✅ Chatbot UI déjà en cours d\'exécution."
+                    fi
+
+                    echo "⏳ Attente de 10s pour démarrage des services..."
+                    sleep 10
+                    '''
+                }
+            }
+        }
+
+        stage('5. Vérification des Services') {
             parallel {
 
                 stage('Qdrant') {
@@ -194,7 +259,7 @@ print('OK:', '$f')
             }
         }
 
-        stage('5. Installation') {
+        stage('6. Installation') {
             steps {
                 sh '''
                 # Crée le venv une seule fois
@@ -216,7 +281,7 @@ print('OK:', '$f')
             }
         }
 
-        stage('6. Indexation Jina AI') {
+        stage('7. Indexation Jina AI') {
             steps {
                 sh """
                 export JINA_API_KEY=${params.JINA_API_KEY_INPUT}
