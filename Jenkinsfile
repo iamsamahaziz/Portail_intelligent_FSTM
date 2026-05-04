@@ -49,7 +49,7 @@ pipeline {
 
         stage('2. Vérification Universelle') {
             parallel {
-                stage('Contrôle d\\'Intégrité') {
+                stage("Contrôle d'Intégrité") {
                     steps {
                         sh '''
                         echo "--- Audit de Structure FSTM ---"
