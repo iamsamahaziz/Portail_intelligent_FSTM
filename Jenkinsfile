@@ -1,6 +1,14 @@
 pipeline {
     agent any
 
+    parameters {
+        password(
+            name: 'JINA_API_KEY_INPUT',
+            defaultValue: '',
+            description: '🔑 Entrez votre clé API Jina AI (jina_...)'
+        )
+    }
+
     options {
         timeout(time: 30, unit: 'MINUTES')
         timestamps()
@@ -111,23 +119,24 @@ print('OK:', '$f')
 
         stage('3. Validation Fail-Fast (Jina)') {
             steps {
-                withCredentials([string(credentialsId: 'JINA_API_KEY', variable: 'JINA_API_KEY')]) {
-                    sh '''
-                    echo "Vérification Fail-Fast de l'API Jina AI..."
-                    # On envoie une micro-requête pour s'assurer que la clé est valide
-                    STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X POST https://api.jina.ai/v1/embeddings \
-                         -H "Authorization: Bearer $JINA_API_KEY" \
-                         -H "Content-Type: application/json" \
-                         -d '{"model": "jina-embeddings-v3", "input": ["test"]}')
-                    
-                    if [ "$STATUS" = "401" ] || [ "$STATUS" = "403" ]; then
-                        echo "❌ ERREUR FAIL-FAST : Clé JINA_API_KEY invalide ou expirée (Code: $STATUS) !"
-                        exit 1
-                    else
-                        echo "✅ API Jina joignable (Code $STATUS)."
-                    fi
-                    '''
+                script {
+                    if (!params.JINA_API_KEY_INPUT?.trim()) {
+                        error "❌ ERREUR FAIL-FAST : Aucune clé JINA_API_KEY saisie ! Relancez avec 'Build with Parameters'."
+                    }
                 }
+                sh '''
+                echo "Vérification Fail-Fast de l'API Jina AI..."
+                STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X POST https://api.jina.ai/v1/embeddings \
+                     -H "Authorization: Bearer ${params.JINA_API_KEY_INPUT}" \
+                     -H "Content-Type: application/json" \
+                     -d '{"model": "jina-embeddings-v3", "input": ["test"]}')
+                if [ "$STATUS" = "401" ] || [ "$STATUS" = "403" ]; then
+                    echo "❌ ERREUR FAIL-FAST : Clé JINA_API_KEY invalide ou expirée (Code: $STATUS) !"
+                    exit 1
+                else
+                    echo "✅ API Jina joignable (Code $STATUS)."
+                fi
+                '''
             }
         }
 
@@ -209,12 +218,10 @@ print('OK:', '$f')
 
         stage('6. Indexation Jina AI') {
             steps {
-                withCredentials([string(credentialsId: 'JINA_API_KEY', variable: 'JINA_API_KEY')]) {
-                    sh '''
-                    export JINA_API_KEY=$JINA_API_KEY
-                    "$PYTHON" index_fstm.py
-                    '''
-                }
+                sh '''
+                export JINA_API_KEY="${params.JINA_API_KEY_INPUT}"
+                "$PYTHON" index_fstm.py
+                '''
                 sh '''
                 curl -sf "${QDRANT_URL}/collections" | python3 -c "
 import sys, json
