@@ -228,8 +228,8 @@ sys.exit(0 if 'fstm_docs' in cols else 1)
     }
 
     post {
-        success { echo "Pipeline FSTM OK — Build #${env.BUILD_NUMBER}" }
-        failure  { echo "Pipeline FSTM ÉCHOUÉ — Build #${env.BUILD_NUMBER}" }
+        success { echo "Pipeline FSTM (Branche dev-user) OK — Build #${env.BUILD_NUMBER}" }
+        failure  { echo "Pipeline FSTM (Branche dev-user) ÉCHOUÉ — Build #${env.BUILD_NUMBER}" }
         cleanup  {
             cleanWs(deleteDirs: true, notFailBuild: true)
         }
