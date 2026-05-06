@@ -5,7 +5,7 @@ pipeline {
         password(
             name: 'JINA_API_KEY_INPUT',
             defaultValue: '',
-            description: '🔑 Entrez votre clé API Jina AI (jina_...)'
+            description: '🔑 Entrez votre clé API Jina AI (jina_...) [Uniquement pour les branches de développement/feature]'
         )
     }
 
@@ -19,6 +19,7 @@ pipeline {
         QDRANT_URL  = 'http://qdrant:6333'
         N8N_URL     = 'http://n8n:5678'
         CHATBOT_URL = 'http://chatbot:80'
+        // Ces variables seront configurées dynamiquement dans la première étape
         VENV_DIR    = "/var/jenkins_home/venv/fstm"
         PYTHON      = "/var/jenkins_home/venv/fstm/bin/python"
         PIP         = "/var/jenkins_home/venv/fstm/bin/pip"
@@ -26,36 +27,34 @@ pipeline {
 
     stages {
 
-        stage('0. Prérequis Système') {
+        stage('1. Préparation de l\'Environnement') {
             steps {
-                sh '''
-                # Installe python3 si absent
-                if ! command -v python3 >/dev/null 2>&1; then
-                    echo "python3 absent — installation..."
-                    apt-get update -qq && apt-get install -y -qq python3 python3-venv python3-pip curl
-                else
-                    echo "python3 OK : $(python3 --version)"
-                fi
+                script {
+                    // Détection et standardisation du nom de la branche
+                    def rawBranch = env.BRANCH_NAME ?: env.GIT_BRANCH ?: "main"
+                    def cleanBranch = rawBranch.split('/')[-1]
+                    env.BRANCH_SLUG = cleanBranch.replaceAll('[^a-zA-Z0-9]', '_').toLowerCase()
 
-                # Vérifie curl
-                if ! command -v curl >/dev/null 2>&1; then
-                    echo "curl absent — installation..."
-                    apt-get update -qq && apt-get install -y -qq curl
-                else
-                    echo "curl OK"
-                fi
-                '''
+                    echo "Branche détectée : ${env.BRANCH_SLUG}"
+
+                    if (env.BRANCH_SLUG == 'main' || env.BRANCH_SLUG == 'master') {
+                        env.IS_MAIN = 'true'
+                        env.VENV_DIR = "/var/jenkins_home/venv/fstm"
+                    } else {
+                        env.IS_MAIN = 'false'
+                        env.VENV_DIR = "/var/jenkins_home/venv/fstm_${env.BRANCH_SLUG}"
+                    }
+
+                    env.PYTHON = "${env.VENV_DIR}/bin/python"
+                    env.PIP    = "${env.VENV_DIR}/bin/pip"
+
+                    checkout scm
+                    echo "Commit : ${env.GIT_COMMIT?.take(8)} — Projet FSTM"
+                }
             }
         }
 
-        stage('1. Récupération du Code') {
-            steps {
-                checkout scm
-                echo "Commit : ${env.GIT_COMMIT?.take(8)}"
-            }
-        }
-
-        stage('2. Vérification Universelle') {
+        stage('2. Contrôle Qualité') {
             parallel {
                 stage("Contrôle d'Intégrité") {
                     steps {
@@ -120,14 +119,21 @@ print('OK:', '$f')
         stage('3. Validation Fail-Fast (Jina)') {
             steps {
                 script {
-                    if (!params.JINA_API_KEY_INPUT?.toString()?.trim()) {
-                        error "❌ ERREUR FAIL-FAST : Aucune clé JINA_API_KEY saisie ! Relancez avec 'Build with Parameters'."
+                    if (env.IS_MAIN == 'true') {
+                        withCredentials([string(credentialsId: 'JINA_API_KEY', variable: 'JINA_API_KEY')]) {
+                            env.JINA_API_KEY_VALUE = env.JINA_API_KEY
+                        }
+                    } else {
+                        if (!params.JINA_API_KEY_INPUT?.toString()?.trim()) {
+                            error "❌ ERREUR FAIL-FAST : Aucune clé JINA_API_KEY saisie ! Relancez avec 'Build with Parameters'."
+                        }
+                        env.JINA_API_KEY_VALUE = params.JINA_API_KEY_INPUT
                     }
                 }
                 sh """
                 echo "Vérification Fail-Fast de l'API Jina AI..."
                 STATUS=\$(curl -s -o /dev/null -w "%{http_code}" -X POST https://api.jina.ai/v1/embeddings \\
-                     -H "Authorization: Bearer ${params.JINA_API_KEY_INPUT}" \\
+                     -H "Authorization: Bearer ${env.JINA_API_KEY_VALUE}" \\
                      -H "Content-Type: application/json" \\
                      -d '{"model": "jina-embeddings-v3", "input": ["test"]}')
                 if [ "\$STATUS" = "401" ] || [ "\$STATUS" = "403" ]; then
@@ -149,7 +155,7 @@ print('OK:', '$f')
                     docker network connect fstm_network fstm_jenkins 2>/dev/null || true
 
                     # ── Qdrant ──
-                    if ! docker ps --format "{{.Names}}" | grep -q "^fstm_qdrant$"; then
+                    if ! docker ps -a --format "{{.Names}}" | grep -q "^fstm_qdrant$"; then
                         echo "Lancement de Qdrant..."
                         docker run -d \
                             --name fstm_qdrant \
@@ -159,12 +165,15 @@ print('OK:', '$f')
                             --restart unless-stopped \
                             qdrant/qdrant:latest
                         echo "✅ Qdrant lancé."
+                    elif ! docker ps --format "{{.Names}}" | grep -q "^fstm_qdrant$"; then
+                        echo "Démarrage de fstm_qdrant arrêté..."
+                        docker start fstm_qdrant
                     else
-                        echo "✅ Qdrant déjà en cours d\'exécution."
+                        echo "✅ Qdrant déjà en cours d'exécution."
                     fi
 
                     # ── n8n ──
-                    if ! docker ps --format "{{.Names}}" | grep -q "^fstm_n8n$"; then
+                    if ! docker ps -a --format "{{.Names}}" | grep -q "^fstm_n8n$"; then
                         echo "Lancement de n8n..."
                         docker run -d \
                             --name fstm_n8n \
@@ -178,12 +187,15 @@ print('OK:', '$f')
                             --restart unless-stopped \
                             n8nio/n8n:latest
                         echo "✅ n8n lancé."
+                    elif ! docker ps --format "{{.Names}}" | grep -q "^fstm_n8n$"; then
+                        echo "Démarrage de fstm_n8n arrêté..."
+                        docker start fstm_n8n
                     else
-                        echo "✅ n8n déjà en cours d\'exécution."
+                        echo "✅ n8n déjà en cours d'exécution."
                     fi
 
                     # ── Chatbot (Nginx) ──
-                    if ! docker ps --format "{{.Names}}" | grep -q "^fstm_chatbot$"; then
+                    if ! docker ps -a --format "{{.Names}}" | grep -q "^fstm_chatbot$"; then
                         echo "Lancement du Chatbot UI..."
                         docker run -d \
                             --name fstm_chatbot \
@@ -194,18 +206,21 @@ print('OK:', '$f')
                             --restart unless-stopped \
                             nginx:alpine
                         echo "✅ Chatbot UI lancé."
+                    elif ! docker ps --format "{{.Names}}" | grep -q "^fstm_chatbot$"; then
+                        echo "Démarrage de fstm_chatbot arrêté..."
+                        docker start fstm_chatbot
                     else
-                        echo "✅ Chatbot UI déjà en cours d\'exécution."
+                        echo "✅ Chatbot UI déjà en cours d'exécution."
                     fi
 
-                    echo "⏳ Attente de 10s pour démarrage des services..."
+                    echo "⏳ Attente du démarrage des services..."
                     sleep 10
                     '''
                 }
             }
         }
 
-        stage('5. Vérification des Services') {
+        stage('5. Vérification de Santé') {
             parallel {
 
                 stage('Qdrant') {
@@ -255,7 +270,6 @@ print('OK:', '$f')
                         }
                     }
                 }
-
             }
         }
 
@@ -284,7 +298,7 @@ print('OK:', '$f')
         stage('7. Indexation Jina AI') {
             steps {
                 sh """
-                export JINA_API_KEY=${params.JINA_API_KEY_INPUT}
+                export JINA_API_KEY=${env.JINA_API_KEY_VALUE}
                 export QDRANT_URL=${env.QDRANT_URL}
                 "\$PYTHON" index_fstm.py
                 """
@@ -301,8 +315,8 @@ sys.exit(0 if 'fstm_docs' in cols else 1)
     }
 
     post {
-        success { echo "Pipeline FSTM (Branche dev-user) OK — Build #${env.BUILD_NUMBER}" }
-        failure  { echo "Pipeline FSTM (Branche dev-user) ÉCHOUÉ — Build #${env.BUILD_NUMBER}" }
+        success { echo "Pipeline FSTM OK sur la branche ${env.BRANCH_SLUG} — Build #${env.BUILD_NUMBER}" }
+        failure  { echo "Pipeline FSTM ÉCHOUÉ sur la branche ${env.BRANCH_SLUG} — Build #${env.BUILD_NUMBER}" }
         cleanup  {
             cleanWs(deleteDirs: true, notFailBuild: true)
         }
