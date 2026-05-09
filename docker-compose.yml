@@ -58,15 +58,14 @@ services:
     container_name: fstm_jenkins
     user: root
     privileged: true
-    dns:
-      - 8.8.8.8
-      - 8.8.4.4
     ports:
       - "8081:8080"
       - "50000:50000"
     volumes:
       - jenkins_data:/var/jenkins_home
-      - //./pipe/docker_engine:/var/run/docker.sock
+      - /var/run/docker.sock:/var/run/docker.sock
+    extra_hosts:
+      - "host_machine:host-gateway"
     networks:
       - fstm_network
     restart: unless-stopped
@@ -74,6 +73,7 @@ services:
 
 networks:
   fstm_network:
+    name: fstm_network
     driver: bridge
 
 volumes:
@@ -81,4 +81,3 @@ volumes:
   n8n_data:
   jenkins_data:
     external: true
-
