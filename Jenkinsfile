@@ -315,9 +315,28 @@ sys.exit(0 if 'fstm_docs' in cols else 1)
     }
 
     post {
-        success { echo "Pipeline FSTM OK sur la branche ${env.BRANCH_SLUG} — Build #${env.BUILD_NUMBER}" }
-        failure  { echo "Pipeline FSTM ÉCHOUÉ sur la branche ${env.BRANCH_SLUG} — Build #${env.BUILD_NUMBER}" }
-        cleanup  {
+        success {
+            echo "🎉 Pipeline FSTM OK sur la branche ${env.BRANCH_SLUG} — Build #${env.BUILD_NUMBER}"
+            script {
+                if (env.IS_MAIN == 'false') {
+                    echo "Succès détecté sur branche feature : Nettoyage des conteneurs éphémères..."
+                    sh "docker stop fstm_qdrant fstm_n8n fstm_chatbot || true"
+                    sh "docker rm   fstm_qdrant fstm_n8n fstm_chatbot || true"
+                }
+            }
+        }
+        failure {
+            script {
+                if (env.IS_MAIN == 'false') {
+                    echo "Échec détecté sur branche feature : Nettoyage des conteneurs éphémères..."
+                    sh "docker stop fstm_qdrant fstm_n8n fstm_chatbot || true"
+                    sh "docker rm   fstm_qdrant fstm_n8n fstm_chatbot || true"
+                } else {
+                    echo "Échec détecté sur main — Conteneurs de production préservés."
+                }
+            }
+        }
+        cleanup {
             cleanWs(deleteDirs: true, notFailBuild: true)
         }
     }
