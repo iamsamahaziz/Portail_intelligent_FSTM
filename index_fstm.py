@@ -14,6 +14,10 @@ import glob
 import time
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
+from dotenv import load_dotenv
+
+# Charger les variables d'environnement du fichier .env
+load_dotenv()
 
 # ── Config (via variables d'environnement) ──
 JINA_API_KEY   = os.environ.get("JINA_API_KEY", "")

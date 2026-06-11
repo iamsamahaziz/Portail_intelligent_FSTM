@@ -710,7 +710,7 @@ const KB=[
 {k:['inscription','inscrire','reinscription','scholar','dossier','candidature'],
  a:"**Inscription 2025-2026 :**\n\n• Réinscription en ligne : **https://e-scholar.fstm.ac.ma**\n• Assurance étudiant obligatoire : **https://assurance-etudiant.prevas.ma**\n• Pré-inscription : **https://preins.univh2c.ma/index.php?etab=FST**\n• Formulaire d'inscription : **https://e-inscription.fstm.ac.ma**\n\nPièces requises : Baccalauréat original, 2 copies, CIN, photos d'identité, enveloppe timbrée."},
 {k:['doyenne','doyen','directeur','direction','administration'],
- a:"La **Doyenne** de la FSTM est **Pr. Bouchra AMINE**.\n\nElle dirige la Faculté des Sciences et Techniques de Mohammedia, rattachée à l'Université Hassan II de Casablanca."},
+ a:"La **Doyenne** de la FSTM est **Pr. Latifa Mouhir**.\n\nElle dirige la Faculté des Sciences et Techniques de Mohammedia, rattachée à l'Université Hassan II de Casablanca."},
 {k:['contact','telephone','adresse','localisation','acces','email','fax'],
  a:"**Contact FSTM :**\n\n📍 Faculté des Sciences et Techniques de Mohammedia\nBP 146, Mohammedia 28806, Maroc\n📞 Tél 1 : +212 5 23 31 47 08\n📞 Tél 2 : +212 6 66 61 33 25\n📠 Fax : +212 5 23 31 53 53\n✉ Email : contact@fstm.ac.ma\n🌐 Site : www.fstm.ac.ma"},
 {k:['emploi','temps','edt','horaire','planning','cours'],
@@ -739,7 +739,11 @@ function findAnswer(q){
   }
   return best?best.a:null;
 }
-const API='http://localhost:5678/webhook/fstm-chat';
+const JINA_KEY = window.JINA_API_KEY || '';
+const GROQ_KEY = window.GROQ_API_KEY || '';
+const QDRANT_API = 'http://localhost:6333/collections/fstm_docs/points/search';
+const N8N_API = 'http://localhost:5678/webhook/fstm-chat';
+
 const chatEl=document.getElementById('chat');
 const inp=document.getElementById('inp');
 const snd=document.getElementById('snd');
@@ -755,17 +759,125 @@ async function sendMsg(){
   const q=inp.value.trim();if(!q)return;
   inp.value='';addMsg(fmt(q),'user');
   const ty=addMsg('Un instant…','bot typing');snd.disabled=true;
+  
+  // 1. Essayer de contacter le serveur n8n local en direct sur le port 5678
   try{
-    const r=await fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q})});
-    const d=await r.json();
-    ty.className='msg bot';ty.innerHTML=fmt(d.answer||"Je n'ai pas trouvé de réponse.");
-  }catch{
-    const fallback=findAnswer(q);
-    if(fallback){
-      ty.className='msg bot';ty.innerHTML=fmt(fallback);
-    }else{
-      ty.className='msg bot';ty.innerHTML='<span class="err">Le serveur n8n n\'est pas disponible. Lancez Docker avec : docker-compose up -d</span>';
+    const r=await fetch(N8N_API,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({question:q})
+    });
+    if(r.ok){
+      const d=await r.json();
+      ty.className='msg bot';
+      ty.innerHTML=fmt(d.answer||d.response||"Je n'ai pas trouvé de réponse.");
+      snd.disabled=false;inp.focus();
+      return;
     }
+  }catch(err){
+    console.log("n8n indisponible, essai du RAG navigateur en direct...");
+  }
+
+  // 2. RAG direct dans le navigateur (Jina + Qdrant + Groq)
+  try{
+    // Étape A: Embedding Jina
+    const jinaRes=await fetch("https://api.jina.ai/v1/embeddings",{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json',
+        'Authorization':`Bearer ${JINA_KEY}`
+      },
+      body:JSON.stringify({
+        model:'jina-embeddings-v3',
+        task:'text-matching',
+        dimensions:768,
+        input:[q]
+      })
+    });
+    
+    if(!jinaRes.ok) throw new Error("Jina Embedding failed");
+    const jinaData=await jinaRes.json();
+    const embedding=jinaData.data?.[0]?.embedding;
+    if(!embedding) throw new Error("No embedding returned");
+
+    // Étape B: Recherche Qdrant
+    let context='';
+    let hasContext=false;
+    try{
+      const qdrantRes=await fetch(QDRANT_API,{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          vector:embedding,
+          limit:5,
+          with_payload:true,
+          score_threshold:0.05
+        })
+      });
+      if(qdrantRes.ok){
+        const qdrantData=await qdrantRes.json();
+        const results=qdrantData.result||[];
+        if(results.length>0){
+          hasContext=true;
+          results.forEach((r,i)=>{
+            const p=r.payload||{};
+            const txt=(p.content||'').substring(0,800);
+            context+=`--- Doc ${i+1}: ${p.title||''} ---\n${txt}\n\n`;
+          });
+        }
+      }
+    }catch(e){
+      console.log("Qdrant local indisponible, appel de Groq en direct...");
+    }
+
+    // Étape C: Appel Groq LLaMA
+    const systemMsg=hasContext
+      ? `Tu es l'assistant officiel de la FSTM (Faculté des Sciences et Techniques de Mohammedia). Réponds de façon précise et complète en te basant sur les documents fournis. Informations clés: La doyenne est Pr. Latifa Mouhir. La FSTM compte 8 départements, 186 enseignants, 3722 étudiants. Réponds en français ou darija selon la question.`
+      : `Tu es l'assistant officiel de la FSTM. Réponds en français ou darija selon la question. Commence par "⚠️ Réponse basée sur mes connaissances générales.\\n\\n" puis réponds.`;
+
+    const userMsg=hasContext
+      ? `Documents:\\n${context}\\nQuestion: ${q}`
+      : q;
+
+    const groqRes=await fetch("https://api.groq.com/openai/v1/chat/completions",{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json',
+        'Authorization':`Bearer ${GROQ_KEY}`
+      },
+      body:JSON.stringify({
+        model:'llama-3.1-8b-instant',
+        temperature:0.2,
+        max_tokens:512,
+        messages:[
+          {role:'system',content:systemMsg},
+          {role:'user',content:userMsg}
+        ]
+      })
+    });
+
+    if(!groqRes.ok) throw new Error("Groq API failed");
+    const groqData=await groqRes.json();
+    const answer=groqData.choices?.[0]?.message?.content;
+    
+    if(answer){
+      ty.className='msg bot';
+      ty.innerHTML=fmt(answer.trim());
+      snd.disabled=false;inp.focus();
+      return;
+    }
+  }catch(err){
+    console.error("Direct browser RAG error:",err);
+  }
+
+  // 3. Fallback sur la base de connaissances locale (statique) en cas de panne réseau complète
+  const fallback=findAnswer(q);
+  if(fallback){
+    ty.className='msg bot';
+    ty.innerHTML=fmt(fallback);
+  }else{
+    ty.className='msg bot';
+    ty.innerHTML='<span class="err">L\'assistant n\'est pas disponible pour le moment. Veuillez vérifier votre connexion Internet.</span>';
   }
   snd.disabled=false;inp.focus();
 }

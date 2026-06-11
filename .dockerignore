@@ -1,0 +1,3 @@
+# Ignorer tous les fichiers et dossiers volumineux pour accélérer le build de Docker
+*
+!Dockerfile.jenkins

@@ -195,23 +195,23 @@ print('OK:', '$f')
                     fi
 
                     # ── Chatbot (Nginx) ──
-                    if ! docker ps -a --format "{{.Names}}" | grep -q "^fstm_chatbot$"; then
-                        echo "Lancement du Chatbot UI..."
-                        docker run -d \
-                            --name fstm_chatbot \
-                            --network fstm_network \
-                            -p 3001:80 \
-                            -v "$(pwd)/web:/usr/share/nginx/html:ro" \
-                            -v "$(pwd)/nginx.conf:/etc/nginx/conf.d/default.conf:ro" \
-                            --restart unless-stopped \
-                            nginx:alpine
-                        echo "✅ Chatbot UI lancé."
-                    elif ! docker ps --format "{{.Names}}" | grep -q "^fstm_chatbot$"; then
-                        echo "Démarrage de fstm_chatbot arrêté..."
-                        docker start fstm_chatbot
-                    else
-                        echo "✅ Chatbot UI déjà en cours d'exécution."
+                    echo "Construction de l'image du Chatbot..."
+                    docker build -t fstm_chatbot:latest .
+                    
+                    if docker ps -a --format "{{.Names}}" | grep -q "^fstm_chatbot$"; then
+                        echo "Suppression de l'ancien conteneur fstm_chatbot..."
+                        docker stop fstm_chatbot || true
+                        docker rm fstm_chatbot || true
                     fi
+                    
+                    echo "Lancement du Chatbot UI..."
+                    docker run -d \
+                        --name fstm_chatbot \
+                        --network fstm_network \
+                        -p 3001:80 \
+                        --restart unless-stopped \
+                        fstm_chatbot:latest
+                    echo "✅ Chatbot UI lancé."
 
                     echo "⏳ Attente du démarrage des services..."
                     sleep 10

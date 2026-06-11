@@ -26,6 +26,10 @@ except ImportError:
 
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct
+from dotenv import load_dotenv
+
+# Charger les variables d'environnement du fichier .env
+load_dotenv()
 
 # ══════════════════════════════════════════
 # CONFIG — Tout via variables d'environnement

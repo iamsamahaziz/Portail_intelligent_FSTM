@@ -9,7 +9,7 @@ services:
     volumes:
       - qdrant_storage:/qdrant/storage
     networks:
-      - fstm_network
+      - global_network
     restart: unless-stopped
 
   # ─── n8n (workflow engine) ───
@@ -28,16 +28,17 @@ services:
       - N8N_METRICS=true
     volumes:
       - n8n_data:/home/node/.n8n
+      - .:/data
     depends_on:
       - qdrant
     networks:
-      - fstm_network
+      - global_network
     restart: unless-stopped
 
   # ─── Chatbot UI (Nginx) ───
   chatbot:
     image: nginx:alpine
-    container_name: fstm_chatbot
+    container_name: chatbot
     ports:
       - "3001:80"
     volumes:
@@ -46,15 +47,15 @@ services:
     depends_on:
       - n8n
     networks:
-      - fstm_network
+      - global_network
     restart: unless-stopped
 
 networks:
-  fstm_network:
-    name: fstm_network
-    driver: bridge
+  global_network:
+    name: global_network
 
 volumes:
   qdrant_storage:
   n8n_data:
+
 
