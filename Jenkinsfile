@@ -18,7 +18,6 @@ pipeline {
     environment {
         QDRANT_URL  = 'http://qdrant:6333'
         N8N_URL     = 'http://n8n:5678'
-        CHATBOT_URL = 'http://chatbot:80'
         // Ces variables seront configurées dynamiquement dans la première étape
         VENV_DIR    = "/var/jenkins_home/venv/fstm"
         PYTHON      = "/var/jenkins_home/venv/fstm/bin/python"
@@ -194,27 +193,8 @@ print('OK:', '$f')
                         echo "✅ n8n déjà en cours d'exécution."
                     fi
 
-                    # ── Chatbot (Nginx) ──
-                    echo "Construction de l'image du Chatbot..."
-                    docker build -t fstm_chatbot:latest .
-                    
-                    if docker ps -a --format "{{.Names}}" | grep -q "^fstm_chatbot$"; then
-                        echo "Suppression de l'ancien conteneur fstm_chatbot..."
-                        docker stop fstm_chatbot || true
-                        docker rm fstm_chatbot || true
-                    fi
-                    
-                    echo "Lancement du Chatbot UI..."
-                    docker run -d \
-                        --name fstm_chatbot \
-                        --network fstm_network \
-                        -p 3001:80 \
-                        --restart unless-stopped \
-                        fstm_chatbot:latest
-                    echo "✅ Chatbot UI lancé."
-
                     echo "⏳ Attente du démarrage des services..."
-                    sleep 10
+                    sleep 5
                     '''
                 }
             }
@@ -255,21 +235,7 @@ print('OK:', '$f')
                     }
                 }
 
-                stage('Chatbot UI') {
-                    steps {
-                        script {
-                            def hasDocker = (sh(script: 'command -v docker >/dev/null 2>&1', returnStatus: true) == 0)
-                            def chatbotOK = (sh(script: "curl -sf --max-time 5 ${env.CHATBOT_URL}", returnStatus: true) == 0)
-                            if (!chatbotOK && hasDocker) {
-                                sh 'docker restart fstm_chatbot || true'
-                                sleep 10
-                                chatbotOK = (sh(script: "curl -sf --max-time 5 ${env.CHATBOT_URL}", returnStatus: true) == 0)
-                            }
-                            if (!chatbotOK) error "Chatbot UI injoignable sur ${env.CHATBOT_URL}"
-                            echo "Chatbot UI : OK"
-                        }
-                    }
-                }
+
             }
         }
 
@@ -320,8 +286,8 @@ sys.exit(0 if 'fstm_docs' in cols else 1)
             script {
                 if (env.IS_MAIN == 'false') {
                     echo "Succès détecté sur branche feature : Nettoyage des conteneurs éphémères..."
-                    sh "docker stop fstm_qdrant fstm_n8n fstm_chatbot || true"
-                    sh "docker rm   fstm_qdrant fstm_n8n fstm_chatbot || true"
+                    sh "docker stop fstm_qdrant fstm_n8n || true"
+                    sh "docker rm   fstm_qdrant fstm_n8n || true"
                 }
             }
         }
@@ -329,8 +295,8 @@ sys.exit(0 if 'fstm_docs' in cols else 1)
             script {
                 if (env.IS_MAIN == 'false') {
                     echo "Échec détecté sur branche feature : Nettoyage des conteneurs éphémères..."
-                    sh "docker stop fstm_qdrant fstm_n8n fstm_chatbot || true"
-                    sh "docker rm   fstm_qdrant fstm_n8n fstm_chatbot || true"
+                    sh "docker stop fstm_qdrant fstm_n8n || true"
+                    sh "docker rm   fstm_qdrant fstm_n8n || true"
                 } else {
                     echo "Échec détecté sur main — Conteneurs de production préservés."
                 }
