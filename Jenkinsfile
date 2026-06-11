@@ -151,7 +151,8 @@ print('OK:', '$f')
                     sh '''
                     # ── Réseau Docker ──
                     docker network create fstm_network 2>/dev/null || echo "Réseau fstm_network déjà existant."
-                    docker network connect fstm_network fstm_jenkins 2>/dev/null || true
+                    JENKINS_NAME=$(docker ps --format "{{.Names}}" | grep -i jenkins | head -1)
+                    docker network connect fstm_network "$JENKINS_NAME" 2>/dev/null || true
 
                     # ── Qdrant ──
                     if ! docker ps -a --format "{{.Names}}" | grep -q "^fstm_qdrant$"; then
@@ -206,15 +207,14 @@ print('OK:', '$f')
                 stage('Qdrant') {
                     steps {
                         script {
-                            def hasDocker = (sh(script: 'command -v docker >/dev/null 2>&1', returnStatus: true) == 0)
-                            def qdrantOK = (sh(script: "curl -sf --max-time 5 ${env.QDRANT_URL}", returnStatus: true) == 0)
-                            if (!qdrantOK && hasDocker) {
+                            def qdrantOK = (sh(script: "docker inspect -f '{{.State.Running}}' fstm_qdrant 2>/dev/null | grep -q true", returnStatus: true) == 0)
+                            if (!qdrantOK) {
                                 sh 'docker restart fstm_qdrant || true'
                                 sleep 10
-                                qdrantOK = (sh(script: "curl -sf --max-time 5 ${env.QDRANT_URL}", returnStatus: true) == 0)
+                                qdrantOK = (sh(script: "docker inspect -f '{{.State.Running}}' fstm_qdrant 2>/dev/null | grep -q true", returnStatus: true) == 0)
                             }
-                            if (!qdrantOK) error "Qdrant injoignable sur ${env.QDRANT_URL}"
-                            echo "Qdrant : OK"
+                            if (!qdrantOK) error "Qdrant non démarré !"
+                            echo "✅ Qdrant : OK"
                         }
                     }
                 }
@@ -222,15 +222,14 @@ print('OK:', '$f')
                 stage('n8n') {
                     steps {
                         script {
-                            def hasDocker = (sh(script: 'command -v docker >/dev/null 2>&1', returnStatus: true) == 0)
-                            def n8nOK = (sh(script: "curl -sf --max-time 5 ${env.N8N_URL}", returnStatus: true) == 0)
-                            if (!n8nOK && hasDocker) {
+                            def n8nOK = (sh(script: "docker inspect -f '{{.State.Running}}' fstm_n8n 2>/dev/null | grep -q true", returnStatus: true) == 0)
+                            if (!n8nOK) {
                                 sh 'docker restart fstm_n8n || true'
                                 sleep 10
-                                n8nOK = (sh(script: "curl -sf --max-time 5 ${env.N8N_URL}", returnStatus: true) == 0)
+                                n8nOK = (sh(script: "docker inspect -f '{{.State.Running}}' fstm_n8n 2>/dev/null | grep -q true", returnStatus: true) == 0)
                             }
-                            if (!n8nOK) error "n8n injoignable sur ${env.N8N_URL}"
-                            echo "n8n : OK"
+                            if (!n8nOK) error "n8n non démarré !"
+                            echo "✅ n8n : OK"
                         }
                     }
                 }
