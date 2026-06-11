@@ -1,3 +1,13 @@
-# Ignorer tous les fichiers et dossiers volumineux pour accélérer le build de Docker
-*
-!Dockerfile.jenkins
+# Exclure les dossiers volumineux inutiles pour le build de l'image chatbot
+.git
+*.pyc
+__pycache__/
+.env
+venv/
+jenkins_server/
+fstm_data/
+fstm_scraped/
+FSTM_JINA.json
+*.py
+requirements.txt
+README.md
