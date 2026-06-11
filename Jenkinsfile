@@ -16,8 +16,8 @@ pipeline {
     }
 
     environment {
-        QDRANT_URL  = 'http://fstm_qdrant:6333'
-        N8N_URL     = 'http://fstm_n8n:5678'
+        QDRANT_URL  = 'http://qdrant:6333'
+        N8N_URL     = 'http://n8n:5678'
         // Ces variables seront configurées dynamiquement dans la première étape
         VENV_DIR    = "/var/jenkins_home/venv/fstm"
         PYTHON      = "/var/jenkins_home/venv/fstm/bin/python"

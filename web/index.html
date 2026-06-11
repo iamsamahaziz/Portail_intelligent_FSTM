@@ -4,6 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>FST — Portail Étudiant</title>
+<script src="config.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -741,8 +742,8 @@ function findAnswer(q){
 }
 const JINA_KEY = window.JINA_API_KEY || '';
 const GROQ_KEY = window.GROQ_API_KEY || '';
-const QDRANT_API = 'http://localhost:6333/collections/fstm_docs/points/search';
-const N8N_API = 'http://localhost:5678/webhook/fstm-chat';
+const QDRANT_API = 'http://localhost:6334/collections/fstm_docs/points/search';
+const N8N_API = 'http://localhost:5679/webhook/fstm-chat';
 
 const chatEl=document.getElementById('chat');
 const inp=document.getElementById('inp');
