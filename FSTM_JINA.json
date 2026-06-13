@@ -1,5 +1,11 @@
 {
+  "updatedAt": "2026-06-11T11:26:27.721Z",
+  "createdAt": "2026-06-11T11:20:31.875Z",
+  "id": "7tE9DCazvJ1uol7O",
   "name": "FSTM_JINA",
+  "description": null,
+  "active": true,
+  "isArchived": false,
   "nodes": [
     {
       "parameters": {
@@ -8,27 +14,27 @@
         "responseMode": "responseNode",
         "options": {}
       },
-      "id": "90cf7605-ce73-452a-a164-b2999ddd91b4",
+      "id": "42f59ff4-8ac1-48d8-9ec8-9e0c929017d2",
       "name": "Webhook",
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 1.1,
       "position": [
         224,
-        704
+        -112
       ],
       "webhookId": "fstm-chat-001"
     },
     {
       "parameters": {
-        "jsCode": "// 1) Extraire la question + 2) Préparer le body Jina en un seul nœud\nconst body = $input.first().json.body || $input.first().json;\nconst question = (body.question || body.message || body.text || '').trim();\nif (!question) throw new Error('Question vide');\n\nreturn [{ json: {\n  question,\n  jinaBody: JSON.stringify({\n    model: 'jina-embeddings-v3',\n    task: 'text-matching',\n    dimensions: 768,\n    input: [question]\n  })\n}}];"
+        "jsCode": "// 1) Extraire la question + 2) Pr├®parer le body Jina en un seul n┼ôud\nconst body = $input.first().json.body || $input.first().json;\nconst question = (body.question || body.message || body.text || '').trim();\nif (!question) throw new Error('Question vide');\n\nreturn [{ json: {\n  question,\n  jinaBody: JSON.stringify({\n    model: 'jina-embeddings-v3',\n    task: 'text-matching',\n    dimensions: 768,\n    input: [question]\n  })\n}}];"
       },
-      "id": "ae1d64d7-2bea-4a91-b389-cb2af579d864",
-      "name": "Question → Jina Body",
+      "id": "d2538aa5-4083-4f75-b714-14a07457dd80",
+      "name": "Question ÔåÆ Jina Body",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
         464,
-        704
+        -112
       ]
     },
     {
@@ -54,60 +60,60 @@
         "body": "={{ $json.jinaBody }}",
         "options": {}
       },
-      "id": "7a7d7ed1-64ca-481d-ad29-430034c85f76",
+      "id": "4c082cf4-6754-4247-b424-23632398ef93",
       "name": "Jina Embed",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.1,
       "position": [
         704,
-        704
+        -112
       ],
       "onError": "continueErrorOutput"
     },
     {
       "parameters": {
-        "jsCode": "const emb = $input.first().json.data?.[0]?.embedding;\nif (!emb) throw new Error('Pas d\\'embedding Jina');\n\nconst question = $('Question → Jina Body').first().json.question;\n\n// Extraire les mots-clés pour filtre textuel\nconst mots = question.toLowerCase().split(/\\s+/).filter(m => m.length > 3);\nconst keyword = mots.length > 0 ? mots[0] : '';\n\nreturn [{ json: {\n  question,\n  keyword,\n  qdrantBody: JSON.stringify({\n    vector: emb,\n    limit: 15,\n    with_payload: true,\n    score_threshold: 0.05\n  })\n}}];"
+        "jsCode": "const emb = $input.first().json.data?.[0]?.embedding;\nif (!emb) throw new Error('Pas d\\'embedding Jina');\n\nconst question = $('Question ÔåÆ Jina Body').first().json.question;\n\n// Extraire les mots-cl├®s pour filtre textuel\nconst mots = question.toLowerCase().split(/\\s+/).filter(m => m.length > 3);\nconst keyword = mots.length > 0 ? mots[0] : '';\n\nreturn [{ json: {\n  question,\n  keyword,\n  qdrantBody: JSON.stringify({\n    vector: emb,\n    limit: 15,\n    with_payload: true,\n    score_threshold: 0.05\n  })\n}}];"
       },
-      "id": "3cf4ef75-c0c2-4a28-aba5-ef471ddbe924",
-      "name": "→ Qdrant Body",
+      "id": "c4640d7b-c911-420e-9b1b-43cb196e255a",
+      "name": "ÔåÆ Qdrant Body",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
         944,
-        704
+        -112
       ]
     },
     {
       "parameters": {
         "method": "POST",
-        "url": "http://qdrant:6333/collections/fstm_docs/points/search",
+        "url": "http://fstm_qdrant:6333/collections/fstm_docs/points/search",
         "sendBody": true,
         "contentType": "raw",
         "rawContentType": "application/json",
         "body": "={{ $json.qdrantBody }}",
         "options": {}
       },
-      "id": "2953595a-cd0e-449c-8d8b-c0e4a397ebdc",
+      "id": "7d8fffd8-6af4-4171-a9f9-2c7ec70c4b4c",
       "name": "Qdrant Search",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.1,
       "position": [
         1184,
-        704
+        -112
       ],
       "onError": "continueErrorOutput"
     },
     {
       "parameters": {
-        "jsCode": "const results = $input.first().json.result || [];\nconst question = $('Question → Jina Body').first().json.question;\nconst hasContext = results.length > 0;\n\nlet context = '';\nresults.slice(0, 5).forEach((r, i) => {\n  const p = r.payload || {};\n  const txt = (p.content || '').substring(0, 800);\n  context += `--- Doc ${i+1}: ${p.title || ''} ---\\n${txt}\\n\\n`;\n});\n\nconst systemMsg = hasContext\n  ? `Tu es l'assistant officiel de la FSTM (Faculté des Sciences et Techniques de Mohammedia). Réponds de façon précise et complète en te basant sur les documents fournis. Informations clés: La doyenne est Pr. Latifa Mouhir. La FSTM compte 8 départements, 186 enseignants, 3722 étudiants. Réponds en français ou darija selon la question.`\n  : `Tu es l'assistant officiel de la FSTM. Commence par \"⚠️ Réponse basée sur mes connaissances générales.\\n\\n\" puis réponds.`;\n\nconst userMsg = hasContext\n  ? `Documents:\\n${context}\\nQuestion: ${question}`\n  : question;\n\nreturn [{ json: {\n  groqBody: JSON.stringify({\n    model: 'llama-3.1-8b-instant',\n    temperature: 0.2,\n    max_tokens: 512,\n    messages: [\n      { role: 'system', content: systemMsg },\n      { role: 'user', content: userMsg }\n    ]\n  })\n}}];"
+        "jsCode": "const results = $input.first().json.result || [];\nconst question = $('Question ÔåÆ Jina Body').first().json.question;\nconst hasContext = results.length > 0;\n\nlet context = '';\nresults.slice(0, 5).forEach((r, i) => {\n  const p = r.payload || {};\n  const txt = (p.content || '').substring(0, 800);\n  context += `--- Doc ${i+1}: ${p.title || ''} ---\\n${txt}\\n\\n`;\n});\n\nconst systemMsg = hasContext\n  ? `Tu es l'assistant officiel de la FSTM (Facult├® des Sciences et Techniques de Mohammedia). R├®ponds de fa├ºon pr├®cise et compl├¿te en te basant sur les documents fournis. Informations cl├®s: La doyenne est Pr. Latifa Mouhir. La FSTM compte 8 d├®partements, 186 enseignants, 3722 ├®tudiants. R├®ponds en fran├ºais ou darija selon la question.`\n  : `Tu es l'assistant officiel de la FSTM. Commence par \"ÔÜá´©Å R├®ponse bas├®e sur mes connaissances g├®n├®rales.\\n\\n\" puis r├®ponds.`;\n\nconst userMsg = hasContext\n  ? `Documents:\\n${context}\\nQuestion: ${question}`\n  : question;\n\nreturn [{ json: {\n  groqBody: JSON.stringify({\n    model: 'llama-3.1-8b-instant',\n    temperature: 0.2,\n    max_tokens: 512,\n    messages: [\n      { role: 'system', content: systemMsg },\n      { role: 'user', content: userMsg }\n    ]\n  })\n}}];"
       },
-      "id": "0342276f-02a8-4e45-9043-473c28305cb1",
-      "name": "Context → Groq Prompt",
+      "id": "c9ecc306-9c83-4611-a12f-8bd00b50429f",
+      "name": "Context ÔåÆ Groq Prompt",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
         1424,
-        704
+        -112
       ]
     },
     {
@@ -133,27 +139,27 @@
         "body": "={{ $json.groqBody }}",
         "options": {}
       },
-      "id": "9a1dc73c-fafc-428d-b02a-fb37987b685b",
+      "id": "3c0d8a7e-4069-440c-8e58-a7ef99fe52ca",
       "name": "Groq LLaMA",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.1,
       "position": [
         1664,
-        704
+        -112
       ],
       "onError": "continueErrorOutput"
     },
     {
       "parameters": {
-        "jsCode": "const answer = $input.first().json.choices?.[0]?.message?.content || 'Désolé, pas de réponse.';\nreturn [{ json: { answer: answer.trim() } }];"
+        "jsCode": "const answer = $input.first().json.choices?.[0]?.message?.content || 'D├®sol├®, pas de r├®ponse.';\nreturn [{ json: { answer: answer.trim() } }];"
       },
-      "id": "d77aac13-656a-403e-bdde-cea508861ad4",
-      "name": "→ Réponse",
+      "id": "69e5ccb1-77b2-4fa1-9a07-98ff2af47ccd",
+      "name": "ÔåÆ R├®ponse",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
         1904,
-        704
+        -112
       ]
     },
     {
@@ -171,26 +177,26 @@
           }
         }
       },
-      "id": "e4784938-5988-4938-8eb1-d2df7338b77f",
-      "name": "Répondre OK",
+      "id": "9a55cf0e-77c4-446b-b33d-aed28d9fc481",
+      "name": "R├®pondre OK",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.1,
       "position": [
         2144,
-        704
+        -112
       ]
     },
     {
       "parameters": {
-        "jsCode": "const err = $input.first().json.message || $input.first().json.error?.message || JSON.stringify($input.first().json).slice(0, 200);\nreturn [{ json: { answer: '⚠️ Erreur technique : ' + err } }];"
+        "jsCode": "const err = $input.first().json.message || $input.first().json.error?.message || JSON.stringify($input.first().json).slice(0, 200);\nreturn [{ json: { answer: 'ÔÜá´©Å Erreur technique : ' + err } }];"
       },
-      "id": "7a9aa8bf-454b-4729-a368-781890977ba6",
+      "id": "e4b427b0-a89e-478a-b5b0-71fbbe27711c",
       "name": "Erreur",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
         1424,
-        976
+        160
       ]
     },
     {
@@ -208,30 +214,29 @@
           }
         }
       },
-      "id": "00382c67-293c-4515-af1c-b1bc077f571b",
-      "name": "Répondre Erreur",
+      "id": "312588f0-65c1-4eb4-b122-adf70c255a81",
+      "name": "R├®pondre Erreur",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.1,
       "position": [
         1664,
-        976
+        160
       ]
     }
   ],
-  "pinData": {},
   "connections": {
     "Webhook": {
       "main": [
         [
           {
-            "node": "Question → Jina Body",
+            "node": "Question ÔåÆ Jina Body",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Question → Jina Body": {
+    "Question ÔåÆ Jina Body": {
       "main": [
         [
           {
@@ -246,7 +251,7 @@
       "main": [
         [
           {
-            "node": "→ Qdrant Body",
+            "node": "ÔåÆ Qdrant Body",
             "type": "main",
             "index": 0
           }
@@ -260,7 +265,7 @@
         ]
       ]
     },
-    "→ Qdrant Body": {
+    "ÔåÆ Qdrant Body": {
       "main": [
         [
           {
@@ -275,7 +280,7 @@
       "main": [
         [
           {
-            "node": "Context → Groq Prompt",
+            "node": "Context ÔåÆ Groq Prompt",
             "type": "main",
             "index": 0
           }
@@ -289,7 +294,7 @@
         ]
       ]
     },
-    "Context → Groq Prompt": {
+    "Context ÔåÆ Groq Prompt": {
       "main": [
         [
           {
@@ -304,7 +309,7 @@
       "main": [
         [
           {
-            "node": "→ Réponse",
+            "node": "ÔåÆ R├®ponse",
             "type": "main",
             "index": 0
           }
@@ -318,11 +323,11 @@
         ]
       ]
     },
-    "→ Réponse": {
+    "ÔåÆ R├®ponse": {
       "main": [
         [
           {
-            "node": "Répondre OK",
+            "node": "R├®pondre OK",
             "type": "main",
             "index": 0
           }
@@ -333,7 +338,7 @@
       "main": [
         [
           {
-            "node": "Répondre Erreur",
+            "node": "R├®pondre Erreur",
             "type": "main",
             "index": 0
           }
@@ -341,16 +346,39 @@
       ]
     }
   },
-  "active": true,
   "settings": {
     "executionOrder": "v1",
-    "binaryMode": "separate",
-    "availableInMCP": false
+    "binaryMode": "separate"
   },
-  "versionId": "d15c35fa-3e52-4d2b-82ee-4732f3e9ca45",
-  "meta": {
-    "instanceId": "9576b14302da787c8ad24c40b326b4247bdc955a8ae3ebe5d0eaf24270441c60"
-  },
-  "id": "PYe3w47YEJbZT8ai",
-  "tags": []
+  "staticData": null,
+  "meta": null,
+  "pinData": {},
+  "versionId": "dbfc8a2f-dd25-4022-96f3-45ab11f56043",
+  "activeVersionId": "dbfc8a2f-dd25-4022-96f3-45ab11f56043",
+  "versionCounter": 16,
+  "triggerCount": 1,
+  "tags": [],
+  "shared": [
+    {
+      "updatedAt": "2026-06-11T11:20:31.881Z",
+      "createdAt": "2026-06-11T11:20:31.881Z",
+      "role": "workflow:owner",
+      "workflowId": "7tE9DCazvJ1uol7O",
+      "projectId": "82opGUznLRhJWa4F",
+      "project": {
+        "updatedAt": "2026-06-04T10:28:20.959Z",
+        "createdAt": "2026-05-13T12:38:01.350Z",
+        "id": "82opGUznLRhJWa4F",
+        "name": "Samah AZIZ <iamsamahaziz@gmail.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null,
+        "creatorId": "5148fc51-3cd3-4d9b-9c47-b14c4c1f1787"
+      }
+    }
+  ],
+  "versionMetadata": {
+    "name": "Version dbfc8a2f",
+    "description": ""
+  }
 }

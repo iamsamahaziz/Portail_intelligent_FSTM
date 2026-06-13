@@ -17,14 +17,13 @@ services:
     image: n8nio/n8n:latest
     container_name: fstm_n8n
     ports:
-      - "5678:5678"
+      - "5680:5678"
     environment:
       - N8N_HOST=0.0.0.0
       - N8N_PORT=5678
       - N8N_PROTOCOL=http
-      - WEBHOOK_URL=http://localhost:5678
-      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
-      - N8N_USER_MANAGEMENT_DISABLED=true
+      - WEBHOOK_URL=http://localhost:5680
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY:-fstm_chatbot_2026}
       - N8N_METRICS=true
     volumes:
       - n8n_data:/home/node/.n8n
@@ -52,7 +51,7 @@ services:
 
 networks:
   global_network:
-    name: global_network
+    external: true
 
 volumes:
   qdrant_storage:

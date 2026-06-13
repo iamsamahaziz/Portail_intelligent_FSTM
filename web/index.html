@@ -743,7 +743,7 @@ function findAnswer(q){
 const JINA_KEY = window.JINA_API_KEY || '';
 const GROQ_KEY = window.GROQ_API_KEY || '';
 const QDRANT_API = 'http://localhost:6334/collections/fstm_docs/points/search';
-const N8N_API = 'http://localhost:5679/webhook/fstm-chat';
+const N8N_API = window.location.origin.startsWith('http') ? '/webhook/fstm-chat' : 'http://localhost:5680/webhook/fstm-chat';
 
 const chatEl=document.getElementById('chat');
 const inp=document.getElementById('inp');
