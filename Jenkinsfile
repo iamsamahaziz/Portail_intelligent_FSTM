@@ -55,36 +55,46 @@ pipeline {
                     checkout scm
                     echo "Commit : ${env.GIT_COMMIT?.take(8)} — Projet FSTM"
                 }
+                script {
+                    if (env.IS_MAIN == 'true') {
+                        withCredentials([string(credentialsId: 'JINA_API_KEY', variable: 'JINA_API_KEY')]) {
+                            env.JINA_API_KEY_VALUE = env.JINA_API_KEY
+                        }
+                    } else {
+                        env.JINA_API_KEY_VALUE = params.JINA_API_KEY_INPUT
+                    }
+                }
+                sh """
+                echo "Vérification Fail-Fast de l'API Jina AI..."
+                STATUS=\$(curl -s -o /dev/null -w "%{http_code}" -X POST https://api.jina.ai/v1/embeddings \\
+                     -H "Authorization: Bearer ${env.JINA_API_KEY_VALUE}" \\
+                     -H "Content-Type: application/json" \\
+                     -d '{"model": "jina-embeddings-v3", "input": ["test"]}')
+                if [ "\$STATUS" = "401" ] || [ "\$STATUS" = "403" ]; then
+                    echo "❌ ERREUR FAIL-FAST : Clé JINA_API_KEY invalide ou expirée (Code: \$STATUS) !"
+                    exit 1
+                else
+                    echo "✅ API Jina joignable (Code \$STATUS)."
+                fi
+                """
             }
         }
 
         stage('2. Contrôle Qualité') {
-            parallel {
-                stage("Contrôle d'Intégrité") {
-                    steps {
-                        sh '''
-                        echo "--- Audit de Structure FSTM ---"
-                        find . -maxdepth 2 -not -path '*/.*' -not -path '*/venv*'
-                        echo "--- Vérification des Fichiers Data ---"
-                        [ -e "FSTM_JINA.json" ] && echo "FSTM_JINA.json : Présent" || echo "FSTM_JINA.json : MANQUANT"
-                        '''
-                    }
-                }
-                stage('Contrôle Qualité (ALL)') {
-                    steps {
-                        sh '''
-                        echo "=== 1. Scripts Python ==="
-                        find . -name "*.py" ! -path "*/venv/*" ! -path "*/.*" -exec python3 -m py_compile {} +
-                        
-                        echo "=== 2. Configurations JSON ==="
-                        find . -name "*.json" ! -path "*/.*" -exec python3 -c "import json; json.load(open('{}'))" \\; -print
-                        
-                        echo "=== 3. Infrastructure YAML ==="
-                        find . -name "*.yml" -o -name "*.yaml" ! -path "*/.*" -exec echo "Validating YAML structure: {}" \\;
+            steps {
+                sh '''
+                echo "=== 1. Scripts Python ==="
+                find . -name "*.py" ! -path "*/venv/*" ! -path "*/.*" -exec python3 -m py_compile {} +
+                
+                echo "=== 2. Configurations JSON ==="
+                find . -name "*.json" ! -path "*/.*" -exec python3 -c "import json; json.load(open('{}'))" \\; -print
+                
+                echo "=== 3. Infrastructure YAML ==="
+                find . -name "*.yml" -o -name "*.yaml" ! -path "*/.*" -exec echo "Validating YAML structure: {}" \\;
 
-                        echo "=== 4. Audit HTML (Interface) ==="
-                        find . -name "*.html" ! -path "*/venv/*" ! -path "*/.git/*" | while read f; do
-                            python3 -c "
+                echo "=== 4. Audit HTML (Interface) ==="
+                find . -name "*.html" ! -path "*/venv/*" ! -path "*/.git/*" | while read f; do
+                    python3 -c "
 import sys
 from html.parser import HTMLParser
 
@@ -112,42 +122,19 @@ if p.stack:
     sys.exit(1)
 print('OK:', '$f')
 " || exit 1
-                        done
-                        echo "HTML : OK"
-                        '''
-                    }
-                }
+                done
+                echo "HTML : OK"
+
+                echo "=== 5. Contrôle d'Intégrité ==="
+                echo "--- Audit de Structure FSTM ---"
+                find . -maxdepth 2 -not -path '*/.*' -not -path '*/venv*'
+                echo "--- Vérification des Fichiers Data ---"
+                [ -s "FSTM_JINA.json" ] && echo "FSTM_JINA.json : Présent" || { echo "FSTM_JINA.json : MANQUANT !"; exit 1; }
+                '''
             }
         }
 
-        stage('3. Validation Fail-Fast (Jina)') {
-            steps {
-                script {
-                    if (env.IS_MAIN == 'true') {
-                        withCredentials([string(credentialsId: 'JINA_API_KEY', variable: 'JINA_API_KEY')]) {
-                            env.JINA_API_KEY_VALUE = env.JINA_API_KEY
-                        }
-                    } else {
-                        env.JINA_API_KEY_VALUE = params.JINA_API_KEY_INPUT
-                    }
-                }
-                sh """
-                echo "Vérification Fail-Fast de l'API Jina AI..."
-                STATUS=\$(curl -s -o /dev/null -w "%{http_code}" -X POST https://api.jina.ai/v1/embeddings \\
-                     -H "Authorization: Bearer ${env.JINA_API_KEY_VALUE}" \\
-                     -H "Content-Type: application/json" \\
-                     -d '{"model": "jina-embeddings-v3", "input": ["test"]}')
-                if [ "\$STATUS" = "401" ] || [ "\$STATUS" = "403" ]; then
-                    echo "❌ ERREUR FAIL-FAST : Clé JINA_API_KEY invalide ou expirée (Code: \$STATUS) !"
-                    exit 1
-                else
-                    echo "✅ API Jina joignable (Code \$STATUS)."
-                fi
-                """
-            }
-        }
-
-        stage('4. Déploiement des Services') {
+        stage('3. Déploiement des Services') {
             steps {
                 script {
                     sh '''
@@ -230,7 +217,7 @@ print('OK:', '$f')
             }
         }
 
-        stage('5. Vérification de Santé') {
+        stage('4. Vérification de Santé') {
             parallel {
                 stage('Qdrant') {
                     steps {
@@ -270,7 +257,7 @@ print('OK:', '$f')
             }
         }
 
-        stage('6. Configuration du Workflow n8n') {
+        stage('4.5. Configuration du Workflow n8n') {
             steps {
                 script {
                     echo "📥 Importation et activation automatique du workflow dans n8n..."
@@ -284,7 +271,7 @@ print('OK:', '$f')
             }
         }
 
-        stage('7. Installation') {
+        stage('5. Installation') {
             steps {
                 sh '''
                 # Crée le venv une seule fois
@@ -306,7 +293,7 @@ print('OK:', '$f')
             }
         }
 
-        stage('8. Indexation Jina AI') {
+        stage('6. Indexation IA & RAG') {
             steps {
                 sh """
                 export JINA_API_KEY=${env.JINA_API_KEY_VALUE}
